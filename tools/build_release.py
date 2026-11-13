@@ -1,5 +1,5 @@
-"""Build only the future updates explicitly placed in this repository's fixtures/."""
-import argparse, collections, gzip, hashlib, io, json, os, pathlib, re, urllib.parse, zipfile
+"""Publish searchable metadata; original fixtures are downloaded individually on use."""
+import argparse, collections, gzip, hashlib, json, os, pathlib, re, subprocess, urllib.parse
 import xml.etree.ElementTree as ET
 
 REPOSITORY = 'wu271861748-jpg/library'
@@ -46,63 +46,58 @@ def parse_fixture(file, source):
                             format='MA2 XMLP' if file.suffix.lower()=='.xmlp' else 'MA2 XML'))
     return brand,records,target,raw
 
-def build(source,output,version,previous=None,validate_only=False):
+def build(source,output,version,previous=None,validate_only=False,revision=None):
     if not re.fullmatch(r'updates-[A-Za-z0-9][A-Za-z0-9._-]{0,63}',version):
         raise ValueError('Invalid update version')
-    groups = collections.defaultdict(lambda:dict(fixtures=[],payload={}))
+    groups = collections.defaultdict(lambda:dict(fixtures=[],paths=set()))
     for file in sorted(source.rglob('*')):
         if file.is_file() and file.suffix.lower() in ('.xml','.xmlp'):
             brand,records,target,raw = parse_fixture(file,source)
             groups[brand]['fixtures'].extend(records)
-            groups[brand]['payload'][target]=raw
+            groups[brand]['paths'].add(target)
         elif file.is_file() and file.name!='.gitkeep':
             raise ValueError(f'Only XML/XMLP belong in fixtures/: {file.relative_to(source)}')
     if validate_only:
-        return dict(files=sum(len(g['payload']) for g in groups.values()),manufacturers=len(groups))
+        return dict(files=sum(len(g['paths']) for g in groups.values()),manufacturers=len(groups))
+    if not revision or not re.fullmatch(r'[a-f0-9]{40}',revision):
+        raise ValueError('A full Git commit is required for immutable fixture URLs')
     output.mkdir(parents=True,exist_ok=True)
-    prior=previous or dict(schema=2,kind='fixture-updates',repository=REPOSITORY,version='updates-0',manufacturers=[])
-    if prior.get('schema')!=2 or prior.get('kind')!='fixture-updates' or prior.get('repository')!=REPOSITORY:
+    prior=previous or dict(schema=3,kind='fixture-updates',repository=REPOSITORY,version='updates-0',manufacturers=[])
+    if prior.get('schema') not in (2,3) or prior.get('kind')!='fixture-updates' or prior.get('repository')!=REPOSITORY:
         raise ValueError('Not an incremental fixture index')
-    old={brand['id']:brand for brand in prior['manufacturers']}
-    manufacturers,uploads=[],[]
+    old={f['path']:f for brand in prior['manufacturers'] for f in brand.get('fixtures',[])}
+    manufacturers,changed_files=[],0
     for identity,group in sorted(groups.items()):
-        manifest_path=f'manufacturers/{identity}/manifest.json'
         fixtures=group['fixtures']
-        manifest=encoded(dict(id=identity,fixtures=fixtures))
-        group['payload'][manifest_path]=manifest
-        stream=io.BytesIO()
-        with zipfile.ZipFile(stream,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=9) as archive:
-            for name,data in sorted(group['payload'].items()):
-                entry=zipfile.ZipInfo(name,date_time=(2020,1,1,0,0,0))
-                entry.compress_type=zipfile.ZIP_DEFLATED
-                entry.external_attr=0o100644<<16
-                archive.writestr(entry,data,compresslevel=9)
-        packed=stream.getvalue()
-        digest=hashlib.sha256(packed).hexdigest()
-        filename=f'{identity}.zip'
-        package=dict(url=f'https://github.com/{REPOSITORY}/releases/download/{version}/{filename}',sha256=digest,bytes=len(packed))
-        if identity in old and old[identity]['package']['sha256']==digest:
-            package=old[identity]['package']
-        else:
-            (output/filename).write_bytes(packed)
-            uploads.append(filename)
-        manufacturers.append(dict(id=identity,names=sorted({f['manufacturer'] for f in fixtures}),files=len(group['payload'])-1,
-                                  collections=['online-updates'],manifest=manifest_path,
-                                  manifestSha256=hashlib.sha256(manifest).hexdigest(),package=package))
-    changed=manufacturers!=prior['manufacturers']
-    index=dict(schema=2,kind='fixture-updates',repository=REPOSITORY,version=version if changed else prior['version'],manufacturers=manufacturers)
+        for fixture in fixtures:
+            previous_file=old.get(fixture['path'])
+            if previous_file and (previous_file['sha256'],previous_file['bytes'])==(fixture['sha256'],fixture['bytes']):
+                fixture['downloadUrl']=previous_file['downloadUrl']
+                fixture['sourceUrl']=previous_file['sourceUrl']
+            else:
+                relative=fixture['path'].split('/ma2/online-updates/',1)[1]
+                quoted=urllib.parse.quote(relative,safe='/')
+                fixture['downloadUrl']=f'https://raw.githubusercontent.com/{REPOSITORY}/{revision}/fixtures/{quoted}'
+                fixture['sourceUrl']=f'https://github.com/{REPOSITORY}/blob/{revision}/fixtures/{quoted}'
+                changed_files+=1
+        manufacturers.append(dict(id=identity,names=sorted({f['manufacturer'] for f in fixtures}),files=len(group['paths']),
+                                  collections=['online-updates'],manifest=f'manufacturers/{identity}/manifest.json',fixtures=fixtures))
+    changed=prior['schema']!=3 or manufacturers!=prior['manufacturers']
+    index=dict(schema=3,kind='fixture-updates',repository=REPOSITORY,version=version if changed else prior['version'],manufacturers=manufacturers)
     (output/'catalog.json').write_bytes(encoded(index))
-    (output/'upload-files.txt').write_text('\n'.join(uploads+['catalog.json'])+'\n',encoding='utf8')
-    return dict(publish=changed,changedPackages=len(uploads),files=sum(b['files'] for b in manufacturers),index=index)
+    (output/'upload-files.txt').write_text('catalog.json\n',encoding='utf8')
+    return dict(publish=changed,changedFiles=changed_files,files=sum(b['files'] for b in manufacturers),index=index)
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--version',default='updates-validation')
     parser.add_argument('--validate',action='store_true')
+    parser.add_argument('--revision',help='Commit containing the fixture files (defaults to HEAD)')
     args=parser.parse_args()
     root=pathlib.Path(__file__).resolve().parents[1]
     previous=root/'updates/catalog.json'
-    result=build(root/'fixtures',root/'release-assets',args.version,json.loads(previous.read_text(encoding='utf8')) if previous.exists() else None,args.validate)
+    revision=None if args.validate else args.revision or subprocess.check_output(['git','rev-parse','HEAD'],cwd=root,text=True).strip()
+    result=build(root/'fixtures',root/'release-assets',args.version,json.loads(previous.read_text(encoding='utf8')) if previous.exists() else None,args.validate,revision)
     if os.environ.get('GITHUB_OUTPUT'):
         with open(os.environ['GITHUB_OUTPUT'],'a',encoding='utf8') as destination:
             destination.write(f"publish={str(result['publish']).lower()}\n")
