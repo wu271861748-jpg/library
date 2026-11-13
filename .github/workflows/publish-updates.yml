@@ -1,0 +1,41 @@
+name: Publish fixture updates
+on:
+  push:
+    branches: [main]
+    paths: ['fixtures/**', 'tools/**', '.github/workflows/publish-updates.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: fixture-updates
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+      - run: git pull --ff-only origin main
+      - name: Test fixture parser and incremental packer
+        run: python3 -m unittest discover -s tools -p 'test_*.py'
+      - name: Build updates only
+        id: build
+        run: python3 tools/build_release.py --version "updates-${{ github.run_number }}"
+      - name: Publish verified update assets
+        if: steps.build.outputs.publish == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: updates-${{ github.run_number }}
+        run: |
+          mapfile -t names < release-assets/upload-files.txt
+          files=()
+          for name in "${names[@]}"; do files+=("release-assets/$name"); done
+          gh release create "$TAG" "${files[@]}" --draft --target "$(git rev-parse HEAD)" --title "Modus fixture updates $TAG" --notes "Incremental fixtures only. Existing local libraries are not uploaded."
+          gh release edit "$TAG" --draft=false --latest
+          git pull --ff-only origin main
+          mkdir -p updates
+          cp release-assets/catalog.json updates/catalog.json
+          git add updates/catalog.json
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m "Publish fixture index $TAG"
+          git push origin HEAD:main
