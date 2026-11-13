@@ -1,6 +1,6 @@
 @echo off
-chcp 65001 >nul
 setlocal
+set RC=1
 cd /d "%~dp0"
 for /f "delims=" %%U in ('git remote get-url origin') do set "ORIGIN=%%U"
 if /I not "%ORIGIN%"=="https://github.com/wu271861748-jpg/library.git" goto wrongrepo
@@ -22,15 +22,18 @@ git -c user.name=wu271861748-jpg -c user.email=344054577+wu271861748-jpg@users.n
 if errorlevel 1 goto failed
 git push origin main
 if errorlevel 1 goto failed
-echo 上传完成。请在仓库 Actions 查看自动打包结果。
+echo Upload complete. Check GitHub Actions for the release.
+set RC=0
 goto done
 :unchanged
-echo 没有新增或修改的灯库，无需上传。
+echo No fixture changes. Nothing uploaded.
+set RC=0
 goto done
 :wrongrepo
-echo 当前目录不是指定的灯库更新仓库，未上传。
+echo This is not the configured update repository. Nothing uploaded.
 goto done
 :failed
-echo 操作未完成，请查看上方错误。不会自动覆盖或强制推送。
+echo Not completed. See the error above. No force-push or overwrite.
 :done
 pause
+exit /b %RC%
