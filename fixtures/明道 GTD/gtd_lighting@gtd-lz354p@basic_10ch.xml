@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.1.2/MA.xsd" major_vers="3" minor_vers="1" stream_vers="2">
+	<Info datetime="2017-06-15T13:43:53" showfile="new show 2017-06-06" />
+	<FixtureType index="30" name="GTD-LZ354P" mode="Basic 10ch">
+		<short_name>LZ354P</short_name>
+		<manufacturer>GTD lighting</manufacturer>
+		<short_manufacturer>GTD</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="Conventional" beamtype="Wash" beam_angle="22" beam_intensity="1500">
+				<Body>
+					<Size x="0.2" y="0.2" z="0.25" />
+				</Body>
+				<ChannelType index="0" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" coarse="1" default="51.724" highlight_value="20">
+					<ChannelFunction index="0" from="0" to="12" min_dmx_24="0" max_dmx_24="65535" physfrom="0" physto="0" subattribute="SHUTTER" subattribute_user_name="Shutter" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="closed" from_dmx="0" to_dmx="0" />
+					</ChannelFunction>
+					<ChannelFunction index="1" from="12.1" to="24.6" min_dmx_24="2097152" max_dmx_24="4194303" physfrom="1" physto="1" subattribute="SHUTTER" subattribute_user_name="Shutter" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="open" from_dmx="32" to_dmx="63" />
+					</ChannelFunction>
+					<ChannelFunction index="2" from="24.7" to="49.7" min_dmx_24="4194304" max_dmx_24="8388607" physfrom="0.1" physto="20" subattribute="STROBE" subattribute_user_name="Strobe" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Min" from_dmx="64" to_dmx="64" />
+						<ChannelSet index="1" name="Max" from_dmx="127" to_dmx="127" />
+					</ChannelFunction>
+					<ChannelFunction index="3" from="49.8" to="62.2" min_dmx_24="8388608" max_dmx_24="10485759" physfrom="1" physto="1" subattribute="SHUTTER" subattribute_user_name="Shutter" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="open&lt;2&gt;" from_dmx="128" to_dmx="159" />
+					</ChannelFunction>
+					<ChannelFunction index="4" from="62.3" to="87.3" min_dmx_24="10485760" max_dmx_24="14680063" physfrom="0.1" physto="20" subattribute="STROBE" subattribute_user_name="Strobe" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Random Min" from_dmx="160" to_dmx="160" />
+						<ChannelSet index="1" name="Random Max" from_dmx="223" to_dmx="223" />
+					</ChannelFunction>
+					<ChannelFunction index="5" from="87.4" to="100" min_dmx_24="14680064" max_dmx_24="16777215" physfrom="1" physto="1" subattribute="SHUTTER" subattribute_user_name="Shutter" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Open&lt;3&gt;" from_dmx="224" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="1" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="2" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="6.5" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+				<ChannelType index="2" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" coarse="3" highlight_value="100" color="ff0000">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="2" subattribute="COLORRGB1" subattribute_user_name="R" attribute="COLORRGB1" attribute_user_name="R" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="3" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" coarse="4" highlight_value="100" color="00ff00">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="2" subattribute="COLORRGB2" subattribute_user_name="G" attribute="COLORRGB2" attribute_user_name="G" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="4" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" coarse="5" highlight_value="100" color="0000ff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="2" subattribute="COLORRGB3" subattribute_user_name="B" attribute="COLORRGB3" attribute_user_name="B" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="5" attribute="COLORRGB5" feature="COLORRGB" preset="COLOR" coarse="6" default="255" highlight_value="100" color="ffffff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB5" subattribute_user_name="White" attribute="COLORRGB5" attribute_user_name="White" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="6" attribute="COLORMIXER" feature="COLORMIX" preset="COLOR" coarse="7">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="COLORMIXMACROSELECT" subattribute_user_name="Macro Select" attribute="COLORMIXER" attribute_user_name="ColorMix" feature="COLORMIX" feature_user_name="ColorMix" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="Retain" from_dmx="0" to_dmx="9" />
+						<ChannelSet index="1" name="Color mixing 1" from_dmx="10" to_dmx="39" />
+						<ChannelSet index="2" name="Color mixing 2" from_dmx="40" to_dmx="71" />
+						<ChannelSet index="3" name="Color mixing 3" from_dmx="72" to_dmx="103" />
+						<ChannelSet index="4" name="Color mixing 4" from_dmx="104" to_dmx="135" />
+						<ChannelSet index="5" name="Color mixing 5" from_dmx="136" to_dmx="167" />
+						<ChannelSet index="6" name="Color mixing 6" from_dmx="168" to_dmx="199" />
+						<ChannelSet index="7" name="Color mixing 7" from_dmx="200" to_dmx="231" />
+						<ChannelSet index="8" name="COLOR SPIN" from_dmx="232" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="7" attribute="CTO" feature="CTC" preset="COLOR" coarse="8">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="CTO" subattribute_user_name="CTO" attribute="CTO" attribute_user_name="CTO" feature="CTC" feature_user_name="CTC" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="OPEN" from_dmx="0" to_dmx="24" />
+						<ChannelSet index="1" name="3200" from_dmx="25" to_dmx="35" />
+						<ChannelSet index="2" name="3400" from_dmx="36" to_dmx="46" />
+						<ChannelSet index="3" name="3600" from_dmx="47" to_dmx="57" />
+						<ChannelSet index="4" name="3800" from_dmx="58" to_dmx="68" />
+						<ChannelSet index="5" name="4000" from_dmx="69" to_dmx="79" />
+						<ChannelSet index="6" name="4200" from_dmx="80" to_dmx="90" />
+						<ChannelSet index="7" name="4400" from_dmx="91" to_dmx="101" />
+						<ChannelSet index="8" name="4600" from_dmx="102" to_dmx="112" />
+						<ChannelSet index="9" name="4800" from_dmx="113" to_dmx="123" />
+						<ChannelSet index="10" name="5000" from_dmx="124" to_dmx="134" />
+						<ChannelSet index="11" name="5200" from_dmx="135" to_dmx="145" />
+						<ChannelSet index="12" name="5400" from_dmx="146" to_dmx="156" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="8" attribute="ZOOM" feature="FOCUS" preset="FOCUS" coarse="9">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.7" physto="1" subattribute="ZOOM" subattribute_user_name="Zoom" attribute="ZOOM" attribute_user_name="Zoom" feature="FOCUS" feature_user_name="Focus" preset="FOCUS" preset_user_name="Focus" />
+				</ChannelType>
+				<ChannelType index="9" attribute="MACRO" feature="CONTROL" preset="CONTROL" coarse="10">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="MACRO" subattribute_user_name="MACRO" attribute="MACRO" attribute_user_name="MACRO" feature="CONTROL" feature_user_name="Control" preset="CONTROL" preset_user_name="Control">
+						<ChannelSet index="0" name="OPEN" from_dmx="0" to_dmx="39" />
+						<ChannelSet index="1" name="MACO 1" from_dmx="40" to_dmx="59" />
+						<ChannelSet index="2" name="MACO 2" from_dmx="60" to_dmx="79" />
+						<ChannelSet index="3" name="MACO 3" from_dmx="80" to_dmx="119" />
+						<ChannelSet index="4" name="MACO 4" from_dmx="100" to_dmx="139" />
+						<ChannelSet index="5" name="MACO 5" from_dmx="120" to_dmx="159" />
+						<ChannelSet index="6" name="MACO 6" from_dmx="140" to_dmx="179" />
+						<ChannelSet index="7" name="MACO 7" from_dmx="160" to_dmx="199" />
+						<ChannelSet index="8" name="MACO 8" from_dmx="180" to_dmx="219" />
+						<ChannelSet index="9" name="MACO 9" from_dmx="200" to_dmx="239" />
+						<ChannelSet index="10" name="MACO 10" from_dmx="220" to_dmx="255" />
+						<ChannelSet index="11" name="Voice" from_dmx="240" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" RW="0" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<FixtureMacroCollect index="5" />
+		<Body />
+		<AutoPresets index="4" />
+	</FixtureType>
+</MA>

@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.0.0/MA.xsd" major_vers="3" minor_vers="0" stream_vers="0">
+	<Info datetime="2023-10-26T16:16:20" showfile="new show 2023-03-24" />
+	<FixtureType index="97" name="LT-500 PS" mode="mode5">
+		<InfoItems>
+			<Info>Set menu option Basic Engine then Mode to STD RGBW and menu option Pixel Engine Mode to Pixels RGB for this personality.
+Personality can be used with Tambora Batten Round and Tamboara Batten Square fixtures.</Info>
+			<Info type="Revision" date="2021-07-30T00:00:00">Automated import from MA Lighting (C-RevNum: 0; Date: 2021-05-17)</Info>
+			<Info type="Invisible" date="2021-07-30T00:00:00">generator_software_name=&quot;MA Importer&quot;,generator_software_version=&quot;649d65d4444e8999f157704b49c50f945e8ea2e8&quot;</Info>
+		</InfoItems>
+		<short_name>LT-500 PS</short_name>
+		<manufacturer>Jolly</manufacturer>
+		<short_manufacturer>Jolly</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" name="Main Module" class="Conventional" beamtype="Wash" beam_angle="1" beam_intensity="8500">
+				<Body>
+					<Size x="0.25" y="0.25" z="0.45" />
+				</Body>
+				<ChannelType index="0" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" coarse="1" highlight_value="100" color="ff0000">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB1" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="1" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" coarse="2" highlight_value="100" color="00ff00">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB2" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="2" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" coarse="3" highlight_value="100" color="0000ff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB3" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+			<Module index="1" name="RGB Pixels" class="Conventional" beamtype="Wash" beam_angle="25" beam_intensity="10000">
+				<Body>
+					<Size x="0.048" y="0.048" z="0.278" />
+				</Body>
+				<ChannelType index="0" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" coarse="1" highlight_value="100" color="ff0000">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB1" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="1" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" coarse="2" highlight_value="100" color="00ff00">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB2" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="2" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" coarse="3" highlight_value="100" color="0000ff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB3" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+			<Module index="2" name="Macro strob" class="Conventional" beamtype="Wash" beam_angle="1" beam_intensity="10000">
+				<Body>
+					<Size x="0.25" y="0.25" z="0.45" />
+				</Body>
+				<ChannelType index="0" attribute="EFFECTMACROS" feature="EFFECTMACROS" preset="BEAM" coarse="1">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="EFFECTMACROSELECT" attribute="EFFECTMACROS" feature="EFFECTMACROS" preset="BEAM" />
+				</ChannelType>
+				<ChannelType index="1" attribute="EFFECTMACROS2" feature="EFFECTMACROS" preset="BEAM" coarse="2">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="EFFECTMACROSELECT2" attribute="EFFECTMACROS2" feature="EFFECTMACROS" preset="BEAM" />
+				</ChannelType>
+				<ChannelType index="2" attribute="MACROS3" feature="EFFECTMACROS" preset="BEAM" coarse="3">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="MACROSELECT3" attribute="MACROS3" feature="EFFECTMACROS" preset="BEAM" />
+				</ChannelType>
+				<ChannelType index="3" attribute="MACROS4" feature="EFFECTMACROS" preset="BEAM" coarse="4">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="MACROS4" attribute="MACROS4" feature="EFFECTMACROS" preset="BEAM" />
+				</ChannelType>
+				<ChannelType index="4" attribute="MACROS5" feature="EFFECTMACROS" preset="BEAM" coarse="5">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="MACROS5" attribute="MACROS5" feature="EFFECTMACROS" preset="BEAM" />
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="1" X="-0.36" />
+			<Instance index="1" module_index="1" patch="4" X="-0.312" />
+			<Instance index="2" module_index="1" patch="7" X="-0.264" />
+			<Instance index="3" module_index="1" patch="10" X="-0.216" />
+			<Instance index="4" module_index="1" patch="13" X="-0.168" />
+			<Instance index="5" module_index="1" patch="16" X="-0.12" />
+			<Instance index="6" module_index="1" patch="19" X="-0.072" />
+			<Instance index="7" module_index="1" patch="22" X="-0.024" />
+			<Instance index="8" module_index="1" patch="25" X="0.024" />
+			<Instance index="9" module_index="1" patch="28" X="0.072" />
+			<Instance index="10" module_index="1" patch="31" X="0.12" />
+			<Instance index="11" module_index="1" patch="34" X="0.168" />
+			<Instance index="12" module_index="1" patch="37" X="0.216" />
+			<Instance index="13" module_index="1" patch="40" X="0.264" />
+			<Instance index="14" module_index="1" patch="43" X="0.312" />
+			<Instance index="15" module_index="1" patch="46" X="0.36" />
+			<Instance index="16" module_index="1" patch="49" />
+			<Instance index="17" module_index="1" patch="52" />
+			<Instance index="18" module_index="1" patch="55" />
+			<Instance index="19" module_index="1" patch="58" />
+			<Instance index="20" module_index="1" patch="61" />
+			<Instance index="21" module_index="1" patch="64" />
+			<Instance index="22" module_index="1" patch="67" />
+			<Instance index="23" module_index="1" patch="70" />
+			<Instance index="24" module_index="1" patch="73" />
+			<Instance index="25" module_index="2" patch="76" />
+			<Instance index="26" module_index="2" patch="81" />
+			<Instance index="27" module_index="2" patch="86" />
+			<Instance index="28" module_index="2" patch="91" />
+			<Instance index="29" module_index="2" patch="96" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<Body />
+		<AutoPresets index="4" />
+	</FixtureType>
+</MA>

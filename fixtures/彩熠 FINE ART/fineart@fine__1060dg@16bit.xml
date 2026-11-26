@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA major_vers="3" minor_vers="2" stream_vers="2">
+	<FixtureType name="Fine  1060DG" mode="16bit" scale="1.000">
+		<short_name>Fine  1060DG</short_name>
+		<manufacturer>Fineart</manufacturer>
+		<short_manufacturer>Fineart</short_manufacturer>
+		<Modules>
+			<![CDATA[Module 1]]>
+			<Module class="LED" beamtype="Wash" scale="1.000" beam_angle="35.000" beam_intensity="10000.000">
+				<![CDATA[1]]>
+				<ChannelType attribute="COLORMACRO" feature="MACRO" preset="COLOR" coarse="1" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[2]]>
+				<ChannelType attribute="RED" feature="RGB" preset="COLOR" coarse="2" default="255.000" highlight_value="100.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[3]]>
+				<ChannelType attribute="GREEN" feature="RGB" preset="COLOR" coarse="3" default="255.000" highlight_value="100.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[4]]>
+				<ChannelType attribute="BLUE" feature="RGB" preset="COLOR" coarse="4" default="255.000" highlight_value="100.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[5]]>
+				<ChannelType attribute="WHITE" feature="RGB" preset="COLOR" coarse="5" default="255.000" highlight_value="100.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[6]]>
+				<ChannelType attribute="PAN" feature="POSITION" preset="POSITION" coarse="6" fine="11" default="32767.750">
+					<ChannelFunction from="-270.000" to="270.000" min_dmx="0" max_dmx="65535" physfrom="-270.000" physto="270.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[7]]>
+				<ChannelType attribute="TILT" feature="POSITION" preset="POSITION" coarse="7" fine="12" default="32767.750">
+					<ChannelFunction from="-135.000" to="135.000" min_dmx="0" max_dmx="65535" physfrom="-135.000" physto="135.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[8]]>
+				<ChannelType attribute="Position MSpeed Track" feature="Position MSpeed" preset="CONTROL" coarse="8" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[9]]>
+				<ChannelType attribute="STROBE" feature="STROBE" preset="BEAM" coarse="9" default="0.000" highlight_value="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="0pen" from_dmx="0" to_dmx="7" auto_create="1"/>
+						<ChannelSet name="strobe 1%...100%" from_dmx="8" to_dmx="127" auto_create="1"/>
+						<ChannelSet name="&lt;&lt;&lt;" from_dmx="128" to_dmx="159" auto_create="1"/>
+						<ChannelSet name="&gt;&gt;&gt;" from_dmx="160" to_dmx="191" auto_create="1"/>
+						<ChannelSet name="open" from_dmx="192" to_dmx="255"/>
+					</ChannelFunction>
+				</ChannelType>
+				<![CDATA[10]]>
+				<ChannelType attribute="MACROS" feature="CONTROL" preset="CONTROL" coarse="10" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="0pen" from_dmx="0" to_dmx="7" auto_create="1"/>
+						<ChannelSet name="macro1" from_dmx="8" to_dmx="37" auto_create="1"/>
+						<ChannelSet name="macro2" from_dmx="38" to_dmx="67" auto_create="1"/>
+						<ChannelSet name="macro3" from_dmx="68" to_dmx="97" auto_create="1"/>
+						<ChannelSet name="macro4" from_dmx="98" to_dmx="127" auto_create="1"/>
+						<ChannelSet name="macro5" from_dmx="128" to_dmx="157" auto_create="1"/>
+						<ChannelSet name="macro6" from_dmx="158" to_dmx="187" auto_create="1"/>
+						<ChannelSet name="macro7" from_dmx="188" to_dmx="217" auto_create="1"/>
+						<ChannelSet name="macro8" from_dmx="218" to_dmx="247" auto_create="1"/>
+						<ChannelSet name="Reset" from_dmx="248" to_dmx="255" auto_create="1"/>
+					</ChannelFunction>
+				</ChannelType>
+				<![CDATA[11]]>
+				<ChannelType attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="13" default="0.000" highlight_value="100.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<Body>
+					<Size x="1.000" y="1.000" z="1.000"/>
+					<Center x="0.000" y="0.000" z="0.000"/>
+					<Light x="0.000" y="0.000" z="0.000"/>
+				</Body>
+			</Module>
+		</Modules>
+		<Instances>
+			<![CDATA[Instance 1]]>
+			<Instance patch="1" X="0.000" Y="0.000" locked="true"/>
+		</Instances>
+		<Wheels/>
+		<QFuncs/>
+	</FixtureType>
+</MA>

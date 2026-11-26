@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.1.2/MA.xsd" major_vers="3" minor_vers="1" stream_vers="2">
+	<Info datetime="2026-03-22T16:09:40" showfile="dengku 2025-11-21" />
+	<FixtureType index="708" name="PAR Z180" mode="HSI+ 5CH">
+		<InfoItems>
+			<Info>Set Menu option FINE to On for this personality
+Set Menu option DEGR to 630 for this personality</Info>
+			<Info type="Revision" date="2016-11-15T00:00:00">Automated import from MA Lighting (C-RevNum: 6; Date: 2016-11-10</Info>
+			<Info type="Invisible" date="2016-01-13T00:00:00">generator_software_name=&quot;MA Importer&quot;,generator_software_version=&quot;4b6fe879728cb3bf7fd2824f7c885f76da52599c&quot;</Info>
+			<Info>Channel 5, 6, 7 has more than one mode condition which is not supported.</Info>
+		</InfoItems>
+		<short_name>PAR Z180</short_name>
+		<manufacturer>CKC</manufacturer>
+		<short_manufacturer>CKC</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" name="Main Module" class="Conventional" beamtype="Wash" beam_angle="1" beam_intensity="15000">
+				<Body>
+					<Size x="0.429" y="0.506" z="0.362" />
+				</Body>
+				<ChannelType index="0" attribute="ZOOM" feature="FOCUS" preset="FOCUS" coarse="4" default="127.5">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.7" physto="1" subattribute="ZOOM" subattribute_user_name="Zoom" attribute="ZOOM" attribute_user_name="Zoom" feature="FOCUS" feature_user_name="Focus" preset="FOCUS" preset_user_name="Focus">
+						<ChannelSet index="0" name="Zoom 0%" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="Zoom 50%" from_dmx="128" to_dmx="128" />
+						<ChannelSet index="2" name="Zoom 100%" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="1" attribute="COLORHSB1" feature="COLORHSB" preset="COLOR" coarse="1">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORHSB1" subattribute_user_name="H" attribute="COLORHSB1" attribute_user_name="H" feature="COLORHSB" feature_user_name="HSB" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="2" attribute="COLORHSB2" feature="COLORHSB" preset="COLOR" coarse="2">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORHSB2" subattribute_user_name="S" attribute="COLORHSB2" attribute_user_name="S" feature="COLORHSB" feature_user_name="HSB" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="3" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="3" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer">
+						<ChannelSet index="0" name="Close" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="Open" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="4" attribute="DIMMODE" feature="DIMMER" preset="DIMMER" coarse="5">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="DIMMODE" subattribute_user_name="DIMMODE" attribute="DIMMODE" attribute_user_name="DimMode" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer">
+						<ChannelSet index="0" name="Standard" from_dmx="0" to_dmx="20" />
+						<ChannelSet index="1" name="Stage" from_dmx="21" to_dmx="40" />
+						<ChannelSet index="2" name="TV" from_dmx="41" to_dmx="60" />
+						<ChannelSet index="3" name="Architectural" from_dmx="61" to_dmx="80" />
+						<ChannelSet index="4" name="Theatre" from_dmx="81" to_dmx="100" />
+						<ChannelSet index="5" name="Default" from_dmx="101" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<FixtureMacroCollect index="5">
+			<FixtureMacro index="0">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="FIXTUREGLOBALRESET" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="82" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" instance_index="0" />
+			</FixtureMacro>
+		</FixtureMacroCollect>
+		<Body />
+		<AutoPresets index="4" />
+	</FixtureType>
+</MA>

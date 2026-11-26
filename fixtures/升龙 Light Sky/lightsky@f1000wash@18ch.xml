@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.0.0/MA.xsd" major_vers="3" minor_vers="0" stream_vers="0">
+	<Info datetime="2016-05-30T15:41:04" showfile="new show 2016-05-27" />
+	<FixtureType index="10" name="F1000WASH" mode="18CH">
+		<short_name>F1000WASH</short_name>
+		<manufacturer>LIGHTSKY</manufacturer>
+		<short_manufacturer>LIGHTSKY</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="Headmover" beamtype="Wash" beam_angle="35" beam_intensity="15000">
+				<Body>
+					<Size x="0.452" y="0.373" z="0.788" />
+				</Body>
+				<ChannelType index="0" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" coarse="1" default="30.6" highlight_value="12">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="1" subattribute="SHUTTER" attribute="SHUTTER" feature="SHUTTER" preset="BEAM">
+						<ChannelSet index="0" name="Closed" from_dmx="0" to_dmx="19" />
+						<ChannelSet index="1" name="Open" from_dmx="20" to_dmx="49" />
+						<ChannelSet index="2" name="Slow Strobe" from_dmx="50" to_dmx="50" />
+						<ChannelSet index="3" name="S-F Strobe" from_dmx="51" to_dmx="199" />
+						<ChannelSet index="4" name="Fast Strobe" from_dmx="200" to_dmx="200" />
+						<ChannelSet index="5" name="Open 1" from_dmx="201" to_dmx="210" />
+						<ChannelSet index="6" name="Slow Ran. Strobe" from_dmx="211" to_dmx="211" />
+						<ChannelSet index="7" name="S-F Ran. Strobe" from_dmx="212" to_dmx="254" />
+						<ChannelSet index="8" name="Fast Ran. Strobe" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="1" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="2" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" attribute="DIM" feature="DIMMER" preset="DIMMER" />
+				</ChannelType>
+				<ChannelType index="2" attribute="COLORRGB12" feature="COLORRGB" preset="COLOR" coarse="3" highlight_value="0" color="00ffff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB12" attribute="COLORRGB12" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="Closed" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="Open" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="3" attribute="COLORRGB13" feature="COLORRGB" preset="COLOR" coarse="4" highlight_value="0" color="ff00ff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB13" attribute="COLORRGB13" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="Closed" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="Open" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="4" attribute="COLORRGB14" feature="COLORRGB" preset="COLOR" coarse="5" highlight_value="0" color="ffff00">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB14" attribute="COLORRGB14" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="Closed" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="Open" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="5" attribute="CTO" feature="CMY" preset="COLOR" coarse="6" highlight_value="0">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="CTO" attribute="CTO" feature="CMY" preset="COLOR">
+						<ChannelSet index="0" name="Closed" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="Open" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="6" attribute="COLOR1" feature="COLOR1" preset="COLOR" coarse="7" highlight_value="0">
+					<ChannelFunction index="0" from="0" to="50" min_dmx_24="0" max_dmx_24="8388607" wheel="4" subattribute="COLOR1" attribute="COLOR1" feature="COLOR1" preset="COLOR">
+						<ChannelSet index="0" name="White" from_dmx="0" to_dmx="0" slot_index="0" />
+						<ChannelSet index="1" name="Blue" from_dmx="20" to_dmx="20" slot_index="1" />
+						<ChannelSet index="2" name="Orange" from_dmx="39" to_dmx="39" slot_index="4" />
+						<ChannelSet index="3" name="Aquamarien" from_dmx="58" to_dmx="58" slot_index="3" />
+						<ChannelSet index="4" name="Dark Green" from_dmx="77" to_dmx="77" slot_index="2" />
+						<ChannelSet index="5" name="Uv Filter" from_dmx="97" to_dmx="97" slot_index="7" />
+						<ChannelSet index="6" name="Dark Red" from_dmx="117" to_dmx="117" slot_index="8" />
+					</ChannelFunction>
+					<ChannelFunction index="1" from="50" to="100" min_dmx_24="8388608" max_dmx_24="16777215" physfrom="0.2" physto="160" subattribute="COLOR1_SPIN" attribute="COLOR1" feature="COLOR1" preset="COLOR">
+						<ChannelSet index="0" name="&gt;&gt;&gt;" from_dmx="128" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="7" attribute="COLOR2" feature="COLOR2" preset="COLOR" coarse="8" highlight_value="0">
+					<ChannelFunction index="0" from="0" to="50" min_dmx_24="0" max_dmx_24="8388607" wheel="4" subattribute="COLOR2" attribute="COLOR2" feature="COLOR2" preset="COLOR">
+						<ChannelSet index="0" name="White" from_dmx="0" to_dmx="0" slot_index="0" />
+						<ChannelSet index="1" name="CTO3200k" from_dmx="20" to_dmx="20" slot_index="10" />
+						<ChannelSet index="2" name="Lavender" from_dmx="39" to_dmx="39" slot_index="12" />
+						<ChannelSet index="3" name="Light Green" from_dmx="58" to_dmx="58" slot_index="3" />
+						<ChannelSet index="4" name="CTB8000k" from_dmx="77" to_dmx="77" slot_index="6" />
+						<ChannelSet index="5" name="Pink" from_dmx="97" to_dmx="97" slot_index="11" />
+						<ChannelSet index="6" name="Green" from_dmx="117" to_dmx="117" slot_index="2" />
+					</ChannelFunction>
+					<ChannelFunction index="1" from="50" to="100" min_dmx_24="8388608" max_dmx_24="16777215" physfrom="0.2" physto="160" subattribute="COLOR2_SPIN" attribute="COLOR2" feature="COLOR2" preset="COLOR">
+						<ChannelSet index="0" name="&gt;&gt;&gt;" from_dmx="128" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="8" attribute="MACRO" feature="CMYK" preset="COLOR" coarse="9" highlight_value="0">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="MACRO" attribute="MACRO" feature="CMYK" preset="COLOR">
+						<ChannelSet index="0" name="Closed" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="Open" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="9" attribute="BEAM" feature="BEAM1" preset="BEAM" coarse="10" highlight_value="0">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="360" subattribute="BEAM" attribute="BEAM" feature="BEAM1" preset="BEAM">
+						<ChannelSet index="0" name="White" from_dmx="0" to_dmx="63" />
+						<ChannelSet index="1" name="Shaper 1" from_dmx="64" to_dmx="127" />
+						<ChannelSet index="2" name="Shaper 2" from_dmx="128" to_dmx="191" />
+						<ChannelSet index="3" name="Shaper 3" from_dmx="192" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="10" attribute="BEAMROT" feature="BEAM1" preset="BEAM" coarse="11" highlight_value="0">
+					<ChannelFunction index="0" from="0" to="50" min_dmx_24="0" max_dmx_24="8388607" physfrom="-30" physto="30" subattribute="PRISMA1_POS" attribute="PRISMA1_POS" feature="BEAM1" preset="BEAM">
+						<ChannelSet index="0" name="Positon /0" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="Positon /90" from_dmx="21" to_dmx="21" />
+						<ChannelSet index="2" name="Positon /180" from_dmx="42" to_dmx="42" />
+						<ChannelSet index="3" name="Positon /270" from_dmx="63" to_dmx="63" />
+						<ChannelSet index="4" name="Positon /360" from_dmx="84" to_dmx="84" />
+						<ChannelSet index="5" name="Positon /450" from_dmx="105" to_dmx="105" />
+						<ChannelSet index="6" name="Positon /540" from_dmx="127" to_dmx="127" />
+					</ChannelFunction>
+					<ChannelFunction index="1" from="50" to="100" min_dmx_24="8388608" max_dmx_24="16777215" subattribute="BEAM1ROT" attribute="BEAMROT" feature="BEAM1" preset="BEAM">
+						<ChannelSet index="0" name="&gt;&gt;&gt;" from_dmx="128" to_dmx="190" />
+						<ChannelSet index="1" name="STOP" from_dmx="191" to_dmx="192" />
+						<ChannelSet index="2" name="&lt;&lt;&lt;" from_dmx="193" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="11" attribute="ZOOM" feature="FOCUS" preset="FOCUS" coarse="12">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.7" physto="3" subattribute="ZOOM" attribute="ZOOM" feature="FOCUS" preset="FOCUS">
+						<ChannelSet index="0" name="Min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="Max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="12" attribute="PAN" feature="POSITION" preset="POSITION" coarse="13" fine="14" default="32767.5">
+					<ChannelFunction index="0" from="-270" to="270" min_dmx_24="0" max_dmx_24="16777215" physfrom="-270" physto="270" subattribute="PAN" attribute="PAN" feature="POSITION" preset="POSITION">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="Center" from_dmx="32768" to_dmx="32768" />
+						<ChannelSet index="2" name="max" from_dmx="65535" to_dmx="65535" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="13" attribute="TILT" feature="POSITION" preset="POSITION" coarse="15" fine="16" default="32767.5">
+					<ChannelFunction index="0" from="-135" to="135" min_dmx_24="0" max_dmx_24="16777215" physfrom="-135" physto="135" subattribute="TILT" attribute="TILT" feature="POSITION" preset="POSITION">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="Center" from_dmx="32768" to_dmx="32768" />
+						<ChannelSet index="2" name="max" from_dmx="65535" to_dmx="65535" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="14" attribute="FUNCTION" feature="CONTROL" preset="CONTROL" coarse="17">
+					<ChannelFunction index="0" from="0" to="15.5" min_dmx_24="0" max_dmx_24="2621439" subattribute="RESET" attribute="FUNCTION" feature="CONTROL" preset="CONTROL">
+						<ChannelSet index="0" name="NO Function" from_dmx="0" to_dmx="9" />
+						<ChannelSet index="1" name="Reset All" from_dmx="10" to_dmx="14" />
+						<ChannelSet index="2" name="Reset Dimmer" from_dmx="15" to_dmx="19" />
+						<ChannelSet index="3" name="Reset CMY CTO" from_dmx="20" to_dmx="24" />
+						<ChannelSet index="4" name="Reset Effects" from_dmx="25" to_dmx="29" />
+						<ChannelSet index="5" name="Reset PT" from_dmx="30" to_dmx="34" />
+						<ChannelSet index="6" name="NO Function" from_dmx="35" to_dmx="39" />
+					</ChannelFunction>
+					<ChannelFunction index="1" from="15.5" to="19" min_dmx_24="2621440" max_dmx_24="3276799" subattribute="LAMP" attribute="FUNCTION" feature="CONTROL" preset="CONTROL">
+						<ChannelSet index="0" name="Lamp ON" from_dmx="40" to_dmx="44" />
+						<ChannelSet index="1" name="Lamp OFF" from_dmx="45" to_dmx="49" />
+					</ChannelFunction>
+					<ChannelFunction index="2" from="19" to="52.5" min_dmx_24="3276800" max_dmx_24="8847359" subattribute="BLACKOUT" attribute="FUNCTION" feature="CONTROL" preset="CONTROL">
+						<ChannelSet index="0" name="NO Function" from_dmx="50" to_dmx="79" />
+						<ChannelSet index="1" name="Silent Mode" from_dmx="80" to_dmx="84" />
+						<ChannelSet index="2" name="Normal Mode" from_dmx="85" to_dmx="89" />
+						<ChannelSet index="3" name="High Mode" from_dmx="90" to_dmx="94" />
+						<ChannelSet index="4" name="Fan Clean" from_dmx="95" to_dmx="99" />
+						<ChannelSet index="5" name="Backlight ON" from_dmx="100" to_dmx="104" />
+						<ChannelSet index="6" name="Backlight OFF" from_dmx="105" to_dmx="109" />
+						<ChannelSet index="7" name="NO Function" from_dmx="110" to_dmx="124" />
+						<ChannelSet index="8" name="Ballast 100%" from_dmx="125" to_dmx="126" />
+						<ChannelSet index="9" name="Ballast 90%" from_dmx="127" to_dmx="128" />
+						<ChannelSet index="10" name="Ballast 80%" from_dmx="129" to_dmx="130" />
+						<ChannelSet index="11" name="Ballast 70%" from_dmx="131" to_dmx="132" />
+						<ChannelSet index="12" name="Ballast 60%" from_dmx="133" to_dmx="134" />
+					</ChannelFunction>
+					<ChannelFunction index="3" from="52.5" to="100" min_dmx_24="8847360" max_dmx_24="16777215" subattribute="CALIBRATION" attribute="FUNCTION" feature="CONTROL" preset="CONTROL">
+						<ChannelSet index="0" name="NO Function" from_dmx="135" to_dmx="139" />
+						<ChannelSet index="1" name="Pan Calibration" from_dmx="180" to_dmx="184" />
+						<ChannelSet index="2" name="Tilt Calibration" from_dmx="185" to_dmx="189" />
+						<ChannelSet index="3" name="Effect Calibration" from_dmx="190" to_dmx="194" />
+						<ChannelSet index="4" name="Effect Rota Calibration" from_dmx="195" to_dmx="199" />
+						<ChannelSet index="5" name="Effect Move  Calibration" from_dmx="200" to_dmx="204" />
+						<ChannelSet index="6" name="Color Wheel1 Calibration" from_dmx="205" to_dmx="209" />
+						<ChannelSet index="7" name="Color Wheel2 Calibration" from_dmx="210" to_dmx="214" />
+						<ChannelSet index="8" name="Cyan Calibration" from_dmx="215" to_dmx="219" />
+						<ChannelSet index="9" name="Magenta Calibration" from_dmx="220" to_dmx="224" />
+						<ChannelSet index="10" name="Yellow Calibration" from_dmx="225" to_dmx="229" />
+						<ChannelSet index="11" name="CTO Calibration" from_dmx="230" to_dmx="234" />
+						<ChannelSet index="12" name="Shutter Calibration" from_dmx="235" to_dmx="239" />
+						<ChannelSet index="13" name="Zoom Calibration" from_dmx="240" to_dmx="244" />
+						<ChannelSet index="14" name="Frost Calibration" from_dmx="245" to_dmx="249" />
+						<ChannelSet index="15" name="NO Functon" from_dmx="250" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="15" attribute="CALIBRATION" feature="CALIBRATION" preset="CONTROL" coarse="18">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="CALIBRATIONON" attribute="CALIBRATION" feature="CALIBRATION" preset="CONTROL">
+						<ChannelSet index="0" name="Closed" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="Open" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" RW="0" />
+		</Instances>
+		<Wheels index="2">
+			<Wheel index="0" subattribute="GOBO1" attribute="GOBO1" feature="GOBO1" preset="GOBO">
+				<Slot index="0" media_name="Open" media_filename="carallon/gobos/generic/00090014.png" />
+				<Slot index="1" media_name="Gobo1.1" media_filename="carallon/gobos/martin/030913005.png" />
+				<Slot index="2" media_name="Gobo1.2" media_filename="carallon/gobos/martin/030913006.png" />
+				<Slot index="3" media_name="Gobo1.3" media_filename="carallon/gobos/martin/030913020.png" />
+				<Slot index="4" media_name="Gobo1.4" media_filename="carallon/gobos/martin/030913008.png" />
+				<Slot index="5" media_name="Gobo1.5" media_filename="carallon/gobos/martin/030913009.png" />
+			</Wheel>
+			<Wheel index="1" subattribute="GOBO2" attribute="GOBO2" feature="GOBO2" preset="GOBO">
+				<Slot index="0" media_name="Open" media_filename="carallon/gobos/generic/00090014.png" />
+				<Slot index="1" media_name="Gobo2.1" media_filename="carallon/gobos/martin/030913011.png" />
+				<Slot index="2" media_name="Gobo2.2" media_filename="carallon/gobos/martin/030913001.png" />
+				<Slot index="3" media_name="Gobo2.3" media_filename="carallon/gobos/martin/030913002.png" />
+				<Slot index="4" media_name="Gobo2.4" media_filename="carallon/gobos/martin/030913010.png" />
+				<Slot index="5" media_name="Gobo2.5" media_filename="carallon/gobos/martin/030901129.png" />
+			</Wheel>
+			<Wheel index="2" subattribute="GOBO3" attribute="GOBO3" feature="GOBO3" preset="GOBO">
+				<Slot index="0" media_name="Gobo 3.1" media_filename="carallon/gobos/generic/00090014.png" />
+				<Slot index="1" media_name="Gobo 3.2" media_filename="carallon/gobos/apollo/0599012161.png" />
+				<Slot index="2" media_name="Gobo 3.3" media_filename="carallon/gobos/martin/030014001.png" />
+				<Slot index="3" media_name="Gobo 3.4" media_filename="carallon/gobos/apollo/0599012034.png" />
+				<Slot index="4" media_name="Gobo 3.5" media_filename="carallon/gobos/apollo/0599012032.png" />
+			</Wheel>
+			<Wheel index="3" subattribute="COLOR1" attribute="COLOR1" feature="COLOR1" preset="COLOR">
+				<Slot index="0" media_name="White" media_filename="carallon/gobos/generic/00090014.png" />
+				<Slot index="1" media_name="Blue" r="0" g="47" />
+				<Slot index="2" media_name="Green" r="0" b="0" />
+				<Slot index="3" media_name="Minus Green" r="29" g="142" b="137" />
+				<Slot index="4" media_name="Organe" g="171" b="9" />
+				<Slot index="5" media_name="Magenta" g="0" />
+				<Slot index="6" media_name="CTB" r="204" g="229" />
+				<Slot index="7" media_name="Congo" r="0" g="0" />
+				<Slot index="8" media_name="Red" g="0" b="0" />
+				<Slot index="9" media_name="Uv Filter" r="142" g="27" />
+				<Slot index="10" media_name="CTO" r="232" g="230" b="16" />
+				<Slot index="11" media_name="Lavender" g="6" b="116" />
+				<Slot index="12" media_name="Pink" g="23" b="247" />
+			</Wheel>
+			<Wheel index="4" subattribute="PRISMA1" attribute="PRISMA1" feature="BEAM1" preset="BEAM">
+				<Slot index="0" media_name="Open" media_filename="carallon/gobos/generic/00090014.png" />
+				<Slot index="1" media_name="Prism" media_filename="carallon/effects/generic/000900004.png" />
+			</Wheel>
+			<Wheel index="5" subattribute="ANIMATIONWHEELSELECT" attribute="ANIMATIONWHEEL" feature="GOBOANIMATION" preset="GOBO">
+				<Slot index="0" media_name="Open" media_filename="carallon/gobos/generic/00090014.png" />
+				<Slot index="1" media_name="Animation" media_filename="carallon/animations/robe/037900001.png" />
+			</Wheel>
+		</Wheels>
+		<VirtualFunctionBlocks index="3" />
+		<Body />
+		<AutoPresets index="4" />
+	</FixtureType>
+</MA>

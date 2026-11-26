@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA major_vers="3" minor_vers="0" stream_vers="0">
+	<FixtureType name="FINE 156 BATTEN OD" mode="36 channels" scale="1.000">
+		<short_name>FINE 156 BATTEN</short_name>
+		<manufacturer>Fineart</manufacturer>
+		<short_manufacturer>Fineart</short_manufacturer>
+		<Modules>
+			<![CDATA[Module 1]]>
+			<Module class="LED" beamtype="Wash" scale="1.000" beam_angle="35.000" beam_intensity="10000.000">
+				<![CDATA[1]]>
+				<ChannelType attribute="PAN" feature="POSITION" preset="POSITION" coarse="1" fine="2" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="65535" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[2]]>
+				<ChannelType attribute="TILT" feature="POSITION" preset="POSITION" coarse="3" fine="4" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="65535" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[3]]>
+				<ChannelType attribute="POSITIONMSPEED" feature="MSPEED" preset="CONTROL" coarse="5" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[4]]>
+				<ChannelType attribute="PAN ROTATION" feature="POSITION" preset="POSITION" coarse="6" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="Forwards 100...0%" from_dmx="128" to_dmx="189" auto_create="1"/>
+						<ChannelSet name="No Rotation" from_dmx="190" to_dmx="193" auto_create="1"/>
+						<ChannelSet name="Backwards 100...0%" from_dmx="194" to_dmx="255" auto_create="1"/>
+					</ChannelFunction>
+				</ChannelType>
+				<![CDATA[5]]>
+				<ChannelType attribute="TILT ROTATION" feature="POSITION" preset="POSITION" coarse="7" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="Forwards 100...0%" from_dmx="128" to_dmx="189" auto_create="1"/>
+						<ChannelSet name="No Rotation" from_dmx="190" to_dmx="193" auto_create="1"/>
+						<ChannelSet name="Backwards 100...%" from_dmx="194" to_dmx="255" auto_create="1"/>
+					</ChannelFunction>
+				</ChannelType>
+				<![CDATA[6]]>
+				<ChannelType attribute="RESET" feature="CONTROL" preset="CONTROL" coarse="8" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[7]]>
+				<ChannelType attribute="STROBE" feature="STROBE" preset="BEAM" coarse="9" default="12.949">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="Closed" from_dmx="0" to_dmx="7" auto_create="1"/>
+						<ChannelSet name="Open" from_dmx="8" to_dmx="15" auto_create="1"/>
+						<ChannelSet name="Strobe 0...100%" from_dmx="16" to_dmx="151" auto_create="1"/>
+						<ChannelSet name="Pulse effect 1" from_dmx="152" to_dmx="175" auto_create="1"/>
+						<ChannelSet name="Pulse effect 2" from_dmx="176" to_dmx="199" auto_create="1"/>
+						<ChannelSet name="RdnStrobe 0...100%" from_dmx="200" to_dmx="223" auto_create="1"/>
+						<ChannelSet name="Open" from_dmx="224" to_dmx="255" auto_create="1"/>
+					</ChannelFunction>
+				</ChannelType>
+				<![CDATA[8]]>
+				<ChannelType attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="10" default="0.000" highlight_value="100.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[9]]>
+				<ChannelType attribute="DIMMING SMOOTH" feature="DIMMER" preset="DIMMER" coarse="11" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[10]]>
+				<ChannelType attribute="CTO" feature="CTO" preset="COLOR" coarse="12" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="2000K" from_dmx="10" to_dmx="19" auto_create="1"/>
+						<ChannelSet name="2050K" from_dmx="20" to_dmx="29" auto_create="1"/>
+						<ChannelSet name="2700K" from_dmx="30" to_dmx="39" auto_create="1"/>
+						<ChannelSet name="3200K" from_dmx="40" to_dmx="49" auto_create="1"/>
+						<ChannelSet name="3400K" from_dmx="50" to_dmx="59" auto_create="1"/>
+						<ChannelSet name="4200K" from_dmx="60" to_dmx="69" auto_create="1"/>
+						<ChannelSet name="4900K" from_dmx="70" to_dmx="79" auto_create="1"/>
+						<ChannelSet name="5600K" from_dmx="80" to_dmx="89" auto_create="1"/>
+						<ChannelSet name="5900K" from_dmx="90" to_dmx="99" auto_create="1"/>
+						<ChannelSet name="6500K" from_dmx="100" to_dmx="109" auto_create="1"/>
+						<ChannelSet name="7200K" from_dmx="110" to_dmx="119" auto_create="1"/>
+						<ChannelSet name="8000K" from_dmx="120" to_dmx="129" auto_create="1"/>
+						<ChannelSet name="8500K" from_dmx="130" to_dmx="139" auto_create="1"/>
+						<ChannelSet name="10000K" from_dmx="140" to_dmx="149" auto_create="1"/>
+					</ChannelFunction>
+				</ChannelType>
+				<![CDATA[11]]>
+				<ChannelType attribute="RED 1" feature="RGB" preset="COLOR" coarse="13" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[12]]>
+				<ChannelType attribute="GREEN 1" feature="RGB" preset="COLOR" coarse="14" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[13]]>
+				<ChannelType attribute="BLUE 1" feature="RGB" preset="COLOR" coarse="15" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[14]]>
+				<ChannelType attribute="AMBER 1" feature="RGB" preset="COLOR" coarse="16" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[15]]>
+				<ChannelType attribute="RED 2" feature="RGB" preset="COLOR" coarse="17" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[16]]>
+				<ChannelType attribute="GREEN 2" feature="RGB" preset="COLOR" coarse="18" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[17]]>
+				<ChannelType attribute="BLUE 2" feature="RGB" preset="COLOR" coarse="19" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[18]]>
+				<ChannelType attribute="AMBER 2" feature="RGB" preset="COLOR" coarse="20" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[19]]>
+				<ChannelType attribute="RED 3" feature="RGB" preset="COLOR" coarse="21" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[20]]>
+				<ChannelType attribute="GREEN 3" feature="RGB" preset="COLOR" coarse="22" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[21]]>
+				<ChannelType attribute="BLUE 3" feature="RGB" preset="COLOR" coarse="23" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[22]]>
+				<ChannelType attribute="AMBER 3" feature="RGB" preset="COLOR" coarse="24" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[23]]>
+				<ChannelType attribute="RED 4" feature="RGB" preset="COLOR" coarse="25" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[24]]>
+				<ChannelType attribute="GREEN 4" feature="RGB" preset="COLOR" coarse="26" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[25]]>
+				<ChannelType attribute="BLUE 4" feature="RGB" preset="COLOR" coarse="27" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[26]]>
+				<ChannelType attribute="AMBER 4" feature="RGB" preset="COLOR" coarse="28" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[27]]>
+				<ChannelType attribute="RED 5" feature="RGB" preset="COLOR" coarse="29" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[28]]>
+				<ChannelType attribute="GREEN 5" feature="RGB" preset="COLOR" coarse="30" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[29]]>
+				<ChannelType attribute="BLUE 5" feature="RGB" preset="COLOR" coarse="31" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[30]]>
+				<ChannelType attribute="AMBER 5" feature="RGB" preset="COLOR" coarse="32" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[31]]>
+				<ChannelType attribute="RED 6" feature="RGB" preset="COLOR" coarse="33" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[32]]>
+				<ChannelType attribute="GREEN 6" feature="RGB" preset="COLOR" coarse="34" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[33]]>
+				<ChannelType attribute="BLUE 6" feature="RGB" preset="COLOR" coarse="35" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[34]]>
+				<ChannelType attribute="AMBER 6" feature="RGB" preset="COLOR" coarse="36" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<Body>
+					<Size x="1.000" y="1.000" z="1.000"/>
+					<Center x="0.000" y="0.000" z="0.000"/>
+					<Light x="0.000" y="0.000" z="0.000"/>
+				</Body>
+			</Module>
+		</Modules>
+		<Instances>
+			<![CDATA[Instance 1]]>
+			<Instance patch="1" X="0.000" Y="0.000" locked="true"/>
+		</Instances>
+		<Wheels/>
+		<QFuncs/>
+	</FixtureType>
+</MA>

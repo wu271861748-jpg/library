@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/2.3.0/MA.xsd" major_vers="2" minor_vers="3" stream_vers="0">
+	<Info datetime="2012-02-17T22:28:02" showfile="beijing001" />
+	<FixtureType index="6" name="Glabol-B">
+		<short_name>Glabol-B</short_name>
+		<manufacturer>Jolly</manufacturer>
+		<short_manufacturer>Jolly</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="None" beamtype="Wash" beam_angle="35.000" beam_intensity="10000.000">
+				<Body>
+					<Size x="0.000" y="0.000" z="0.000" />
+					<Center x="0.000" y="0.000" z="0.000" />
+					<Light x="0.000" y="0.000" z="0.000" />
+				</Body>
+				<ChannelType index="0" attribute="V_EFF2_T" feature="V_EFFECT_2" preset="VIDEO" coarse="1">
+					<ChannelFunction index="0" name="Effect2" from="0.000" to="100.000" subattribute="V_EFF2_T" attribute="V_EFF2_T" feature="V_EFFECT_2" preset="VIDEO" />
+				</ChannelType>
+				<ChannelType index="1" attribute="V_EFF2_P1" feature="V_EFFECT_2" preset="VIDEO" coarse="2">
+					<ChannelFunction index="0" name="Modifier1" from="0.000" to="100.000" subattribute="V_EFF2_P1" attribute="V_EFF2_P1" feature="V_EFFECT_2" preset="VIDEO" />
+				</ChannelType>
+				<ChannelType index="2" attribute="V_EFF3_P2" feature="V_EFFECT_3" preset="VIDEO" coarse="3">
+					<ChannelFunction index="0" name="Modifier2" from="0.000" to="100.000" subattribute="V_EFF3_P2" attribute="V_EFF3_P2" feature="V_EFFECT_3" preset="VIDEO" />
+				</ChannelType>
+				<ChannelType index="3" attribute="V_EFF2_P3" feature="V_EFFECT_2" preset="VIDEO" coarse="4">
+					<ChannelFunction index="0" name="Modifier3" from="0.000" to="100.000" subattribute="V_EFF2_P3" attribute="V_EFF2_P3" feature="V_EFFECT_2" preset="VIDEO" />
+				</ChannelType>
+				<ChannelType index="4" attribute="V_SOFTEDGE_1A" feature="SOFTEDGE" preset="VIDEO" coarse="5" default="128.000">
+					<ChannelFunction index="0" name="Top Left" from="0.000" to="255.000" subattribute="V_SOFTEDGE_1A" attribute="V_SOFTEDGE_1A" feature="SOFTEDGE" preset="VIDEO" />
+				</ChannelType>
+				<ChannelType index="5" attribute="V_SOFTEDGE_1B" feature="SOFTEDGE" preset="VIDEO" coarse="6" default="128.000">
+					<ChannelFunction index="0" name="Top Right" from="0.000" to="255.000" subattribute="V_SOFTEDGE_1B" attribute="V_SOFTEDGE_1B" feature="SOFTEDGE" preset="VIDEO" />
+				</ChannelType>
+				<ChannelType index="6" attribute="V_SOFTEDGE_2A" feature="SOFTEDGE" preset="VIDEO" coarse="7" default="128.000">
+					<ChannelFunction index="0" name="Left Top" from="0.000" to="255.000" subattribute="V_SOFTEDGE_2A" attribute="V_SOFTEDGE_2A" feature="SOFTEDGE" preset="VIDEO" />
+				</ChannelType>
+				<ChannelType index="7" attribute="V_SOFTEDGE_2B" feature="SOFTEDGE" preset="VIDEO" coarse="8" default="128.000">
+					<ChannelFunction index="0" name="Left Bottom" from="0.000" to="255.000" subattribute="V_SOFTEDGE_2B" attribute="V_SOFTEDGE_2B" feature="SOFTEDGE" preset="VIDEO" />
+				</ChannelType>
+				<ChannelType index="8" attribute="V_SOFTEDGE_3A" feature="SOFTEDGE" preset="VIDEO" coarse="9" default="128.000">
+					<ChannelFunction index="0" name="Right Top" from="0.000" to="255.000" subattribute="V_SOFTEDGE_3A" attribute="V_SOFTEDGE_3A" feature="SOFTEDGE" preset="VIDEO" />
+				</ChannelType>
+				<ChannelType index="9" attribute="V_SOFTEDGE_3B" feature="SOFTEDGE" preset="VIDEO" coarse="10" default="128.000">
+					<ChannelFunction index="0" name="Right Bottom" from="0.000" to="255.000" subattribute="V_SOFTEDGE_3B" attribute="V_SOFTEDGE_3B" feature="SOFTEDGE" preset="VIDEO" />
+				</ChannelType>
+				<ChannelType index="10" attribute="V_SOFTEDGE_4A" feature="SOFTEDGE" preset="VIDEO" coarse="11" default="128.000">
+					<ChannelFunction index="0" name="Bottom Left" from="0.000" to="255.000" subattribute="V_SOFTEDGE_4A" attribute="V_SOFTEDGE_4A" feature="SOFTEDGE" preset="VIDEO" />
+				</ChannelType>
+				<ChannelType index="11" attribute="V_SOFTEDGE_4B" feature="SOFTEDGE" preset="VIDEO" coarse="12" default="128.000">
+					<ChannelFunction index="0" name="Bottom Right" from="0.000" to="255.000" subattribute="V_SOFTEDGE_4B" attribute="V_SOFTEDGE_4B" feature="SOFTEDGE" preset="VIDEO" />
+				</ChannelType>
+				<ChannelType index="12" attribute="DUMMY" feature="CONTROL" preset="CONTROL" coarse="13">
+					<ChannelFunction index="0" name="UV" from="211.000" to="215.000" subattribute="RESERVED" attribute="DUMMY" feature="CONTROL" preset="CONTROL" />
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" patch="1" RW="0.000" />
+		</Instances>
+		<Wheels index="2" />
+	</FixtureType>
+</MA>

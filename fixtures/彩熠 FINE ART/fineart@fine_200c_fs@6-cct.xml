@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.3.4/MA.xsd" major_vers="3" minor_vers="3" stream_vers="4">
+	<Info datetime="2020-07-25T01:47:19" showfile="new show 2017-06-09" />
+	<FixtureType index="12" name="FINE 200C FS" mode="6-CCT">
+		<short_name>FINE 200C FS</short_name>
+		<manufacturer>Fineart</manufacturer>
+		<short_manufacturer>Fineart</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="None" beamtype="Wash" beam_angle="35" beam_intensity="10000">
+				<ChannelType index="0" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="1">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" phystime="0" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer">
+						<ChannelSet index="0" name="OPEN" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="1" attribute="CTO" feature="CTC" preset="COLOR" coarse="2">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" phystime="0" subattribute="CTO" subattribute_user_name="CTO" attribute="CTO" attribute_user_name="CTO" feature="CTC" feature_user_name="CTC" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="3200K" from_dmx="0" to_dmx="5" />
+						<ChannelSet index="1" name="2800K-6500K" from_dmx="6" to_dmx="254" />
+						<ChannelSet index="2" name="5600K" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="2">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" phystime="0" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+				<ChannelType index="3" attribute="STROBE" feature="STROBE" preset="BEAM" coarse="4">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" phystime="0" subattribute="STROBE" subattribute_user_name="Strobe" attribute="STROBE" attribute_user_name="STROBE" feature="STROBE" feature_user_name="STROBE" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="STROBE" from_dmx="6" to_dmx="105" />
+						<ChannelSet index="1" name="THUNDER" from_dmx="110" to_dmx="179" />
+						<ChannelSet index="2" name="RANDOM" from_dmx="186" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="4" attribute="FOCUS" feature="FOCUS" preset="FOCUS" coarse="5" default="127.5">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" phystime="0" subattribute="FOCUS" subattribute_user_name="Focus" attribute="FOCUS" attribute_user_name="Focus" feature="FOCUS" feature_user_name="Focus" preset="FOCUS" preset_user_name="Focus" />
+				</ChannelType>
+				<ChannelType index="5" attribute="CONTROL" feature="CONTROL" preset="CONTROL" coarse="6" default="0.001">
+					<ChannelFunction index="0" name="FAN" from="0" to="29.412" min_dmx_24="0" max_dmx_24="4980735" physfrom="0" physto="1" phystime="0" subattribute="CONTROL" subattribute_user_name="CONTROL" attribute="CONTROL" attribute_user_name="CONTROL" feature="CONTROL" feature_user_name="Control" preset="CONTROL" preset_user_name="Control">
+						<ChannelSet index="0" name="FAN_fast" from_dmx="6" to_dmx="25" />
+						<ChannelSet index="1" name="FAN_slow" from_dmx="26" to_dmx="50" />
+						<ChannelSet index="2" name="FAN_automatic" from_dmx="51" to_dmx="75" />
+					</ChannelFunction>
+					<ChannelFunction index="1" name="Position" from="29.804" to="45.098" min_dmx_24="4980736" max_dmx_24="7602175" subattribute="CONTROL" subattribute_user_name="CONTROL" attribute="CONTROL" attribute_user_name="CONTROL" feature="CONTROL" feature_user_name="Control" preset="CONTROL" preset_user_name="Control">
+						<ChannelSet index="0" name="PAN_fwd" from_dmx="76" to_dmx="85" />
+						<ChannelSet index="1" name="PAN_rev" from_dmx="86" to_dmx="95" />
+						<ChannelSet index="2" name="TILT_fwd" from_dmx="96" to_dmx="105" />
+						<ChannelSet index="3" name="TILT_rev" from_dmx="106" to_dmx="115" />
+					</ChannelFunction>
+					<ChannelFunction index="2" name="Reset" from="45.49" to="100" min_dmx_24="7602176" max_dmx_24="16777215" subattribute="CONTROL" subattribute_user_name="CONTROL" attribute="CONTROL" attribute_user_name="CONTROL" feature="CONTROL" feature_user_name="Control" preset="CONTROL" preset_user_name="Control">
+						<ChannelSet index="0" name="reset" from_dmx="180" to_dmx="200" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<FixtureMacroCollect index="5" />
+		<Body />
+		<AutoPresets index="4" />
+		<RdmNotifications index="6">
+			<RdmNotification index="0" Type="Absent" Subcategory="RDM Warning" />
+		</RdmNotifications>
+	</FixtureType>
+</MA>

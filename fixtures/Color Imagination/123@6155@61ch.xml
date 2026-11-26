@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.2.2/MA.xsd" major_vers="3" minor_vers="2" stream_vers="2">
+	<Info datetime="2025-11-28T14:38:13" showfile="2025zhanting3.24" />
+	<FixtureType index="25" name="6155" mode="61CH">
+		<short_name>6155</short_name>
+		<manufacturer>123</manufacturer>
+		<short_manufacturer>123</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="None" beamtype="Wash" beam_angle="35" beam_intensity="10000">
+				<ChannelType index="0" attribute="TILT" feature="POSITION" preset="POSITION" coarse="1" fine="2" default="32767.5">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="-90" physto="90" subattribute="TILT" subattribute_user_name="Tilt" attribute="TILT" attribute_user_name="Tilt" feature="POSITION" feature_user_name="Position" preset="POSITION" preset_user_name="Position" />
+				</ChannelType>
+				<ChannelType index="1" attribute="PTSPEED" feature="POSITION" preset="POSITION" coarse="3">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="PTSPEED" subattribute_user_name="PTSPEED" attribute="PTSPEED" attribute_user_name="PTSPEED" feature="POSITION" feature_user_name="Position" preset="POSITION" preset_user_name="Position" />
+				</ChannelType>
+				<ChannelType index="2" attribute="HEADMODE" feature="POSITION" preset="POSITION" coarse="16">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="HEADMODE" subattribute_user_name="HEADMODE" attribute="HEADMODE" attribute_user_name="HEADMODE" feature="POSITION" feature_user_name="Position" preset="POSITION" preset_user_name="Position" />
+				</ChannelType>
+				<ChannelType index="3" attribute="HEADSPEED" feature="POSITION" preset="POSITION" coarse="17">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="HEADSPEED" subattribute_user_name="HEADSPEED" attribute="HEADSPEED" attribute_user_name="HEADSPEED" feature="POSITION" feature_user_name="Position" preset="POSITION" preset_user_name="Position" />
+				</ChannelType>
+				<ChannelType index="4" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="18" fine="19" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+				<ChannelType index="5" attribute="STROBE_RATIO" feature="SHUTTER" preset="BEAM" coarse="20" default="254.999">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="STROBE_RATIO" subattribute_user_name="Duty Cycle" attribute="STROBE_RATIO" attribute_user_name="StrobeDutyCycle" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam" />
+				</ChannelType>
+				<ChannelType index="6" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" coarse="21" fine="22" default="65535" color="ff0000">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB1" subattribute_user_name="R" attribute="COLORRGB1" attribute_user_name="R" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="7" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" coarse="23" fine="24" default="65535" color="00ff00">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB2" subattribute_user_name="G" attribute="COLORRGB2" attribute_user_name="G" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="8" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" coarse="25" fine="26" default="65535" color="0000ff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB3" subattribute_user_name="B" attribute="COLORRGB3" attribute_user_name="B" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="9" attribute="COLORRGB5" feature="COLORRGB" preset="COLOR" coarse="27" fine="28" default="65535" color="ffffff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB5" subattribute_user_name="White" attribute="COLORRGB5" attribute_user_name="White" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="10" attribute="CCT" feature="COLORRGB" preset="COLOR" coarse="29">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="CCT" subattribute_user_name="CCT" attribute="CCT" attribute_user_name="CCT" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="11" attribute="COLORMACRO" feature="COLORRGB" preset="COLOR" coarse="30">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="COLORMACRO" subattribute_user_name="COLORMACRO" attribute="COLORMACRO" attribute_user_name="COLORMACRO" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="12" attribute="EFFECT" feature="COLORRGB" preset="COLOR" coarse="31">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="EFFECT" subattribute_user_name="EFFECT" attribute="EFFECT" attribute_user_name="Effect" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="13" attribute="EFFECTSPEED" feature="COLORRGB" preset="COLOR" coarse="32">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="EFFECTSPEED" subattribute_user_name="EFFECTSPEED" attribute="EFFECTSPEED" attribute_user_name="EFFECTSPEED" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="14" attribute="ROTATE" feature="BEAM1" preset="BEAM" coarse="33">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="ROTATE" subattribute_user_name="ROTATE" attribute="ROTATE" attribute_user_name="ROTATE" feature="BEAM1" feature_user_name="Beam" preset="BEAM" preset_user_name="Beam" />
+				</ChannelType>
+				<ChannelType index="15" attribute="ROTATESPEED" feature="BEAM1" preset="BEAM" coarse="34">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="ROTATESPEED" subattribute_user_name="ROTATESPEED" attribute="ROTATESPEED" attribute_user_name="ROTATESPEED" feature="BEAM1" feature_user_name="Beam" preset="BEAM" preset_user_name="Beam" />
+				</ChannelType>
+				<ChannelType index="16" attribute="BACKDIM" feature="PATTERNS" preset="CONTROL" coarse="35">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="BACKDIM" subattribute_user_name="BACKDIM" attribute="BACKDIM" attribute_user_name="BACKDIM" feature="PATTERNS" feature_user_name="PATTERNS" preset="CONTROL" preset_user_name="Control" />
+				</ChannelType>
+				<ChannelType index="17" attribute="BACKSTROBE" feature="PATTERNS" preset="CONTROL" coarse="36">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="BACKSTROBE" subattribute_user_name="BACKSTROBE" attribute="BACKSTROBE" attribute_user_name="BACKSTROBE" feature="PATTERNS" feature_user_name="PATTERNS" preset="CONTROL" preset_user_name="Control" />
+				</ChannelType>
+				<ChannelType index="18" attribute="REDALL" feature="COLORDIMALL" preset="COLOR" coarse="37">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="REDALL" subattribute_user_name="RedAll" attribute="REDALL" attribute_user_name="RedAll" feature="COLORDIMALL" feature_user_name="ColorDimAll" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="19" attribute="GREENALL" feature="COLORDIMALL" preset="COLOR" coarse="38">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="GREENALL" subattribute_user_name="GreenAll" attribute="GREENALL" attribute_user_name="GreenAll" feature="COLORDIMALL" feature_user_name="ColorDimAll" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="20" attribute="BLUEALL" feature="COLORDIMALL" preset="COLOR" coarse="39">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="BLUEALL" subattribute_user_name="BlueAll" attribute="BLUEALL" attribute_user_name="BlueAll" feature="COLORDIMALL" feature_user_name="ColorDimAll" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="21" attribute="WHITEALL" feature="COLORDIMALL" preset="COLOR" coarse="40">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="WHITEALL" subattribute_user_name="WhiteAll" attribute="WHITEALL" attribute_user_name="WhiteAll" feature="COLORDIMALL" feature_user_name="ColorDimAll" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="22" attribute="FORSTROBE" feature="PATTERNS" preset="CONTROL" coarse="41">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="FORSTROBE" subattribute_user_name="FORSTROBE" attribute="FORSTROBE" attribute_user_name="FORSTROBE" feature="PATTERNS" feature_user_name="PATTERNS" preset="CONTROL" preset_user_name="Control" />
+				</ChannelType>
+				<ChannelType index="23" attribute="LIGHTGUIDE" feature="BEAM1" preset="BEAM" coarse="42">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="LIGHTGUIDE" subattribute_user_name="LIGHTGUIDE" attribute="LIGHTGUIDE" attribute_user_name="LIGHTGUIDE" feature="BEAM1" feature_user_name="Beam" preset="BEAM" preset_user_name="Beam" />
+				</ChannelType>
+				<ChannelType index="24" attribute="FROST" feature="BEAM1" preset="BEAM" coarse="43">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="FROST" subattribute_user_name="Frost" attribute="FROST" attribute_user_name="Frost" feature="BEAM1" feature_user_name="Beam" preset="BEAM" preset_user_name="Beam" />
+				</ChannelType>
+				<ChannelType index="25" attribute="ZOOM" feature="FOCUS" preset="FOCUS" coarse="44">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.7" physto="1" subattribute="ZOOM" subattribute_user_name="Zoom" attribute="ZOOM" attribute_user_name="Zoom" feature="FOCUS" feature_user_name="Focus" preset="FOCUS" preset_user_name="Focus" />
+				</ChannelType>
+				<ChannelType index="26" attribute="PRISMA1" feature="BEAM1" preset="BEAM" coarse="45">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="7" physadditional="3" subattribute="PRISMA1" subattribute_user_name="Prism1" attribute="PRISMA1" attribute_user_name="Prism1" feature="BEAM1" feature_user_name="Beam" preset="BEAM" preset_user_name="Beam" />
+				</ChannelType>
+				<ChannelType index="27" attribute="STRIPDIM" feature="STRIP" preset="CONTROL" coarse="52">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="STRIPDIM" subattribute_user_name="STRIPDIM" attribute="STRIPDIM" attribute_user_name="STRIPDIM" feature="STRIP" feature_user_name="STRIP" preset="CONTROL" preset_user_name="Control" />
+				</ChannelType>
+				<ChannelType index="28" attribute="STRIPSHUTTER" feature="STRIP" preset="CONTROL" coarse="53">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="STRIPSHUTTER" subattribute_user_name="STRIPSHUTTER" attribute="STRIPSHUTTER" attribute_user_name="STRIPSHUTTER" feature="STRIP" feature_user_name="STRIP" preset="CONTROL" preset_user_name="Control" />
+				</ChannelType>
+				<ChannelType index="29" attribute="STRIPEFFECT" feature="STRIP" preset="CONTROL" coarse="54">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="STRIPEFFECT" subattribute_user_name="STRIPEFFECT" attribute="STRIPEFFECT" attribute_user_name="STRIPEFFECT" feature="STRIP" feature_user_name="STRIP" preset="CONTROL" preset_user_name="Control" />
+				</ChannelType>
+				<ChannelType index="30" attribute="STRIPSPEED" feature="STRIP" preset="CONTROL" coarse="55">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="STRIPSPEED" subattribute_user_name="STRIPSPEED" attribute="STRIPSPEED" attribute_user_name="STRIPSPEED" feature="STRIP" feature_user_name="STRIP" preset="CONTROL" preset_user_name="Control" />
+				</ChannelType>
+				<ChannelType index="31" attribute="AUTO" feature="STRIP" preset="CONTROL" coarse="56">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="AUTO" subattribute_user_name="AUTO" attribute="AUTO" attribute_user_name="AUTO" feature="STRIP" feature_user_name="STRIP" preset="CONTROL" preset_user_name="Control" />
+				</ChannelType>
+				<ChannelType index="32" attribute="AUTOSPEED" feature="STRIP" preset="CONTROL" coarse="57">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="AUTOSPEED" subattribute_user_name="AUTOSPEED" attribute="AUTOSPEED" attribute_user_name="AUTOSPEED" feature="STRIP" feature_user_name="STRIP" preset="CONTROL" preset_user_name="Control" />
+				</ChannelType>
+				<ChannelType index="33" attribute="STRIPR" feature="STRIP" preset="CONTROL" coarse="58">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="STRIPR" subattribute_user_name="STRIPR" attribute="STRIPR" attribute_user_name="STRIPR" feature="STRIP" feature_user_name="STRIP" preset="CONTROL" preset_user_name="Control" />
+				</ChannelType>
+				<ChannelType index="34" attribute="STRIPG" feature="STRIP" preset="CONTROL" coarse="59">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="STRIPG" subattribute_user_name="STRIPG" attribute="STRIPG" attribute_user_name="STRIPG" feature="STRIP" feature_user_name="STRIP" preset="CONTROL" preset_user_name="Control" />
+				</ChannelType>
+				<ChannelType index="35" attribute="STRIPB" feature="STRIP" preset="CONTROL" coarse="60">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="STRIPB" subattribute_user_name="STRIPB" attribute="STRIPB" attribute_user_name="STRIPB" feature="STRIP" feature_user_name="STRIP" preset="CONTROL" preset_user_name="Control" />
+				</ChannelType>
+				<ChannelType index="36" attribute="RESET" feature="CONTROL" preset="CONTROL" coarse="61">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="RESET" subattribute_user_name="Reset" attribute="RESET" attribute_user_name="Reset" feature="CONTROL" feature_user_name="Control" preset="CONTROL" preset_user_name="Control" />
+				</ChannelType>
+			</Module>
+			<Module index="1" name="Tilt" class="None" beamtype="Wash" beam_angle="35" beam_intensity="10000">
+				<ChannelType index="0" attribute="TILT" feature="POSITION" preset="POSITION" coarse="1" default="127.5">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="-90" physto="90" subattribute="TILT" subattribute_user_name="Tilt" attribute="TILT" attribute_user_name="Tilt" feature="POSITION" feature_user_name="Position" preset="POSITION" preset_user_name="Position" />
+				</ChannelType>
+			</Module>
+			<Module index="2" name="Tilt Rot" class="None" beamtype="Wash" beam_angle="35" beam_intensity="10000">
+				<ChannelType index="0" attribute="TLITROT" feature="POSITION" preset="POSITION" coarse="1">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="TILTROT" subattribute_user_name="TILTROT" attribute="TLITROT" attribute_user_name="TLITROT" feature="POSITION" feature_user_name="Position" preset="POSITION" preset_user_name="Position" />
+				</ChannelType>
+			</Module>
+			<Module index="3" name="prism rot" class="None" beamtype="Wash" beam_angle="35" beam_intensity="10000">
+				<ChannelType index="0" attribute="PRISMA1_POS" feature="BEAM1" preset="BEAM" coarse="1">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="360" subattribute="PRISMA1_POS" subattribute_user_name="Pos" attribute="PRISMA1_POS" attribute_user_name="Pos1" feature="BEAM1" feature_user_name="Beam" preset="BEAM" preset_user_name="Beam" />
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" />
+			<Instance index="1" module_index="1" patch="4" />
+			<Instance index="2" module_index="1" patch="5" />
+			<Instance index="3" module_index="1" patch="6" />
+			<Instance index="4" module_index="1" patch="7" />
+			<Instance index="5" patch="8" />
+			<Instance index="6" module_index="1" patch="9" />
+			<Instance index="7" module_index="2" patch="10" />
+			<Instance index="8" module_index="2" patch="11" />
+			<Instance index="9" module_index="2" patch="12" />
+			<Instance index="10" module_index="2" patch="13" />
+			<Instance index="11" module_index="2" patch="14" />
+			<Instance index="12" module_index="2" patch="15" />
+			<Instance index="13" module_index="3" patch="46" />
+			<Instance index="14" module_index="3" patch="47" />
+			<Instance index="15" module_index="3" patch="48" />
+			<Instance index="16" module_index="3" patch="49" />
+			<Instance index="17" module_index="3" patch="50" />
+			<Instance index="18" module_index="3" patch="51" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<FixtureMacroCollect index="5" />
+		<Body />
+		<AutoPresets index="4" />
+		<RdmNotifications index="6">
+			<RdmNotification index="0" Type="Absent" Subcategory="RDM Warning" />
+		</RdmNotifications>
+	</FixtureType>
+</MA>

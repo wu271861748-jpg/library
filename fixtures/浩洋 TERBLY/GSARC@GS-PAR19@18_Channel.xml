@@ -1,0 +1,232 @@
+<?xml version="1.0"?>
+<MA xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/2.8.123/MA.xsd" xmlns="http://schemas.malighting.de/grandma2/xml/MA" major_vers="3" minor_vers="1" stream_vers="2">
+    <FixtureType name="GS-PAR19" mode="18 Channel ">
+        <InfoItems>
+            <Info type="Revision" date="2026-02-12T06:18:02">Converted GDTF to grandMA2 fixture type with Share Converter version 1.4.1</Info>
+            <Info type="Revision" date="2025-12-04T01:37:33">New fixture type based on GS-PAR19 from GSARC</Info>
+            <Info type="Revision" date="2025-12-04T02:09:14">Test V1</Info>
+            <Info type="Revision" date="2025-12-04T02:35:21">Test V2</Info>
+            <Info type="Revision" date="2025-12-04T02:43:49">Test V3</Info>
+            <Info type="Revision" date="2025-12-04T02:53:20">Test V4</Info>
+            <Info type="Revision" date="2025-12-04T03:33:51">Test V5</Info>
+            <Info type="Revision" date="2025-12-04T03:36:11">Test V6</Info>
+            <Info type="Revision" date="2025-12-05T00:34:09">First Realease</Info>
+            <Info type="Revision" date="2026-02-12T06:16:08">Added CTO</Info>
+            <Info type="Revision" date="2026-02-12T06:18:06.324">Added%20CTO, Uploaded to Fixture Share.</Info>
+        </InfoItems>
+        <short_name>GS-PAR19</short_name>
+        <manufacturer>GSARC</manufacturer>
+        <short_manufacturer>GSARC</short_manufacturer>
+        <Modules>
+            <Module name="Body" class="None" beamtype="None" beam_intensity="" index="0" beam_angle="">
+                <Model name="Body" sunshadeType="ExcludeOwnBeam" vertices_have_pos="true" vertices_have_tex0="true" model_type="Model" axis_to_parent="None">
+                    <Vertices>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</Vertices>
+                    <Faces>HAgAAAAAAQACAAkAAAAIAAEAAAAJAAIACAAAADQAAQAJADQANQABADUAAgABADUAzQACAM0ACAACADQAIQA1ACEAzQA1ACEAzgDNAM4ACADNACEAIgAjACIAIQA0ACMAzgAhACMAzADOAMwACADOACMALwAFACMAIgAvAAUAzAAjAMwABQAEAAQACADMAAMABAAFAAUALAADADAABQAvADAALAAFANIALwDVAC8A0gAwACIA1QAvADEALAAwADAA1AAxADAA0gDUANIA0wDUANUA0wDSANUAzwDTANYAzwDVACIA1gDVADIA0wDPADEA0wAyADEA1ADTADIALAAxADIAMwAsADYAMwAyADIAzwA2AM8A0ADRANAAzwDWANEANgDPADgA1gAiADgA0ADWACIANAA4ADgAMwA3ADgANAAzADcA0AA4ADcA0QDQADYA0QA3ADcAMwA2ACwAMwAtAEYAMwBxAGcAMwBGAGgAMwBnAGgALQAzADMAegBxAEAAMwA0AEIAMwBAAHoAMwBCAGYAZwBVAGYAaABnAGcARgBVAGYAVQBjAGkAaABmAGIAZgBjAGYAZABpAGYAYgBkAEYAVABVAFUAYgBjAFQAYgBVAFIAYgBUAFIAZABiAEUAVABGABwAVABFABwAUgBUAEUARgBHAEYAcQBHABwARQA7AHkARQBHAEUAewA7AEUAeQB7AHEAeQBHAHkAcQB6AEIAeQB6AEIAewB5AEIAPAB7ADsAewA8ADsAHgAcADwAHgA7ADkAHgA8AEIAOQA8AEAAQQBCAEEAOQBCAB4AOQA6AD8AOgA5ADkAPQA/AD0AOQBBAEMAQQBAAEMAPQBBAEAASABDADQASABAAD4APQBDAEgAPgBDAD0APgA/AD8APgA6AD4AHgA6AEQAHgA+AEQAPgBIAEQASABTAEgAbQBTADQAbQBIAB4ARABRAF4ARABTAF4AUQBEAF4AUwBfAFMAbABfAG0AbABTAG4AbABtADQAbgBtAG4AbwBsAHAAbwBuAG4AcgBwAG4ALgByAG4ANAAuAHAAawBvAGsAbABvAE4AawBwAHAAcgBOAGsATgBdAF0AbABrAE0ATgBPAE0AUABOAE4AXABdAFAAXABOAE4AcgBPAFwAbABdAFAAWwBcAFsAbABcAE0AUQBQAFsAUABRAFsAUQBeAF4AbABbAGwAXgBfAB4AUQBNABAAHgAOAB8AHgAQACAAHgAfACAAHAAeAB4AWgAOAB4ATQBaAB8AwAAgAB8AvADAABAAvAAfAAsAHAAgACAAvwALACAAwAC/ALwAvwDAALwAEAC9AL0AvwC8AAsAvwC+AL8AwQC+AMIAvwC9AMMAvwDCAMEAvwDDAA0AvQAQAA0AwgC9ABgAwgANABgAwwDCABkAwwAYABkAwQDDAMEAGwC+ABsAwQAZAAsAvgAbABoAGwAZAAwAGwAaAAwACwAbABUAGQAYABcAGQAVABoAGQAXABUAGAANABIAFQATABYAFQASABcAFQAWABUADQAPABUAVwATABUAWABXAA8AWAAVABEAEgATABMAVgARABMAVwBWAFcAhwBWAFcAiACHAFgAiABXAA8AWQBYAFgAiQCIAFkAiQBYAIgAjgCHAIgAjwCOAIkAjwCIAFYAhwCGAIcAjQCGAIcAjgCNAI4ApwCNAI4AqACnAI8AqACOAIkAkACPAI8AqQCoAJAAqQCPAKgAsACnAKgAsQCwAKgAsgCxAKkAsgCoAJAApQCpAKUAsgCpAIoAkACJAIoAkQCQAJEApQCQAJIApQCRAKUAkgCrAKUAswCyAKsAswClALMAsQCyALEAswCwAKsAtACzAKwAswC0AK0AswCsALYAswCtALcAswC2ALgAswC3ALkAswC4ALoAswC5ALsAswC6ALUAswC7AK8AswC1AK4AswCvALAAswCuAKQAuwC6AJwAuwCkAJwAtQC7ALUAnQCvAJ0AtQCcAJ0ArgCvAKYArgCdAKcArgCmAKcAsACuAJwAjACdAIwApgCdAJsAnACkAIwAnACbAIwAhgCNAH4AjACbAIYAjAB+AI0ApgCMAI0ApwCmAH4AcwBLAH8AcwB+AEoAfgBLAEoAhgB+AH4AmwB/AH8AmwCaAJsApACaAIAAcwB/AH8AmgCAAIAAmgCZAJoAowCZAJoApACjAKQAugCjAJkAowCiAKMAuQCiAKMAugC5AIEAmQCYAIAAmQCBAJkAogCYAIAAdABzAIEAdACAAIEAdQB0AIEAdgB1AIIAdgCBAIEAmACCAIIAmACXAJgAoQCXAJgAogChAIIAdwB2AIMAdwCCAIIAlwCDAIMAlwCWAJcAoACWAJcAoQCgAKEAtwCgAKEAuAC3AKIAuAChAJYAoACfAKAAtgCfAKAAtwC2AJUAnwCeAJYAnwCVAJ8AtgCeAJ4AtgCtAJUAngCUAKoAlACeAKwAngCtAJ4ArACqAHwAlQCUAIQAlQB8AIQAlgCVAH0AlACTAHwAlAB9AKoAkwCUAE8AfAB9AIUATwB9AH0AkwCFAIUAkwCSAKoAkgCTAE0AhQCLAE8AhQBNAIUAkgCLAHIAfABPAHIALgB4AHgAfAByAC4AKgApADQAKgAuAHgALgApACkAJwAoACkAKgAnAHcAKQAoAHgAKQB3ACQAJwAlACgAJwAkACoA2AAnANgAJQAnAHYAKAAkAHcAKAB2AIMAeAB3AIQAeACDAIMAlgCEAHwAeACEAHYAJgB1AHYAJAAmACQAJQAmACUAKwAmAHUAJgArAHUAKwB0ACwAKwAlACwALQArAHQAKwAtAHQALQBzAHMALQBoAHMASQBLAHMAagBJAHMAaABqAGkAagBoAGUAagBpAGUASQBqAGkAZABlAEkAZQBhAGUAZABhAEwAZABSAEwAYABkAGEAZABgAGAASQBhAEkAYABMAEwASgBJAFIASgBMABwASgBSAEkASgBLABwAVgBKAFYAhgBKABEAVgAcABwAFAARABwAHQAUABwACgAdAAsACgAcABEAFAASAB0AxgAUAMUAFADGABQAxQASAB0AxADGAAoAxAAdAAoACwAMAAoAyADEAAwAyAAKAAwAxwDIABoAxwAMAMcAxADIAMkAxADHAMcAGgDJABcAyQAaAMoAxADJABcAygDJABYAygAXAMsAxADKABYAywDKABIAywAWAMUAxADLABIAxQDLAMQAxQDGAAcALAAqAAMALAAHANoALAAlACwA2gDXANcAKgAsAAMABgAEAAcABgADAAcACAAGAAgABAAGAAkACAAHAAcAKgAJADQACQAqANgAKgDZACoA1wDZANcA2ADZANgA1wDaACUA2ADaAFoAiwCKAE0AiwBaAIsAkQCKAIsAkgCRAA4AWgBZAFoAigBZAFkAigCJAA4AWQAPAA0ADgAPABAADgANAKsAkgCqAKsArAC0AKoArACrAKIAuQC4ANsA3ADdANwA2wDvAAkB2wDdANsACQEKAQsB2wAKAfoA2wALAfoA7wDbAPkA3QDcAPsA3QD5APsACQHdAAgBCQH7AAgBBAEJAQQBCgEJAQsBCgEMAQoBBAEMAQMBBAEFAQMBBgEEAQQBCAEFAQwBBAEGAQgB+gALAfoACAH7AAsBBQEIAfkA+gD7APkA/AD6AP0A/AD5ANwA/QD5AP0A/gD8AO8A+gD8AO0A/AD+APwA7QDvAPgA/gD9APgA/wD+AP4A4ADtAP8A4AD+AOwA7QDrAO4A7QDsAO4A7wDtAOwA6wDfAOwAQAHwAEQB7ADhAEAB7ABEAd8A6wDgAN4A3wDgAN4A4QDfAN4A4gDhAEMB4QDiAEQB4QBDAUQBSwFAAUQBTAFLAUMBTAFEAUMB4gBBAUMBTQFMAUEBTQFDAeMA4gDeAOMA5ADiAEEB4gDkAEEB5ABCAUEBTgFNAUIBTgFBAVEBTQFOAVMBTQFRAVMBTAFNAUIBTwFOAVEBTgFSAU8BUgFOAUYBTwFCAeQARgFCAUYBRQFPAU8BXwFSAU8BXgFfAUUBXgFPAUUBRgFHAUYB6gBHAecARgHkAOoARgHnAEcBSAFFAUkBSAFHAUcB8QBJAUcB6gDxAOkA6gDnAOoA7wDxAOkA7wDqAPEA7wDwAEkB8QDwAEkBSgFIAUABSgFJAUkB8ABAAUgBXQFFAUoBXQFIAUABSwFKAUsBUAFKAV0BSgFQAVUBXQFQAVwBXQFVAVwBXgFdAUUBXQFeAVABSwFUAVQBVQFQAVQBSwFMAVQBTAFTAVkBVAFTAVUBVAFZAVgBVQFZAVUBWAFcAVwBWAFbAVsBXgFcAVsBXwFeAVsBWAFaAVoBXwFbAVoBUgFfAVoBWAFXAVIBWgFXAVYBUgFXAVYBUQFSAVcBWAFWAVgBUQFWAVgBUwFRAVkBUwFYAfAA7wDuANwA7wDpAOkA/QDcAOkA5wDoAOgA/QDpAP0A6AD4AOgA5wDmAPgA6ADmAOYA5wDkAOYA5ADlAOUA8gDmAPgA5gDyAOUA5ADjAPIA5QDzAOMA8wDlAPMA+ADyAPgA8wABAfMA4wABAfgAAAH/APgAAQEAAQEB4wAAAQAB4wDeAAAB4AD/AAAB3gDgAA0BBQELAQ0BAwEFAQsBDAENAQ4BAwENAQwBDgENAQIBBgEDAQ4BAgEDAQ8BAgEOAQ4BDAESARQBDgESARQBDwEOARABAgEPARcBDwEUARcBEAEPARIBEwEUARMBFwEUARIBFQETAQwBFQESARgBFwETASEBEwEVASMBEwEhASMBGgETARgBGQEXARkBEAEXARoBGQEYARsBGQEaASQBGgEjASQBGwEaASUBJAEjASMBJgElASEBJgEjASABGwEkASQBLwEgASQBJQEvARsBHAEZAR0BHAEbARsBIAEdASABLgEtASABLwEuASABHgEdAS0BHgEgAS8BMgEuAS8BMwEyASUBMwEvAS0BLgEsAT0BLgEyAT0BLAEuAS0BLAErASsBHgEtASsBLAEqAT4BLAE9ASwBPgEqATUBPQEyATwBPQE1ATwBPgE9ATMBNQEyATUBMwE5ATgBNQE5ATUBOAE8ATwBOAE7ATsBPgE8ATsBPwE+ASoBPgE/ATsBOAE6AToBPwE7AToBMQE/ASgBPwExASoBPwEoAToBOAE3ATEBOgE3ATABJwExATYBMQE3ATYBMAExASgBMQEnASIBKAEnASkBKAEiASkBKgEoASEBJwEmASIBJwEhAScBMAEmASEBFQEiASIBFgEpARYBIgEVASsBKgEpASkBHwErASkBFgEfAQwBFgEVAQwBHwEWAR8BBgEeAQwBBgEfASsBHwEeAQIBBwEGAR4BBgEHAR4B9QAdAR4BBwH1AAIB9QAHAfUAAgH2AAIB9AD2ABEBAgEQAfQAAgERAfQA9QD2APUA9AD3AB0B9QD3AB0B9wAcAfQAHAH3ABwB9AARARkBEQEQARwBEQEZASYBNAElASYBMAE0ASUBNAEzATgBNAEwATkBNAE4ATkBMwE0ATgBMAE2ATcBOAE2AQ==</Faces>
+                    <SubSets>
+                        <SubSet3d material_index="0" FaceStart="0" FacesCount="692"/>
+                    </SubSets>
+                    <Materials>
+                        <Material3d name="black" specularPower="0.1">
+                            <DiffuseColor r="0.157" g="0.157" b="0.157" a="1"/>
+                            <SpecularColor r="0.898" g="0.898" b="0.898" a="0"/>
+                            <EmissiveColor r="0" g="0" b="0" a="1"/>
+                            <DiffuseInking x="0" y="0" z="0"/>
+                            <EmissiveInking x="0" y="0" z="0"/>
+                            <SurfaceTexture/>
+                            <AlphaTexture/>
+                        </Material3d>
+                    </Materials>
+                    <Offset>
+                        <Location x="0.000000" y="0.000000" z="0.000000"/>
+                        <Rotation x="0.000000" y="-0.000000" z="0.000000"/>
+                        <Scaling x="1" y="1" z="1"/>
+                    </Offset>
+                </Model>
+                <ChannelType coarse="13" default="0" attribute="COLORMACROS" feature="Color" preset="Color">
+                    <ChannelFunction subattribute="COLORMACROS" attribute="COLORMACROS" feature="Color" preset="Color" from="0" to="100" physfrom="0" physto="1" min_dmx_24="0" max_dmx_24="16777215">
+                        <ChannelSet name="No function" from_dmx="0" to_dmx="7"/>
+                        <ChannelSet name="Red to Yellow" from_dmx="8" to_dmx="39"/>
+                        <ChannelSet name="Yellow to Green" from_dmx="40" to_dmx="71"/>
+                        <ChannelSet name="Green to Cyan" from_dmx="72" to_dmx="103"/>
+                        <ChannelSet name="Cyan to Blue" from_dmx="104" to_dmx="135"/>
+                        <ChannelSet name="Blue to Magenta" from_dmx="136" to_dmx="167"/>
+                        <ChannelSet name="Magenta to Red" from_dmx="168" to_dmx="199"/>
+                        <ChannelSet name="Red to White" from_dmx="200" to_dmx="231"/>
+                        <ChannelSet name="Color Rainbow" from_dmx="232" to_dmx="255"/>
+                    </ChannelFunction>
+                </ChannelType>
+                <ChannelType coarse="14" default="0" attribute="CTO" feature="CTC" preset="COLOR">
+                    <ChannelFunction subattribute="CTO" attribute="CTO" feature="CTC" preset="COLOR" from="0" to="100" physfrom="2700" physto="8000" min_dmx_24="0" max_dmx_24="16777215">
+                        <ChannelSet name="2700k" from_dmx="1" to_dmx="1" slot_from="2700" slot_to="2700"/>
+                        <ChannelSet name="8000k" from_dmx="255" to_dmx="255" slot_from="8000" slot_to="8000"/>
+                    </ChannelFunction>
+                </ChannelType>
+                <ChannelType coarse="15" default="0" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" highlight_value="11.76470588235294">
+                    <ChannelFunction subattribute="SHUTTER" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" from="0" to="12.16" physfrom="1" physto="1" min_dmx_24="0" max_dmx_24="2039583">
+                        <ChannelSet name="Open" from_dmx="0" to_dmx="31"/>
+                    </ChannelFunction>
+                    <ChannelFunction subattribute="STROBE" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" from="12.16" to="49.8" physfrom="1" physto="25" min_dmx_24="2105376" max_dmx_24="8355711">
+                        <ChannelSet name="Min Strobe" from_dmx="32" to_dmx="32"/>
+                        <ChannelSet name="Max Strobe" from_dmx="127" to_dmx="127"/>
+                    </ChannelFunction>
+                    <ChannelFunction subattribute="STROBE_RANDOM" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" from="49.8" to="74.51" physfrom="1" physto="25" min_dmx_24="8421504" max_dmx_24="12500670">
+                        <ChannelSet name="Min Random" from_dmx="128" to_dmx="128"/>
+                        <ChannelSet name="Max Random" from_dmx="190" to_dmx="190"/>
+                    </ChannelFunction>
+                    <ChannelFunction subattribute="StrobeModePulseOpen" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" from="74.51" to="100" physfrom="1" physto="25" min_dmx_24="12566463" max_dmx_24="16777215">
+                        <ChannelSet name="Min Pulse" from_dmx="191" to_dmx="191"/>
+                        <ChannelSet name="Max Pulse" from_dmx="255" to_dmx="255"/>
+                    </ChannelFunction>
+                </ChannelType>
+                <ChannelType coarse="16" default="0" react_to_master="1" attribute="DIM" feature="DIMMER" preset="DIMMER" highlight_value="100">
+                    <ChannelFunction subattribute="DIM" attribute="DIM" feature="DIMMER" preset="DIMMER" from="0" to="100" physfrom="0" physto="1" min_dmx_24="0" max_dmx_24="16777215">
+                        <ChannelSet name="Closed" from_dmx="0" to_dmx="0"/>
+                        <ChannelSet name="Open" from_dmx="255" to_dmx="255"/>
+                    </ChannelFunction>
+                </ChannelType>
+                <ChannelType coarse="17" default="0" attribute="DIMMERCURVE" feature="DIMMER" preset="DIMMER">
+                    <ChannelFunction subattribute="DIMMERCURVE" attribute="DIMMERCURVE" feature="DIMMER" preset="DIMMER" from="0" to="100" physfrom="0" physto="1" min_dmx_24="0" max_dmx_24="16777215">
+                        <ChannelSet name="Standard " from_dmx="0" to_dmx="20"/>
+                        <ChannelSet name="Stage" from_dmx="21" to_dmx="40"/>
+                        <ChannelSet name="TV " from_dmx="41" to_dmx="60"/>
+                        <ChannelSet name="Architectural " from_dmx="61" to_dmx="80"/>
+                        <ChannelSet name="Theatre " from_dmx="81" to_dmx="100"/>
+                        <ChannelSet name="Default to Unit Setting" from_dmx="101" to_dmx="255"/>
+                    </ChannelFunction>
+                </ChannelType>
+                <ChannelType coarse="18" default="0" attribute="CONTROL" feature="Control" preset="Control">
+                    <ChannelFunction subattribute="CONTROL" attribute="CONTROL" feature="Control" preset="Control" from="0" to="20" physfrom="0" physto="1" min_dmx_24="0" max_dmx_24="3355443">
+                        <ChannelSet name="Normal " from_dmx="0" to_dmx="51"/>
+                    </ChannelFunction>
+                    <ChannelFunction subattribute="FIXTUREDISPLAY" attribute="CONTROL" feature="Control" preset="Control" from="20" to="28.24" physfrom="0" physto="1" min_dmx_24="3421236" max_dmx_24="4737096">
+                        <ChannelSet name="Display off " from_dmx="52" to_dmx="54"/>
+                        <ChannelSet name="Display on" from_dmx="55" to_dmx="57"/>
+                    </ChannelFunction>
+                    <ChannelFunction subattribute="MACROSELECT" attribute="CONTROL" feature="Control" preset="Control" from="28.24" to="38.82" physfrom="0" physto="1" min_dmx_24="4802889" max_dmx_24="6513507">
+                        <ChannelSet name="Gamma=2`0" from_dmx="73" to_dmx="75"/>
+                        <ChannelSet name="Gamma=2`2" from_dmx="76" to_dmx="78"/>
+                        <ChannelSet name="Gamma=2`4" from_dmx="79" to_dmx="81"/>
+                        <ChannelSet name="Gamma=2`6" from_dmx="82" to_dmx="84"/>
+                        <ChannelSet name="Gamma=2`8" from_dmx="85" to_dmx="87"/>
+                    </ChannelFunction>
+                    <ChannelFunction subattribute="MACROSELECT" attribute="CONTROL" feature="Control" preset="Control" from="38.82" to="100" physfrom="0" physto="1" min_dmx_24="6579300" max_dmx_24="16777215">
+                        <ChannelSet name="Internal program 1" from_dmx="100" to_dmx="119"/>
+                        <ChannelSet name="Internal program 2" from_dmx="120" to_dmx="139"/>
+                        <ChannelSet name="Internal program 3" from_dmx="140" to_dmx="159"/>
+                        <ChannelSet name="Internal program 4" from_dmx="160" to_dmx="179"/>
+                        <ChannelSet name="Internal program 5" from_dmx="180" to_dmx="199"/>
+                        <ChannelSet name="Internal program 6" from_dmx="200" to_dmx="219"/>
+                        <ChannelSet name="Internal program 7" from_dmx="220" to_dmx="239"/>
+                    </ChannelFunction>
+                </ChannelType>
+            </Module>
+            <Module name="Zone 1" class="None" beamtype="None" beam_intensity="" index="1" beam_angle="">
+                <Model/>
+                <ChannelType default="4294967295" react_to_master="1" attribute="DIM" feature="DIMMER" preset="DIMMER" highlight_value="100">
+                    <ChannelFunction subattribute="DIM" attribute="DIM" feature="DIMMER" preset="DIMMER" from="0" to="100" physfrom="0" physto="1" min_dmx_24="0" max_dmx_24="16777216">
+                        <ChannelSet name="Closed" from_dmx="0" to_dmx="256"/>
+                        <ChannelSet name="Open" from_dmx="16777216" to_dmx="16777216"/>
+                    </ChannelFunction>
+                </ChannelType>
+                <ChannelType coarse="1" default="255" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" highlight_value="100">
+                    <ChannelFunction subattribute="COLORRGB1" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" from="0" to="100" physfrom="0" physto="1" min_dmx_24="0" max_dmx_24="16777215">
+                        <ChannelSet name="Min" from_dmx="0" to_dmx="0"/>
+                        <ChannelSet name="Max" from_dmx="255" to_dmx="255"/>
+                    </ChannelFunction>
+                </ChannelType>
+                <ChannelType coarse="2" default="255" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" highlight_value="100">
+                    <ChannelFunction subattribute="COLORRGB2" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" from="0" to="100" physfrom="0" physto="1" min_dmx_24="0" max_dmx_24="16777215">
+                        <ChannelSet name="Min" from_dmx="0" to_dmx="0"/>
+                        <ChannelSet name="Max" from_dmx="255" to_dmx="255"/>
+                    </ChannelFunction>
+                </ChannelType>
+                <ChannelType coarse="3" default="255" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" highlight_value="100">
+                    <ChannelFunction subattribute="COLORRGB3" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" from="0" to="100" physfrom="0" physto="1" min_dmx_24="0" max_dmx_24="16777215">
+                        <ChannelSet name="Min" from_dmx="0" to_dmx="0"/>
+                        <ChannelSet name="Max" from_dmx="255" to_dmx="255"/>
+                    </ChannelFunction>
+                </ChannelType>
+                <ChannelType coarse="4" default="255" attribute="COLORRGB5" feature="COLORRGB" preset="COLOR" highlight_value="100">
+                    <ChannelFunction subattribute="COLORRGB5" attribute="COLORRGB5" feature="COLORRGB" preset="COLOR" from="0" to="100" physfrom="0" physto="1" min_dmx_24="0" max_dmx_24="16777215">
+                        <ChannelSet name="Min" from_dmx="0" to_dmx="0"/>
+                        <ChannelSet name="Max" from_dmx="255" to_dmx="255"/>
+                    </ChannelFunction>
+                </ChannelType>
+            </Module>
+            <Module name="Zone 2" class="None" beamtype="None" beam_intensity="" index="2" beam_angle="">
+                <Model/>
+                <ChannelType default="4294967295" react_to_master="1" attribute="DIM" feature="DIMMER" preset="DIMMER" highlight_value="100">
+                    <ChannelFunction subattribute="DIM" attribute="DIM" feature="DIMMER" preset="DIMMER" from="0" to="100" physfrom="0" physto="1" min_dmx_24="0" max_dmx_24="16777216">
+                        <ChannelSet name="Closed" from_dmx="0" to_dmx="256"/>
+                        <ChannelSet name="Open" from_dmx="16777216" to_dmx="16777216"/>
+                    </ChannelFunction>
+                </ChannelType>
+                <ChannelType coarse="5" default="255" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" highlight_value="100">
+                    <ChannelFunction subattribute="COLORRGB1" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" from="0" to="100" physfrom="0" physto="1" min_dmx_24="0" max_dmx_24="16777215">
+                        <ChannelSet name="Min" from_dmx="0" to_dmx="0"/>
+                        <ChannelSet name="Max" from_dmx="255" to_dmx="255"/>
+                    </ChannelFunction>
+                </ChannelType>
+                <ChannelType coarse="6" default="255" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" highlight_value="100">
+                    <ChannelFunction subattribute="COLORRGB2" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" from="0" to="100" physfrom="0" physto="1" min_dmx_24="0" max_dmx_24="16777215">
+                        <ChannelSet name="Min" from_dmx="0" to_dmx="0"/>
+                        <ChannelSet name="Max" from_dmx="255" to_dmx="255"/>
+                    </ChannelFunction>
+                </ChannelType>
+                <ChannelType coarse="7" default="255" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" highlight_value="100">
+                    <ChannelFunction subattribute="COLORRGB3" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" from="0" to="100" physfrom="0" physto="1" min_dmx_24="0" max_dmx_24="16777215">
+                        <ChannelSet name="Min" from_dmx="0" to_dmx="0"/>
+                        <ChannelSet name="Max" from_dmx="255" to_dmx="255"/>
+                    </ChannelFunction>
+                </ChannelType>
+                <ChannelType coarse="8" default="255" attribute="COLORRGB5" feature="COLORRGB" preset="COLOR" highlight_value="100">
+                    <ChannelFunction subattribute="COLORRGB5" attribute="COLORRGB5" feature="COLORRGB" preset="COLOR" from="0" to="100" physfrom="0" physto="1" min_dmx_24="0" max_dmx_24="16777215">
+                        <ChannelSet name="Min" from_dmx="0" to_dmx="0"/>
+                        <ChannelSet name="Max" from_dmx="255" to_dmx="255"/>
+                    </ChannelFunction>
+                </ChannelType>
+            </Module>
+            <Module name="Zone 3" class="None" beamtype="None" beam_intensity="" index="3" beam_angle="">
+                <Model/>
+                <ChannelType default="4294967295" react_to_master="1" attribute="DIM" feature="DIMMER" preset="DIMMER" highlight_value="100">
+                    <ChannelFunction subattribute="DIM" attribute="DIM" feature="DIMMER" preset="DIMMER" from="0" to="100" physfrom="0" physto="1" min_dmx_24="0" max_dmx_24="16777216">
+                        <ChannelSet name="Closed" from_dmx="0" to_dmx="256"/>
+                        <ChannelSet name="Open" from_dmx="16777216" to_dmx="16777216"/>
+                    </ChannelFunction>
+                </ChannelType>
+                <ChannelType coarse="9" default="255" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" highlight_value="100">
+                    <ChannelFunction subattribute="COLORRGB1" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" from="0" to="100" physfrom="0" physto="1" min_dmx_24="0" max_dmx_24="16777215">
+                        <ChannelSet name="Min" from_dmx="0" to_dmx="0"/>
+                        <ChannelSet name="Max" from_dmx="255" to_dmx="255"/>
+                    </ChannelFunction>
+                </ChannelType>
+                <ChannelType coarse="10" default="255" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" highlight_value="100">
+                    <ChannelFunction subattribute="COLORRGB2" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" from="0" to="100" physfrom="0" physto="1" min_dmx_24="0" max_dmx_24="16777215">
+                        <ChannelSet name="Min" from_dmx="0" to_dmx="0"/>
+                        <ChannelSet name="Max" from_dmx="255" to_dmx="255"/>
+                    </ChannelFunction>
+                </ChannelType>
+                <ChannelType coarse="11" default="255" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" highlight_value="100">
+                    <ChannelFunction subattribute="COLORRGB3" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" from="0" to="100" physfrom="0" physto="1" min_dmx_24="0" max_dmx_24="16777215">
+                        <ChannelSet name="Min" from_dmx="0" to_dmx="0"/>
+                        <ChannelSet name="Max" from_dmx="255" to_dmx="255"/>
+                    </ChannelFunction>
+                </ChannelType>
+                <ChannelType coarse="12" default="255" attribute="COLORRGB5" feature="COLORRGB" preset="COLOR" highlight_value="100">
+                    <ChannelFunction subattribute="COLORRGB5" attribute="COLORRGB5" feature="COLORRGB" preset="COLOR" from="0" to="100" physfrom="0" physto="1" min_dmx_24="0" max_dmx_24="16777215">
+                        <ChannelSet name="Min" from_dmx="0" to_dmx="0"/>
+                        <ChannelSet name="Max" from_dmx="255" to_dmx="255"/>
+                    </ChannelFunction>
+                </ChannelType>
+            </Module>
+        </Modules>
+        <Instances>
+            <Instance module_index="0" patch="1" locked="true"/>
+            <Instance module_index="1" patch="1" locked="true"/>
+            <Instance module_index="2" patch="1" locked="true"/>
+            <Instance module_index="3" patch="1" locked="true"/>
+        </Instances>
+        <Wheels/>
+        <RDMKey ESTAId="18259" DeviceModelId="17346"/>
+    </FixtureType>
+</MA>

@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA major_vers="3" minor_vers="0" stream_vers="0">
+	<FixtureType name="FINE 470BEAM OD" mode="16bit" scale="1.000">
+		<short_name>FINE 470BEAM OD</short_name>
+		<manufacturer>Fineart</manufacturer>
+		<short_manufacturer>Fineart</short_manufacturer>
+		<Modules>
+			<![CDATA[Module 1]]>
+			<Module class="None" beamtype="Wash" scale="1.000" beam_angle="35.000" beam_intensity="10000.000">
+				<![CDATA[1]]>
+				<ChannelType attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" coarse="1" default="255.000" highlight_value="100.000" invert="1">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[2]]>
+				<ChannelType attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" coarse="2" default="255.000" highlight_value="100.000" invert="1">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[3]]>
+				<ChannelType attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" coarse="3" default="255.000" highlight_value="100.000" invert="1">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[4]]>
+				<ChannelType attribute="COLOR1" feature="COLOR1" preset="COLOR" coarse="4" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[5]]>
+				<ChannelType attribute="SHUTTER" feature="STROBE" preset="BEAM" coarse="5" default="255.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[6]]>
+				<ChannelType attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="6" fine="7" default="0.000" highlight_value="100.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="65535" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[7]]>
+				<ChannelType attribute="GOBO1" feature="GOBO1" preset="GOBO" coarse="8" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000" wheel="1">
+						<ChannelSet name="open" from_dmx="0" to_dmx="3" slot_index="0" slot_from="0.000" auto_create="1"/>
+						<ChannelSet name="Gobo1" from_dmx="4" to_dmx="7" slot_index="1" auto_create="1"/>
+						<ChannelSet name="Gobo2" from_dmx="8" to_dmx="11" slot_index="2" auto_create="1"/>
+						<ChannelSet name="Gobo3" from_dmx="12" to_dmx="15" slot_index="3" auto_create="1"/>
+						<ChannelSet name="Gobo4" from_dmx="16" to_dmx="18" slot_index="4" auto_create="1"/>
+						<ChannelSet name="Gbo5" from_dmx="19" to_dmx="22" slot_index="5" auto_create="1"/>
+						<ChannelSet name="Gobo6" from_dmx="23" to_dmx="26" slot_index="6" auto_create="1"/>
+						<ChannelSet name="Gobo7" from_dmx="27" to_dmx="30" slot_index="7" auto_create="1"/>
+						<ChannelSet name="Gobo8" from_dmx="31" to_dmx="34" slot_index="8" auto_create="1"/>
+						<ChannelSet name="Gobo9" from_dmx="35" to_dmx="37" slot_index="9" auto_create="1"/>
+						<ChannelSet name="Gobo10" from_dmx="38" to_dmx="41" slot_index="10" auto_create="1"/>
+						<ChannelSet name="Gobo11" from_dmx="42" to_dmx="45" slot_index="11" auto_create="1"/>
+						<ChannelSet name="Gobo12" from_dmx="46" to_dmx="49" slot_index="12" auto_create="1"/>
+						<ChannelSet name="Gobo13" from_dmx="50" to_dmx="53" slot_index="13" auto_create="1"/>
+						<ChannelSet name="Gobo14" from_dmx="54" to_dmx="56" slot_index="14" auto_create="1"/>
+						<ChannelSet name="Gobo15" from_dmx="57" to_dmx="60" slot_index="15" auto_create="1"/>
+						<ChannelSet name="&lt;&lt;&lt;" from_dmx="100" to_dmx="105" auto_create="1"/>
+						<ChannelSet name="&gt;&gt;&gt;" from_dmx="125" to_dmx="130" auto_create="1"/>
+						<ChannelSet name="Gobo1*1" from_dmx="160" to_dmx="165" slot_index="1" auto_create="1"/>
+						<ChannelSet name="Gobo1*2" from_dmx="166" to_dmx="170" slot_index="2" auto_create="1"/>
+						<ChannelSet name="Gobo1*3" from_dmx="171" to_dmx="175" slot_index="3" auto_create="1"/>
+						<ChannelSet name="Gobo1*4" from_dmx="176" to_dmx="181" slot_index="4" auto_create="1"/>
+						<ChannelSet name="Gobo1*5" from_dmx="182" to_dmx="186" slot_index="5" auto_create="1"/>
+						<ChannelSet name="Gobo1*6" from_dmx="187" to_dmx="191" slot_index="6" auto_create="1"/>
+						<ChannelSet name="Gobo1*7" from_dmx="192" to_dmx="197" slot_index="7" auto_create="1"/>
+						<ChannelSet name="Gobo1*8" from_dmx="198" to_dmx="202" slot_index="8" auto_create="1"/>
+						<ChannelSet name="Gobo1*9" from_dmx="203" to_dmx="207" slot_index="9" auto_create="1"/>
+						<ChannelSet name="Gobo1*10" from_dmx="208" to_dmx="213" slot_index="10" auto_create="1"/>
+						<ChannelSet name="Gobo1*11" from_dmx="214" to_dmx="218" slot_index="11" auto_create="1"/>
+						<ChannelSet name="Gobo1*12" from_dmx="219" to_dmx="223" slot_index="12" auto_create="1"/>
+						<ChannelSet name="Gobo1*13" from_dmx="224" to_dmx="229" slot_index="13" auto_create="1"/>
+						<ChannelSet name="Gobo1*14" from_dmx="230" to_dmx="234" slot_index="14" auto_create="1"/>
+						<ChannelSet name="Gobo1*15" from_dmx="235" to_dmx="239" slot_index="15" auto_create="1"/>
+					</ChannelFunction>
+				</ChannelType>
+				<![CDATA[8]]>
+				<ChannelType attribute="GOBO2" feature="GOBO2" preset="GOBO" coarse="9" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[9]]>
+				<ChannelType attribute="GOBO2_ROT" feature="GOBO2" preset="GOBO" coarse="10" fine="11" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="65535" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[10]]>
+				<ChannelType attribute="PRISMA1" feature="PRISMA" preset="BEAM" coarse="12" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[11]]>
+				<ChannelType attribute="PRISMA1_ROT" feature="PRISMA" preset="BEAM" coarse="13" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[12]]>
+				<ChannelType attribute="FROST" feature="FOCUS" preset="FOCUS" coarse="14" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[13]]>
+				<ChannelType attribute="FOCUS" feature="FOCUS" preset="FOCUS" coarse="15" fine="16" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="65535" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[14]]>
+				<ChannelType attribute="PAN" feature="POSITION" preset="POSITION" coarse="17" fine="18" default="32767.750">
+					<ChannelFunction from="270.000" to="-270.000" min_dmx="0" max_dmx="65535" physfrom="270.000" physto="270.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[15]]>
+				<ChannelType attribute="TILT" feature="POSITION" preset="POSITION" coarse="19" fine="20" default="32767.750">
+					<ChannelFunction from="135.000" to="-135.000" min_dmx="0" max_dmx="65535" physfrom="135.000" physto="-135.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[16]]>
+				<ChannelType attribute="CONTROL" feature="CONTROL" preset="CONTROL" coarse="21" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[17]]>
+				<ChannelType attribute="FIXTUREGLOBALRESET" feature="RESET" preset="CONTROL" coarse="22" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="Reset" from_dmx="26" to_dmx="76" auto_create="1"/>
+						<ChannelSet name="pan Tilt Reset" from_dmx="77" to_dmx="127" auto_create="1"/>
+						<ChannelSet name="Fixture Rsest" from_dmx="128" to_dmx="255" auto_create="1"/>
+					</ChannelFunction>
+				</ChannelType>
+				<![CDATA[18]]>
+				<ChannelType attribute="LAMPCONTROL" feature="LAMP" preset="CONTROL" coarse="23" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="LAMP OFF" from_dmx="26" to_dmx="100" auto_create="1"/>
+						<ChannelSet name="gong lv jian ban" from_dmx="101" to_dmx="179" auto_create="1"/>
+						<ChannelSet name="LAMP ON" from_dmx="180" to_dmx="255" auto_create="1"/>
+					</ChannelFunction>
+				</ChannelType>
+				<![CDATA[19]]>
+				<ChannelType attribute="EFFECTMACROS" feature="EFFECTMACROS" preset="BEAM" coarse="24" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[20]]>
+				<ChannelType attribute="SPEED1" feature="SPEED" preset="CONTROL" coarse="25" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[21]]>
+				<ChannelType attribute="SPEED2" feature="SPEED" preset="CONTROL" coarse="26" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[22]]>
+				<ChannelType attribute="SPEED3" feature="SPEED" preset="CONTROL" coarse="27" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[23]]>
+				<ChannelType attribute="SPEED4" feature="SPEED" preset="CONTROL" coarse="28" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<Body>
+					<Size x="1.000" y="1.000" z="1.000"/>
+					<Center x="0.000" y="0.000" z="0.000"/>
+					<Light x="0.000" y="0.000" z="0.000"/>
+				</Body>
+			</Module>
+		</Modules>
+		<Instances>
+			<![CDATA[Instance 1]]>
+			<Instance patch="1" X="0.000" Y="0.000" locked="true"/>
+		</Instances>
+		<Wheels>
+			<![CDATA[Wheel 1]]>
+			<Wheel attribute="GOBO1" feature="GOBO1" preset="GOBO">
+				<![CDATA[Slot 1]]>
+				<Slot media_name="ope" media_filename="Fineart/0071.jpg"/>
+				<![CDATA[Slot 2]]>
+				<Slot media_name="Gobo1" media_filename="Fineart/10001.jpg"/>
+				<![CDATA[Slot 3]]>
+				<Slot media_name="Gobo2" media_filename="Clay Paky/085801-001.bmp"/>
+				<![CDATA[Slot 4]]>
+				<Slot media_name="Gobo3" media_filename="Clay Paky/085802-001.bmp"/>
+				<![CDATA[Slot 5]]>
+				<Slot media_name="Gobo4" media_filename="Clay Paky/085803-001.bmp"/>
+				<![CDATA[Slot 6]]>
+				<Slot media_name="Gobo5" media_filename="Clay Paky/085805-001.bmp"/>
+				<![CDATA[Slot 7]]>
+				<Slot media_name="Gobo6" media_filename="Fineart/00592021.png"/>
+				<![CDATA[Slot 8]]>
+				<Slot media_name="Gobo7" media_filename="Fineart/267.jpg"/>
+				<![CDATA[Slot 9]]>
+				<Slot media_name="Gobo8" media_filename="Fineart/47010.jpg"/>
+				<![CDATA[Slot 10]]>
+				<Slot media_name="Gobo9" media_filename="Fineart/00592025.png"/>
+				<![CDATA[Slot 11]]>
+				<Slot media_name="Gobo10" media_filename="Fineart/265.jpg"/>
+				<![CDATA[Slot 12]]>
+				<Slot media_name="Gobo11" media_filename="Fineart/237.jpg"/>
+				<![CDATA[Slot 13]]>
+				<Slot media_name="Gobo12" media_filename="carallon/gobos/clay_paky/00592037.png"/>
+				<![CDATA[Slot 14]]>
+				<Slot media_name="Gobo13" media_filename="Fineart/007902061.png"/>
+				<![CDATA[Slot 15]]>
+				<Slot media_name="Gobo14" media_filename="Fineart/355.jpg"/>
+				<![CDATA[Slot 16]]>
+				<Slot media_name="Gobo15" media_filename="Fineart/00592031.png"/>
+			</Wheel>
+			<![CDATA[Wheel 2]]>
+			<Wheel attribute="GOBO2" feature="GOBO2" preset="GOBO"/>
+			<![CDATA[Wheel 3]]>
+			<Wheel attribute="COLOR1" feature="COLOR1" preset="COLOR"/>
+		</Wheels>
+		<QFuncs/>
+	</FixtureType>
+</MA>

@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.2.2/MA.xsd" major_vers="3" minor_vers="2" stream_vers="2">
+	<Info datetime="2024-01-18T13:35:34" showfile="oooo" />
+	<FixtureType index="488" name="97ch" mode="97ch">
+		<short_name>97ch</short_name>
+		<manufacturer>97ch</manufacturer>
+		<short_manufacturer>97ch</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="None" beamtype="Wash" beam_angle="35" beam_intensity="10000">
+				<ChannelType index="0" attribute="TILT" feature="POSITION" preset="POSITION" coarse="1" fine="2" default="32767.5">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="-90" physto="90" subattribute="TILT" subattribute_user_name="Tilt" attribute="TILT" attribute_user_name="Tilt" feature="POSITION" feature_user_name="Position" preset="POSITION" preset_user_name="Position" />
+				</ChannelType>
+				<ChannelType index="1" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="3" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+				<ChannelType index="2" attribute="DIM4" feature="DIMMER" preset="DIMMER" coarse="4" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM4" subattribute_user_name="Dim4" attribute="DIM4" attribute_user_name="BG Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+				<ChannelType index="3" attribute="3535DIM" feature="DIMMER" preset="DIMMER" coarse="5">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="3535DIM" subattribute_user_name="Dim3535" attribute="3535DIM" attribute_user_name="Dim3535" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+				<ChannelType index="4" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" coarse="6">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="1" subattribute="SHUTTER" subattribute_user_name="Shutter" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam" />
+				</ChannelType>
+				<ChannelType index="5" attribute="SHUTTER3" feature="SHUTTER" preset="BEAM" coarse="7">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="1" subattribute="SHUTTER3" subattribute_user_name="Shutter3" attribute="SHUTTER3" attribute_user_name="BG Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam" />
+				</ChannelType>
+				<ChannelType index="6" attribute="STROBEDURATION" feature="SHUTTER" preset="BEAM" coarse="8">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="STROBEDURATION" subattribute_user_name="Duration" attribute="STROBEDURATION" attribute_user_name="StrobeDuration" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam" />
+				</ChannelType>
+				<ChannelType index="7" attribute="STROBEEFFECTRATE" feature="SHUTTER" preset="BEAM" coarse="9">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="STROBEEFFECTRATE" subattribute_user_name="StrobeEffectRate" attribute="STROBEEFFECTRATE" attribute_user_name="StrobeEffectRate" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam" />
+				</ChannelType>
+				<ChannelType index="8" attribute="EFFECTWHEEL" feature="EFFECT" preset="BEAM" coarse="80">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="EFFECTWHEELSELECT" subattribute_user_name="Select" attribute="EFFECTWHEEL" attribute_user_name="E" feature="EFFECT" feature_user_name="Effect" preset="BEAM" preset_user_name="Beam" />
+				</ChannelType>
+				<ChannelType index="9" attribute="COLOR1" feature="COLOR1" preset="COLOR" coarse="81">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="COLOR1WHEELRANDOM" subattribute_user_name="Rnd" attribute="COLOR1" attribute_user_name="C1" feature="COLOR1" feature_user_name="Color1" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="10" attribute="BACKDIM" feature="COLOR1" preset="COLOR" coarse="82">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="BACKDIM" subattribute_user_name="BACKDIM" attribute="BACKDIM" attribute_user_name="BACKDIM" feature="COLOR1" feature_user_name="Color1" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="11" attribute="COLOR2" feature="COLOR2" preset="COLOR" coarse="83">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="COLOR2" subattribute_user_name="Select2" attribute="COLOR2" attribute_user_name="C2" feature="COLOR2" feature_user_name="Color2" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="12" attribute="BACKCOLOR" feature="COLOR1" preset="COLOR" coarse="84">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="BACKCOLOR" subattribute_user_name="BACKCOLOR" attribute="BACKCOLOR" attribute_user_name="BACKCOLOR" feature="COLOR1" feature_user_name="Color1" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="13" attribute="LIGHT1" feature="DIMMER" preset="DIMMER" coarse="85">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="LIGHT1" subattribute_user_name="LIGHT1" attribute="LIGHT1" attribute_user_name="LIGHT1" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+				<ChannelType index="14" attribute="LIGHT2" feature="DIMMER" preset="DIMMER" coarse="86">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="LIGHT2" subattribute_user_name="LIGHT2" attribute="LIGHT2" attribute_user_name="LIGHT2" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+				<ChannelType index="15" attribute="LIGHT3" feature="DIMMER" preset="DIMMER" coarse="87">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="LIGHT3" subattribute_user_name="LIGHT3" attribute="LIGHT3" attribute_user_name="LIGHT3" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+				<ChannelType index="16" attribute="LIGHT4" feature="DIMMER" preset="DIMMER" coarse="88">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="LIGHT4" subattribute_user_name="LIGHT4" attribute="LIGHT4" attribute_user_name="LIGHT4" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+				<ChannelType index="17" attribute="LIGHT5" feature="DIMMER" preset="DIMMER" coarse="89">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="LIGHT5" subattribute_user_name="LIGHT5" attribute="LIGHT5" attribute_user_name="LIGHT5" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+				<ChannelType index="18" attribute="LIGHT6" feature="DIMMER" preset="DIMMER" coarse="90">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="LIGHT6" subattribute_user_name="LIGHT6" attribute="LIGHT6" attribute_user_name="LIGHT6" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+				<ChannelType index="19" attribute="DIMMER1" feature="DIMMER" preset="DIMMER" coarse="91">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="DIMMER1" subattribute_user_name="DIMMER1" attribute="DIMMER1" attribute_user_name="DIMMER1" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+				<ChannelType index="20" attribute="DIMMER2" feature="DIMMER" preset="DIMMER" coarse="92">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="DIMMER2" subattribute_user_name="DIMMER2" attribute="DIMMER2" attribute_user_name="DIMMER2" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+				<ChannelType index="21" attribute="DIMMER3" feature="DIMMER" preset="DIMMER" coarse="93">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="DIMMER3" subattribute_user_name="DIMMER3" attribute="DIMMER3" attribute_user_name="DIMMER3" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+				<ChannelType index="22" attribute="DIMMER4" feature="DIMMER" preset="DIMMER" coarse="94">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="DIMMER4" subattribute_user_name="DIMMER4" attribute="DIMMER4" attribute_user_name="DIMMER4" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+				<ChannelType index="23" attribute="DIMMER5" feature="DIMMER" preset="DIMMER" coarse="95">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="DIMMER5" subattribute_user_name="DIMMER5" attribute="DIMMER5" attribute_user_name="DIMMER5" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+				<ChannelType index="24" attribute="DIMMER6" feature="DIMMER" preset="DIMMER" coarse="96">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="DIMMER6" subattribute_user_name="DIMMER6" attribute="DIMMER6" attribute_user_name="DIMMER6" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+				<ChannelType index="25" attribute="LAMPCONTROL" feature="LAMP" preset="CONTROL" coarse="97">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="LAMPOFF" subattribute_user_name="Lamp Off" attribute="LAMPCONTROL" attribute_user_name="LampControl" feature="LAMP" feature_user_name="Lamp" preset="CONTROL" preset_user_name="Control" />
+				</ChannelType>
+			</Module>
+			<Module index="1" name="rgb" class="None" beamtype="Wash" beam_angle="35" beam_intensity="10000">
+				<ChannelType index="0" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" coarse="1" highlight_value="100" color="ff0000">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB1" subattribute_user_name="R" attribute="COLORRGB1" attribute_user_name="R" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="1" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" coarse="2" highlight_value="100" color="00ff00">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB2" subattribute_user_name="G" attribute="COLORRGB2" attribute_user_name="G" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="2" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" coarse="3" highlight_value="100" color="0000ff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB3" subattribute_user_name="B" attribute="COLORRGB3" attribute_user_name="B" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" />
+			<Instance index="1" module_index="1" patch="10" />
+			<Instance index="2" module_index="1" patch="13" />
+			<Instance index="3" module_index="1" patch="16" />
+			<Instance index="4" module_index="1" patch="19" />
+			<Instance index="5" module_index="1" patch="22" />
+			<Instance index="6" module_index="1" patch="25" />
+			<Instance index="7" module_index="1" patch="28" />
+			<Instance index="8" module_index="1" patch="31" />
+			<Instance index="9" module_index="1" patch="34" />
+			<Instance index="10" module_index="1" patch="37" />
+			<Instance index="11" module_index="1" patch="40" />
+			<Instance index="12" module_index="1" patch="43" />
+			<Instance index="13" module_index="1" patch="46" />
+			<Instance index="14" module_index="1" patch="49" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<FixtureMacroCollect index="5" />
+		<Body />
+		<AutoPresets index="4" />
+		<RdmNotifications index="6">
+			<RdmNotification index="0" Type="Absent" Subcategory="RDM Warning" />
+		</RdmNotifications>
+	</FixtureType>
+</MA>

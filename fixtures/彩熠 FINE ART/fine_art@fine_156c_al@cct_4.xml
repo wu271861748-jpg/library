@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA major_vers="3" minor_vers="0" stream_vers="0">
+	<FixtureType name="FINE 156C AL" mode="CCT_4" scale="1.000">
+		<short_name>FINE 156C AL</short_name>
+		<manufacturer>FINE ART</manufacturer>
+		<short_manufacturer>FINE ART</short_manufacturer>
+		<model>b4ef151a14ed8f374e07adab29653808ef94323f#Model/Fixture/Led/FINE_1519_LED_WASH_L.pre.vlx</model>
+		<Modules>
+			<![CDATA[Module 1]]>
+			<Module class="LED" beamtype="Wash" scale="1.000" beam_angle="15.000" beam_intensity="10000.000">
+				<![CDATA[1]]>
+				<ChannelType attribute="CONTROL" feature="CONTROL" preset="CONTROL" coarse="1" default="0.000">
+					<ChannelFunction name="Function" from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="N/A" from_dmx="0" to_dmx="5" auto_create="1"/>
+						<ChannelSet name="RGBW" from_dmx="6" to_dmx="25" auto_create="1"/>
+						<ChannelSet name="Pixie" from_dmx="26" to_dmx="50" auto_create="1"/>
+						<ChannelSet name="HSI" from_dmx="51" to_dmx="75" auto_create="1"/>
+						<ChannelSet name="CMY" from_dmx="76" to_dmx="100" auto_create="1"/>
+						<ChannelSet name="CCT" from_dmx="101" to_dmx="125" auto_create="1"/>
+						<ChannelSet name="RGB" from_dmx="126" to_dmx="150" auto_create="1"/>
+						<ChannelSet name="N/A" from_dmx="151" to_dmx="255" auto_create="1"/>
+					</ChannelFunction>
+				</ChannelType>
+				<![CDATA[2]]>
+				<ChannelType attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="2" default="0.000" highlight_value="100.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[3]]>
+				<ChannelType attribute="CTO" feature="CTO" preset="COLOR" coarse="3" default="0.000" highlight_value="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[4]]>
+				<ChannelType attribute="STROBE" feature="STROBE" preset="BEAM" coarse="4" default="107.400" highlight_value="42.000">
+					<ChannelFunction from="0.000" to="1.953" min_dmx="0" max_dmx="5" physfrom="0.000" physto="0.000" physdefined="0" phystime="0.000" attribute="SHUTTER" feature="STROBE" preset="BEAM">
+						<ChannelSet name="None" from_dmx="0" to_dmx="5" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="2.344" to="41.016" min_dmx="6" max_dmx="105" physfrom="1.000" physto="13.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="Strb" from_dmx="6" to_dmx="105" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="41.406" to="42.969" min_dmx="106" max_dmx="110" physfrom="1.000" physto="1.000" physdefined="0" phystime="0.000" attribute="SHUTTER" feature="STROBE" preset="BEAM">
+						<ChannelSet name="None" from_dmx="106" to_dmx="110" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="43.359" to="69.922" min_dmx="111" max_dmx="179" physfrom="1.000" physto="13.000" physdefined="0" phystime="0.000" attribute="STROBE_PULSE" feature="STROBE" preset="BEAM">
+						<ChannelSet name="Pulse" from_dmx="111" to_dmx="179" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="70.313" to="76.172" min_dmx="180" max_dmx="195" physfrom="1.000" physto="1.000" physdefined="0" phystime="0.000" attribute="SHUTTER" feature="STROBE" preset="BEAM">
+						<ChannelSet name="None" from_dmx="180" to_dmx="195" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="76.563" to="100.000" min_dmx="196" max_dmx="255" physfrom="1.000" physto="13.000" physdefined="0" phystime="0.000" attribute="STROBE_RANDOM" feature="STROBE" preset="BEAM">
+						<ChannelSet name="Strb Rnd" from_dmx="196" to_dmx="255" auto_create="1"/>
+					</ChannelFunction>
+				</ChannelType>
+				<Body>
+					<Size x="0.498" y="0.103" z="0.208"/>
+					<Center x="0.000" y="0.000" z="0.000"/>
+					<Light x="0.000" y="0.000" z="0.000"/>
+				</Body>
+			</Module>
+		</Modules>
+		<Instances>
+			<![CDATA[Instance 1]]>
+			<Instance patch="1" X="0.000" Y="0.000" locked="true"/>
+		</Instances>
+		<Wheels/>
+		<QFuncs/>
+	</FixtureType>
+</MA>

@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.2.2/MA.xsd" major_vers="3" minor_vers="2" stream_vers="2">
+	<Info datetime="2016-11-26T15:14:15" showfile="new show 2016-10-31" />
+	<FixtureType index="56" name="DL300 Global" mode="v1.0.0 Motion">
+		<InfoItems>
+			<Info>Patch the graphic channels personality after this</Info>
+			<Info type="Revision" date="2011-07-08T00:00:00">Automated import from LDS Lighting (C-RevNum: 0; Date: 2011-07-08)</Info>
+			<Info type="Invisible" date="2011-07-08T00:00:00">generator_software_name=&quot;LDS Importer&quot;,generator_software_version=&quot;0823efff202192e18a6a2c6d511c464ae36923b6&quot;</Info>
+		</InfoItems>
+		<short_name>DL300Global</short_name>
+		<manufacturer>Jolly</manufacturer>
+		<short_manufacturer>Jolly</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" name="Main Module" class="None" beamtype="None" beam_angle="17" beam_intensity="3000">
+				<ChannelType index="0" attribute="DIMMER" feature="DIMMER" preset="DIMMER" coarse="1" default="255">
+					<ChannelFunction index="0" name="DIMMER 0..100%" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="DIMMER" subattribute_user_name="DIMMER" attribute="DIMMER" attribute_user_name="DIMMER" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+				<ChannelType index="1" attribute="UV" feature="UV" preset="SHAPERS" coarse="2">
+					<ChannelFunction index="0" name="UV" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="UV" subattribute_user_name="UV" attribute="UV" attribute_user_name="UV" feature="UV" feature_user_name="UV" preset="SHAPERS" preset_user_name="Shapers" />
+				</ChannelType>
+				<ChannelType index="2" attribute="LEFT-TOP-X" feature="KEYSTONE" preset="VIDEO" coarse="3">
+					<ChannelFunction index="0" name="Left-Top-X" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="Left-Top-X" subattribute_user_name="Left-Top-X" attribute="LEFT-TOP-X" attribute_user_name="Left-Top-X" feature="KEYSTONE" feature_user_name="Keystone" preset="VIDEO" preset_user_name="Video" />
+				</ChannelType>
+				<ChannelType index="3" attribute="LEFT-TOP-Y" feature="KEYSTONE" preset="VIDEO" coarse="4">
+					<ChannelFunction index="0" name="Left-Top-Y" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="Left-Top-Y" subattribute_user_name="Left-Top-Y" attribute="LEFT-TOP-Y" attribute_user_name="Left-Top-Y" feature="KEYSTONE" feature_user_name="Keystone" preset="VIDEO" preset_user_name="Video" />
+				</ChannelType>
+				<ChannelType index="4" attribute="RIGHT-TOP-X" feature="KEYSTONE" preset="VIDEO" coarse="5">
+					<ChannelFunction index="0" name="Right-Top-X" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="Right-Top-X" subattribute_user_name="Right-Top-X" attribute="RIGHT-TOP-X" attribute_user_name="Right-Top-X" feature="KEYSTONE" feature_user_name="Keystone" preset="VIDEO" preset_user_name="Video" />
+				</ChannelType>
+				<ChannelType index="5" attribute="RIGHT-TOP-Y" feature="KEYSTONE" preset="VIDEO" coarse="6">
+					<ChannelFunction index="0" name="Right-Top-Y" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="Right-Top-Y" subattribute_user_name="Right-Top-Y" attribute="RIGHT-TOP-Y" attribute_user_name="Right-Top-Y" feature="KEYSTONE" feature_user_name="Keystone" preset="VIDEO" preset_user_name="Video" />
+				</ChannelType>
+				<ChannelType index="6" attribute="LEFT-DOWN-X" feature="KEYSTONE" preset="VIDEO" coarse="7">
+					<ChannelFunction index="0" name="Left-Down-X" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="Left-Down-X" subattribute_user_name="Left-Down-X" attribute="LEFT-DOWN-X" attribute_user_name="Left-Down-X" feature="KEYSTONE" feature_user_name="Keystone" preset="VIDEO" preset_user_name="Video" />
+				</ChannelType>
+				<ChannelType index="7" attribute="LEFT-DOWN-Y" feature="KEYSTONE" preset="VIDEO" coarse="8">
+					<ChannelFunction index="0" name="Left-Down-Y" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="Left-Down-Y" subattribute_user_name="Left-Down-Y" attribute="LEFT-DOWN-Y" attribute_user_name="Left-Down-Y" feature="KEYSTONE" feature_user_name="Keystone" preset="VIDEO" preset_user_name="Video" />
+				</ChannelType>
+				<ChannelType index="8" attribute="RIGHT-DOWN-X" feature="KEYSTONE" preset="VIDEO" coarse="9">
+					<ChannelFunction index="0" name="Right-Down-X" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="Right-Down-X" subattribute_user_name="Right-Down-X" attribute="RIGHT-DOWN-X" attribute_user_name="Right-Down-X" feature="KEYSTONE" feature_user_name="Keystone" preset="VIDEO" preset_user_name="Video" />
+				</ChannelType>
+				<ChannelType index="9" attribute="RIGHT-DOWN-Y" feature="KEYSTONE" preset="VIDEO" coarse="10">
+					<ChannelFunction index="0" name="Right-Down-Y" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="Right-Down-Y" subattribute_user_name="Right-Down-Y" attribute="RIGHT-DOWN-Y" attribute_user_name="Right-Down-Y" feature="KEYSTONE" feature_user_name="Keystone" preset="VIDEO" preset_user_name="Video" />
+				</ChannelType>
+				<ChannelType index="10" attribute="LEFT FADE" feature="EDGE-FADE" preset="SHAPERS" coarse="11">
+					<ChannelFunction index="0" name="LEFT FADE" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="LEFT FADE" subattribute_user_name="LEFT FADE" attribute="LEFT FADE" attribute_user_name="LEFT FADE" feature="EDGE-FADE" feature_user_name="EDGE-FADE" preset="SHAPERS" preset_user_name="Shapers" />
+				</ChannelType>
+				<ChannelType index="11" attribute="TOP FADE" feature="EDGE-FADE" preset="SHAPERS" coarse="12">
+					<ChannelFunction index="0" name="TOP FADE" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="TOP FADE" subattribute_user_name="TOP FADE" attribute="TOP FADE" attribute_user_name="TOP FADE" feature="EDGE-FADE" feature_user_name="EDGE-FADE" preset="SHAPERS" preset_user_name="Shapers" />
+				</ChannelType>
+				<ChannelType index="12" attribute="RIGHT FADE" feature="EDGE-FADE" preset="SHAPERS" coarse="13">
+					<ChannelFunction index="0" name="Right FADE" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="Right FADE" subattribute_user_name="Right FADE" attribute="RIGHT FADE" attribute_user_name="Right FADE" feature="EDGE-FADE" feature_user_name="EDGE-FADE" preset="SHAPERS" preset_user_name="Shapers" />
+				</ChannelType>
+				<ChannelType index="13" attribute="BOTTOM FADE" feature="EDGE-FADE" preset="SHAPERS" coarse="14">
+					<ChannelFunction index="0" name="Bottom FADE" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="Bottom FADE" subattribute_user_name="Bottom FADE" attribute="BOTTOM FADE" attribute_user_name="Bottom FADE" feature="EDGE-FADE" feature_user_name="EDGE-FADE" preset="SHAPERS" preset_user_name="Shapers" />
+				</ChannelType>
+				<ChannelType index="14" attribute="COLOR RED" feature="COLORRGB" preset="COLOR" coarse="15">
+					<ChannelFunction index="0" name="Color Red" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="Color Red" subattribute_user_name="Color Red" attribute="COLOR RED" attribute_user_name="Color Red" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="15" attribute="COLOR GREEN" feature="COLORRGB" preset="COLOR" coarse="16">
+					<ChannelFunction index="0" name="Color Green" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="Color Green" subattribute_user_name="Color Green" attribute="COLOR GREEN" attribute_user_name="Color Green" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="16" attribute="COLOR BLUE" feature="COLORRGB" preset="COLOR" coarse="17">
+					<ChannelFunction index="0" name="Color Blue" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="Color Blue" subattribute_user_name="Color Blue" attribute="COLOR BLUE" attribute_user_name="Color Blue" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="17" attribute="MASK SELECT" feature="MASK" preset="SHAPERS" coarse="18">
+					<ChannelFunction index="0" name="Mask Select" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="Mask Select" subattribute_user_name="Mask Select" attribute="MASK SELECT" attribute_user_name="Mask Select" feature="MASK" feature_user_name="Mask" preset="SHAPERS" preset_user_name="Shapers">
+						<ChannelSet index="0" name="内圆镂空无毛边" from_dmx="1" to_dmx="1" />
+						<ChannelSet index="1" name="内圆镂空毛边1" from_dmx="2" to_dmx="2" />
+						<ChannelSet index="2" name="内圆镂空毛边2" from_dmx="3" to_dmx="3" />
+						<ChannelSet index="3" name="内圆镂空毛边3" from_dmx="4" to_dmx="4" />
+						<ChannelSet index="4" name="内圆遮挡无毛边" from_dmx="5" to_dmx="5" />
+						<ChannelSet index="5" name="内圆遮挡毛边1" from_dmx="6" to_dmx="6" />
+						<ChannelSet index="6" name="内圆遮挡毛边2" from_dmx="7" to_dmx="7" />
+						<ChannelSet index="7" name="内圆遮挡毛边3" from_dmx="8" to_dmx="8" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="18" attribute="MASK SIZE" feature="MASK" preset="SHAPERS" coarse="19">
+					<ChannelFunction index="0" name="Mask Size" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="Mask Size" subattribute_user_name="Mask Size" attribute="MASK SIZE" attribute_user_name="Mask Size" feature="MASK" feature_user_name="Mask" preset="SHAPERS" preset_user_name="Shapers" />
+				</ChannelType>
+				<ChannelType index="19" attribute="FLASH" feature="CONTROL" preset="CONTROL" coarse="20">
+					<ChannelFunction index="0" name="Flash" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="Flash" subattribute_user_name="Flash" attribute="FLASH" attribute_user_name="Flash" feature="CONTROL" feature_user_name="Control" preset="CONTROL" preset_user_name="Control" />
+				</ChannelType>
+				<ChannelType index="20" attribute="BRIGHTNESS" feature="CONTROL" preset="CONTROL" coarse="21" default="127.5">
+					<ChannelFunction index="0" name="Brightness" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="Brightness" subattribute_user_name="Brightness" attribute="BRIGHTNESS" attribute_user_name="Brightness3" feature="CONTROL" feature_user_name="Control" preset="CONTROL" preset_user_name="Control" />
+				</ChannelType>
+				<ChannelType index="21" attribute="CONTRAST" feature="CONTROL" preset="CONTROL" coarse="22" default="127.5">
+					<ChannelFunction index="0" name="Contrast" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="Contrast" subattribute_user_name="Contrast" attribute="CONTRAST" attribute_user_name="Contrast4" feature="CONTROL" feature_user_name="Control" preset="CONTROL" preset_user_name="Control" />
+				</ChannelType>
+				<ChannelType index="22" attribute="CONTROL" feature="ALLCONTROL" preset="CONTROL" coarse="23">
+					<ChannelFunction index="0" name="CONTROL" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="CONTROL" subattribute_user_name="CONTROL" attribute="CONTROL" attribute_user_name="CONTROL" feature="ALLCONTROL" feature_user_name="ALLCONTROL" preset="CONTROL" preset_user_name="Control">
+						<ChannelSet index="0" name="NULL" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="亮度0时关闭" from_dmx="101" to_dmx="105" />
+						<ChannelSet index="2" name="亮度0时重启" from_dmx="106" to_dmx="110" />
+						<ChannelSet index="3" name="显示频率" from_dmx="201" to_dmx="205" />
+						<ChannelSet index="4" name="显示渐变" from_dmx="206" to_dmx="210" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" RW="0" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<FixtureMacroCollect index="5" />
+		<Body />
+		<AutoPresets index="4" />
+		<RdmNotifications index="6">
+			<RdmNotification index="0" Type="Absent" Subcategory="RDM Warning" />
+		</RdmNotifications>
+	</FixtureType>
+</MA>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.2.2/MA.xsd" major_vers="3" minor_vers="2" stream_vers="2">
+	<Info datetime="2024-10-30T10:47:34" showfile="new show 2024-10-29" />
+	<FixtureType index="3" name="EP4-AG1261XHT" mode="HSIC">
+		<short_name>AG1261XHT</short_name>
+		<manufacturer>ARCTIK</manufacturer>
+		<short_manufacturer>ARCTIK</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="None" beamtype="Wash" beam_angle="35" beam_intensity="10000">
+				<ChannelType index="0" attribute="INTENSITYADJUST" feature="DIMMER" preset="DIMMER" coarse="1" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="INTENSITYADJUST" subattribute_user_name="Intensity" attribute="INTENSITYADJUST" attribute_user_name="Intensity" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+				<ChannelType index="1" attribute="HUEADJUST" feature="COLORALL" preset="COLOR" coarse="2" fine="3">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="HUEADJUST" subattribute_user_name="Hue" attribute="HUEADJUST" attribute_user_name="Hue" feature="COLORALL" feature_user_name="Color" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="2" attribute="SATURATION" feature="HSADJUST" preset="COLOR" coarse="4">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="SATURATION2" subattribute_user_name="Saturation2" attribute="SATURATION" attribute_user_name="Saturation" feature="HSADJUST" feature_user_name="HS Adjust" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="3" attribute="CCT" feature="CCT" preset="COLOR" coarse="5">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="CCT" subattribute_user_name="CCT" attribute="CCT" attribute_user_name="CCT" feature="CCT" feature_user_name="CCT" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="NO FUNCTION" from_dmx="0" to_dmx="9" />
+						<ChannelSet index="1" name="1800K" from_dmx="10" to_dmx="10" />
+						<ChannelSet index="2" name="2200K" from_dmx="25" to_dmx="25" />
+						<ChannelSet index="3" name="2700K" from_dmx="40" to_dmx="40" />
+						<ChannelSet index="4" name="3000K" from_dmx="55" to_dmx="55" />
+						<ChannelSet index="5" name="3200K" from_dmx="70" to_dmx="70" />
+						<ChannelSet index="6" name="4000K" from_dmx="85" to_dmx="85" />
+						<ChannelSet index="7" name="4500K" from_dmx="100" to_dmx="100" />
+						<ChannelSet index="8" name="5000K" from_dmx="115" to_dmx="115" />
+						<ChannelSet index="9" name="5600K" from_dmx="130" to_dmx="130" />
+						<ChannelSet index="10" name="6000K" from_dmx="145" to_dmx="145" />
+						<ChannelSet index="11" name="6500K" from_dmx="160" to_dmx="160" />
+						<ChannelSet index="12" name="7000K" from_dmx="175" to_dmx="175" />
+						<ChannelSet index="13" name="8000K" from_dmx="190" to_dmx="190" />
+						<ChannelSet index="14" name="10000K" from_dmx="205" to_dmx="205" />
+						<ChannelSet index="15" name="10000K" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="4" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" coarse="6">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="1" subattribute="SHUTTER" subattribute_user_name="Shutter" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="NO FUNCTION" from_dmx="0" to_dmx="9" />
+						<ChannelSet index="1" name="STROBE FROM SLOD TO FAST(0-25HZ)" from_dmx="10" to_dmx="99" />
+						<ChannelSet index="2" name="NO FUNCTION" from_dmx="100" to_dmx="109" />
+						<ChannelSet index="3" name="THUNDER STROBE" from_dmx="110" to_dmx="179" />
+						<ChannelSet index="4" name="NO FUNCTION" from_dmx="180" to_dmx="189" />
+						<ChannelSet index="5" name="RANDOM STROBE" from_dmx="190" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="5" attribute="CONTROLLER" feature="CONTROL" preset="CONTROL" coarse="7">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="CONTROLLER" subattribute_user_name="Control" attribute="CONTROLLER" attribute_user_name="Control" feature="CONTROL" feature_user_name="Control" preset="CONTROL" preset_user_name="Control">
+						<ChannelSet index="0" name="NO FUNCTION" from_dmx="0" to_dmx="10" />
+						<ChannelSet index="1" name="RESERVED" from_dmx="11" to_dmx="60" />
+						<ChannelSet index="2" name="LIVE" from_dmx="61" to_dmx="70" />
+						<ChannelSet index="3" name="STUDIO" from_dmx="71" to_dmx="80" />
+						<ChannelSet index="4" name="POWER" from_dmx="81" to_dmx="90" />
+						<ChannelSet index="5" name="RESERVED" from_dmx="91" to_dmx="100" />
+						<ChannelSet index="6" name="DIMMER OFF" from_dmx="101" to_dmx="110" />
+						<ChannelSet index="7" name="DIMMER DIM4" from_dmx="111" to_dmx="120" />
+						<ChannelSet index="8" name="RESERVED" from_dmx="121" to_dmx="200" />
+						<ChannelSet index="9" name="ALL RESET" from_dmx="201" to_dmx="210" />
+						<ChannelSet index="10" name="RESERVED" from_dmx="211" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<FixtureMacroCollect index="5" />
+		<Body />
+		<AutoPresets index="4" />
+		<RdmNotifications index="6">
+			<RdmNotification index="0" Type="Absent" Subcategory="RDM Warning" />
+		</RdmNotifications>
+	</FixtureType>
+</MA>

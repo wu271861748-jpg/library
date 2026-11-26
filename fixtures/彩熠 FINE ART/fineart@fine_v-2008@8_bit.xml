@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA major_vers="3" minor_vers="0" stream_vers="16">
+	<FixtureType name="FINE V-2008" mode="8 bit" scale="1.000">
+		<short_name>FINE V-2008c8</short_name>
+		<manufacturer>Fineart</manufacturer>
+		<short_manufacturer>Fineart</short_manufacturer>
+		<notes>Fixture has On Off switch on base of fixture
+Fixture has pan and tilt locks
+Set menu option ControlMod to DMX for DMX control of fixture
+User manual does not say how to set 8 bit pan and tilt mode</notes>
+		<revision date="2010-02-04" text="Automated import from MA Lighting (C-RevNum: 2; Date: 2007-04-11)"/>
+		<Modules>
+			<![CDATA[Module 1]]>
+			<Module name="V-2008" class="Headmover" beamtype="Wash" scale="1.000" beam_angle="1.000" beam_intensity="10000.000">
+				<![CDATA[1]]>
+				<ChannelType attribute="COLORMIX1" feature="COLORMIX" preset="COLOR" coarse="1" default="0.000" highlight_value="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[2]]>
+				<ChannelType attribute="COLORMIX2" feature="COLORMIX" preset="COLOR" coarse="2" default="0.000" highlight_value="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[3]]>
+				<ChannelType attribute="COLORMIX3" feature="COLORMIX" preset="COLOR" coarse="3" default="0.000" highlight_value="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[4]]>
+				<ChannelType attribute="SHUTTER" feature="STROBE" preset="BEAM" coarse="4" default="255.000" highlight_value="100.000">
+					<ChannelFunction from="0.000" to="7.647" min_dmx="0" max_dmx="19" physfrom="0.000" physto="0.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="closed" from_dmx="0" to_dmx="19" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="7.647" to="19.412" min_dmx="20" max_dmx="49" physfrom="1.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="open" from_dmx="20" to_dmx="49" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="19.412" to="81.373" min_dmx="50" max_dmx="207" physfrom="0.500" physto="12.000" physdefined="1" phystime="0.000" attribute="STROBE" feature="STROBE" preset="BEAM"/>
+					<ChannelFunction name="Shutter" from="81.373" to="85.294" min_dmx="208" max_dmx="217" physfrom="1.000" physto="1.000" physdefined="0" phystime="0.000" attribute="Position Blink" feature="Position Blink" preset="POSITION">
+						<ChannelSet name="on" from_dmx="208" to_dmx="217" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="85.294" to="100.000" min_dmx="218" max_dmx="255" physfrom="1.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="open" from_dmx="218" to_dmx="255" auto_create="1"/>
+					</ChannelFunction>
+				</ChannelType>
+				<![CDATA[5]]>
+				<ChannelType attribute="PAN" feature="POSITION" preset="POSITION" coarse="5" default="127.500">
+					<ChannelFunction from="-270.000" to="270.000" min_dmx="0" max_dmx="255" physfrom="-270.000" physto="270.000" physdefined="1" phystime="3.000"/>
+				</ChannelType>
+				<![CDATA[6]]>
+				<ChannelType attribute="TILT" feature="POSITION" preset="POSITION" coarse="6" default="127.500">
+					<ChannelFunction from="-127.500" to="127.500" min_dmx="0" max_dmx="255" physfrom="-127.500" physto="127.500" physdefined="1" phystime="2.125"/>
+				</ChannelType>
+				<![CDATA[7]]>
+				<ChannelType attribute="COLOR1" feature="COLOR1" preset="COLOR" coarse="7" default="0.000" highlight_value="0.000">
+					<ChannelFunction from="0.000" to="70.392" min_dmx="0" max_dmx="179" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000" wheel="1">
+						<ChannelSet name="Open" from_dmx="0" to_dmx="12" slot_index="0" slot_from="0.000" auto_create="1"/>
+						<ChannelSet name="dark red" from_dmx="13" to_dmx="38" slot_index="1" auto_create="1"/>
+						<ChannelSet name="green" from_dmx="39" to_dmx="64" slot_index="2" auto_create="1"/>
+						<ChannelSet name="orange" from_dmx="65" to_dmx="90" slot_index="3" auto_create="1"/>
+						<ChannelSet name="blue" from_dmx="91" to_dmx="116" slot_index="4" auto_create="1"/>
+						<ChannelSet name="pink" from_dmx="117" to_dmx="142" slot_index="5" auto_create="1"/>
+						<ChannelSet name="Open" from_dmx="143" to_dmx="155" slot_index="0" slot_to="0.000" auto_create="1"/>
+						<ChannelSet name="Open" from_dmx="156" to_dmx="159" slot_index="0" slot_from="0.000" slot_to="0.000" auto_create="1"/>
+						<ChannelSet name="dark red" from_dmx="160" to_dmx="163" slot_index="1" slot_from="0.000" slot_to="0.000" auto_create="1"/>
+						<ChannelSet name="green" from_dmx="164" to_dmx="167" slot_index="2" slot_from="0.000" slot_to="0.000" auto_create="1"/>
+						<ChannelSet name="orange" from_dmx="168" to_dmx="171" slot_index="3" slot_from="0.000" slot_to="0.000" auto_create="1"/>
+						<ChannelSet name="blue" from_dmx="172" to_dmx="175" slot_index="4" slot_from="0.000" slot_to="0.000" auto_create="1"/>
+						<ChannelSet name="pink" from_dmx="176" to_dmx="179" slot_index="5" slot_from="0.000" slot_to="0.000" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="70.392" to="100.000" min_dmx="180" max_dmx="255" physfrom="0.010" physto="1.000" physdefined="0" phystime="0.000" attribute="COLOR1_SPIN" feature="COLOR1" preset="COLOR"/>
+				</ChannelType>
+				<![CDATA[8]]>
+				<ChannelType attribute="CTO" feature="CTO" preset="COLOR" coarse="8" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[9]]>
+				<ChannelType attribute="ZOOM" feature="FOCUS" preset="FOCUS" coarse="9" default="255.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="11.000" physto="22.000" physdefined="1" phystime="0.244">
+						<ChannelSet name="Narrow" from_dmx="0" to_dmx="0" auto_create="1"/>
+						<ChannelSet name="Wide" from_dmx="255" to_dmx="255" auto_create="1"/>
+					</ChannelFunction>
+				</ChannelType>
+				<![CDATA[10]]>
+				<ChannelType attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="10" default="0.000" highlight_value="100.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="1" phystime="0.000">
+						<ChannelSet name="Closed" from_dmx="0" to_dmx="0" auto_create="1"/>
+						<ChannelSet name="Open" from_dmx="255" to_dmx="255" auto_create="1"/>
+					</ChannelFunction>
+				</ChannelType>
+				<![CDATA[11]]>
+				<ChannelType attribute="FOCUS" feature="FOCUS" preset="FOCUS" coarse="11" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.010" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[12]]>
+				<ChannelType attribute="Lamp On" feature="Lamp Control" preset="CONTROL" coarse="12" default="0.000">
+					<ChannelFunction from="0.000" to="50.000" min_dmx="0" max_dmx="127" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="Lamp Off" from_dmx="0" to_dmx="127" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="50.000" to="100.000" min_dmx="128" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="Lamp On" from_dmx="128" to_dmx="255" auto_create="1"/>
+					</ChannelFunction>
+				</ChannelType>
+				<Body>
+					<Size x="1.000" y="1.000" z="1.000"/>
+					<Center x="0.000" y="0.000" z="0.000"/>
+					<Light x="0.000" y="0.000" z="0.000"/>
+				</Body>
+			</Module>
+		</Modules>
+		<Instances>
+			<![CDATA[Instance 1]]>
+			<Instance type="V-2008" patch="1" X="0.000" Y="0.000" locked="true"/>
+		</Instances>
+		<Wheels>
+			<![CDATA[Wheel 1]]>
+			<Wheel attribute="COLOR1" feature="COLOR1" preset="COLOR">
+				<![CDATA[Slot 1]]>
+				<Slot media_name="Open"/>
+				<![CDATA[Slot 2]]>
+				<Slot r="255" g="42" b="28" media_name="dark red"/>
+				<![CDATA[Slot 3]]>
+				<Slot r="57" g="255" b="78" media_name="green"/>
+				<![CDATA[Slot 4]]>
+				<Slot r="255" g="198" b="1" media_name="orange"/>
+				<![CDATA[Slot 5]]>
+				<Slot r="33" g="142" b="255" media_name="blue"/>
+				<![CDATA[Slot 6]]>
+				<Slot r="255" g="127" b="214" media_name="pink"/>
+			</Wheel>
+		</Wheels>
+		<QFuncs/>
+	</FixtureType>
+</MA>

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA major_vers="3" minor_vers="1" stream_vers="1">
+	<FixtureType name="FINE 404 /406dg 7" mode="7CH" scale="1.000">
+		<short_name>FINE 404 /406dg 7</short_name>
+		<manufacturer>Fineart</manufacturer>
+		<short_manufacturer>Fineart</short_manufacturer>
+		<Modules>
+			<![CDATA[Module 1]]>
+			<Module class="LED" beamtype="Wash" scale="1.000" beam_angle="35.000" beam_intensity="10000.000">
+				<![CDATA[1]]>
+				<ChannelType attribute="SHUTTER" feature="STROBE" preset="BEAM" coarse="1" default="255.000" highlight_value="100.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="Shutter Blackout" from_dmx="0" to_dmx="7" auto_create="1"/>
+						<ChannelSet name="Shutter Open" from_dmx="8" to_dmx="15" auto_create="1"/>
+						<ChannelSet name="Variable Strobe" from_dmx="16" to_dmx="151" auto_create="1"/>
+						<ChannelSet name="Pulse Open" from_dmx="152" to_dmx="175" auto_create="1"/>
+						<ChannelSet name="Pulse Close" from_dmx="176" to_dmx="199" auto_create="1"/>
+						<ChannelSet name="Variable Random Strobe" from_dmx="200" to_dmx="244" auto_create="1"/>
+						<ChannelSet name="Shutter Open" from_dmx="245" to_dmx="255" auto_create="1"/>
+					</ChannelFunction>
+				</ChannelType>
+				<![CDATA[2]]>
+				<ChannelType attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="2" default="0.000" highlight_value="100.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[3]]>
+				<ChannelType attribute="RED" feature="RGB" preset="COLOR" coarse="3" default="0.000" highlight_value="100.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[4]]>
+				<ChannelType attribute="GREEN" feature="RGB" preset="COLOR" coarse="4" default="0.000" highlight_value="100.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[5]]>
+				<ChannelType attribute="BLUE" feature="RGB" preset="COLOR" coarse="5" default="0.000" highlight_value="100.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[6]]>
+				<ChannelType attribute="AMBER" feature="RGB" preset="COLOR" coarse="6" default="0.000" highlight_value="100.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[7]]>
+				<ChannelType attribute="CTO" feature="CTO" preset="COLOR" coarse="7" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="Disable halogen dimming" from_dmx="0" to_dmx="7" auto_create="1"/>
+						<ChannelSet name="Emulate halogen dimming" from_dmx="8" to_dmx="15" auto_create="1"/>
+						<ChannelSet name="No Function" from_dmx="16" to_dmx="255" auto_create="1"/>
+					</ChannelFunction>
+				</ChannelType>
+				<Body>
+					<Size x="1.000" y="1.000" z="1.000"/>
+					<Center x="0.000" y="0.000" z="0.000"/>
+					<Light x="0.000" y="0.000" z="0.000"/>
+				</Body>
+			</Module>
+		</Modules>
+		<Instances>
+			<![CDATA[Instance 1]]>
+			<Instance patch="1" X="0.000" Y="0.000" locked="true"/>
+		</Instances>
+		<Wheels/>
+		<QFuncs/>
+	</FixtureType>
+</MA>

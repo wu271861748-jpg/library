@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MA major_vers="2" minor_vers="0" stream_vers="0">
+  <FixtureType name="Artfox_19qx" mode="19qx">
+    <short_name>Artfox_19qx</short_name>
+    <manufacturer>Artfox</manufacturer>
+    <short_manufacturer>Artfox</short_manufacturer>
+    <notes>Created By YEL Lighting LTD</notes>
+    <revision date="2017/11/28 星期二" text="Generated with the Software developped by YEL." />
+    <Modules>
+      <Module name="Main Module" class="Headmover" beamtype="Spot" beam_angle="1.00" beam_intensity="3000.00">
+        <ChannelType index="1" attribute="PAN" feature="POSITION" preset="POSITION" coarse="1" fine="2" default="32639">
+          <ChannelFunction name="PAN" attribute="PAN" feature="POSITION" preset="POSITION" subattribute="PAN" from="0" to="100" min_dmx="0" max_dmx="65535" physfrom="-270" physto="270" />
+        </ChannelType>
+        <ChannelType index="2" attribute="TILT" feature="Position" preset="Position" coarse="3" fine="4" default="32639">
+          <ChannelFunction name="TILT" attribute="TILT" feature="Position" preset="Position" subattribute="TILT" from="0" to="100" min_dmx="0" max_dmx="65535" physfrom="-135" physto="135" />
+        </ChannelType>
+        <ChannelType index="3" attribute="P/T SPEED" feature="CONTROL" preset="CONTROL" coarse="5">
+          <ChannelFunction name="P/T SPEED" attribute="P/T SPEED" feature="CONTROL" preset="CONTROL" subattribute="P/T SPEED" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="4" attribute="STROBE" feature="SHUTTER" preset="BEAM" coarse="6">
+          <ChannelFunction name="STROBE" attribute="STROBE" feature="SHUTTER" preset="BEAM" subattribute="STROBE" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0.0" physto="25.0" />
+        </ChannelType>
+        <ChannelType index="5" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="7" highlight_value="100.00">
+          <ChannelFunction name="DIM" attribute="DIM" feature="DIMMER" preset="DIMMER" subattribute="DIM" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0.0" physto="100.0" />
+        </ChannelType>
+        <ChannelType index="6" attribute="Dim    调光1" feature="DIMMER" preset="DIMMER" coarse="8" highlight_value="100.00">
+          <ChannelFunction name="Dim    调光1" attribute="Dim    调光1" feature="DIMMER" preset="DIMMER" subattribute="Dim    调光1" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="7" attribute="ZOOM" feature="FOCUS" preset="FOCUS" coarse="9">
+          <ChannelFunction name="ZOOM" attribute="ZOOM" feature="FOCUS" preset="FOCUS" subattribute="ZOOM" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="8" attribute="Red    红色1" feature="COLORMIX" preset="COLOR" coarse="10" invert="true">
+          <ChannelFunction name="Red    红色1" attribute="Red    红色1" feature="COLORMIX" preset="COLOR" subattribute="Red    红色1" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="9" attribute="Green    绿色1" feature="COLORMIX" preset="COLOR" coarse="11" invert="true">
+          <ChannelFunction name="Green    绿色1" attribute="Green    绿色1" feature="COLORMIX" preset="COLOR" subattribute="Green    绿色1" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="10" attribute="Blue    蓝色1" feature="COLORMIX" preset="COLOR" coarse="12" invert="true">
+          <ChannelFunction name="Blue    蓝色1" attribute="Blue    蓝色1" feature="COLORMIX" preset="COLOR" subattribute="Blue    蓝色1" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="11" attribute="White    白光1" feature="COLORMIX" preset="COLOR" coarse="13">
+          <ChannelFunction name="White    白光1" attribute="White    白光1" feature="COLORMIX" preset="COLOR" subattribute="White    白光1" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="12" attribute="Red    红色2" feature="COLORMIX" preset="COLOR" coarse="14" invert="true">
+          <ChannelFunction name="Red    红色2" attribute="Red    红色2" feature="COLORMIX" preset="COLOR" subattribute="Red    红色2" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="13" attribute="Green    绿色2" feature="COLORMIX" preset="COLOR" coarse="15" invert="true">
+          <ChannelFunction name="Green    绿色2" attribute="Green    绿色2" feature="COLORMIX" preset="COLOR" subattribute="Green    绿色2" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="14" attribute="Blue    蓝色2" feature="COLORMIX" preset="COLOR" coarse="16" invert="true">
+          <ChannelFunction name="Blue    蓝色2" attribute="Blue    蓝色2" feature="COLORMIX" preset="COLOR" subattribute="Blue    蓝色2" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="15" attribute="White    白光2" feature="COLORMIX" preset="COLOR" coarse="17">
+          <ChannelFunction name="White    白光2" attribute="White    白光2" feature="COLORMIX" preset="COLOR" subattribute="White    白光2" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="16" attribute="Red    红色3" feature="COLORMIX" preset="COLOR" coarse="18" invert="true">
+          <ChannelFunction name="Red    红色3" attribute="Red    红色3" feature="COLORMIX" preset="COLOR" subattribute="Red    红色3" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="17" attribute="Green    绿色3" feature="COLORMIX" preset="COLOR" coarse="19" invert="true">
+          <ChannelFunction name="Green    绿色3" attribute="Green    绿色3" feature="COLORMIX" preset="COLOR" subattribute="Green    绿色3" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="18" attribute="Blue    蓝色3" feature="COLORMIX" preset="COLOR" coarse="20" invert="true">
+          <ChannelFunction name="Blue    蓝色3" attribute="Blue    蓝色3" feature="COLORMIX" preset="COLOR" subattribute="Blue    蓝色3" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="19" attribute="White    白光3" feature="COLORMIX" preset="COLOR" coarse="21">
+          <ChannelFunction name="White    白光3" attribute="White    白光3" feature="COLORMIX" preset="COLOR" subattribute="White    白光3" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="20" attribute="COLOR1" feature="Color1" preset="Color" coarse="22">
+          <ChannelFunction name="COLOR1" attribute="COLOR1" feature="Color1" preset="Color" subattribute="COLOR1" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="21" attribute="COLORMIX1" feature="COLORMIX" preset="COLOR" coarse="23" mode="COLOR1">
+          <ChannelFunction name="COLORMIX1" attribute="COLORMIX1" feature="COLORMIX" preset="COLOR" subattribute="COLORMIX1" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0.0" physto="1.0" />
+        </ChannelType>
+        <ChannelType index="22" attribute="patterns" feature="Control" preset="Control" coarse="24">
+          <ChannelFunction name="patterns" attribute="patterns" feature="Control" preset="Control" subattribute="patterns" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="23" attribute="patterns sped" feature="Control" preset="Control" coarse="25">
+          <ChannelFunction name="patterns sped" attribute="patterns sped" feature="Control" preset="Control" subattribute="patterns sped" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="24" attribute="patterns fade" feature="Control" preset="Control" coarse="26">
+          <ChannelFunction name="patterns fade" attribute="patterns fade" feature="Control" preset="Control" subattribute="patterns fade" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="25" attribute="reset" feature="Control" preset="Control" coarse="27">
+          <ChannelFunction name="reset" attribute="reset" feature="Control" preset="Control" subattribute="reset" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+      </Module>
+    </Modules>
+  </FixtureType>
+</MA>

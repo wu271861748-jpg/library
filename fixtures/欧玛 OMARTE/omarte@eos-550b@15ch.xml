@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.2.2/MA.xsd" major_vers="3" minor_vers="2" stream_vers="2">
+	<Info datetime="2021-10-03T13:56:40" showfile="ych" />
+	<FixtureType index="49" name="EOS-550B" mode="15ch">
+		<short_name>EOS-550B</short_name>
+		<manufacturer>Omarte</manufacturer>
+		<short_manufacturer>Omarte</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="Headmover" beamtype="Wash" beam_angle="35" beam_intensity="10000">
+				<Body>
+					<Size x="0.5" y="0.42" z="0.66" />
+				</Body>
+				<ChannelType index="0" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="1" fine="2" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+				<ChannelType index="1" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" coarse="3">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="1" subattribute="SHUTTER" subattribute_user_name="Shutter" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Undefined" from_dmx="0" to_dmx="7" />
+						<ChannelSet index="1" name="Fast Strobe-----&gt;SlowStrobe" from_dmx="8" to_dmx="63" />
+						<ChannelSet index="2" name="Undefined" from_dmx="64" to_dmx="71" />
+						<ChannelSet index="3" name="Fast Puslation Slow Close---&gt;Fast Puslation Fast Close" from_dmx="72" to_dmx="127" />
+						<ChannelSet index="4" name="Undefined" from_dmx="128" to_dmx="133" />
+						<ChannelSet index="5" name="Slow Puslation Fast Close---&gt;Fast Puslation Fast Close" from_dmx="134" to_dmx="189" />
+						<ChannelSet index="6" name="Undefined" from_dmx="190" to_dmx="195" />
+						<ChannelSet index="7" name="Random  Strobe" from_dmx="196" to_dmx="250" />
+						<ChannelSet index="8" name="Undefined" from_dmx="251" to_dmx="255" />
+						<ChannelSet index="9" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="10" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="11" from_dmx="0" to_dmx="0" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="2" attribute="COLORRGB5" feature="COLORRGB" preset="COLOR" coarse="4" fine="5" default="65535" highlight_value="100" color="ffffff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB5" subattribute_user_name="White" attribute="COLORRGB5" attribute_user_name="White" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="3" attribute="COLORRGB6" feature="COLORRGB" preset="COLOR" coarse="6" fine="7" color="ffffcc">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB6" subattribute_user_name="Warm White" attribute="COLORRGB6" attribute_user_name="Warm White" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="4" attribute="FOCUS" feature="FOCUS" preset="FOCUS" coarse="8">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.7" physto="1" subattribute="FOCUS" subattribute_user_name="Focus" attribute="FOCUS" attribute_user_name="Focus" feature="FOCUS" feature_user_name="Focus" preset="FOCUS" preset_user_name="Focus" />
+				</ChannelType>
+				<ChannelType index="5" attribute="PAN" feature="POSITION" preset="POSITION" coarse="9" fine="10">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="-180" physto="180" subattribute="PAN" subattribute_user_name="Pan" attribute="PAN" attribute_user_name="Pan" feature="POSITION" feature_user_name="Position" preset="POSITION" preset_user_name="Position" />
+				</ChannelType>
+				<ChannelType index="6" attribute="TILT" feature="POSITION" preset="POSITION" coarse="11" fine="12">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="-90" physto="90" subattribute="TILT" subattribute_user_name="Tilt" attribute="TILT" attribute_user_name="Tilt" feature="POSITION" feature_user_name="Position" preset="POSITION" preset_user_name="Position" />
+				</ChannelType>
+				<ChannelType index="7" attribute="PTSPEED" feature="POSITION" preset="POSITION" coarse="13">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="255" subattribute="PTSPEED" subattribute_user_name="PTSPEED" attribute="PTSPEED" attribute_user_name="PTSPEED" feature="POSITION" feature_user_name="Position" preset="POSITION" preset_user_name="Position">
+						<ChannelSet index="0" name="Fastest Speed-----&gt;Slowest Speed" from_dmx="0" to_dmx="128" />
+						<ChannelSet index="1" name="Slow Speed" from_dmx="129" to_dmx="170" />
+						<ChannelSet index="2" name="Medium Speed" from_dmx="172" to_dmx="211" />
+						<ChannelSet index="3" name="Fast Speed(252---255 :Blackout when moving)" from_dmx="212" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="8" attribute="DIMMERMODE" feature="DIMMER" preset="DIMMER" coarse="14">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="255" subattribute="DIMMERMODE" subattribute_user_name="DIMMERMODE" attribute="DIMMERMODE" attribute_user_name="DIMMERMODE" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer">
+						<ChannelSet index="0" name="Dimmer Curve1(Log Curve)" from_dmx="0" to_dmx="64" />
+						<ChannelSet index="1" name="Dimmer Curve2(NExp Curve)" from_dmx="65" to_dmx="128" />
+						<ChannelSet index="2" name="Dimmer Curve3(Line Curve)" from_dmx="129" to_dmx="192" />
+						<ChannelSet index="3" name="Dimmer Curve4(S Curve)" from_dmx="193" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="9" attribute="FIXTUREGLOBALRESET" feature="RESET" preset="CONTROL" coarse="15">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="FIXTUREGLOBALRESET" subattribute_user_name="Reset" attribute="FIXTUREGLOBALRESET" attribute_user_name="FixtureGlobal" feature="RESET" feature_user_name="Reset" preset="CONTROL" preset_user_name="Control">
+						<ChannelSet index="0" name="Safe" from_dmx="0" to_dmx="130" />
+						<ChannelSet index="1" name="Reset ALL" from_dmx="131" to_dmx="155" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<FixtureMacroCollect index="5">
+			<FixtureMacro index="0" name="Safe">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="FIXTUREGLOBALRESET" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="1" name="Reset ALL">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="FIXTUREGLOBALRESET" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="143" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+		</FixtureMacroCollect>
+		<Body />
+		<AutoPresets index="4" />
+		<RdmNotifications index="6">
+			<RdmNotification index="0" Type="Absent" Subcategory="RDM Warning" />
+		</RdmNotifications>
+	</FixtureType>
+</MA>

@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MA major_vers="2" minor_vers="0" stream_vers="0">
+  <FixtureType name="Vista20R" mode="22Channels">
+    <short_name>Vista20R</short_name>
+    <manufacturer>ARTFOX</manufacturer>
+    <short_manufacturer>ARTFOX</short_manufacturer>
+    <notes>Created By artfox lighting</notes>
+    <revision date="2017-9-18" text="323-287-5559" />
+    <Modules>
+      <Module name="Main Module" class="Headmover" beamtype="Spot" beam_angle="1.00" beam_intensity="3000.00">
+        <ChannelType index="1" attribute="PAN" feature="POSITION" preset="POSITION" coarse="1" fine="2" default="32896">
+          <ChannelFunction name="PAN" attribute="PAN" feature="POSITION" preset="POSITION" subattribute="PAN" from="0" to="100" min_dmx="0" max_dmx="65535" physfrom="-270" physto="270" />
+        </ChannelType>
+        <ChannelType index="2" attribute="TILT" feature="Position" preset="Position" coarse="3" fine="4" default="32896">
+          <ChannelFunction name="TILT" attribute="TILT" feature="Position" preset="Position" subattribute="TILT" from="0" to="100" min_dmx="0" max_dmx="65535" physfrom="-135" physto="135" />
+        </ChannelType>
+        <ChannelType index="3" attribute="SPEED 1" feature="Control" preset="Control" coarse="5">
+          <ChannelFunction name="SPEED 1" attribute="SPEED 1" feature="Control" preset="Control" subattribute="SPEED 1" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        
+        <ChannelType index="4" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="6" highlight_value="100.00">
+          <ChannelFunction name="DIM" attribute="DIM" feature="DIMMER" preset="DIMMER" subattribute="DIM" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0.0" physto="100.0" />
+        </ChannelType>
+        <ChannelType index="5" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" coarse="7" highlight_value="100.00">
+          <ChannelFunction name="SHUTTER" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" subattribute="SHUTTER" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="6" attribute="ColorC" feature="Control" preset="Control" coarse="8">
+          <ChannelFunction name="ColorC" attribute="ColorC" feature="Control" preset="Control" subattribute="ColorC" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="7" attribute="ColorM" feature="Control" preset="Control" coarse="9">
+          <ChannelFunction name="ColorM" attribute="COL.WHEEL2" feature="Control" preset="Control" subattribute="ColorM" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="8" attribute="ColorY" feature="Control" preset="Control" coarse="10">
+          <ChannelFunction name="ColorY" attribute="ColorY" feature="Control" preset="Control" subattribute="ColorY" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="9" attribute="GOBO 1" feature="GOBO1" preset="GOBO" coarse="11">
+          <ChannelFunction name="GOBO 1" attribute="GOBO 1" feature="GOBO1" preset="GOBO" subattribute="GOBO 1" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="10" attribute="GOBO 2" feature="GOBO1" preset="GOBO" coarse="12">
+          <ChannelFunction name="GOBO 2" attribute="GOBO 2" feature="GOBO1" preset="GOBO" subattribute="GOBO 2" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="11" attribute="GOBO 2 ROT" feature="GOBO1" preset="GOBO" coarse="13">
+          <ChannelFunction name="GOBO 2 ROT" attribute="GOBO 2 ROT" feature="GOBO1" preset="GOBO" subattribute="GOBO 2 ROT" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="12" attribute="PRISM1" feature="BEAM1" preset="Beam" coarse="14">
+          <ChannelFunction name="PRISM1" attribute="PRISM1" feature="BEAM1" preset="Beam" subattribute="PRISMA1" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="13" attribute="PRISM2" feature="BEAM2" preset="Beam" coarse="15">
+          <ChannelFunction name="PRISM2" attribute="PRISM2" feature="BEAM2" preset="Beam" subattribute="PRISMA2" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="14" attribute="PRISM_ROT" feature="Control" preset="Control" coarse="16">
+          <ChannelFunction name="PRISM_ROT" attribute="PRISM_ROT" feature="Control" preset="Control" subattribute="PRISM_ROT" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="15" attribute="ZOOM_Prism" feature="Control" preset="Control" coarse="17">
+          <ChannelFunction name="ZOOM_Prism" attribute="ZOOM_Prism" feature="Control" preset="Control" subattribute="ZOOM_Prism" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="16" attribute="FROST" feature="BEAM1" preset="Beam" coarse="18">
+          <ChannelFunction name="FROST" attribute="FROST" feature="BEAM1" preset="Beam" subattribute="FROST" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="17" attribute="FOCUS" feature="FOCUS" preset="FOCUS" coarse="19" default="0">
+          <ChannelFunction name="FOCUS" attribute="FOCUS" feature="FOCUS" preset="FOCUS" subattribute="FOCUS" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="18" attribute="ZOOM" feature="FOCUS" preset="FOCUS" coarse="20" default="0">
+          <ChannelFunction name="ZOOM" attribute="ZOOM" feature="FOCUS" preset="FOCUS" subattribute="ZOOM" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        
+        <ChannelType index="19" attribute="LAMPCONTROL" feature="LAMP" preset="CONTROL" coarse="21">
+          <ChannelFunction name="LAMPCONTROL" attribute="LAMPCONTROL" feature="LAMP" preset="CONTROL" subattribute="LAMPCONTROL" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="20" attribute="FIXTUREGLOBALRESET" feature="RESET" preset="CONTROL" coarse="22">
+					<ChannelFunction index="0" from="0.000" to="100.000" subattribute="FIXTUREGLOBALRESET" attribute="FIXTUREGLOBALRESET" feature="RESET" preset="CONTROL">
+						<ChannelSet index="0" name="Effect RESET" from_dmx="1" to_dmx="100" />
+						<ChannelSet index="1" name="Fixture RESET" from_dmx="101" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+      </Module>
+    </Modules>
+  </FixtureType>
+</MA>

@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.0.0/MA.xsd" major_vers="3" minor_vers="0" stream_vers="0">
+	<Info datetime="2016-06-21T19:03:03" showfile="new show 2016-06-21" />
+	<FixtureType index="4" name="19E" mode="Standard">
+		<InfoItems>
+			<Info>Select mode St for this personality.  Documentation we have does not say how</Info>
+			<Info type="Revision" date="2013-09-03T00:00:00">Automated import from MA Lighting (C-RevNum: 0; Date: 2013-05-01)</Info>
+			<Info type="Invisible" date="2013-09-03T00:00:00">generator_software_name=&quot;MA Importer&quot;,generator_software_version=&quot;5f6b42bb2658c4832ffd420fab04b1e552d5dd51&quot;</Info>
+		</InfoItems>
+		<short_name>19E</short_name>
+		<manufacturer>ARTFOX</manufacturer>
+		<short_manufacturer>ARTFOX</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" name="Main Module" class="Headmover" beamtype="Wash" beam_angle="1" beam_intensity="8000">
+				<Body>
+					<Size x="0.324" y="0.25" z="0.426" />
+					<RelativeAxisOffset x="NaN" y="NaN" z="0.873" />
+				</Body>
+				<ChannelType index="0" attribute="PAN" feature="POSITION" preset="POSITION" coarse="1" fine="2" default="32767.5">
+					<ChannelFunction index="0" from="-270" to="270" min_dmx_24="0" max_dmx_24="16777215" physfrom="-270" physto="270" subattribute="PAN" attribute="PAN" feature="POSITION" preset="POSITION">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="center" from_dmx="32768" to_dmx="32768" />
+						<ChannelSet index="2" name="max" from_dmx="65535" to_dmx="65535" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="1" attribute="TILT" feature="POSITION" preset="POSITION" coarse="3" fine="4" default="32767.5">
+					<ChannelFunction index="0" from="-132.5" to="132.5" min_dmx_24="0" max_dmx_24="16777215" physfrom="-132.5" physto="132.5" subattribute="TILT" attribute="TILT" feature="POSITION" preset="POSITION">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="center" from_dmx="32768" to_dmx="32768" />
+						<ChannelSet index="2" name="max" from_dmx="65535" to_dmx="65535" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="2" attribute="POSITIONMSPEED" feature="MSPEED" preset="CONTROL" coarse="5">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="14811135" physfrom="1" physto="0.01" subattribute="POSITIONMSPEEDTRACK" attribute="POSITIONMSPEED" feature="MSPEED" preset="CONTROL">
+						<ChannelSet index="0" name="max Track" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="min Track" from_dmx="225" to_dmx="225" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="3" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" coarse="6" highlight_value="0">
+					<ChannelFunction index="0" from="0" to="1" min_dmx_24="0" max_dmx_24="65535" physfrom="1" physto="1" subattribute="SHUTTER" attribute="SHUTTER" feature="SHUTTER" preset="BEAM">
+						<ChannelSet index="0" name="Open" from_dmx="0" to_dmx="0" />
+					</ChannelFunction>
+					<ChannelFunction index="1" from="1" to="100" min_dmx_24="65536" max_dmx_24="16777215" physfrom="0" physto="18" subattribute="STROBE" attribute="SHUTTER" feature="SHUTTER" preset="BEAM">
+						<ChannelSet index="0" name="Min Strobe" from_dmx="1" to_dmx="1" />
+						<ChannelSet index="1" name="Max Strobe" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="4" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="7" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" attribute="DIM" feature="DIMMER" preset="DIMMER">
+						<ChannelSet index="0" name="closed" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="open" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="5" attribute="INTENSITYMODE" feature="DIMMER" preset="DIMMER" coarse="8">
+					<ChannelFunction index="0" name="Dim Mode" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="INTENSITYMODE" attribute="INTENSITYMODE" feature="DIMMER" preset="DIMMER">
+						<ChannelSet index="0" name="Dim Mode 1" from_dmx="0" to_dmx="49" />
+						<ChannelSet index="1" name="Dim Mode 2" from_dmx="50" to_dmx="99" />
+						<ChannelSet index="2" name="Dim Mode 3" from_dmx="100" to_dmx="149" />
+						<ChannelSet index="3" name="Dim Mode 4" from_dmx="150" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="6" attribute="ZOOM" feature="FOCUS" preset="FOCUS" coarse="9">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="6" physto="60" subattribute="ZOOM" attribute="ZOOM" feature="FOCUS" preset="FOCUS" />
+				</ChannelType>
+				<ChannelType index="7" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" coarse="10" default="255" color="ff0000">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB1" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="8" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" coarse="11" default="255" color="00ff00">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB2" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="9" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" coarse="12" default="255" color="0000ff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB3" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="10" attribute="COLORRGB5" feature="COLORRGB" preset="COLOR" coarse="13" default="255" color="ffffff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB5" attribute="COLORRGB5" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="11" attribute="RAINBOW" feature="COLORMIX" preset="COLOR" coarse="14">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="RAINBOW" attribute="RAINBOW" feature="COLORMIX" preset="COLOR">
+						<ChannelSet index="0" name="No Func" from_dmx="0" to_dmx="4" />
+						<ChannelSet index="1" name="R" from_dmx="5" to_dmx="29" />
+						<ChannelSet index="2" name="G" from_dmx="30" to_dmx="54" />
+						<ChannelSet index="3" name="B" from_dmx="55" to_dmx="79" />
+						<ChannelSet index="4" name="W" from_dmx="80" to_dmx="104" />
+						<ChannelSet index="5" name="Rainbow 1" from_dmx="105" to_dmx="129" />
+						<ChannelSet index="6" name="Rainbow 2" from_dmx="130" to_dmx="154" />
+						<ChannelSet index="7" name="Rainbow 3" from_dmx="155" to_dmx="174" />
+						<ChannelSet index="8" name="Rainbow 4" from_dmx="175" to_dmx="179" />
+						<ChannelSet index="9" name="Rainbow 5" from_dmx="180" to_dmx="184" />
+						<ChannelSet index="10" name="Rainbow 6" from_dmx="185" to_dmx="189" />
+						<ChannelSet index="11" name="Rainbow 7" from_dmx="190" to_dmx="210" />
+						<ChannelSet index="12" name="Crossfading colours" from_dmx="211" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="12" attribute="COLORPRESETS" feature="COLORMIX" preset="COLOR" coarse="15">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="COLORPRESETS" attribute="COLORPRESETS" feature="COLORMIX" preset="COLOR">
+						<ChannelSet index="0" name="No Func" from_dmx="0" to_dmx="4" />
+						<ChannelSet index="1" name="White 1" from_dmx="5" to_dmx="9" />
+						<ChannelSet index="2" name="White 2" from_dmx="10" to_dmx="14" />
+						<ChannelSet index="3" name="White 3" from_dmx="15" to_dmx="19" />
+						<ChannelSet index="4" name="White 4" from_dmx="20" to_dmx="24" />
+						<ChannelSet index="5" name="White 5" from_dmx="25" to_dmx="29" />
+						<ChannelSet index="6" name="White 6" from_dmx="30" to_dmx="34" />
+						<ChannelSet index="7" name="Red" from_dmx="35" to_dmx="39" />
+						<ChannelSet index="8" name="Green" from_dmx="40" to_dmx="44" />
+						<ChannelSet index="9" name="Bule" from_dmx="45" to_dmx="49" />
+						<ChannelSet index="10" name="Natural White" from_dmx="50" to_dmx="54" />
+						<ChannelSet index="11" name="Full White" from_dmx="55" to_dmx="59" />
+						<ChannelSet index="12" name="Yellow" from_dmx="60" to_dmx="64" />
+						<ChannelSet index="13" name="Magenta" from_dmx="65" to_dmx="69" />
+						<ChannelSet index="14" name="Cyan" from_dmx="70" to_dmx="74" />
+						<ChannelSet index="15" name="Salmon" from_dmx="75" to_dmx="79" />
+						<ChannelSet index="16" name="Turquoise" from_dmx="80" to_dmx="84" />
+						<ChannelSet index="17" name="Light Green" from_dmx="85" to_dmx="89" />
+						<ChannelSet index="18" name="Steel Blue" from_dmx="90" to_dmx="94" />
+						<ChannelSet index="19" name="Orange" from_dmx="95" to_dmx="99" />
+						<ChannelSet index="20" name="Straw" from_dmx="100" to_dmx="104" />
+						<ChannelSet index="21" name="Pale Lavander" from_dmx="105" to_dmx="109" />
+						<ChannelSet index="22" name="Pink" from_dmx="110" to_dmx="114" />
+						<ChannelSet index="23" name="R/W" from_dmx="115" to_dmx="119" />
+						<ChannelSet index="24" name="G/R" from_dmx="120" to_dmx="124" />
+						<ChannelSet index="25" name="B/G" from_dmx="125" to_dmx="129" />
+						<ChannelSet index="26" name="W/R" from_dmx="130" to_dmx="134" />
+						<ChannelSet index="27" name="G/P" from_dmx="135" to_dmx="139" />
+						<ChannelSet index="28" name="R/T" from_dmx="140" to_dmx="144" />
+						<ChannelSet index="29" name="R/W/B" from_dmx="145" to_dmx="149" />
+						<ChannelSet index="30" name="Reserved" from_dmx="150" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="13" attribute="COLORDIMMER" feature="COLORMIX" preset="COLOR" coarse="16">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="CLOLORDIM" attribute="COLORDIMMER" feature="COLORMIX" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="14" attribute="CHASEPATTERN" feature="EFFECT" preset="BEAM" coarse="17">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="CHASEPATTERN" attribute="CHASEPATTERN" feature="EFFECT" preset="BEAM">
+						<ChannelSet index="0" name="Led Trun Off" from_dmx="0" to_dmx="14" />
+						<ChannelSet index="1" name="Chase 1" from_dmx="15" to_dmx="30" />
+						<ChannelSet index="2" name="Chase 2" from_dmx="31" to_dmx="46" />
+						<ChannelSet index="3" name="Chase 3" from_dmx="47" to_dmx="62" />
+						<ChannelSet index="4" name="Chase 4" from_dmx="63" to_dmx="78" />
+						<ChannelSet index="5" name="Chase 5" from_dmx="79" to_dmx="94" />
+						<ChannelSet index="6" name="Chase 6" from_dmx="95" to_dmx="110" />
+						<ChannelSet index="7" name="Chase 7" from_dmx="111" to_dmx="126" />
+						<ChannelSet index="8" name="Chase 8" from_dmx="127" to_dmx="142" />
+						<ChannelSet index="9" name="Chase 9" from_dmx="143" to_dmx="158" />
+						<ChannelSet index="10" name="Chase 10" from_dmx="159" to_dmx="174" />
+						<ChannelSet index="11" name="Chase 11" from_dmx="175" to_dmx="190" />
+						<ChannelSet index="12" name="Chase 12" from_dmx="191" to_dmx="206" />
+						<ChannelSet index="13" name="Chase 13" from_dmx="207" to_dmx="222" />
+						<ChannelSet index="14" name="Chase 14" from_dmx="223" to_dmx="238" />
+						<ChannelSet index="15" name="Chase 15" from_dmx="239" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="15" attribute="CHASESPEED" feature="EFFECT" preset="BEAM" coarse="18">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="CHASESPEED" attribute="CHASESPEED" feature="EFFECT" preset="BEAM">
+						<ChannelSet index="0" name="Backward 100--&gt;0" from_dmx="0" to_dmx="125" />
+						<ChannelSet index="1" name="STOP" from_dmx="126" to_dmx="130" />
+						<ChannelSet index="2" name="Forward 0--&gt;100" from_dmx="131" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="16" attribute="CHASEFADE" feature="EFFECT" preset="BEAM" coarse="19">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="CHASEFADE" attribute="CHASEFADE" feature="EFFECT" preset="BEAM" />
+				</ChannelType>
+				<ChannelType index="17" attribute="FIXTUREGLOBALRESET" feature="RESET" preset="CONTROL" coarse="20">
+					<ChannelFunction index="0" from="0" to="50" min_dmx_24="0" max_dmx_24="5242879" subattribute="MODE" attribute="MODE" feature="FIXTURE" preset="CONTROL">
+						<ChannelSet index="0" name="Normal" from_dmx="0" to_dmx="79" />
+					</ChannelFunction>
+					<ChannelFunction index="1" name="Reset All
+" from="50" to="100" min_dmx_24="5242880" max_dmx_24="6553599" subattribute="FIXTUREGLOBALRESET" attribute="FIXTUREGLOBALRESET" feature="RESET" preset="CONTROL">
+						<ChannelSet index="0" name="Reset All
+" from_dmx="80" to_dmx="99" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<Body />
+		<AutoPresets index="4" />
+	</FixtureType>
+</MA>

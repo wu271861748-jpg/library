@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.1.2/MA.xsd" major_vers="3" minor_vers="1" stream_vers="2">
+	<Info datetime="2016-10-28T09:03:06" showfile="new show 2016-09-26" />
+	<FixtureType index="6" name="GTD-TKS-160 STROBE" mode="12channel">
+		<InfoItems>
+			<Info type="Invisible" date="2011-08-26T00:00:00">generator_software_name=&quot;MA Importer&quot;,generator_software_version=&quot;64c7aaa895dba171f3680d05c6dbbacac12e4065&quot;</Info>
+			<Info type="Revision" date="2015-05-19T17:30:21">The new library</Info>
+		</InfoItems>
+		<short_name>TKS-160 STROBE</short_name>
+		<manufacturer>GTD lighting</manufacturer>
+		<short_manufacturer>GTD</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" name="Main Module" class="Headmover" beamtype="Wash" beam_angle="70" beam_intensity="5000">
+				<Body>
+					<Size x="0.51" y="0.51" z="0.56" />
+				</Body>
+				<ChannelType index="0" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="1" highlight_value="100">
+					<ChannelFunction index="0" name="Dim 0..100%" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer">
+						<ChannelSet index="0" name="closed" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="open" from_dmx="65535" to_dmx="65535" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" RW="0" />
+			<Instance index="1" module_index="0" patch="2" RW="0" />
+			<Instance index="2" module_index="0" patch="3" RW="0" />
+			<Instance index="3" module_index="0" patch="4" RW="0" />
+			<Instance index="4" module_index="0" patch="5" />
+			<Instance index="5" module_index="0" patch="6" />
+			<Instance index="6" module_index="0" patch="7" />
+			<Instance index="7" module_index="0" patch="8" />
+			<Instance index="8" module_index="0" patch="9" />
+			<Instance index="9" module_index="0" patch="10" />
+			<Instance index="10" module_index="0" patch="11" />
+			<Instance index="11" module_index="0" patch="12" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<FixtureMacroCollect index="5">
+			<FixtureMacro index="0" name="Reset all">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="FIXTUREGLOBALRESET" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="65" attribute="LAMPCONTROL" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="LAMPCONTROL" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="1" name="Reset X/Y">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="POSITIONRESET" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="79" attribute="LAMPCONTROL" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="LAMPCONTROL" instance_index="0" />
+			</FixtureMacro>
+		</FixtureMacroCollect>
+		<Body />
+		<AutoPresets index="4" />
+	</FixtureType>
+</MA>

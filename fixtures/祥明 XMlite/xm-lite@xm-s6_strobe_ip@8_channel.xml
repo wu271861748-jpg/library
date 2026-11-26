@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.1.2/MA.xsd" major_vers="3" minor_vers="1" stream_vers="2">
+	<Info datetime="2026-05-06T15:31:50" showfile="new show 2026-04-24" />
+	<FixtureType index="2" name="XM-S6 Strobe IP" mode="8 Channel">
+		<short_name>S6 Strobe IP</short_name>
+		<manufacturer>XM-LITE</manufacturer>
+		<short_manufacturer>XM-LITE</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" name="S6 Strobe IP RGB" class="LED" beamtype="Wash" beam_angle="35" beam_intensity="50000">
+				<Body>
+					<Size x="0.15" y="0.15" z="0.05" />
+				</Body>
+				<ChannelType index="0" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" coarse="1" default="255" highlight_value="100" color="ff0000">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB1" subattribute_user_name="R" attribute="COLORRGB1" attribute_user_name="R" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="1" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" coarse="2" default="255" highlight_value="100" color="00ff00">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB2" subattribute_user_name="G" attribute="COLORRGB2" attribute_user_name="G" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="2" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" coarse="3" default="255" highlight_value="100" color="0000ff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB3" subattribute_user_name="B" attribute="COLORRGB3" attribute_user_name="B" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="3" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="6" fine="7" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+				<ChannelType index="4" attribute="FUNCTION" feature="FUNCTION" preset="CONTROL" coarse="8" default="53.55">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="FUNCTION" subattribute_user_name="FUNCTION" attribute="FUNCTION" attribute_user_name="FUNCTION" feature="FUNCTION" feature_user_name="FUNCTION" preset="CONTROL" preset_user_name="Control">
+						<ChannelSet index="0" name="No Feature" from_dmx="0" to_dmx="9" />
+						<ChannelSet index="1" name="Fan Auto 3S (Default)" from_dmx="10" to_dmx="19" />
+						<ChannelSet index="2" name="Silent Mode (3S)" from_dmx="20" to_dmx="29" />
+						<ChannelSet index="3" name="Fan Off (3S)" from_dmx="30" to_dmx="39" />
+						<ChannelSet index="4" name="Smooth Dimmer 3S (Default)" from_dmx="40" to_dmx="49" />
+						<ChannelSet index="5" name="Fast Dimmer (3S)" from_dmx="50" to_dmx="59" />
+						<ChannelSet index="6" name="Dim Curve 1(Default)" from_dmx="60" to_dmx="69" />
+						<ChannelSet index="7" name="Dim Curve 2" from_dmx="70" to_dmx="79" />
+						<ChannelSet index="8" name="Dim Curve 3" from_dmx="80" to_dmx="89" />
+						<ChannelSet index="9" name="Dim Curve 4" from_dmx="90" to_dmx="99" />
+						<ChannelSet index="10" name="No Feature2" from_dmx="100" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+			<Module index="1" name="S6 Strobe IP W" class="LED" beamtype="Wash" beam_angle="35" beam_intensity="10000">
+				<Body>
+					<Size x="0.15" y="0.15" z="0.05" />
+				</Body>
+				<ChannelType index="0" attribute="COLORRGB5" feature="COLORRGB" preset="COLOR" coarse="1" default="255" highlight_value="100" color="ffffff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB5" subattribute_user_name="White" attribute="COLORRGB5" attribute_user_name="White" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="1" attribute="COLORRGB6" feature="COLORRGB" preset="COLOR" coarse="2" default="255" highlight_value="100" color="ffffcc">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB6" subattribute_user_name="Warm White" attribute="COLORRGB6" attribute_user_name="Warm White" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="2" attribute="DIM" feature="DIMMER" preset="DIMMER" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" />
+			<Instance index="1" module_index="1" patch="4" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<FixtureMacroCollect index="5" />
+		<Body />
+		<AutoPresets index="4" />
+	</FixtureType>
+</MA>

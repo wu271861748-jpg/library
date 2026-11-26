@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.0.0/MA.xsd" major_vers="3" minor_vers="0" stream_vers="0">
+	<Info datetime="2023-12-04T17:53:42" showfile="new show 2023-03-24" />
+	<FixtureType index="104" name="LS-3000" mode="72 CH">
+		<short_name>LS-3000</short_name>
+		<manufacturer>Jolly</manufacturer>
+		<short_manufacturer>Jolly</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="None" beamtype="Wash" beam_angle="35" beam_intensity="10000">
+				<ChannelType index="0" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" coarse="1" default="255" color="ff0000">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB1" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="1" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" coarse="2" default="255" color="00ff00">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB2" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="2" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" coarse="3" default="255" color="0000ff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB3" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+			</Module>
+			<Module index="1" class="None" beamtype="Wash" beam_angle="35" beam_intensity="10000">
+				<ChannelType index="0" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" coarse="1" default="255" color="ff0000">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB1" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="1" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" coarse="2" default="255" color="00ff00">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB2" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="2" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" coarse="3" default="255" color="0000ff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB3" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" RW="0" />
+			<Instance index="1" module_index="1" patch="4" RW="0" />
+			<Instance index="2" module_index="1" patch="7" RW="0" />
+			<Instance index="3" module_index="1" patch="10" RW="0" />
+			<Instance index="4" module_index="1" patch="13" RW="0" />
+			<Instance index="5" module_index="1" patch="16" RW="0" />
+			<Instance index="6" module_index="1" patch="19" RW="0" />
+			<Instance index="7" module_index="1" patch="22" RW="0" />
+			<Instance index="8" module_index="1" patch="25" RW="0" />
+			<Instance index="9" module_index="1" patch="28" RW="0" />
+			<Instance index="10" module_index="1" patch="31" RW="0" />
+			<Instance index="11" module_index="1" patch="34" RW="0" />
+			<Instance index="12" module_index="1" patch="37" RW="0" />
+			<Instance index="13" module_index="1" patch="40" RW="0" />
+			<Instance index="14" module_index="1" patch="43" RW="0" />
+			<Instance index="15" module_index="1" patch="46" RW="0" />
+			<Instance index="16" module_index="1" patch="49" RW="0" />
+			<Instance index="17" module_index="1" patch="52" RW="0" />
+			<Instance index="18" module_index="1" patch="55" RW="0" />
+			<Instance index="19" module_index="1" patch="58" RW="0" />
+			<Instance index="20" module_index="1" patch="61" RW="0" />
+			<Instance index="21" module_index="1" patch="64" RW="0" />
+			<Instance index="22" module_index="1" patch="67" RW="0" />
+			<Instance index="23" module_index="1" patch="70" RW="0" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<Body />
+		<AutoPresets index="4" />
+	</FixtureType>
+</MA>

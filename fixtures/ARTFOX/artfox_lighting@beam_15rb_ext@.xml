@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/2.9.0/MA.xsd" major_vers="2" minor_vers="9" stream_vers="0">
+	<Info datetime="2014-10-30T11:11:07" showfile="new show 2014-07-30" />
+	<FixtureType index="1" name="Beam 15R Ext">
+		<InfoItems>
+			<Info>ArtFox Lighting http://www.artfoxlighting.com
+Ch 17 DMX 100-110 -  Stay 5 seconds Lamp Off
+Ch 17 DMX 200-210 -  Stay 5 seconds Lamp on
+Ch 18 DMX 255 -  Stay 5 seconds complete reset</Info>
+			<Info type="Revision" date="2013-09-03T00:00:00">Automated import from MA Lighting (C-RevNum: 0; Date: 2012-08-09)</Info>
+			<Info type="Invisible" date="2013-09-03T00:00:00">generator_software_name=&quot;MA Importer&quot;,generator_software_version=&quot;5f6b42bb2658c4832ffd420fab04b1e552d5dd51&quot;</Info>
+		</InfoItems>
+		<short_name>Beam15R</short_name>
+		<manufacturer>ArtFox Lighting</manufacturer>
+		<short_manufacturer>ArtFox</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="None" beamtype="Wash" beam_angle="35" beam_intensity="10000">
+				<ChannelType index="0" attribute="PAN" feature="POSITION" preset="POSITION" coarse="1" fine="2">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="-270" physto="270" subattribute="PAN" attribute="PAN" feature="POSITION" preset="POSITION" />
+				</ChannelType>
+				<ChannelType index="1" attribute="TILT" feature="POSITION" preset="POSITION" coarse="3" fine="4">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="-135" physto="135" subattribute="TILT" attribute="TILT" feature="POSITION" preset="POSITION" />
+				</ChannelType>
+				<ChannelType index="2" attribute="POSITIONMSPEED" feature="MSPEED" preset="CONTROL" coarse="5">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="POSITIONMSPEEDTRACK" attribute="POSITIONMSPEED" feature="MSPEED" preset="CONTROL" />
+				</ChannelType>
+				<ChannelType index="3" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="6">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" attribute="DIM" feature="DIMMER" preset="DIMMER" />
+				</ChannelType>
+				<ChannelType index="4" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" coarse="7">
+					<ChannelFunction index="0" name="Strobe" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="1" subattribute="SHUTTER" attribute="SHUTTER" feature="SHUTTER" preset="BEAM">
+						<ChannelSet index="0" name="No Function" from_dmx="0" to_dmx="15" />
+						<ChannelSet index="1" name="Open" from_dmx="16" to_dmx="31" />
+						<ChannelSet index="2" name="Linear shutter" from_dmx="32" to_dmx="64" />
+						<ChannelSet index="3" name="Open" from_dmx="65" to_dmx="68" />
+						<ChannelSet index="4" name="Strobe" from_dmx="69" to_dmx="160" />
+						<ChannelSet index="5" name="Open" from_dmx="161" to_dmx="164" />
+						<ChannelSet index="6" name="Strobe slow to fast" from_dmx="165" to_dmx="251" />
+						<ChannelSet index="7" name="Open" from_dmx="252" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="5" attribute="blank" feature="BEAM1" preset="BEAM" coarse="8">
+					<ChannelFunction index="0" name="Open" from="0" to="100" min_dmx_24="0" max_dmx_24="4194303" physfrom="-90" physto="90" subattribute="FROST" attribute="FROST" feature="BEAM1" preset="BEAM">
+						<ChannelSet index="0" name="blank" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="6" attribute="COLOR1" feature="COLOR1" preset="COLOR" coarse="9">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="COLOR1" attribute="COLOR1" feature="COLOR1" preset="COLOR">
+						<ChannelSet index="0" name="Open" from_dmx="0" to_dmx="15" />
+						<ChannelSet index="1" name="Color1" from_dmx="16" to_dmx="31" />
+						<ChannelSet index="2" name="Color2" from_dmx="32" to_dmx="47" />
+						<ChannelSet index="3" name="Color3" from_dmx="48" to_dmx="63" />
+						<ChannelSet index="4" name="Color4" from_dmx="64" to_dmx="0" />
+						<ChannelSet index="5" name="Color5" from_dmx="80" to_dmx="0" />
+						<ChannelSet index="6" name="Color6" from_dmx="96" to_dmx="111" />
+						<ChannelSet index="7" name="Color7" from_dmx="112" to_dmx="127" />
+						<ChannelSet index="8" name="Color Spin CW" from_dmx="128" to_dmx="191" />
+						<ChannelSet index="9" name="Color Spin CCW" from_dmx="192" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="7" attribute="GOBO1" feature="GOBO1" preset="GOBO" coarse="10">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="GOBO1" attribute="GOBO1" feature="GOBO1" preset="GOBO">
+						<ChannelSet index="0" name="Open" from_dmx="0" to_dmx="11" />
+						<ChannelSet index="1" name="Gobo1" from_dmx="12" to_dmx="23" />
+						<ChannelSet index="2" name="Gobo2" from_dmx="24" to_dmx="35" />
+						<ChannelSet index="3" name="Gobo3" from_dmx="36" to_dmx="47" />
+						<ChannelSet index="4" name="Gobo4" from_dmx="48" to_dmx="59" />
+						<ChannelSet index="5" name="Gobo5" from_dmx="60" to_dmx="71" />
+						<ChannelSet index="6" name="Gobo6" from_dmx="72" to_dmx="83" />
+						<ChannelSet index="7" name="Gobo7" from_dmx="84" to_dmx="89" />
+						<ChannelSet index="8" name="Gobo7 Shake" from_dmx="90" to_dmx="104" />
+						<ChannelSet index="9" name="Gobo6 Shake" from_dmx="105" to_dmx="129" />
+						<ChannelSet index="10" name="Gobo5 Shake" from_dmx="120" to_dmx="134" />
+						<ChannelSet index="11" name="Gobo4 Shake" from_dmx="135" to_dmx="149" />
+						<ChannelSet index="12" name="Gobo3 Shake" from_dmx="150" to_dmx="164" />
+						<ChannelSet index="13" name="Gobo2 Shake" from_dmx="165" to_dmx="179" />
+						<ChannelSet index="14" name="Gobo1 Shake" from_dmx="180" to_dmx="191" />
+						<ChannelSet index="15" name="Gobo Spin CCW" from_dmx="128" to_dmx="191" />
+						<ChannelSet index="16" name="Gobo Spin CW" from_dmx="192" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="8" attribute="GOBO1WHEELMODE" feature="GOBO1" preset="GOBO" coarse="11">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="GOBO1WHEELMODECONTINUOUS" attribute="GOBO1WHEELMODE" feature="GOBO1" preset="GOBO">
+						<ChannelSet index="0" name="Gobo Angle" from_dmx="0" to_dmx="127" />
+						<ChannelSet index="1" name="Gobo Rotating CW" from_dmx="128" to_dmx="192" />
+						<ChannelSet index="2" name="Gobo Rotating CCW" from_dmx="193" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="9" attribute="PRISMA1" feature="BEAM1" preset="BEAM" coarse="12">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="7" physadditional="3" subattribute="PRISMA1" attribute="PRISMA1" feature="BEAM1" preset="BEAM">
+						<ChannelSet index="0" name="Open" from_dmx="0" to_dmx="127" />
+						<ChannelSet index="1" name="prism1" from_dmx="128" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				
+				<ChannelType index="10" attribute="PRISMA2" feature="BEAM1" preset="BEAM" coarse="13">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="7" physadditional="3" subattribute="PRISMA1" attribute="PRISMA1" feature="BEAM1" preset="BEAM">
+						<ChannelSet index="0" name="Open" from_dmx="0" to_dmx="127" />
+						<ChannelSet index="1" name="prism2" from_dmx="128" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="11" attribute="PRISMA1_POS" feature="BEAM1" preset="BEAM" coarse="14">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="360" subattribute="PRISMA1_POS" attribute="PRISMA1_POS" feature="BEAM1" preset="BEAM">
+						<ChannelSet index="0" name="Open" from_dmx="0" to_dmx="3" />
+						<ChannelSet index="1" name="Prism Rotating CCW(Fast to Slow)" from_dmx="0" to_dmx="128" />
+						<ChannelSet index="2" name="Prism Rotating CW(Slow to Fast)" from_dmx="129" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="12" coarse="15">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="FROST" attribute="FROST" feature="BEAM1" preset="BEAM">
+						<ChannelSet index="0" name="Open" from_dmx="0" to_dmx="127" />
+						<ChannelSet index="1" name="Zoom" from_dmx="128" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="13" attribute="FOCUS" feature="FOCUS" preset="FOCUS" coarse="16">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="FOCUS" attribute="FOCUS" feature="FOCUS" preset="FOCUS" />
+				</ChannelType>
+				<ChannelType index="14" attribute="LAMPCONTROL" feature="LAMP" preset="CONTROL" coarse="17">
+					<ChannelFunction index="0" name="LampControl" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="LAMPOFF" attribute="LAMPCONTROL" feature="LAMP" preset="CONTROL">
+						<ChannelSet index="0" name="Lamp Off" from_dmx="100" to_dmx="110" />
+						<ChannelSet index="1" name="Lamp On" from_dmx="200" to_dmx="210" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="15" attribute="FIXTUREGLOBALRESET" feature="RESET" preset="CONTROL" coarse="18">
+					<ChannelFunction index="0" name="Reset" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="Function" attribute="FUNCTION" feature="LAMP CONTROL" preset="CONTROL">
+						<ChannelSet index="0" name="No Function" from_dmx="0" to_dmx="254" />
+						<ChannelSet index="1" name="Reset All" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" RW="0" />
+		</Instances>
+		<Wheels index="2">
+			<Wheel index="0" subattribute="COLOR1" attribute="COLOR1" feature="COLOR1" preset="COLOR" />
+			<Wheel index="1" subattribute="GOBO1" attribute="GOBO1" feature="GOBO1" preset="GOBO" />
+			<Wheel index="2" subattribute="PRISMA1" attribute="PRISMA1" feature="BEAM1" preset="BEAM" />
+			<Wheel index="3" subattribute="ZOOM" attribute="ZOOM" feature="FOCUS" preset="FOCUS" />
+			<Wheel index="4" subattribute="ZOOM" attribute="ZOOM" feature="FOCUS" preset="FOCUS" />
+			<Wheel index="5" subattribute="FOCUS" attribute="FOCUS" feature="FOCUS" preset="FOCUS" />
+		</Wheels>
+		<VirtualFunctionBlocks index="3" />
+		<Body />
+		<AutoPresets index="4" />
+	</FixtureType>
+</MA>

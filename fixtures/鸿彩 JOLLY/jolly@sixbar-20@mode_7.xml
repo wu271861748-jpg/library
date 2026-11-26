@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.0.0/MA.xsd" major_vers="3" minor_vers="0" stream_vers="0">
+	<Info datetime="2022-04-13T11:23:20" showfile="library test" />
+	<FixtureType index="46" name="Sixbar-20" mode="mode 7">
+		<short_name>Sixbar-20</short_name>
+		<manufacturer>Jolly</manufacturer>
+		<short_manufacturer>Jolly</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" name="Sixbar-20 mode 7.1" class="LED" beamtype="Wash" beam_angle="35" beam_intensity="10000">
+				<Body>
+					<Size x="0" y="0" z="0" />
+				</Body>
+				<ChannelType index="0" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" coarse="1" color="ff0000">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB1" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="1" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" coarse="2" color="00ff00">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB2" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="2" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" coarse="3" color="0000ff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB3" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="3" attribute="COLORRGB5" feature="COLORRGB" preset="COLOR" coarse="4" color="ffffff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB5" attribute="COLORRGB5" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+			</Module>
+			<Module index="1" class="None" beamtype="Wash" beam_angle="35" beam_intensity="10000" />
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" RW="0" />
+			<Instance index="1" module_index="0" patch="5" RW="0" />
+			<Instance index="2" module_index="0" patch="9" RW="0" />
+			<Instance index="3" module_index="0" patch="13" RW="0" />
+			<Instance index="4" module_index="0" patch="17" RW="0" />
+			<Instance index="5" module_index="0" patch="21" RW="0" />
+			<Instance index="6" module_index="0" patch="25" RW="0" />
+			<Instance index="7" module_index="0" patch="29" RW="0" />
+			<Instance index="8" module_index="0" patch="33" RW="0" />
+			<Instance index="9" module_index="0" patch="37" RW="0" />
+			<Instance index="10" module_index="0" patch="41" RW="0" />
+			<Instance index="11" module_index="0" patch="45" RW="0" />
+			<Instance index="12" module_index="0" patch="49" RW="0" />
+			<Instance index="13" module_index="0" patch="53" RW="0" />
+			<Instance index="14" module_index="0" patch="57" RW="0" />
+			<Instance index="15" module_index="0" patch="61" RW="0" />
+			<Instance index="16" module_index="0" patch="65" RW="0" />
+			<Instance index="17" module_index="0" patch="69" RW="0" />
+			<Instance index="18" module_index="0" patch="73" RW="0" />
+			<Instance index="19" module_index="0" patch="77" RW="0" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<Body />
+		<AutoPresets index="4" />
+	</FixtureType>
+</MA>

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.1.2/MA.xsd" major_vers="3" minor_vers="1" stream_vers="2">
+	<Info datetime="2021-01-31T13:12:59" showfile="240 354" />
+	<FixtureType index="16" name="FINE ART 354 DG" mode="HSI-4">
+		<InfoItems>
+			<Info>Ch 1,2,3 - Set DIP switch 11 to ON for these channels to work correctly</Info>
+			<Info type="Revision" date="2014-09-11T00:00:00">Automated import from MA Lighting (C-RevNum: 8; Date: 2012-02-29)</Info>
+			<Info type="Invisible" date="2014-09-11T00:00:00">generator_software_name=&quot;MA Importer&quot;,generator_software_version=&quot;cb6362a1d6a8dc8574342888145610400dd6ec6c&quot;</Info>
+		</InfoItems>
+		<short_name>FINE ART 354 DG</short_name>
+		<manufacturer>FINE ART</manufacturer>
+		<short_manufacturer>FINE ART</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" name="Main Module" class="Conventional" beamtype="Wash" beam_angle="35" beam_intensity="25000">
+				<Body>
+					<Size x="0.3" y="0.24" z="0.32" />
+				</Body>
+				<ChannelType index="0" attribute="HUE" feature="COLORHSBC" preset="COLOR" coarse="1">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="1" physto="0" subattribute="HUE" subattribute_user_name="Hue" attribute="HUE" attribute_user_name="Hue" feature="COLORHSBC" feature_user_name="HSBC" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="Min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="Max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="1" attribute="SATURATION" feature="COLORHSBC" preset="COLOR" coarse="2">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="1" physto="0" subattribute="SATURATION" subattribute_user_name="Saturation" attribute="SATURATION" attribute_user_name="Saturation2" feature="COLORHSBC" feature_user_name="HSBC" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="Min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="Max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="2" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="3" default="255" highlight_value="100">
+					<ChannelFunction index="0" from="100" to="0" min_dmx_24="0" max_dmx_24="16777215" physfrom="1" physto="0" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer">
+						<ChannelSet index="0" name="Min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="Max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="3" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" coarse="4" default="255" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="0" min_dmx_24="0" max_dmx_24="65535" physfrom="0" physto="1" subattribute="SHUTTER" subattribute_user_name="Shutter" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="closed" from_dmx="0" to_dmx="0" />
+					</ChannelFunction>
+					<ChannelFunction index="1" from="0.392" to="100" min_dmx_24="65536" max_dmx_24="16777215" physfrom="1" physto="50" subattribute="STROBE" subattribute_user_name="Strobe" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Strobe Min" from_dmx="1" to_dmx="1" slot_from="1" slot_to="1" />
+						<ChannelSet index="1" name="Strobe Max" from_dmx="255" to_dmx="255" slot_from="50" slot_to="50" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<FixtureMacroCollect index="5">
+			<FixtureMacro index="0" name="Reset">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="FIXTUREGLOBALRESET" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" attribute="COLORRGB1" instance_index="0" />
+				<FixtureMacroStep index="1" attribute="COLORRGB2" instance_index="0" />
+				<FixtureMacroStep index="2" attribute="COLORRGB3" instance_index="0" />
+				<FixtureMacroStep index="3" duration="2" attribute="DIM" instance_index="0" />
+				<FixtureMacroStep index="4" attribute="COLORRGB1" instance_index="0" />
+				<FixtureMacroStep index="5" attribute="COLORRGB2" instance_index="0" />
+				<FixtureMacroStep index="6" attribute="COLORRGB3" instance_index="0" />
+				<FixtureMacroStep index="7" duration="10" attribute="DIM" instance_index="0" />
+			</FixtureMacro>
+		</FixtureMacroCollect>
+		<Body />
+		<AutoPresets index="4" />
+	</FixtureType>
+</MA>

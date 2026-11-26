@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.0.0/MA.xsd" major_vers="3" minor_vers="0" stream_vers="0">
+	<Info datetime="2023-05-19T10:36:57" showfile="new show 2023-03-24" />
+	<FixtureType index="67" name="A5 Spot" mode="mode1">
+		<short_name>A5 Spot</short_name>
+		<manufacturer>Jolly</manufacturer>
+		<short_manufacturer>Jolly</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="Headmover" beamtype="Wash" beam_angle="35" beam_intensity="10000">
+				<Body>
+					<Size x="0.5" y="0.42" z="0.66" />
+				</Body>
+				<ChannelType index="0" attribute="PAN" feature="POSITION" preset="POSITION" coarse="1" fine="2" default="32767.5">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="-180" physto="180" subattribute="PAN" attribute="PAN" feature="POSITION" preset="POSITION" />
+				</ChannelType>
+				<ChannelType index="1" attribute="TILT" feature="POSITION" preset="POSITION" coarse="3" fine="4" default="32767.5">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="-90" physto="90" subattribute="TILT" attribute="TILT" feature="POSITION" preset="POSITION" />
+				</ChannelType>
+				<ChannelType index="2" attribute="COLOR1" feature="COLOR1" preset="COLOR" coarse="5">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="COLOR1WHEELRANDOM" attribute="COLOR1" feature="COLOR1" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="3" attribute="GOBO1" feature="GOBO1" preset="GOBO" coarse="6">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="GOBO1" attribute="GOBO1" feature="GOBO1" preset="GOBO" />
+				</ChannelType>
+				<ChannelType index="4" attribute="GOBO1_POS" feature="GOBO1" preset="GOBO" coarse="7">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="360" subattribute="GOBO1_POS" attribute="GOBO1_POS" feature="GOBO1" preset="GOBO" />
+				</ChannelType>
+				<ChannelType index="5" attribute="GOBO2" feature="GOBO2" preset="GOBO" coarse="8">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="GOBO2" attribute="GOBO2" feature="GOBO2" preset="GOBO" />
+				</ChannelType>
+				<ChannelType index="6" attribute="ANIMATIONWHEEL" feature="GOBOANIMATION" preset="GOBO" coarse="9">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="ANIMATIONWHEELSELECT" attribute="ANIMATIONWHEEL" feature="GOBOANIMATION" preset="GOBO" />
+				</ChannelType>
+				<ChannelType index="7" attribute="ANIMATIONINDEXROTATE" feature="GOBOANIMATION" preset="GOBO" coarse="10">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="ANIMATIONINDEX" attribute="ANIMATIONINDEXROTATE" feature="GOBOANIMATION" preset="GOBO" />
+				</ChannelType>
+				<ChannelType index="8" attribute="PRISMA1" feature="BEAM1" preset="BEAM" coarse="11">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="7" physadditional="3" subattribute="PRISMA1" attribute="PRISMA1" feature="BEAM1" preset="BEAM" />
+				</ChannelType>
+				<ChannelType index="9" attribute="PRISMA1_POS" feature="BEAM1" preset="BEAM" coarse="12">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="360" subattribute="PRISMA1_POS" attribute="PRISMA1_POS" feature="BEAM1" preset="BEAM" />
+				</ChannelType>
+				<ChannelType index="10" attribute="FUNTRON" feature="CONTROL" preset="CONTROL" coarse="13">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="FUNTRON" attribute="FUNTRON" feature="CONTROL" preset="CONTROL" />
+				</ChannelType>
+				<ChannelType index="11" attribute="FROST" feature="BEAM1" preset="BEAM" coarse="14">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="FROST" attribute="FROST" feature="BEAM1" preset="BEAM" />
+				</ChannelType>
+				<ChannelType index="12" attribute="IRIS" feature="BEAM1" preset="BEAM" coarse="15" default="255">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.1" physto="1" subattribute="IRIS" attribute="IRIS" feature="BEAM1" preset="BEAM" />
+				</ChannelType>
+				<ChannelType index="13" attribute="ZOOM" feature="FOCUS" preset="FOCUS" coarse="16" fine="17">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.7" physto="1" subattribute="ZOOM" attribute="ZOOM" feature="FOCUS" preset="FOCUS" />
+				</ChannelType>
+				<ChannelType index="14" attribute="FOCUS" feature="FOCUS" preset="FOCUS" coarse="18" fine="19">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="FOCUS" attribute="FOCUS" feature="FOCUS" preset="FOCUS" />
+				</ChannelType>
+				<ChannelType index="15" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" coarse="20" default="255">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="1" subattribute="SHUTTER" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" />
+				</ChannelType>
+				<ChannelType index="16" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="21" fine="22" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" attribute="DIM" feature="DIMMER" preset="DIMMER" />
+				</ChannelType>
+				<ChannelType index="17" attribute="CONTROL" feature="CONTROL" preset="CONTROL" coarse="23">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="CONTROL" attribute="CONTROL" feature="CONTROL" preset="CONTROL">
+						<ChannelSet index="0" name="Unused Range" from_dmx="0" to_dmx="70" />
+						<ChannelSet index="1" name="Reset Complete" from_dmx="110" to_dmx="119" />
+						<ChannelSet index="2" name="Dimmer Curve 1 =linear" from_dmx="160" to_dmx="169" />
+						<ChannelSet index="3" name="Dimmer Curve 2 =Gamma1.5" from_dmx="170" to_dmx="179" />
+						<ChannelSet index="4" name="Dimmer Curve 3 =Gamma2.0" from_dmx="180" to_dmx="189" />
+						<ChannelSet index="5" name="Dimmer Curve 4 =S" from_dmx="190" to_dmx="199" />
+						<ChannelSet index="6" name="Fans mode High" from_dmx="200" to_dmx="209" />
+						<ChannelSet index="7" name="Fans mode Auto" from_dmx="210" to_dmx="219" />
+						<ChannelSet index="8" name="Fans mode Silence" from_dmx="220" to_dmx="229" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" RW="0" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<Body />
+		<AutoPresets index="4" />
+	</FixtureType>
+</MA>

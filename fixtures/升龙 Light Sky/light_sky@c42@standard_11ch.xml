@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.0.0/MA.xsd" major_vers="3" minor_vers="0" stream_vers="0">
+	<Info datetime="2016-09-13T09:47:06" showfile="2016beijing" />
+	<FixtureType index="18" name="C42" mode="Standard 11CH">
+		<short_name>C42</short_name>
+		<manufacturer>LIGHT SKY</manufacturer>
+		<short_manufacturer>LIGHT SKY</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="Conventional" beamtype="Spot" beam_angle="19" beam_intensity="10000">
+				<Body>
+					<Size x="0.2" y="0.15" z="0.3" />
+				</Body>
+				<ChannelType index="0" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" coarse="1" highlight_value="0" color="ff0000">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB1" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="1" attribute="COLORRGB9" feature="COLORRGB" preset="COLOR" coarse="2" highlight_value="0" color="ff4000">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB9" attribute="COLORRGB9" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="2" attribute="COLORRGB18" feature="COLORRGB" preset="COLOR" coarse="3" highlight_value="0" color="8bf5cd">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB18" attribute="COLORRGB18" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="3" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" coarse="4" highlight_value="0" color="00ff00">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB2" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="4" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" coarse="5" highlight_value="0" color="0000ff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB3" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="5" attribute="COLORRGB11" feature="COLORRGB" preset="COLOR" coarse="6" highlight_value="0" color="165fb8">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB11" attribute="COLORRGB11" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="6" attribute="CCT" feature="CCT" preset="COLOR" coarse="7" default="79.05">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="CCT" attribute="CCT" feature="CCT" preset="COLOR">
+						<ChannelSet index="0" name="NO Function" from_dmx="0" to_dmx="3" />
+						<ChannelSet index="1" name="2500K" from_dmx="4" to_dmx="6" />
+						<ChannelSet index="2" name="2500K&lt;&gt;2800K" from_dmx="7" to_dmx="21" />
+						<ChannelSet index="3" name="2800K" from_dmx="22" to_dmx="24" />
+						<ChannelSet index="4" name="2800K&lt;&gt;3000K" from_dmx="25" to_dmx="39" />
+						<ChannelSet index="5" name="3000K" from_dmx="40" to_dmx="42" />
+						<ChannelSet index="6" name="3000K&lt;&gt;3200K" from_dmx="43" to_dmx="57" />
+						<ChannelSet index="7" name="3200K" from_dmx="58" to_dmx="60" />
+						<ChannelSet index="8" name="3200K&lt;&gt;3500K" from_dmx="61" to_dmx="75" />
+						<ChannelSet index="9" name="3500K" from_dmx="76" to_dmx="78" />
+						<ChannelSet index="10" name="3500K&lt;&gt;4000K" from_dmx="79" to_dmx="93" />
+						<ChannelSet index="11" name="4000K" from_dmx="94" to_dmx="96" />
+						<ChannelSet index="12" name="4000K&lt;&gt;4500K" from_dmx="97" to_dmx="111" />
+						<ChannelSet index="13" name="4500K" from_dmx="112" to_dmx="114" />
+						<ChannelSet index="14" name="4500K&lt;&gt;5000K" from_dmx="115" to_dmx="129" />
+						<ChannelSet index="15" name="5000K" from_dmx="130" to_dmx="132" />
+						<ChannelSet index="16" name="5000K&lt;&gt;5500K" from_dmx="133" to_dmx="147" />
+						<ChannelSet index="17" name="5500K" from_dmx="148" to_dmx="150" />
+						<ChannelSet index="18" name="5500K&lt;&gt;6000K" from_dmx="151" to_dmx="165" />
+						<ChannelSet index="19" name="6000K" from_dmx="166" to_dmx="168" />
+						<ChannelSet index="20" name="6000K&lt;&gt;6500K" from_dmx="169" to_dmx="183" />
+						<ChannelSet index="21" name="6500K" from_dmx="184" to_dmx="186" />
+						<ChannelSet index="22" name="6500K&lt;&gt;7000K" from_dmx="187" to_dmx="201" />
+						<ChannelSet index="23" name="7000K" from_dmx="202" to_dmx="204" />
+						<ChannelSet index="24" name="7000K&lt;&gt;7500K" from_dmx="205" to_dmx="219" />
+						<ChannelSet index="25" name="7500K" from_dmx="220" to_dmx="222" />
+						<ChannelSet index="26" name="7500K&lt;&gt;8000K" from_dmx="223" to_dmx="237" />
+						<ChannelSet index="27" name="8000K" from_dmx="238" to_dmx="240" />
+						<ChannelSet index="28" name="8000K&lt;&gt;9000K" from_dmx="241" to_dmx="251" />
+						<ChannelSet index="29" name="9000K" from_dmx="252" to_dmx="255" />
+						<ChannelSet index="30" name="10000K" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="7" attribute="MACRO" feature="CMYK" preset="COLOR" coarse="8" highlight_value="0">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="MACRO" attribute="MACRO" feature="CMYK" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="8" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="9" fine="10" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" attribute="DIM" feature="DIMMER" preset="DIMMER">
+						<ChannelSet index="0" name="Close" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="Open" from_dmx="65535" to_dmx="65535" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="9" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" coarse="11" highlight_value="0">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="STROBE" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" />
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" RW="0" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<Body />
+		<AutoPresets index="4" />
+	</FixtureType>
+</MA>

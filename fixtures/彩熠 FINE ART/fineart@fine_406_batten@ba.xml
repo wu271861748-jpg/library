@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA major_vers="3" minor_vers="0" stream_vers="0">
+	<FixtureType name="FINE 406 BATTEN" mode="BA" scale="1.000">
+		<short_name>FINE 406 BATTEN</short_name>
+		<manufacturer>Fineart</manufacturer>
+		<short_manufacturer>Fineart</short_manufacturer>
+		<Modules>
+			<![CDATA[Module 1]]>
+			<Module class="None" beamtype="Wash" scale="1.000" beam_angle="35.000" beam_intensity="10000.000">
+				<![CDATA[1]]>
+				<ChannelType attribute="PAN" feature="POSITION" preset="POSITION" coarse="1" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[2]]>
+				<ChannelType attribute="TILT" feature="POSITION" preset="POSITION" coarse="2" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[3]]>
+				<ChannelType attribute="DIST" feature="POSITION" preset="POSITION" coarse="3" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[4]]>
+				<ChannelType attribute="PAN ROTATION" feature="POSITION" preset="POSITION" coarse="4" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[5]]>
+				<ChannelType attribute="TILT ROTATION" feature="POSITION" preset="POSITION" coarse="5" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[6]]>
+				<ChannelType attribute="GOBO1" feature="GOBO1" preset="GOBO" coarse="6" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[7]]>
+				<ChannelType attribute="GOBO2" feature="GOBO2" preset="GOBO" coarse="7" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[8]]>
+				<ChannelType attribute="GOBO3" feature="GOBO3" preset="GOBO" coarse="8" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[9]]>
+				<ChannelType attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" coarse="9" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[10]]>
+				<ChannelType attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" coarse="10" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[11]]>
+				<ChannelType attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" coarse="11" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[12]]>
+				<ChannelType attribute="COLORRGB4" feature="COLORRGB" preset="COLOR" coarse="12" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[13]]>
+				<ChannelType attribute="SHUTTER" feature="STROBE" preset="BEAM" coarse="13" default="255.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[14]]>
+				<ChannelType attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="14" default="0.000" highlight_value="100.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[15]]>
+				<ChannelType attribute="COLOR2" feature="COLOR2" preset="COLOR" coarse="15" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[16]]>
+				<ChannelType attribute="COLOR3" feature="COLOR3" preset="COLOR" coarse="16" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[17]]>
+				<ChannelType attribute="ANIMATIONWHEEL" feature="GOBOANIMATION" preset="GOBO" coarse="17" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[18]]>
+				<ChannelType attribute="ANIMATIONINDEXROTATE" feature="GOBOANIMATION" preset="GOBO" coarse="18" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[19]]>
+				<ChannelType attribute="IRIS" feature="IRIS" preset="BEAM" coarse="19" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[20]]>
+				<ChannelType attribute="PRISMA1" feature="PRISMA" preset="BEAM" coarse="20" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[21]]>
+				<ChannelType attribute="FIXTUREGLOBALRESET" feature="RESET" preset="CONTROL" coarse="21" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<Body>
+					<Size x="1.000" y="1.000" z="1.000"/>
+					<Center x="0.000" y="0.000" z="0.000"/>
+					<Light x="0.000" y="0.000" z="0.000"/>
+				</Body>
+			</Module>
+		</Modules>
+		<Instances>
+			<![CDATA[Instance 1]]>
+			<Instance patch="1" X="0.000" Y="0.000" locked="true"/>
+		</Instances>
+		<Wheels/>
+		<QFuncs/>
+	</FixtureType>
+</MA>

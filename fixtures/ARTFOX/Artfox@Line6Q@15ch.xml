@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MA major_vers="2" minor_vers="0" stream_vers="0">
+  <FixtureType name="Shine Line 6Q" mode="15ch">
+    <short_name>Line6Q</short_name>
+    <manufacturer>Artfox</manufacturer>
+    <short_manufacturer>Artfox</short_manufacturer>
+    <notes>Created By artfox</notes>
+    <revision date="2021/1/25" text="Generated with the Software developped by YEL." />
+    <Modules>
+      <Module name="Main Module" class="Headmover" beamtype="LED" beam_angle="1.00" beam_intensity="3000.00">
+        <ChannelType index="1" attribute="TILT" feature="Position" preset="Position" coarse="1" fine="2" default="32639">
+          <ChannelFunction name="TILT" attribute="TILT" feature="Position" preset="Position" subattribute="TILT" from="0" to="100" min_dmx="0" max_dmx="65535" physfrom="-135" physto="135" />
+        </ChannelType>
+        <ChannelType index="2" attribute="FOCUS" feature="Focus" preset="Focus" coarse="3">
+          <ChannelFunction name="FOCUS" attribute="FOCUS" feature="Focus" preset="Focus" subattribute="FOCUS" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="3" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="4" highlight_value="100.00">
+          <ChannelFunction name="DIM" attribute="DIM" feature="DIMMER" preset="DIMMER" subattribute="DIM" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0.0" physto="100.0" />
+        </ChannelType>
+        <ChannelType index="4" attribute="STROBE" feature="SHUTTER" preset="BEAM" coarse="5">
+          <ChannelFunction name="STROBE" attribute="STROBE" feature="SHUTTER" preset="BEAM" subattribute="STROBE" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0.0" physto="25.0" />
+        </ChannelType>
+        <ChannelType index="5" attribute="COLORMIX1" feature="COLORMIX" preset="COLOR" coarse="6" default="255" invert="true">
+          <ChannelFunction name="COLORMIX1" attribute="COLORMIX1" feature="COLORMIX" preset="COLOR" subattribute="COLORMIX1" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="6" attribute="COLORMIX2" feature="COLORMIX" preset="COLOR" coarse="7" default="255" invert="true">
+          <ChannelFunction name="COLORMIX2" attribute="COLORMIX2" feature="COLORMIX" preset="COLOR" subattribute="COLORMIX2" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="7" attribute="COLORMIX3" feature="COLORMIX" preset="COLOR" coarse="8" default="255" invert="true">
+          <ChannelFunction name="COLORMIX3" attribute="COLORMIX3" feature="COLORMIX" preset="COLOR" subattribute="COLORMIX3" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="8" attribute="WHITE" feature="COLORMIX" preset="COLOR" coarse="9" default="255">
+          <ChannelFunction name="WHITE" attribute="WHITE" feature="COLORMIX" preset="COLOR" subattribute="WHITE" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="9" attribute="COLOR1" feature="Color1" preset="Color" coarse="10">
+          <ChannelFunction name="COLOR1" attribute="COLOR1" feature="Color1" preset="Color" subattribute="COLOR1" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="10" attribute="QJ D" feature="COLORMIX" preset="COLOR" coarse="11">
+          <ChannelFunction name="QJ D" attribute="QJ D" feature="COLORMIX" preset="COLOR" subattribute="QJ D" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="11" attribute="BJ" feature="Shaper" preset="Shapers" coarse="12">
+          <ChannelFunction name="BJ" attribute="BJ" feature="Shaper" preset="Shapers" subattribute="BJ" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="12" attribute="BJ D" feature="Shaper" preset="Shapers" coarse="13">
+          <ChannelFunction name="BJ D" attribute="BJ D" feature="Shaper" preset="Shapers" subattribute="BJ D" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="13" attribute="EFFECT" feature="BEAM1" preset="Beam" coarse="14">
+          <ChannelFunction name="EFFECT" attribute="EFFECT" feature="BEAM1" preset="Beam" subattribute="EFFECT" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="14" attribute="EFFECT_POS" feature="BEAM1" preset="Beam" coarse="15">
+          <ChannelFunction name="EFFECT_POS" attribute="EFFECT_POS" feature="BEAM1" preset="Beam" subattribute="EFFECT_POS" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+      </Module>
+    </Modules>
+  </FixtureType>
+</MA>

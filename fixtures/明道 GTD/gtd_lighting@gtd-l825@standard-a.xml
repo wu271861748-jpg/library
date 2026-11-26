@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.1.2/MA.xsd" major_vers="3" minor_vers="1" stream_vers="2">
+	<Info datetime="2016-12-25T16:39:40" showfile="gtd show spot led all set 2" />
+	<FixtureType index="15" name="GTD-L825" mode="Standard-A">
+		<InfoItems>
+			<Info type="Invisible" date="2015-03-11T00:00:00">generator_software_name=&quot;MA Importer&quot;,generator_software_version=&quot;c0061e3eb8edb5995ce9cbefb89d9099e5059de2&quot;</Info>
+		</InfoItems>
+		<short_name>L825</short_name>
+		<manufacturer>GTD lighting</manufacturer>
+		<short_manufacturer>GTD</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" name="Main Module" class="LED" beamtype="Wash" beam_angle="1" beam_intensity="0">
+				<Body>
+					<Size x="0.5" y="0.5" z="0.05" />
+				</Body>
+				<ChannelType index="0" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" coarse="29" highlight_value="0">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="1" subattribute="SHUTTER" subattribute_user_name="Shutter" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam" />
+				</ChannelType>
+				<ChannelType index="1" attribute="MACROS" feature="MACRO" preset="BEAM" coarse="26">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="MACROS" subattribute_user_name="MACROS" attribute="MACROS" attribute_user_name="Macros" feature="MACRO" feature_user_name="Macro" preset="BEAM" preset_user_name="Beam" />
+				</ChannelType>
+				<ChannelType index="2" attribute="MACOSPEED" feature="MACRO" preset="BEAM" coarse="27">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="MACOSPEED" subattribute_user_name="MACOSPEED" attribute="MACOSPEED" attribute_user_name="MACOSPEED" feature="MACRO" feature_user_name="Macro" preset="BEAM" preset_user_name="Beam" />
+				</ChannelType>
+				<ChannelType index="3" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="28" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+			</Module>
+			<Module index="1" name="RGBW Cluster" class="Headmover" beamtype="Spot" beam_angle="7" beam_intensity="3000">
+				<Body>
+					<Size x="0.05" y="0.05" z="0.025" />
+				</Body>
+				<ChannelType index="0" attribute="COLORRGB5" feature="COLORRGB" preset="COLOR" coarse="1" default="255" highlight_value="100" color="ffffff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB5" subattribute_user_name="White" attribute="COLORRGB5" attribute_user_name="White" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="1" attribute="DIM" feature="DIMMER" preset="DIMMER">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" />
+			<Instance index="1" module_index="1" X="0.2" Y="0.2" Z="0.005" />
+			<Instance index="2" module_index="1" patch="2" X="0.1" Y="0.2" Z="0.005" />
+			<Instance index="3" module_index="1" patch="3" Y="0.2" Z="0.005" />
+			<Instance index="4" module_index="1" patch="4" X="-0.1" Y="0.2" Z="0.005" />
+			<Instance index="5" module_index="1" patch="5" X="-0.2" Y="0.2" Z="0.005" />
+			<Instance index="6" module_index="1" patch="6" X="0.2" Y="0.1" Z="0.005" />
+			<Instance index="7" module_index="1" patch="7" X="0.1" Y="0.1" Z="0.005" />
+			<Instance index="8" module_index="1" patch="8" Y="0.1" Z="0.005" />
+			<Instance index="9" module_index="1" patch="9" X="-0.1" Y="0.1" Z="0.005" />
+			<Instance index="10" module_index="1" patch="10" X="-0.2" Y="0.1" Z="0.005" />
+			<Instance index="11" module_index="1" patch="11" X="0.2" Z="0.005" />
+			<Instance index="12" module_index="1" patch="12" X="0.1" Z="0.005" />
+			<Instance index="13" module_index="1" patch="13" Z="0.005" />
+			<Instance index="14" module_index="1" patch="14" X="-0.1" Z="0.005" />
+			<Instance index="15" module_index="1" patch="15" X="-0.2" Z="0.005" />
+			<Instance index="16" module_index="1" patch="16" X="0.2" Y="-0.1" Z="0.005" />
+			<Instance index="17" module_index="1" patch="17" X="0.1" Y="-0.1" Z="0.005" />
+			<Instance index="18" module_index="1" patch="18" Y="-0.1" Z="0.005" />
+			<Instance index="19" module_index="1" patch="19" X="-0.1" Y="-0.1" Z="0.005" />
+			<Instance index="20" module_index="1" patch="20" X="-0.2" Y="-0.1" Z="0.005" />
+			<Instance index="21" module_index="1" patch="21" X="0.2" Y="-0.2" Z="0.005" />
+			<Instance index="22" module_index="1" patch="22" X="0.1" Y="-0.2" Z="0.005" />
+			<Instance index="23" module_index="1" patch="23" Y="-0.2" Z="0.005" />
+			<Instance index="24" module_index="1" patch="24" X="-0.1" Y="-0.2" Z="0.005" />
+			<Instance index="25" module_index="1" patch="25" X="-0.2" Y="-0.2" Z="0.005" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<FixtureMacroCollect index="5" />
+		<Body />
+		<AutoPresets index="4" />
+	</FixtureType>
+</MA>

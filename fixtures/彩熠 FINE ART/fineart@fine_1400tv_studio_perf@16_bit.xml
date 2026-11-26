@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA major_vers="3" minor_vers="0" stream_vers="0">
+	<FixtureType name="FINE 1400TV STUDlO PERF" mode="16 bit" scale="1.000">
+		<short_name>FINE 1400TV STUDlO PERF</short_name>
+		<manufacturer>Fineart</manufacturer>
+		<short_manufacturer>Fineart</short_manufacturer>
+		<Modules>
+			<![CDATA[Module 1]]>
+			<Module class="Headmover" beamtype="Wash" scale="1.000" beam_angle="35.000" beam_intensity="10000.000">
+				<![CDATA[1]]>
+				<ChannelType attribute="STROBE" feature="STROBE" preset="BEAM" coarse="1" default="30.855">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[2]]>
+				<ChannelType attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="2" fine="3" default="0.000" highlight_value="100.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="65535" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[3]]>
+				<ChannelType attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" coarse="4" default="255.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[4]]>
+				<ChannelType attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" coarse="5" default="255.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[5]]>
+				<ChannelType attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" coarse="6" default="255.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[6]]>
+				<ChannelType attribute="CTO" feature="CTC" preset="COLOR" coarse="7" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[7]]>
+				<ChannelType attribute="COLOR1" feature="COLOR1" preset="COLOR" coarse="8" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000" wheel="1">
+						<ChannelSet name="Open" from_dmx="120" to_dmx="160" slot_index="0" slot_from="0.000" auto_create="1"/>
+						<ChannelSet name="Red" from_dmx="161" to_dmx="163" slot_index="1" auto_create="1"/>
+						<ChannelSet name="Green" from_dmx="164" to_dmx="166" slot_index="2" auto_create="1"/>
+						<ChannelSet name="Dark Blue" from_dmx="167" to_dmx="169" slot_index="3" auto_create="1"/>
+						<ChannelSet name="Pruple" from_dmx="170" to_dmx="172" slot_index="4" auto_create="1"/>
+						<ChannelSet name="Orange" from_dmx="173" to_dmx="175" slot_index="5" auto_create="1"/>
+						<ChannelSet name="Yellow" from_dmx="176" to_dmx="178" slot_index="6" auto_create="1"/>
+						<ChannelSet name="Pink" from_dmx="179" to_dmx="181" slot_index="7" auto_create="1"/>
+					</ChannelFunction>
+				</ChannelType>
+				<![CDATA[8]]>
+				<ChannelType attribute="GOBO1" feature="GOBO1" preset="GOBO" coarse="9" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000" wheel="2">
+						<ChannelSet name="open" from_dmx="0" to_dmx="9" slot_index="0" slot_from="0.000" auto_create="1"/>
+						<ChannelSet name="GOBO1" from_dmx="35" to_dmx="39" slot_index="1" auto_create="1"/>
+						<ChannelSet name="GOBO2" from_dmx="40" to_dmx="44" slot_index="2" auto_create="1"/>
+						<ChannelSet name="GOBO3" from_dmx="45" to_dmx="49" slot_index="3" auto_create="1"/>
+						<ChannelSet name="GOBO4" from_dmx="50" to_dmx="54" slot_index="4" auto_create="1"/>
+						<ChannelSet name="GOBO5" from_dmx="55" to_dmx="59" slot_index="5" auto_create="1"/>
+					</ChannelFunction>
+				</ChannelType>
+				<![CDATA[9]]>
+				<ChannelType attribute="GOBO1_ROT" feature="GOBO1" preset="GOBO" coarse="10" fine="11" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="65535" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[10]]>
+				<ChannelType attribute="GOBO2" feature="GOBO2" preset="GOBO" coarse="12" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[11]]>
+				<ChannelType attribute="ANIMATIONINDEXROTATE" feature="GOBOANIMATION" preset="GOBO" coarse="13" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[12]]>
+				<ChannelType attribute="BLADE1A" feature="SHAPER1" preset="SHAPERS" coarse="14" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="0.450" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[13]]>
+				<ChannelType attribute="BLADE1B" feature="SHAPER1" preset="SHAPERS" coarse="15" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="-30.000" physto="30.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[14]]>
+				<ChannelType attribute="BLADE2A" feature="SHAPER1" preset="SHAPERS" coarse="16" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="0.450" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[15]]>
+				<ChannelType attribute="BLADE2B" feature="SHAPER1" preset="SHAPERS" coarse="17" default="32767.750">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="-30.000" physto="30.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[16]]>
+				<ChannelType attribute="BLADE3A" feature="SHAPER1" preset="SHAPERS" coarse="18" default="32767.750">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="0.450" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[17]]>
+				<ChannelType attribute="BLADE3B" feature="SHAPER1" preset="SHAPERS" coarse="19" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="-30.000" physto="30.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[18]]>
+				<ChannelType attribute="BLADE4A" feature="SHAPER1" preset="SHAPERS" coarse="20" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="0.450" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[19]]>
+				<ChannelType attribute="BLADE4B" feature="SHAPER1" preset="SHAPERS" coarse="21" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="-30.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[20]]>
+				<ChannelType attribute="SHAPER ROT" feature="SHAPER2" preset="SHAPERS" coarse="22" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[21]]>
+				<ChannelType attribute="FROST" feature="FOCUS" preset="FOCUS" coarse="23" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[22]]>
+				<ChannelType attribute="PRISMA1" feature="PRISMA" preset="BEAM" coarse="24" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[23]]>
+				<ChannelType attribute="PRISMA1_ROT" feature="PRISMA" preset="BEAM" coarse="25" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[24]]>
+				<ChannelType attribute="IRIS" feature="IRIS" preset="BEAM" coarse="26" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[25]]>
+				<ChannelType attribute="ZOOM" feature="FOCUS" preset="FOCUS" coarse="27" fine="28" default="32767.750">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="65535" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[26]]>
+				<ChannelType attribute="FOCUS" feature="FOCUS" preset="FOCUS" coarse="29" fine="30" default="32767.750">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="65535" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[27]]>
+				<ChannelType attribute="PAN" feature="POSITION" preset="POSITION" coarse="31" fine="32" default="32767.750">
+					<ChannelFunction from="-270.000" to="270.000" min_dmx="0" max_dmx="65535" physfrom="-270.000" physto="270.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[28]]>
+				<ChannelType attribute="TILT" feature="POSITION" preset="POSITION" coarse="33" fine="34" default="32767.750">
+					<ChannelFunction from="-126.000" to="126.000" min_dmx="0" max_dmx="65535" physfrom="-126.000" physto="126.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[29]]>
+				<ChannelType attribute="LAMPCONTROL" feature="LAMP" preset="CONTROL" coarse="35" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="Fixture reset" from_dmx="10" to_dmx="14" auto_create="1"/>
+						<ChannelSet name="reset" from_dmx="15" to_dmx="29" auto_create="1"/>
+						<ChannelSet name="position reset" from_dmx="30" to_dmx="34" auto_create="1"/>
+						<ChannelSet name="lamp off" from_dmx="45" to_dmx="49" auto_create="1"/>
+						<ChannelSet name="lamp on" from_dmx="40" to_dmx="44" auto_create="1"/>
+						<ChannelSet name="power full" from_dmx="125" to_dmx="126" auto_create="1"/>
+						<ChannelSet name="half power" from_dmx="133" to_dmx="134" auto_create="1"/>
+						<ChannelSet name="lv se pian" from_dmx="100" to_dmx="104" auto_create="1"/>
+					</ChannelFunction>
+				</ChannelType>
+				<Body>
+					<Size x="1.000" y="1.000" z="1.000"/>
+					<Center x="0.000" y="0.000" z="0.000"/>
+					<Light x="0.000" y="0.000" z="0.000"/>
+				</Body>
+			</Module>
+		</Modules>
+		<Instances>
+			<![CDATA[Instance 1]]>
+			<Instance patch="1" X="0.000" Y="0.000" locked="true"/>
+		</Instances>
+		<Wheels>
+			<![CDATA[Wheel 1]]>
+			<Wheel attribute="COLOR1" feature="COLOR1" preset="COLOR">
+				<![CDATA[Slot 1]]>
+				<Slot media_name="Open"/>
+				<![CDATA[Slot 2]]>
+				<Slot r="255" g="0" b="0" media_name="Red"/>
+				<![CDATA[Slot 3]]>
+				<Slot r="0" g="255" b="0" media_name="Green"/>
+				<![CDATA[Slot 4]]>
+				<Slot r="0" g="0" b="255" media_name="Dark Blue"/>
+				<![CDATA[Slot 5]]>
+				<Slot r="255" g="64" b="154" media_name="Pruple"/>
+				<![CDATA[Slot 6]]>
+				<Slot r="255" g="126" b="31" media_name="Orange"/>
+				<![CDATA[Slot 7]]>
+				<Slot r="255" g="255" b="0" media_name="Yellow"/>
+				<![CDATA[Slot 8]]>
+				<Slot r="255" g="129" b="177" media_name="Pink"/>
+			</Wheel>
+			<![CDATA[Wheel 2]]>
+			<Wheel attribute="GOBO1" feature="GOBO1" preset="GOBO">
+				<![CDATA[Slot 1]]>
+				<Slot media_name="open"/>
+				<![CDATA[Slot 2]]>
+				<Slot media_name="GOBO1" media_filename="Fineart/134.jpg"/>
+				<![CDATA[Slot 3]]>
+				<Slot media_name="GOBO2" media_filename="Fineart/280.jpg"/>
+				<![CDATA[Slot 4]]>
+				<Slot media_name="GOBO3" media_filename="Fineart/142.jpg"/>
+				<![CDATA[Slot 5]]>
+				<Slot media_name="GOBO4" media_filename="Fineart/139.jpg"/>
+				<![CDATA[Slot 6]]>
+				<Slot media_name="GOBO5" media_filename="Fineart/64.jpg"/>
+			</Wheel>
+		</Wheels>
+		<QFuncs/>
+	</FixtureType>
+</MA>

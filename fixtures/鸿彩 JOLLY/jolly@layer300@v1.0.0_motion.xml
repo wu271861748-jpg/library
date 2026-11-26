@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.2.2/MA.xsd" major_vers="3" minor_vers="2" stream_vers="2">
+	<Info datetime="2016-11-26T15:13:53" showfile="new show 2016-10-31" />
+	<FixtureType index="54" name="Layer300" mode="v1.0.0 Motion">
+		<InfoItems>
+			<Info>this is LDS lighting libary for Jolly DL300 layer</Info>
+			<Info type="Revision" date="2011-07-08T00:00:00">Automated import from LDS Lighting (C-RevNum: 0; Date: 2011-07-08)</Info>
+			<Info type="Invisible" date="2011-07-08T00:00:00">generator_software_name=&quot;LDS Importer&quot;,generator_software_version=&quot;0823efff202192e18a6a2c6d511c464ae36923b6&quot;</Info>
+		</InfoItems>
+		<short_name>Layer300</short_name>
+		<manufacturer>Jolly</manufacturer>
+		<short_manufacturer>Jolly</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" name="Main Module" class="None" beamtype="None" beam_angle="17" beam_intensity="3000">
+				<ChannelType index="0" attribute="DIR" feature="LAYER" preset="GOBO" coarse="1">
+					<ChannelFunction index="0" name="DIR" from="0" to="255" min_dmx_24="0" max_dmx_24="16777215" subattribute="DIR" subattribute_user_name="DIR" attribute="DIR" attribute_user_name="DIR" feature="LAYER" feature_user_name="Layer" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+				<ChannelType index="1" attribute="FILE" feature="LAYER" preset="GOBO" coarse="2">
+					<ChannelFunction index="0" name="FILE" from="0" to="255" min_dmx_24="0" max_dmx_24="16777215" subattribute="FILE" subattribute_user_name="FILE" attribute="FILE" attribute_user_name="FILE" feature="LAYER" feature_user_name="Layer" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+				<ChannelType index="2" attribute="PLAY MODE" feature="PLAYBACK" preset="GOBO" coarse="8">
+					<ChannelFunction index="0" name="PLAY Mode" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="PLAY Mode" subattribute_user_name="PLAY Mode" attribute="PLAY MODE" attribute_user_name="PLAY Mode" feature="PLAYBACK" feature_user_name="Playback" preset="GOBO" preset_user_name="Gobo">
+						<ChannelSet index="0" name="循环" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="单次" from_dmx="1" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="3" attribute="SYNC ID" feature="PLAYBACK" preset="GOBO" coarse="9">
+					<ChannelFunction index="0" name="SYNC ID" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="SYNC ID" subattribute_user_name="SYNC ID" attribute="SYNC ID" attribute_user_name="SYNC ID" feature="PLAYBACK" feature_user_name="Playback" preset="GOBO" preset_user_name="Gobo">
+						<ChannelSet index="0" name="不同步" from_dmx="0" to_dmx="0" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="4" attribute="TRANSPARENT" feature="LAYER" preset="GOBO" coarse="10">
+					<ChannelFunction index="0" name="Transparent" from="0" to="255" min_dmx_24="0" max_dmx_24="16777215" subattribute="Transparent" subattribute_user_name="Transparent" attribute="TRANSPARENT" attribute_user_name="Transparent" feature="LAYER" feature_user_name="Layer" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+				<ChannelType index="5" attribute="Z ANGLE" feature="ROTATION" preset="GOBO" coarse="11" default="128">
+					<ChannelFunction index="0" name="Z ANGLE" from="0" to="255" min_dmx_24="0" max_dmx_24="16777215" subattribute="Z ANGLE" subattribute_user_name="Z ANGLE" attribute="Z ANGLE" attribute_user_name="Z ANGLE" feature="ROTATION" feature_user_name="ROTATION" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+				<ChannelType index="6" attribute="Z ROTATE SPEED" feature="ROTATION" preset="GOBO" coarse="12" default="128">
+					<ChannelFunction index="0" name="Z Rotate Speed" from="0" to="255" min_dmx_24="0" max_dmx_24="16777215" subattribute="Z Rotate Speed" subattribute_user_name="Z Rotate Speed" attribute="Z ROTATE SPEED" attribute_user_name="Z Rotate Speed" feature="ROTATION" feature_user_name="ROTATION" preset="GOBO" preset_user_name="Gobo">
+						<ChannelSet index="0" name="没有旋转" from_dmx="128" to_dmx="128" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="7" attribute="X ANGLE" feature="ROTATION" preset="GOBO" coarse="13" default="128">
+					<ChannelFunction index="0" name="X ANGLE" from="0" to="255" min_dmx_24="0" max_dmx_24="16777215" subattribute="X ANGLE" subattribute_user_name="X ANGLE" attribute="X ANGLE" attribute_user_name="X ANGLE" feature="ROTATION" feature_user_name="ROTATION" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+				<ChannelType index="8" attribute="X ROTATE SPEED" feature="ROTATION" preset="GOBO" coarse="14" default="128">
+					<ChannelFunction index="0" name="X Rotate Speed" from="0" to="255" min_dmx_24="0" max_dmx_24="16777215" subattribute="X Rotate Speed" subattribute_user_name="X Rotate Speed" attribute="X ROTATE SPEED" attribute_user_name="X Rotate Speed" feature="ROTATION" feature_user_name="ROTATION" preset="GOBO" preset_user_name="Gobo">
+						<ChannelSet index="0" name="没有旋转" from_dmx="128" to_dmx="128" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="9" attribute="Y ANGLE" feature="ROTATION" preset="GOBO" coarse="15" default="128">
+					<ChannelFunction index="0" name="Y ANGLE" from="0" to="255" min_dmx_24="0" max_dmx_24="16777215" subattribute="Y ANGLE" subattribute_user_name="Y ANGLE" attribute="Y ANGLE" attribute_user_name="Y ANGLE" feature="ROTATION" feature_user_name="ROTATION" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+				<ChannelType index="10" attribute="Y ROTATE SPEED" feature="ROTATION" preset="GOBO" coarse="16" default="128">
+					<ChannelFunction index="0" name="Y Rotate Speed" from="0" to="255" min_dmx_24="0" max_dmx_24="16777215" subattribute="Y Rotate Speed" subattribute_user_name="Y Rotate Speed" attribute="Y ROTATE SPEED" attribute_user_name="Y Rotate Speed" feature="ROTATION" feature_user_name="ROTATION" preset="GOBO" preset_user_name="Gobo">
+						<ChannelSet index="0" name="没有旋转" from_dmx="128" to_dmx="128" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="11" attribute="BARNDOOR4" feature="BARNDOORS" preset="SHAPERS" coarse="17" default="128">
+					<ChannelFunction index="0" name="X Pos move pixels" from="0" to="255" min_dmx_24="0" max_dmx_24="16777215" physfrom="-60" physto="60" subattribute="BARNDOOR4" subattribute_user_name="Bd4" attribute="BARNDOOR4" attribute_user_name="Bd4" feature="BARNDOORS" feature_user_name="Barndoors" preset="SHAPERS" preset_user_name="Shapers">
+						<ChannelSet index="0" name="居中" from_dmx="128" to_dmx="128" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="12" attribute="X POS FINE" feature="IMAGE POS" preset="GOBO" coarse="18" default="128">
+					<ChannelFunction index="0" name="X Pos move pixel" from="0" to="255" min_dmx_24="0" max_dmx_24="16777215" subattribute="X Pos Fine" subattribute_user_name="X Pos Fine" attribute="X POS FINE" attribute_user_name="X Pos Fine" feature="IMAGE POS" feature_user_name="IMAGE POS" preset="GOBO" preset_user_name="Gobo">
+						<ChannelSet index="0" name="居中" from_dmx="128" to_dmx="128" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="13" attribute="Y POS" feature="IMAGE POS" preset="GOBO" coarse="19" default="128">
+					<ChannelFunction index="0" name="Y Pos move pixels" from="0" to="255" min_dmx_24="0" max_dmx_24="16777215" subattribute="Y Pos" subattribute_user_name="Y Pos" attribute="Y POS" attribute_user_name="Y Pos" feature="IMAGE POS" feature_user_name="IMAGE POS" preset="GOBO" preset_user_name="Gobo">
+						<ChannelSet index="0" name="居中" from_dmx="128" to_dmx="128" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="14" attribute="Y POS FINE" feature="IMAGE POS" preset="GOBO" coarse="20" default="128">
+					<ChannelFunction index="0" name="Y Pos move pixel" from="0" to="255" min_dmx_24="0" max_dmx_24="16777215" subattribute="Y Pos Fine" subattribute_user_name="Y Pos Fine" attribute="Y POS FINE" attribute_user_name="Y Pos Fine" feature="IMAGE POS" feature_user_name="IMAGE POS" preset="GOBO" preset_user_name="Gobo">
+						<ChannelSet index="0" name="居中" from_dmx="128" to_dmx="128" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="15" attribute="WIDTH" feature="SIZE" preset="GOBO" coarse="3" default="128">
+					<ChannelFunction index="0" name="In Frame H" from="0" to="255" min_dmx_24="0" max_dmx_24="16777215" subattribute="Width" subattribute_user_name="Width" attribute="WIDTH" attribute_user_name="Width" feature="SIZE" feature_user_name="SIZE" preset="GOBO" preset_user_name="Gobo">
+						<ChannelSet index="0" name="原始" from_dmx="128" to_dmx="128" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="16" attribute="WIDTH FINE" feature="SIZE" preset="GOBO" coarse="4" default="128">
+					<ChannelFunction index="0" name="In Frame L" from="0" to="255" min_dmx_24="0" max_dmx_24="16777215" subattribute="Width Fine" subattribute_user_name="Width Fine" attribute="WIDTH FINE" attribute_user_name="Width Fine" feature="SIZE" feature_user_name="SIZE" preset="GOBO" preset_user_name="Gobo">
+						<ChannelSet index="0" name="原始" from_dmx="128" to_dmx="128" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="17" attribute="HEIGHT" feature="SIZE" preset="GOBO" coarse="5" default="255">
+					<ChannelFunction index="0" name="Out Frame H" from="0" to="255" min_dmx_24="0" max_dmx_24="16777215" subattribute="Height" subattribute_user_name="Height" attribute="HEIGHT" attribute_user_name="Height" feature="SIZE" feature_user_name="SIZE" preset="GOBO" preset_user_name="Gobo">
+						<ChannelSet index="0" name="原始" from_dmx="128" to_dmx="128" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="18" attribute="HEIGHT FINE" feature="SIZE" preset="GOBO" coarse="6" default="255">
+					<ChannelFunction index="0" name="Out Frame L" from="0" to="255" min_dmx_24="0" max_dmx_24="16777215" subattribute="Height Fine" subattribute_user_name="Height Fine" attribute="HEIGHT FINE" attribute_user_name="Height Fine" feature="SIZE" feature_user_name="SIZE" preset="GOBO" preset_user_name="Gobo">
+						<ChannelSet index="0" name="原始" from_dmx="128" to_dmx="128" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="19" attribute="X SCALE" feature="SCALE" preset="SHAPERS" coarse="21" default="128">
+					<ChannelFunction index="0" name="X Scale" from="0" to="255" min_dmx_24="0" max_dmx_24="16777215" subattribute="X Scale" subattribute_user_name="X Scale" attribute="X SCALE" attribute_user_name="X Scale" feature="SCALE" feature_user_name="SCALE" preset="SHAPERS" preset_user_name="Shapers">
+						<ChannelSet index="0" name="原始" from_dmx="128" to_dmx="128" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="20" attribute="Y SCALE" feature="SCALE" preset="SHAPERS" coarse="22" default="128">
+					<ChannelFunction index="0" name="Y Scale" from="0" to="255" min_dmx_24="0" max_dmx_24="16777215" subattribute="Y Scale" subattribute_user_name="Y Scale" attribute="Y SCALE" attribute_user_name="Y Scale" feature="SCALE" feature_user_name="SCALE" preset="SHAPERS" preset_user_name="Shapers">
+						<ChannelSet index="0" name="原始" from_dmx="128" to_dmx="128" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="21" attribute="SELECT 1" feature="EFFECT" preset="BEAM" coarse="23">
+					<ChannelFunction index="0" name="Select 1" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="Select 1" subattribute_user_name="Select 1" attribute="SELECT 1" attribute_user_name="Select 1" feature="EFFECT" feature_user_name="Effect" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="无效果" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="色键抠像 15%" from_dmx="1" to_dmx="1" />
+						<ChannelSet index="2" name="色键抠像 25%" from_dmx="2" to_dmx="2" />
+						<ChannelSet index="3" name="色键抠像 40%" from_dmx="3" to_dmx="3" />
+						<ChannelSet index="4" name="反色键抠像15%" from_dmx="4" to_dmx="4" />
+						<ChannelSet index="5" name="反色键抠像25%" from_dmx="5" to_dmx="5" />
+						<ChannelSet index="6" name="反色键抠像40%" from_dmx="6" to_dmx="6" />
+						<ChannelSet index="7" name="CMY调整" from_dmx="7" to_dmx="7" />
+						<ChannelSet index="8" name="CMY增量" from_dmx="8" to_dmx="8" />
+						<ChannelSet index="9" name="CMY非黑色增量" from_dmx="9" to_dmx="9" />
+						<ChannelSet index="10" name="RGB增量" from_dmx="10" to_dmx="10" />
+						<ChannelSet index="11" name="RGB非黑色增量" from_dmx="11" to_dmx="11" />
+						<ChannelSet index="12" name="RGB to GBR" from_dmx="12" to_dmx="12" />
+						<ChannelSet index="13" name="RGB to GRB" from_dmx="13" to_dmx="13" />
+						<ChannelSet index="14" name="RGB to BGR" from_dmx="14" to_dmx="14" />
+						<ChannelSet index="15" name="RGB to BRG" from_dmx="15" to_dmx="15" />
+						<ChannelSet index="16" name="RGB to RBG" from_dmx="16" to_dmx="16" />
+						<ChannelSet index="17" name="曝光 1 - invert colour if less than DMX" from_dmx="18" to_dmx="18" />
+						<ChannelSet index="18" name="曝光 2 - invert colour if greater than DMX" from_dmx="19" to_dmx="19" />
+						<ChannelSet index="19" name="曝光 3 - colour 0 if less than DMX" from_dmx="20" to_dmx="20" />
+						<ChannelSet index="20" name="曝光 4 - colour 0 if greater than DMX" from_dmx="21" to_dmx="21" />
+						<ChannelSet index="21" name="色饱和度" from_dmx="22" to_dmx="22" />
+						<ChannelSet index="22" name="Colour to alpha" from_dmx="49" to_dmx="49" />
+						<ChannelSet index="23" name="Colour to alpha inverted" from_dmx="50" to_dmx="50" />
+						<ChannelSet index="24" name="锐化" from_dmx="56" to_dmx="56" />
+						<ChannelSet index="25" name="马赛克" from_dmx="57" to_dmx="57" />
+						<ChannelSet index="26" name="描边" from_dmx="58" to_dmx="58" />
+						<ChannelSet index="27" name="立方体内部贴合" from_dmx="60" to_dmx="60" />
+						<ChannelSet index="28" name="水平面" from_dmx="61" to_dmx="61" />
+						<ChannelSet index="29" name="旋转垂直面" from_dmx="62" to_dmx="62" />
+						<ChannelSet index="30" name="波纹" from_dmx="63" to_dmx="63" />
+						<ChannelSet index="31" name="RotoZoom" from_dmx="64" to_dmx="64" />
+						<ChannelSet index="32" name="球面内部贴合" from_dmx="65" to_dmx="65" />
+						<ChannelSet index="33" name="球面外部贴合" from_dmx="66" to_dmx="66" />
+						<ChannelSet index="34" name="管道内部贴合" from_dmx="67" to_dmx="67" />
+						<ChannelSet index="35" name="水波纹" from_dmx="68" to_dmx="68" />
+						<ChannelSet index="36" name="立方体表面" from_dmx="69" to_dmx="69" />
+						<ChannelSet index="37" name="三分屏幕" from_dmx="70" to_dmx="70" />
+						<ChannelSet index="38" name="棋盘分割" from_dmx="71" to_dmx="71" />
+						<ChannelSet index="39" name="四分屏幕" from_dmx="72" to_dmx="72" />
+						<ChannelSet index="40" name="Scroller" from_dmx="73" to_dmx="73" />
+						<ChannelSet index="41" name="Video Split" from_dmx="74" to_dmx="74" />
+						<ChannelSet index="42" name="图像扩展" from_dmx="75" to_dmx="75" />
+						<ChannelSet index="43" name="Redial Blur" from_dmx="76" to_dmx="76" />
+						<ChannelSet index="44" name="Strips" from_dmx="77" to_dmx="77" />
+						<ChannelSet index="45" name="EarthQuake" from_dmx="78" to_dmx="78" />
+						<ChannelSet index="46" name="螺旋波纹" from_dmx="79" to_dmx="79" />
+						<ChannelSet index="47" name="条纹遮挡" from_dmx="80" to_dmx="80" />
+						<ChannelSet index="48" name="图像偏移" from_dmx="81" to_dmx="81" />
+						<ChannelSet index="49" name="百叶窗" from_dmx="82" to_dmx="82" />
+						<ChannelSet index="50" name="Pop Art" from_dmx="83" to_dmx="83" />
+						<ChannelSet index="51" name="闪电" from_dmx="84" to_dmx="84" />
+						<ChannelSet index="52" name="Kaleido_Square" from_dmx="85" to_dmx="85" />
+						<ChannelSet index="53" name="Kaleido_right triangle" from_dmx="86" to_dmx="86" />
+						<ChannelSet index="54" name="Kaleido_equilateral triangle" from_dmx="87" to_dmx="87" />
+						<ChannelSet index="55" name="Kaleido_Hexagon" from_dmx="88" to_dmx="88" />
+						<ChannelSet index="56" name="Kaleido_classic" from_dmx="89" to_dmx="89" />
+						<ChannelSet index="57" name="Kaleido_lozenge" from_dmx="90" to_dmx="90" />
+						<ChannelSet index="58" name="Kaleido" from_dmx="91" to_dmx="91" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="22" attribute="ADJUST 1-1" feature="EFFECT" preset="BEAM" coarse="24">
+					<ChannelFunction index="0" name="Adjust 1-1" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="Adjust 1-1" subattribute_user_name="Adjust 1-1" attribute="ADJUST 1-1" attribute_user_name="Adjust 1-1" feature="EFFECT" feature_user_name="Effect" preset="BEAM" preset_user_name="Beam" />
+				</ChannelType>
+				<ChannelType index="23" attribute="ADJUST 1-2" feature="EFFECT" preset="BEAM" coarse="25">
+					<ChannelFunction index="0" name="Adjust 1-2" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="Adjust 1-2" subattribute_user_name="Adjust 1-2" attribute="ADJUST 1-2" attribute_user_name="Adjust 1-2" feature="EFFECT" feature_user_name="Effect" preset="BEAM" preset_user_name="Beam" />
+				</ChannelType>
+				<ChannelType index="24" attribute="ADJUST 1-3" feature="EFFECT" preset="BEAM" coarse="26">
+					<ChannelFunction index="0" name="Adjust 1-3" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="Adjust 1-3" subattribute_user_name="Adjust 1-3" attribute="ADJUST 1-3" attribute_user_name="Adjust 1-3" feature="EFFECT" feature_user_name="Effect" preset="BEAM" preset_user_name="Beam" />
+				</ChannelType>
+				<ChannelType index="25" attribute="SELECT 2" feature="EFFECT" preset="BEAM" coarse="27">
+					<ChannelFunction index="0" name="Select 2" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="Select 2" subattribute_user_name="Select 2" attribute="SELECT 2" attribute_user_name="Select 2" feature="EFFECT" feature_user_name="Effect" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Effect off" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="15% - subtract RGB" from_dmx="1" to_dmx="1" />
+						<ChannelSet index="2" name="25% - subtract RGB" from_dmx="2" to_dmx="2" />
+						<ChannelSet index="3" name="40% - subtract RGB" from_dmx="3" to_dmx="3" />
+						<ChannelSet index="4" name="15% - invert subtract RGB" from_dmx="4" to_dmx="4" />
+						<ChannelSet index="5" name="25% - invert resubtract RGB" from_dmx="5" to_dmx="5" />
+						<ChannelSet index="6" name="40% - invert resubtract RGB" from_dmx="6" to_dmx="6" />
+						<ChannelSet index="7" name="RGB to CMY" from_dmx="7" to_dmx="7" />
+						<ChannelSet index="8" name="CMY - add to all" from_dmx="8" to_dmx="8" />
+						<ChannelSet index="9" name="CMY - add to non black" from_dmx="9" to_dmx="9" />
+						<ChannelSet index="10" name="RGB - add to all " from_dmx="10" to_dmx="10" />
+						<ChannelSet index="11" name="RGB - add to non black" from_dmx="11" to_dmx="11" />
+						<ChannelSet index="12" name="RGB to GBR" from_dmx="12" to_dmx="12" />
+						<ChannelSet index="13" name="RGB to GRB" from_dmx="13" to_dmx="13" />
+						<ChannelSet index="14" name="RGB to BGR" from_dmx="14" to_dmx="14" />
+						<ChannelSet index="15" name="RGB to BRG" from_dmx="15" to_dmx="15" />
+						<ChannelSet index="16" name="RGB to RBG" from_dmx="16" to_dmx="16" />
+						<ChannelSet index="17" name="Solarise 1 - invert colour if less than DMX" from_dmx="18" to_dmx="18" />
+						<ChannelSet index="18" name="Solarise 2 - invert colour if greater than DMX" from_dmx="19" to_dmx="19" />
+						<ChannelSet index="19" name="Solarise 3 - colour 0 if less than DMX" from_dmx="20" to_dmx="20" />
+						<ChannelSet index="20" name="Solarise 4 - colour 0 if greater than DMX" from_dmx="21" to_dmx="21" />
+						<ChannelSet index="21" name="DotP and resample" from_dmx="22" to_dmx="22" />
+						<ChannelSet index="22" name="Colour to alpha" from_dmx="49" to_dmx="49" />
+						<ChannelSet index="23" name="Colour to alpha inverted" from_dmx="50" to_dmx="50" />
+						<ChannelSet index="24" name="Gaussian blur" from_dmx="56" to_dmx="56" />
+						<ChannelSet index="25" name="Lens grid" from_dmx="57" to_dmx="57" />
+						<ChannelSet index="26" name="Edge detect" from_dmx="58" to_dmx="58" />
+						<ChannelSet index="27" name="CubeInside" from_dmx="60" to_dmx="60" />
+						<ChannelSet index="28" name="Plane" from_dmx="61" to_dmx="61" />
+						<ChannelSet index="29" name="Plane Rotation" from_dmx="62" to_dmx="62" />
+						<ChannelSet index="30" name="Ripple" from_dmx="63" to_dmx="63" />
+						<ChannelSet index="31" name="RotoZoom" from_dmx="64" to_dmx="64" />
+						<ChannelSet index="32" name="Sphere Inside" from_dmx="65" to_dmx="65" />
+						<ChannelSet index="33" name="Sphere Face" from_dmx="66" to_dmx="66" />
+						<ChannelSet index="34" name="Tunnel" from_dmx="67" to_dmx="67" />
+						<ChannelSet index="35" name="water wave" from_dmx="68" to_dmx="68" />
+						<ChannelSet index="36" name="cube surface" from_dmx="69" to_dmx="69" />
+						<ChannelSet index="37" name="Split Scrolling" from_dmx="70" to_dmx="70" />
+						<ChannelSet index="38" name="Checker" from_dmx="71" to_dmx="71" />
+						<ChannelSet index="39" name="Mirror" from_dmx="72" to_dmx="72" />
+						<ChannelSet index="40" name="Scroller" from_dmx="73" to_dmx="73" />
+						<ChannelSet index="41" name="Video Split" from_dmx="74" to_dmx="74" />
+						<ChannelSet index="42" name="Zoom Out" from_dmx="75" to_dmx="75" />
+						<ChannelSet index="43" name="Redial Blur" from_dmx="76" to_dmx="76" />
+						<ChannelSet index="44" name="Strips" from_dmx="77" to_dmx="77" />
+						<ChannelSet index="45" name="EarthQuake" from_dmx="78" to_dmx="78" />
+						<ChannelSet index="46" name="Larsen" from_dmx="79" to_dmx="79" />
+						<ChannelSet index="47" name="Digital Noiz" from_dmx="80" to_dmx="80" />
+						<ChannelSet index="48" name="Irisation" from_dmx="81" to_dmx="81" />
+						<ChannelSet index="49" name="Larsen Presets" from_dmx="82" to_dmx="82" />
+						<ChannelSet index="50" name="Pop Art" from_dmx="83" to_dmx="83" />
+						<ChannelSet index="51" name="Stroboscope" from_dmx="84" to_dmx="84" />
+						<ChannelSet index="52" name="Kaleido_Square" from_dmx="85" to_dmx="85" />
+						<ChannelSet index="53" name="Kaleido_right triangle" from_dmx="86" to_dmx="86" />
+						<ChannelSet index="54" name="Kaleido_equilateral triangle" from_dmx="87" to_dmx="87" />
+						<ChannelSet index="55" name="Kaleido_Hexagon" from_dmx="88" to_dmx="88" />
+						<ChannelSet index="56" name="Kaleido_classic" from_dmx="89" to_dmx="89" />
+						<ChannelSet index="57" name="Kaleido_lozenge" from_dmx="90" to_dmx="90" />
+						<ChannelSet index="58" name="Kaleido" from_dmx="91" to_dmx="91" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="26" attribute="ADJUST 2-1" feature="EFFECT" preset="BEAM" coarse="28">
+					<ChannelFunction index="0" name="Adjust 2-1" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="Adjust 2-1" subattribute_user_name="Adjust 2-1" attribute="ADJUST 2-1" attribute_user_name="Adjust 2-1" feature="EFFECT" feature_user_name="Effect" preset="BEAM" preset_user_name="Beam" />
+				</ChannelType>
+				<ChannelType index="27" attribute="ADJUST 2-2" feature="EFFECT" preset="BEAM" coarse="29">
+					<ChannelFunction index="0" name="Adjust 2-2" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="Adjust 2-2" subattribute_user_name="Adjust 2-2" attribute="ADJUST 2-2" attribute_user_name="Adjust 2-2" feature="EFFECT" feature_user_name="Effect" preset="BEAM" preset_user_name="Beam" />
+				</ChannelType>
+				<ChannelType index="28" attribute="ADJUST 2-3" feature="EFFECT" preset="BEAM" coarse="30">
+					<ChannelFunction index="0" name="Adjust 2-3" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="Adjust 2-3" subattribute_user_name="Adjust 2-3" attribute="ADJUST 2-3" attribute_user_name="Adjust 2-3" feature="EFFECT" feature_user_name="Effect" preset="BEAM" preset_user_name="Beam" />
+				</ChannelType>
+				<ChannelType index="29" attribute="SPEED" feature="MSPEED" preset="CONTROL" coarse="7">
+					<ChannelFunction index="0" name="Play SPEED" from="0" to="255" min_dmx_24="0" max_dmx_24="16777215" subattribute="SPEED" subattribute_user_name="SPEED" attribute="SPEED" attribute_user_name="SPEED" feature="MSPEED" feature_user_name="Mspeed" preset="CONTROL" preset_user_name="Control" />
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" RW="0" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<FixtureMacroCollect index="5" />
+		<Body />
+		<AutoPresets index="4" />
+		<RdmNotifications index="6">
+			<RdmNotification index="0" Type="Absent" Subcategory="RDM Warning" />
+		</RdmNotifications>
+	</FixtureType>
+</MA>

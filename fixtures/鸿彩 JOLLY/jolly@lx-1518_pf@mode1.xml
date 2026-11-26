@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.0.0/MA.xsd" major_vers="3" minor_vers="0" stream_vers="0">
+	<Info datetime="2023-07-04T17:21:58" showfile="new show 2023-03-24" />
+	<FixtureType index="70" name="LX-1518 PF" mode="mode1">
+		<short_name>LX-1518 PF</short_name>
+		<manufacturer>Jolly</manufacturer>
+		<short_manufacturer>Jolly</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" name="Main Module" class="Headmover" beamtype="Wash" beam_angle="35" beam_intensity="10000">
+				<Body>
+					<Size x="0.5" y="0.42" z="0.66" />
+				</Body>
+				<ChannelType index="0" attribute="PAN" feature="POSITION" preset="POSITION" coarse="1" fine="2" default="32767.5">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="-180" physto="180" subattribute="PAN" attribute="PAN" feature="POSITION" preset="POSITION" />
+				</ChannelType>
+				<ChannelType index="1" attribute="TILT" feature="POSITION" preset="POSITION" coarse="3" fine="4" default="32767.5">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="-90" physto="90" subattribute="TILT" attribute="TILT" feature="POSITION" preset="POSITION" />
+				</ChannelType>
+				<ChannelType index="2" attribute="POSITIONMSPEED" feature="MSPEED" preset="CONTROL" coarse="5">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="POSITIONMSPEEDTIME" attribute="POSITIONMSPEED" feature="MSPEED" preset="CONTROL" />
+				</ChannelType>
+				<ChannelType index="3" attribute="COLORMIXER" feature="COLORMIX" preset="COLOR" coarse="6">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="COLORMIXMACROSELECT" attribute="COLORMIXER" feature="COLORMIX" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="4" attribute="RED 1" feature="PIXEL" preset="COLOR" coarse="7" fine="8" default="65535">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="RED 1" attribute="RED 1" feature="PIXEL" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="5" attribute="GREEN 1" feature="PIXEL GREEN" preset="COLOR" coarse="9" fine="10">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="GREEN 1" attribute="GREEN 1" feature="PIXEL GREEN" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="6" attribute="BLUE 1" feature="PIXEL BLUE" preset="COLOR" coarse="11" fine="12">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="BLUE 1" attribute="BLUE 1" feature="PIXEL BLUE" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="7" attribute="WHITE 1" feature="PIXEL WHITE" preset="COLOR" coarse="13" fine="14">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="WHITE 1" attribute="WHITE 1" feature="PIXEL WHITE" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="8" attribute="RED 2" feature="PIXEL" preset="COLOR" coarse="15" fine="16" default="65535">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="RED 2" attribute="RED 2" feature="PIXEL" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="9" attribute="GREEN 2" feature="PIXEL GREEN" preset="COLOR" coarse="17" fine="18">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="GREEN 2" attribute="GREEN 2" feature="PIXEL GREEN" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="10" attribute="BLUE 2" feature="PIXEL BLUE" preset="COLOR" coarse="19" fine="20">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="BLUE 2" attribute="BLUE 2" feature="PIXEL BLUE" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="11" attribute="WHITE 2" feature="PIXEL WHITE" preset="COLOR" coarse="21" fine="22">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="WHITE 2" attribute="WHITE 2" feature="PIXEL WHITE" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="12" attribute="RED 3" feature="PIXEL" preset="COLOR" coarse="23" fine="24" default="65535">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="RED 3" attribute="RED 3" feature="PIXEL" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="13" attribute="GREEN 3" feature="PIXEL GREEN" preset="COLOR" coarse="25" fine="26">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="GREEN 3" attribute="GREEN 3" feature="PIXEL GREEN" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="14" attribute="BLUE 3" feature="PIXEL BLUE" preset="COLOR" coarse="27" fine="28">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="BLUE 3" attribute="BLUE 3" feature="PIXEL BLUE" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="15" attribute="WHITE 3" feature="PIXEL WHITE" preset="COLOR" coarse="29" fine="30">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="WHITE 3" attribute="WHITE 3" feature="PIXEL WHITE" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="16" attribute="CTO" feature="CTC" preset="COLOR" coarse="31">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="CTO" attribute="CTO" feature="CTC" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="17" attribute="ZOOM" feature="FOCUS" preset="FOCUS" coarse="32">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.7" physto="1" subattribute="ZOOM" attribute="ZOOM" feature="FOCUS" preset="FOCUS" />
+				</ChannelType>
+				<ChannelType index="18" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" coarse="33" default="255" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="1" subattribute="SHUTTER" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" />
+				</ChannelType>
+				<ChannelType index="19" attribute="FIXTUREGLOBALRESET" feature="RESET" preset="CONTROL" coarse="34">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="FIXTUREGLOBALRESET" attribute="FIXTUREGLOBALRESET" feature="RESET" preset="CONTROL">
+						<ChannelSet index="0" name="All Reset" from_dmx="80" to_dmx="84" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="20" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="35" fine="36" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" attribute="DIM" feature="DIMMER" preset="DIMMER" />
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" RW="0" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<Body />
+		<AutoPresets index="4" />
+	</FixtureType>
+</MA>

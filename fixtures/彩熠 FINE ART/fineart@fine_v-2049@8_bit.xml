@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA major_vers="3" minor_vers="0" stream_vers="16">
+	<FixtureType name="FINE V-2049" mode="8 bit" scale="1.000">
+		<short_name>FINE V-2049b8</short_name>
+		<manufacturer>Fineart</manufacturer>
+		<short_manufacturer>Fineart</short_manufacturer>
+		<notes>Fixture has On Off switch on base of fixture
+User manual does not say what menu option to set for 8 bit personality
+User manual says lamp control channel is optional but does not say how to enable/disable it</notes>
+		<revision date="2010-02-04" text="Automated import from MA Lighting (C-RevNum: 0; Date: 2007-03-16)"/>
+		<Modules>
+			<![CDATA[Module 1]]>
+			<Module name="V-2049" class="Headmover" beamtype="Wash" scale="1.000" beam_angle="45.000" beam_intensity="10000.000">
+				<![CDATA[1]]>
+				<ChannelType attribute="PAN" feature="POSITION" preset="POSITION" coarse="1" default="127.500">
+					<ChannelFunction from="-180.000" to="180.000" min_dmx="0" max_dmx="255" physfrom="-180.000" physto="180.000" physdefined="1" phystime="2.000"/>
+				</ChannelType>
+				<![CDATA[2]]>
+				<ChannelType attribute="TILT" feature="POSITION" preset="POSITION" coarse="2" default="127.500">
+					<ChannelFunction from="-115.000" to="115.000" min_dmx="0" max_dmx="255" physfrom="-115.000" physto="115.000" physdefined="1" phystime="1.917"/>
+				</ChannelType>
+				<![CDATA[3]]>
+				<ChannelType attribute="Lamp On" feature="Lamp Control" preset="CONTROL" coarse="3" default="0.000">
+					<ChannelFunction from="0.000" to="50.000" min_dmx="0" max_dmx="127" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="Lamp Off" from_dmx="0" to_dmx="127" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="50.000" to="100.000" min_dmx="128" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="Lamp On" from_dmx="128" to_dmx="255" auto_create="1"/>
+					</ChannelFunction>
+				</ChannelType>
+				<Body>
+					<Size x="1.000" y="1.000" z="1.000"/>
+					<Center x="0.000" y="0.000" z="0.000"/>
+					<Light x="0.000" y="0.000" z="0.000"/>
+				</Body>
+			</Module>
+		</Modules>
+		<Instances>
+			<![CDATA[Instance 1]]>
+			<Instance type="V-2049" patch="1" X="0.000" Y="0.000" locked="true"/>
+		</Instances>
+		<Wheels/>
+		<QFuncs/>
+	</FixtureType>
+</MA>

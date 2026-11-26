@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/2.9.0/MA.xsd" major_vers="2" minor_vers="9" stream_vers="0">
+	<Info datetime="2014-08-01T10:27:58" showfile="artfox2014show+model" />
+	<FixtureType index="1" name="v8" mode="13CH">
+		<InfoItems>
+			<Info>ArtFox Lighting http://www.artfoxlighting.com
+Ch 13 DMX 255 -  Stay 5 seconds to Total Reset</Info>
+			<Info type="Revision" date="2013-09-03T00:00:00">Automated import from MA Lighting (C-RevNum: 0; Date: 2012-08-09)</Info>
+			<Info type="Invisible" date="2013-09-03T00:00:00">generator_software_name=&quot;MA Importer&quot;,generator_software_version=&quot;5f6b42bb2658c4832ffd420fab04b1e552d5dd51&quot;</Info>
+		</InfoItems>
+		<short_name>Pixel8</short_name>
+		<manufacturer>ArtFox Lighting</manufacturer>
+		<short_manufacturer>ArtFox</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="None" beamtype="Bean" beam_angle="4" beam_intensity="10000">
+				<ChannelType index="0" attribute="TILT1" feature="POSITION" preset="POSITION" coarse="1">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="-135" physto="135" subattribute="TILT1" attribute="TILT1" feature="POSITION" preset="POSITION" />
+				</ChannelType>
+				<ChannelType index="1" attribute="TILT2" feature="POSITION" preset="POSITION" coarse="2">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="-135" physto="135" subattribute="TILT2" attribute="TILT2" feature="POSITION" preset="POSITION" />
+				</ChannelType>
+				<ChannelType index="2" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="3">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" attribute="DIM" feature="DIMMER" preset="DIMMER" />
+				</ChannelType>
+				<ChannelType index="3" attribute="STROBE" feature="SHUTTER" preset="BEAM" coarse="4">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="1.000" subattribute="SHUTTER" attribute="SHUTTER" feature="SHUTTER" preset="BEAM">
+						<ChannelSet index="0" name="Storbe0-100%" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="4" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" coarse="5" highlight_value="100.000" grandmaster="true">
+					<ChannelFunction name="White1" index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="COLORRGB1" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="5" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" coarse="6" highlight_value="100.000" grandmaster="true">
+					<ChannelFunction name="White2" index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="COLORRGB2" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="6" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" coarse="7" highlight_value="100.000" grandmaster="true">
+					<ChannelFunction name="White3" index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="COLORRGB3" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="7" attribute="COLORRGB4" feature="COLORRGB" preset="COLOR" coarse="8" highlight_value="100.000" grandmaster="true">
+					<ChannelFunction name="White4" index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="COLORRGB4" attribute="COLORRGB4" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="8" attribute="COLORRGB5" feature="COLORRGB" preset="COLOR" coarse="9" highlight_value="100.000" grandmaster="true">
+					<ChannelFunction name="White5" index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="COLORRGB5" attribute="COLORRGB5" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="9" attribute="COLORRGB6" feature="COLORRGB" preset="COLOR" coarse="10" highlight_value="100.000" grandmaster="true">
+					<ChannelFunction name="White6" index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="COLORRGB6" attribute="COLORRGB6" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="10" attribute="COLORRGB7" feature="COLORRGB" preset="COLOR" coarse="11" highlight_value="100.000" grandmaster="true">
+					<ChannelFunction name="White7" index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="COLORRGB7" attribute="COLORRGB7" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="11" attribute="COLORRGB8" feature="COLORRGB" preset="COLOR" coarse="12" highlight_value="100.000" grandmaster="true">
+					<ChannelFunction name="White8" index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="COLORRGB8" attribute="COLORRGB8" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="12" attribute="EFFECT1" feature="EFFECT" preset="BEAM" coarse="13">
+					<ChannelFunction index="0" name="Chase Preset" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" subattribute="EFFECTSELECT" attribute="EFFECT" feature="EFFECT" preset="BEAM">
+						<ChannelSet index="0" name="Open" from_dmx="0" to_dmx="1" />
+						<ChannelSet index="1" name="builtinprograme" from_dmx="2" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" RW="0" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<Body />
+		<AutoPresets index="4" />
+	</FixtureType>
+</MA>

@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.0.0/MA.xsd" major_vers="3" minor_vers="0" stream_vers="0">
+	<Info datetime="2021-07-14T14:38:10" showfile="new show 2021-04-22" />
+	<FixtureType index="4" name="FS-16 Z" mode="Pixel">
+		<short_name>FS-16 Z</short_name>
+		<manufacturer>Jolly</manufacturer>
+		<short_manufacturer>Jolly</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="Headmover" beamtype="Wash" beam_angle="35" beam_intensity="10000">
+				<Body>
+					<Size x="0.5" y="0.42" z="0.66" />
+				</Body>
+				<ChannelType index="0" attribute="COLORMIXER" feature="COLORMIX" preset="COLOR" coarse="1">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="COLORMIXCOLOR" attribute="COLORMIXER" feature="COLORMIX" preset="COLOR">
+						<ChannelSet index="0" name="No Function RGBW Colour mixing" from_dmx="0" to_dmx="5" />
+						<ChannelSet index="1" name="LEE 790-Moroccan Pink" from_dmx="6" to_dmx="10" />
+						<ChannelSet index="2" name="LEE 157-Pink" from_dmx="11" to_dmx="15" />
+						<ChannelSet index="3" name="LEE 332-Special Rose Pink" from_dmx="16" to_dmx="20" />
+						<ChannelSet index="4" name="LEE 328-Follies Pink" from_dmx="21" to_dmx="25" />
+						<ChannelSet index="5" name="LEE 345-Fuchsia Pink" from_dmx="26" to_dmx="30" />
+						<ChannelSet index="6" name="LEE 345-Fuchsia Pink" from_dmx="31" to_dmx="35" />
+						<ChannelSet index="7" name="LEE 181-Congo Blue" from_dmx="36" to_dmx="40" />
+						<ChannelSet index="8" name="LEE 071-Tokyo Blue" from_dmx="41" to_dmx="45" />
+						<ChannelSet index="9" name="LEE 120-Deep Blue" from_dmx="46" to_dmx="50" />
+						<ChannelSet index="10" name="LEE 079-Just Blue" from_dmx="51" to_dmx="55" />
+						<ChannelSet index="11" name="LEE 132-Medium Blue" from_dmx="56" to_dmx="60" />
+						<ChannelSet index="12" name="LEE 200-Double CT Blue" from_dmx="61" to_dmx="65" />
+						<ChannelSet index="13" name="LEE 161-Slate Blue" from_dmx="66" to_dmx="70" />
+						<ChannelSet index="14" name="LEE 201-Full CT Blue" from_dmx="71" to_dmx="75" />
+						<ChannelSet index="15" name="LEE 202-Half CT Blue" from_dmx="76" to_dmx="80" />
+						<ChannelSet index="16" name="LEE 117-Steel Blue" from_dmx="81" to_dmx="85" />
+						<ChannelSet index="17" name="LEE 353-Lighter Blue" from_dmx="86" to_dmx="90" />
+						<ChannelSet index="18" name="LEE 118-Light Blue" from_dmx="91" to_dmx="95" />
+						<ChannelSet index="19" name="LEE 116-Medium Blue Green" from_dmx="96" to_dmx="100" />
+						<ChannelSet index="20" name="LEE 124-Dark Green" from_dmx="101" to_dmx="105" />
+						<ChannelSet index="21" name="LEE 139-Primary Green" from_dmx="106" to_dmx="110" />
+						<ChannelSet index="22" name="LEE 089-Moss Green" from_dmx="111" to_dmx="115" />
+						<ChannelSet index="23" name="LEE 122-Fern Green" from_dmx="116" to_dmx="120" />
+						<ChannelSet index="24" name="LEE 738-JAS Green" from_dmx="121" to_dmx="125" />
+						<ChannelSet index="25" name="LEE 088-Lime Green" from_dmx="126" to_dmx="130" />
+						<ChannelSet index="26" name="LEE 100-Spring Yellow" from_dmx="131" to_dmx="135" />
+						<ChannelSet index="27" name="LEE 104-Deep Amber" from_dmx="136" to_dmx="140" />
+						<ChannelSet index="28" name="LEE 179-Chrome Orange" from_dmx="141" to_dmx="145" />
+						<ChannelSet index="29" name="LEE 105-Orange" from_dmx="146" to_dmx="150" />
+						<ChannelSet index="30" name="LEE 021-Gold Amber" from_dmx="151" to_dmx="155" />
+						<ChannelSet index="31" name="LEE 778-Mellennium Gold" from_dmx="156" to_dmx="160" />
+						<ChannelSet index="32" name="LEE 135-Deep Golden Amber" from_dmx="161" to_dmx="165" />
+						<ChannelSet index="33" name="LEE 164-Flame Red" from_dmx="166" to_dmx="170" />
+						<ChannelSet index="34" name="Coulourwheel rotation forward fast - slow" from_dmx="171" to_dmx="185" />
+						<ChannelSet index="35" name="Coulourwheel rotation stop" from_dmx="186" to_dmx="190" />
+						<ChannelSet index="36" name="Coulourwheel rotation backward fast - slow" from_dmx="191" to_dmx="205" />
+						<ChannelSet index="37" name="Coulourwheel rotation stop" from_dmx="206" to_dmx="210" />
+						<ChannelSet index="38" name="Fast  slow" from_dmx="255" to_dmx="225" />
+						<ChannelSet index="39" name="Tungsten Simulation" from_dmx="226" to_dmx="230" />
+						<ChannelSet index="40" name="Warm white - 3200K" from_dmx="231" to_dmx="235" />
+						<ChannelSet index="41" name="Neutral white - 4200K" from_dmx="236" to_dmx="240" />
+						<ChannelSet index="42" name="Cold white - 5600K" from_dmx="241" to_dmx="245" />
+						<ChannelSet index="43" name="Cold white - 7200K" from_dmx="246" to_dmx="250" />
+						<ChannelSet index="44" name="Cold white - 8000K" from_dmx="251" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="1" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" coarse="2" fine="3" color="ff0000">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB1" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="mix" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="65535" to_dmx="65535" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="2" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" coarse="4" fine="5" default="0.001" color="00ff00">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB2" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="mix" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="65535" to_dmx="65535" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="3" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" coarse="6" fine="7" color="0000ff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB3" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="mix" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="65535" to_dmx="65535" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="4" attribute="COLORRGB5" feature="COLORRGB" preset="COLOR" coarse="8" fine="9" color="ffffff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB5" attribute="COLORRGB5" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="mix" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="65535" to_dmx="65535" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="5" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" coarse="10" default="255">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="1" subattribute="SHUTTER" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" />
+				</ChannelType>
+				<ChannelType index="6" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="11" fine="12" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" attribute="DIM" feature="DIMMER" preset="DIMMER" />
+				</ChannelType>
+				<ChannelType index="7" attribute="ZOOM" feature="FOCUS" preset="FOCUS" coarse="13">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.7" physto="1" subattribute="ZOOM" attribute="ZOOM" feature="FOCUS" preset="FOCUS" />
+				</ChannelType>
+				<ChannelType index="8" attribute="CTO" feature="CTC" preset="COLOR" coarse="14">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="CTO" attribute="CTO" feature="CTC" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="9" attribute="FUNCTION" feature="CONTROL" preset="CONTROL" coarse="79">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="BLACKOUT" attribute="FUNCTION" feature="CONTROL" preset="CONTROL">
+						<ChannelSet index="0" name="Reserved" from_dmx="0" to_dmx="55" />
+						<ChannelSet index="1" name="Dimmer Speed Smooth" from_dmx="56" to_dmx="60" />
+						<ChannelSet index="2" name="Dimmer Speed Fast" from_dmx="61" to_dmx="65" />
+						<ChannelSet index="3" name="Reserved" from_dmx="66" to_dmx="70" />
+						<ChannelSet index="4" name="Dimmer Curve Linear" from_dmx="71" to_dmx="75" />
+						<ChannelSet index="5" name="Dimmer Curve Threatrical" from_dmx="76" to_dmx="80" />
+						<ChannelSet index="6" name="Dimmer Curve Sqaure Law" from_dmx="81" to_dmx="85" />
+						<ChannelSet index="7" name="Dimmer Curve Inverse Sqaure Law" from_dmx="86" to_dmx="90" />
+						<ChannelSet index="8" name="Reserved" from_dmx="91" to_dmx="95" />
+						<ChannelSet index="9" name="No DMX Hold" from_dmx="96" to_dmx="100" />
+						<ChannelSet index="10" name="No DMX Shutter Closed" from_dmx="101" to_dmx="105" />
+						<ChannelSet index="11" name="No DMX Play Program 1" from_dmx="106" to_dmx="110" />
+						<ChannelSet index="12" name="Reserved" from_dmx="111" to_dmx="115" />
+						<ChannelSet index="13" name="Display Backlight On" from_dmx="116" to_dmx="120" />
+						<ChannelSet index="14" name="Display Backlight Off" from_dmx="121" to_dmx="125" />
+						<ChannelSet index="15" name="Reserved" from_dmx="126" to_dmx="135" />
+						<ChannelSet index="16" name="DMX Mode Standard" from_dmx="136" to_dmx="140" />
+						<ChannelSet index="17" name="DMX Mode Advanced" from_dmx="141" to_dmx="145" />
+						<ChannelSet index="18" name="DMX Mode Pixel" from_dmx="146" to_dmx="150" />
+						<ChannelSet index="19" name="DMX Mode Compressed RGBW" from_dmx="151" to_dmx="155" />
+						<ChannelSet index="20" name="DMX Mode Compressed Pixel" from_dmx="156" to_dmx="160" />
+						<ChannelSet index="21" name="Reserved" from_dmx="161" to_dmx="175" />
+						<ChannelSet index="22" name="Zoom Reset" from_dmx="176" to_dmx="180" />
+						<ChannelSet index="23" name="Fixture Reset" from_dmx="181" to_dmx="185" />
+						<ChannelSet index="24" name="Factory default except DMX Address  Mode" from_dmx="186" to_dmx="190" />
+						<ChannelSet index="25" name="Reserved" from_dmx="191" to_dmx="200" />
+						<ChannelSet index="26" name="PWM Rate  600 Hz" from_dmx="201" to_dmx="205" />
+						<ChannelSet index="27" name="PWM Rate 1200 Hz" from_dmx="206" to_dmx="210" />
+						<ChannelSet index="28" name="PWM Rate 2400 Hz" from_dmx="211" to_dmx="215" />
+						<ChannelSet index="29" name="PWM Rate 4800 Hz" from_dmx="216" to_dmx="220" />
+						<ChannelSet index="30" name="PWM Rate 9600 Hz" from_dmx="221" to_dmx="225" />
+						<ChannelSet index="31" name="Reserved" from_dmx="226" to_dmx="230" />
+						<ChannelSet index="32" name="Boot Mode Auto" from_dmx="231" to_dmx="235" />
+						<ChannelSet index="33" name="Boot Mode DMX" from_dmx="236" to_dmx="240" />
+						<ChannelSet index="34" name="Boot Mode Program Play" from_dmx="241" to_dmx="245" />
+						<ChannelSet index="35" name="Boot Mode Static" from_dmx="246" to_dmx="250" />
+						<ChannelSet index="36" name="Reserved" from_dmx="251" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+			<Module index="1" name="FS-16 Z mode3.1" class="LED" beamtype="Effect" beam_angle="35" beam_intensity="10000">
+				<Body>
+					<Size x="0.15" y="0.15" z="0.05" />
+				</Body>
+				<ChannelType index="0" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" coarse="1" highlight_value="100" color="ff0000">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB1" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="1" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" coarse="2" highlight_value="100" color="00ff00">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB2" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="2" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" coarse="3" highlight_value="100" color="0000ff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB3" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="3" attribute="COLORRGB5" feature="COLORRGB" preset="COLOR" coarse="4" color="ffffff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB5" attribute="COLORRGB5" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" />
+			<Instance index="1" module_index="1" patch="15" />
+			<Instance index="2" module_index="1" patch="19" />
+			<Instance index="3" module_index="1" patch="23" />
+			<Instance index="4" module_index="1" patch="27" />
+			<Instance index="5" module_index="1" patch="31" />
+			<Instance index="6" module_index="1" patch="35" />
+			<Instance index="7" module_index="1" patch="39" />
+			<Instance index="8" module_index="1" patch="43" />
+			<Instance index="9" module_index="1" patch="47" />
+			<Instance index="10" module_index="1" patch="51" />
+			<Instance index="11" module_index="1" patch="55" />
+			<Instance index="12" module_index="1" patch="59" />
+			<Instance index="13" module_index="1" patch="63" />
+			<Instance index="14" module_index="1" patch="67" />
+			<Instance index="15" module_index="1" patch="71" />
+			<Instance index="16" module_index="1" patch="75" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<Body />
+		<AutoPresets index="4" />
+	</FixtureType>
+</MA>

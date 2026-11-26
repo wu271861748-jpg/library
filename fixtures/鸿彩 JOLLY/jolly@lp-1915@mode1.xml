@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.0.0/MA.xsd" major_vers="3" minor_vers="0" stream_vers="0">
+	<Info datetime="2022-07-27T17:06:34" showfile="library test" />
+	<FixtureType index="94" name="LP-1915" mode="mode1">
+		<InfoItems>
+			<Info>Set Menu option Chnd to 8Ch for this personality</Info>
+			<Info type="Revision" date="2015-12-07T00:00:00">Automated import from MA Lighting (C-RevNum: 0; Date: 2013-10-18)</Info>
+			<Info type="Invisible" date="2015-12-07T00:00:00">generator_software_name=&quot;MA Importer&quot;,generator_software_version=&quot;9f54f4b62519d7c623c7e8e9b20a0a67177041b6&quot;</Info>
+		</InfoItems>
+		<short_name>LP-1915</short_name>
+		<manufacturer>Jolly</manufacturer>
+		<short_manufacturer>Jolly</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" name="Main Module" class="LED" beamtype="Wash" beam_angle="25" beam_intensity="10000">
+				<Body>
+					<Size x="0.418" y="0.233" z="0.244" />
+				</Body>
+				<ChannelType index="0" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" coarse="1" default="255" color="ff0000">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB1" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="1" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" coarse="2" default="255" color="00ff00">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB2" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="2" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" coarse="3" default="255" color="0000ff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB3" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="3" attribute="COLORRGB5" feature="COLORRGB" preset="COLOR" coarse="4" color="ffffff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB5" attribute="COLORRGB5" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="4" attribute="CTO" feature="CTC" preset="COLOR" coarse="5">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="CTO" attribute="CTO" feature="CTC" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="5" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" coarse="6" default="255">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="1" subattribute="SHUTTER" attribute="SHUTTER" feature="SHUTTER" preset="BEAM">
+						<ChannelSet index="0" name="close" from_dmx="0" to_dmx="3" />
+						<ChannelSet index="1" name="STROBE" from_dmx="4" to_dmx="103" />
+						<ChannelSet index="2" name="open" from_dmx="104" to_dmx="107" />
+						<ChannelSet index="3" name="PULSATION" from_dmx="108" to_dmx="207" />
+						<ChannelSet index="4" name="open" from_dmx="208" to_dmx="212" />
+						<ChannelSet index="5" name="RANDOM SLOW STROBE" from_dmx="213" to_dmx="225" />
+						<ChannelSet index="6" name="RANDOM MEDIUM STROBE" from_dmx="226" to_dmx="238" />
+						<ChannelSet index="7" name="RANDOM FAST STROBE" from_dmx="239" to_dmx="251" />
+						<ChannelSet index="8" name="open" from_dmx="252" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="6" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="7" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" attribute="DIM" feature="DIMMER" preset="DIMMER">
+						<ChannelSet index="0" name="closed" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="open" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="7" attribute="COLORMIXER" feature="COLORMIX" preset="COLOR" coarse="8">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="1" subattribute="COLORMIXCOLOR" attribute="COLORMIXER" feature="COLORMIX" preset="COLOR">
+						<ChannelSet index="0" name="No Function" from_dmx="0" to_dmx="9" />
+						<ChannelSet index="1" name="Red" from_dmx="10" to_dmx="17" />
+						<ChannelSet index="2" name="Green" from_dmx="18" to_dmx="25" />
+						<ChannelSet index="3" name="Blue" from_dmx="26" to_dmx="33" />
+						<ChannelSet index="4" name="White" from_dmx="34" to_dmx="41" />
+						<ChannelSet index="5" name="Red+Green" from_dmx="42" to_dmx="49" />
+						<ChannelSet index="6" name="Red+Blue" from_dmx="50" to_dmx="57" />
+						<ChannelSet index="7" name="Red+White" from_dmx="58" to_dmx="65" />
+						<ChannelSet index="8" name="Green+Blue" from_dmx="66" to_dmx="73" />
+						<ChannelSet index="9" name="Green+White" from_dmx="74" to_dmx="81" />
+						<ChannelSet index="10" name="Blue+White" from_dmx="82" to_dmx="89" />
+						<ChannelSet index="11" name="Red+Green+Blue" from_dmx="90" to_dmx="97" />
+						<ChannelSet index="12" name="Red+Green+White" from_dmx="98" to_dmx="105" />
+						<ChannelSet index="13" name="Green+Blue+White" from_dmx="106" to_dmx="113" />
+						<ChannelSet index="14" name="Red+Green+Blue+White" from_dmx="114" to_dmx="121" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<Body />
+		<AutoPresets index="4" />
+	</FixtureType>
+</MA>

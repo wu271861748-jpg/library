@@ -1,0 +1,2926 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.1.2/MA.xsd" major_vers="3" minor_vers="1" stream_vers="2">
+	<Info datetime="2018-11-04T08:10:32" showfile="library test" />
+	<FixtureType index="2" name="GL10WP" mode="Basic">
+		<short_name>GL10WPBa</short_name>
+		<manufacturer>Terbly</manufacturer>
+		<short_manufacturer>Terbly</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="Headmover" beamtype="Spot" beam_angle="1" beam_intensity="10000">
+				<Body>
+					<Size x="0.44" y="0.44" z="0.78" />
+				</Body>
+				<ChannelType index="0" attribute="PAN" feature="POSITION" preset="POSITION" coarse="1" default="127.5">
+					<ChannelFunction index="0" from="-270" to="270" min_dmx_24="0" max_dmx_24="16777215" physfrom="-270" physto="270" subattribute="PAN" subattribute_user_name="Pan" attribute="PAN" attribute_user_name="Pan" feature="POSITION" feature_user_name="Position" preset="POSITION" preset_user_name="Position">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="center" from_dmx="128" to_dmx="128" />
+						<ChannelSet index="2" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="1" attribute="TILT" feature="POSITION" preset="POSITION" coarse="2" default="127.5">
+					<ChannelFunction index="0" from="-135" to="135" min_dmx_24="0" max_dmx_24="16777215" physfrom="-135" physto="135" subattribute="TILT" subattribute_user_name="Tilt" attribute="TILT" attribute_user_name="Tilt" feature="POSITION" feature_user_name="Position" preset="POSITION" preset_user_name="Position">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="center" from_dmx="128" to_dmx="128" />
+						<ChannelSet index="2" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="2" attribute="POSITIONMSPEED" feature="MSPEED" preset="CONTROL" coarse="3">
+					<ChannelFunction index="0" from="88" to="0" min_dmx_24="0" max_dmx_24="14811135" subattribute="POSITIONMSPEEDMODESELECT" subattribute_user_name="PositionMSpeedModeSelect" attribute="POSITIONMSPEEDMODE" attribute_user_name="PositionMode" feature="MSPEED" feature_user_name="Mspeed" preset="CONTROL" preset_user_name="Control">
+						<ChannelSet index="0" name="max" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="min" from_dmx="225" to_dmx="225" />
+					</ChannelFunction>
+					<ChannelFunction index="1" name="B.O Movement" from="88" to="92" min_dmx_24="14811136" max_dmx_24="15466495" subattribute="POSITIONMSPEEDMODETRACK" subattribute_user_name="Track" attribute="POSITIONMSPEEDMODE" attribute_user_name="PositionMode" feature="MSPEED" feature_user_name="Mspeed" preset="CONTROL" preset_user_name="Control">
+						<ChannelSet index="0" name="B.O Movement" from_dmx="226" to_dmx="235" />
+					</ChannelFunction>
+					<ChannelFunction index="2" name="B.O All Wheel Change" from="92" to="96" min_dmx_24="15466496" max_dmx_24="16121855" subattribute="POSITIONMSPEEDMODETRACK" subattribute_user_name="Track" attribute="POSITIONMSPEEDMODE" attribute_user_name="PositionMode" feature="MSPEED" feature_user_name="Mspeed" preset="CONTROL" preset_user_name="Control">
+						<ChannelSet index="0" name="B.O All Wheel Change" from_dmx="236" to_dmx="245" />
+					</ChannelFunction>
+					<ChannelFunction index="3" name="no function" from="96" to="100" min_dmx_24="16121856" max_dmx_24="16777215" subattribute="POSITIONMSPEEDMODETIME" subattribute_user_name="Time" attribute="POSITIONMSPEEDMODE" attribute_user_name="PositionMode" feature="MSPEED" feature_user_name="Mspeed" preset="CONTROL" preset_user_name="Control">
+						<ChannelSet index="0" name="no function" from_dmx="246" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="3" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" coarse="4" default="45.58" highlight_value="18">
+					<ChannelFunction index="0" name="Closed" from="0" to="12.5" min_dmx_24="0" max_dmx_24="2097151" physfrom="0" physto="0" subattribute="SHUTTER" subattribute_user_name="Shutter" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Closed" from_dmx="0" to_dmx="31" />
+					</ChannelFunction>
+					<ChannelFunction index="1" name="Open" from="12.5" to="25" min_dmx_24="2097152" max_dmx_24="4194303" physfrom="1" physto="1" subattribute="SHUTTER" subattribute_user_name="Shutter" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Open" from_dmx="32" to_dmx="63" />
+					</ChannelFunction>
+					<ChannelFunction index="2" name="Strobe" from="25" to="37.5" min_dmx_24="4194304" max_dmx_24="6291455" physfrom="1" physto="25" subattribute="STROBE" subattribute_user_name="Strobe" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="min Strobe" from_dmx="64" to_dmx="64" />
+						<ChannelSet index="1" name="max Strobe" from_dmx="95" to_dmx="95" />
+					</ChannelFunction>
+					<ChannelFunction index="3" name="Open(2)" from="37.5" to="50" min_dmx_24="6291456" max_dmx_24="8388607" physfrom="1" physto="1" subattribute="SHUTTER" subattribute_user_name="Shutter" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Open(2)" from_dmx="96" to_dmx="127" />
+					</ChannelFunction>
+					<ChannelFunction index="4" name="Pulse Close" from="50" to="62.5" min_dmx_24="8388608" max_dmx_24="10485759" physfrom="1" physto="25" subattribute="STROBE_PULSE_CLOSE" subattribute_user_name="Pulse Close" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="min Pulse Close" from_dmx="128" to_dmx="128" />
+						<ChannelSet index="1" name="max Pulse Close" from_dmx="159" to_dmx="159" />
+					</ChannelFunction>
+					<ChannelFunction index="5" name="Open(3)" from="62.5" to="75" min_dmx_24="10485760" max_dmx_24="12582911" physfrom="1" physto="1" subattribute="SHUTTER" subattribute_user_name="Shutter" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Open(3)" from_dmx="160" to_dmx="191" />
+					</ChannelFunction>
+					<ChannelFunction index="6" from="75" to="87.5" min_dmx_24="12582912" max_dmx_24="14680063" physfrom="1" physto="25" subattribute="STROBE_RANDOM" subattribute_user_name="Rnd" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="min Random" from_dmx="192" to_dmx="192" />
+						<ChannelSet index="1" name="max Random" from_dmx="223" to_dmx="223" />
+					</ChannelFunction>
+					<ChannelFunction index="7" name="Open(4)" from="87.5" to="100" min_dmx_24="14680064" max_dmx_24="16777215" physfrom="1" physto="1" subattribute="SHUTTER" subattribute_user_name="Shutter" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Open(4)" from_dmx="224" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="4" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="5" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer">
+						<ChannelSet index="0" name="Closed" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="Open" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="5" attribute="DIMMERCURVE" feature="DIMMER" preset="DIMMER" coarse="6">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="DIMMERCURVE" subattribute_user_name="Curve" attribute="DIMMERCURVE" attribute_user_name="Curve" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer">
+						<ChannelSet index="0" name="Standard" from_dmx="0" to_dmx="20" />
+						<ChannelSet index="1" name="Stage" from_dmx="21" to_dmx="40" />
+						<ChannelSet index="2" name="TV" from_dmx="41" to_dmx="60" />
+						<ChannelSet index="3" name="Architectural" from_dmx="61" to_dmx="80" />
+						<ChannelSet index="4" name="Theatre" from_dmx="81" to_dmx="100" />
+						<ChannelSet index="5" name="Dafault to Unit Setting" from_dmx="101" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="6" attribute="ZOOM" feature="FOCUS" preset="FOCUS" coarse="7" default="127.5">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="11" physto="55" subattribute="ZOOM" subattribute_user_name="Zoom" attribute="ZOOM" attribute_user_name="Zoom" feature="FOCUS" feature_user_name="Focus" preset="FOCUS" preset_user_name="Focus">
+						<ChannelSet index="0" name="narrow" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="normal" from_dmx="128" to_dmx="128" />
+						<ChannelSet index="2" name="wide" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="7" attribute="FOCUS" feature="FOCUS" preset="FOCUS" coarse="8" default="127.5">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="FOCUS" subattribute_user_name="Focus" attribute="FOCUS" attribute_user_name="Focus" feature="FOCUS" feature_user_name="Focus" preset="FOCUS" preset_user_name="Focus">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="8" attribute="AUTOFOCUS_DIST" feature="FOCUS1" preset="FOCUS" coarse="9">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="Autofocus_Dist" subattribute_user_name="Autofocus_Dist" attribute="AUTOFOCUS_DIST" attribute_user_name="Autofocus_Dist" feature="FOCUS1" feature_user_name="Focus" preset="FOCUS" preset_user_name="Focus">
+						<ChannelSet index="0" name="Auto Focus Off" from_dmx="0" to_dmx="50" />
+						<ChannelSet index="1" name="Frost1 Auto Focus" from_dmx="51" to_dmx="100" />
+						<ChannelSet index="2" name="Frost2&amp;3 Auto Focus" from_dmx="101" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="9" attribute="AUTOFOCUS_ADJ" feature="FOCUS1" preset="FOCUS" coarse="10">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="Autofocus_Adj" subattribute_user_name="Autofocus_Adj" attribute="AUTOFOCUS_ADJ" attribute_user_name="Autofocus_Adj" feature="FOCUS1" feature_user_name="Focus" preset="FOCUS" preset_user_name="Focus">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="10" attribute="COLOR1" feature="COLOR1" preset="COLOR" coarse="11">
+					<ChannelFunction index="0" from="0" to="50" min_dmx_24="0" max_dmx_24="8388607" wheel="2" subattribute="COLOR1" subattribute_user_name="Select" attribute="COLOR1" attribute_user_name="C1" feature="COLOR1" feature_user_name="Color1" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="Open" from_dmx="0" to_dmx="19" slot_index="0" />
+						<ChannelSet index="1" name="Orange" from_dmx="20" to_dmx="37" slot_index="1" />
+						<ChannelSet index="2" name="Navy Blue" from_dmx="38" to_dmx="55" slot_index="2" />
+						<ChannelSet index="3" name="Yellow" from_dmx="56" to_dmx="73" slot_index="3" />
+						<ChannelSet index="4" name="Pink" from_dmx="74" to_dmx="91" slot_index="4" />
+						<ChannelSet index="5" name="Magenta" from_dmx="92" to_dmx="109" slot_index="5" />
+						<ChannelSet index="6" name="UV" from_dmx="110" to_dmx="127" slot_index="6" />
+					</ChannelFunction>
+					<ChannelFunction index="1" from="50" to="100" min_dmx_24="8388608" max_dmx_24="16777215" physfrom="-60" physto="60" subattribute="COLOR1_SPIN" subattribute_user_name="Spin" attribute="COLOR1" attribute_user_name="C1" feature="COLOR1" feature_user_name="Color1" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="&gt;&gt;&gt;" from_dmx="128" to_dmx="128" />
+						<ChannelSet index="1" name="Stop" from_dmx="190" to_dmx="193" slot_from="0" slot_to="0" />
+						<ChannelSet index="2" name="&lt;&lt;&lt;" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="11" attribute="COLOR2" feature="COLOR2" preset="COLOR" coarse="12">
+					<ChannelFunction index="0" from="0" to="50" min_dmx_24="0" max_dmx_24="8388607" wheel="3" subattribute="COLOR2" subattribute_user_name="Select2" attribute="COLOR2" attribute_user_name="C2" feature="COLOR2" feature_user_name="Color2" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="Open" from_dmx="0" to_dmx="19" slot_index="0" />
+						<ChannelSet index="1" name="Navy Orange" from_dmx="20" to_dmx="37" slot_index="1" />
+						<ChannelSet index="2" name="Green" from_dmx="38" to_dmx="55" slot_index="2" />
+						<ChannelSet index="3" name="Light Blue" from_dmx="56" to_dmx="73" slot_index="3" />
+						<ChannelSet index="4" name="CTB" from_dmx="74" to_dmx="91" slot_index="4" />
+						<ChannelSet index="5" name="CTO" from_dmx="92" to_dmx="109" slot_index="5" />
+						<ChannelSet index="6" name="HMG6" from_dmx="110" to_dmx="127" slot_index="6" />
+					</ChannelFunction>
+					<ChannelFunction index="1" from="50" to="100" min_dmx_24="8388608" max_dmx_24="16777215" physfrom="-60" physto="60" subattribute="COLOR2_SPIN" subattribute_user_name="Spin2" attribute="COLOR2" attribute_user_name="C2" feature="COLOR2" feature_user_name="Color2" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="&gt;&gt;&gt;" from_dmx="128" to_dmx="128" />
+						<ChannelSet index="1" name="Stop" from_dmx="190" to_dmx="193" slot_from="0" slot_to="0" />
+						<ChannelSet index="2" name="&lt;&lt;&lt;" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="12" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" coarse="13" highlight_value="100" color="ff0000">
+					<ChannelFunction index="0" from="100" to="0" min_dmx_24="0" max_dmx_24="16777215" physfrom="1" physto="0" subattribute="COLORRGB1" subattribute_user_name="R" attribute="COLORRGB1" attribute_user_name="R" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="max" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="min" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="13" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" coarse="14" highlight_value="100" color="00ff00">
+					<ChannelFunction index="0" from="100" to="0" min_dmx_24="0" max_dmx_24="16777215" physfrom="1" physto="0" subattribute="COLORRGB2" subattribute_user_name="G" attribute="COLORRGB2" attribute_user_name="G" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="max" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="min" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="14" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" coarse="15" highlight_value="100" color="0000ff">
+					<ChannelFunction index="0" from="100" to="0" min_dmx_24="0" max_dmx_24="16777215" physfrom="1" physto="0" subattribute="COLORRGB3" subattribute_user_name="B" attribute="COLORRGB3" attribute_user_name="B" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="max" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="min" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="15" attribute="COLORRGB25" feature="COLORRGB" preset="COLOR" coarse="16" highlight_value="0" color="ffbf00">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB25" subattribute_user_name="Red" attribute="COLORRGB25" attribute_user_name="Red" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="16" attribute="COLORRGB26" feature="COLORRGB" preset="COLOR" coarse="17" highlight_value="0" color="ffbf00">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB26" subattribute_user_name="Green" attribute="COLORRGB26" attribute_user_name="Green" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="17" attribute="COLORRGB27" feature="COLORRGB" preset="COLOR" coarse="18" highlight_value="0" color="ffbf00">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB27" subattribute_user_name="Blue" attribute="COLORRGB27" attribute_user_name="Blue" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="18" attribute="CTO" feature="COLOR1" preset="COLOR" coarse="19" highlight_value="0">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="6500" physto="3200" subattribute="CTO" subattribute_user_name="CTO" attribute="CTO" attribute_user_name="CTO" feature="COLOR1" feature_user_name="Color1" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="19" attribute="COL_MACRO" feature="COLOR1" preset="COLOR" coarse="20" highlight_value="0">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="Col_Macro" subattribute_user_name="Col_Macro" attribute="COL_MACRO" attribute_user_name="Col_Macro" feature="COLOR1" feature_user_name="Color1" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="Open" from_dmx="0" to_dmx="31" />
+						<ChannelSet index="1" name="Macro 1" from_dmx="32" to_dmx="39" />
+						<ChannelSet index="2" name="Macro 2" from_dmx="40" to_dmx="47" />
+						<ChannelSet index="3" name="Macro 3" from_dmx="48" to_dmx="55" />
+						<ChannelSet index="4" name="Macro 4" from_dmx="56" to_dmx="63" />
+						<ChannelSet index="5" name="Macro 5" from_dmx="64" to_dmx="71" />
+						<ChannelSet index="6" name="Macro 6" from_dmx="72" to_dmx="79" />
+						<ChannelSet index="7" name="Macro 7" from_dmx="80" to_dmx="87" />
+						<ChannelSet index="8" name="Macro 8" from_dmx="88" to_dmx="95" />
+						<ChannelSet index="9" name="Macro 9" from_dmx="96" to_dmx="103" />
+						<ChannelSet index="10" name="Macro 10" from_dmx="104" to_dmx="111" />
+						<ChannelSet index="11" name="Macro 11" from_dmx="112" to_dmx="119" />
+						<ChannelSet index="12" name="Macro 12" from_dmx="120" to_dmx="127" />
+						<ChannelSet index="13" name="Macro 13" from_dmx="128" to_dmx="135" />
+						<ChannelSet index="14" name="Macro 14" from_dmx="136" to_dmx="143" />
+						<ChannelSet index="15" name="Macro 15" from_dmx="144" to_dmx="151" />
+						<ChannelSet index="16" name="Macro 16" from_dmx="152" to_dmx="159" />
+						<ChannelSet index="17" name="Macro 17" from_dmx="160" to_dmx="167" />
+						<ChannelSet index="18" name="Macro 18" from_dmx="168" to_dmx="175" />
+						<ChannelSet index="19" name="Macro 19" from_dmx="176" to_dmx="183" />
+						<ChannelSet index="20" name="Macro 20" from_dmx="184" to_dmx="191" />
+						<ChannelSet index="21" name="Macro 21" from_dmx="192" to_dmx="199" />
+						<ChannelSet index="22" name="Macro 22" from_dmx="200" to_dmx="207" />
+						<ChannelSet index="23" name="Macro 23" from_dmx="208" to_dmx="215" />
+						<ChannelSet index="24" name="Macro 24" from_dmx="216" to_dmx="223" />
+						<ChannelSet index="25" name="Macro 25" from_dmx="224" to_dmx="231" />
+						<ChannelSet index="26" name="Macro 26" from_dmx="232" to_dmx="239" />
+						<ChannelSet index="27" name="Macro 27" from_dmx="240" to_dmx="247" />
+						<ChannelSet index="28" name="Random CMY" from_dmx="248" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="20" attribute="COLORMIXMSPEED" feature="MSPEED" preset="CONTROL" coarse="21">
+					<ChannelFunction index="0" from="100" to="0" min_dmx_24="0" max_dmx_24="16777215" subattribute="COLORMIXMSPEEDTRACK" subattribute_user_name="Track" attribute="COLORMIXMSPEED" attribute_user_name="ColorMix" feature="MSPEED" feature_user_name="Mspeed" preset="CONTROL" preset_user_name="Control">
+						<ChannelSet index="0" name="max" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="min" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="21" attribute="GOBO1" feature="GOBO1" preset="GOBO" coarse="22">
+					<ChannelFunction index="0" from="0" to="75" min_dmx_24="0" max_dmx_24="12451839" wheel="1" subattribute="GOBO1" subattribute_user_name="Select" attribute="GOBO1" attribute_user_name="G1" feature="GOBO1" feature_user_name="Gobo1" preset="GOBO" preset_user_name="Gobo">
+						<ChannelSet index="0" name="Open" from_dmx="0" to_dmx="9" slot_index="0" />
+						<ChannelSet index="1" name="Gobo1.1" from_dmx="10" to_dmx="19" slot_index="1" />
+						<ChannelSet index="2" name="Gobo1.2" from_dmx="20" to_dmx="29" slot_index="2" />
+						<ChannelSet index="3" name="Gobo1.3" from_dmx="30" to_dmx="39" slot_index="3" />
+						<ChannelSet index="4" name="Gobo1.4" from_dmx="40" to_dmx="49" slot_index="4" />
+						<ChannelSet index="5" name="Gobo1.5" from_dmx="50" to_dmx="59" slot_index="5" />
+						<ChannelSet index="6" name="Gobo1.6" from_dmx="60" to_dmx="69" slot_index="6" />
+						<ChannelSet index="7" name="Gobo1.7" from_dmx="70" to_dmx="77" slot_index="7" />
+						<ChannelSet index="8" name="Gobo1.1*" from_dmx="78" to_dmx="93" slot_index="1" />
+						<ChannelSet index="9" name="Gobo1.2*" from_dmx="94" to_dmx="109" slot_index="2" />
+						<ChannelSet index="10" name="Gobo1.3*" from_dmx="110" to_dmx="125" slot_index="3" />
+						<ChannelSet index="11" name="Gobo1.4*" from_dmx="126" to_dmx="141" slot_index="4" />
+						<ChannelSet index="12" name="Gobo1.5*" from_dmx="142" to_dmx="157" slot_index="5" />
+						<ChannelSet index="13" name="Gobo1.6*" from_dmx="158" to_dmx="173" slot_index="6" />
+						<ChannelSet index="14" name="Gobo1.7*" from_dmx="174" to_dmx="189" slot_index="7" />
+					</ChannelFunction>
+					<ChannelFunction index="1" from="75" to="100" min_dmx_24="12451840" max_dmx_24="16777215" physfrom="-60" physto="60" subattribute="GOBO1_SPIN" subattribute_user_name="Spin" attribute="GOBO1" attribute_user_name="G1" feature="GOBO1" feature_user_name="Gobo1" preset="GOBO" preset_user_name="Gobo">
+						<ChannelSet index="0" name="&gt;&gt;&gt;" from_dmx="190" to_dmx="190" />
+						<ChannelSet index="1" name="Stop" from_dmx="222" to_dmx="223" slot_from="0" slot_to="0" />
+						<ChannelSet index="2" name="&lt;&lt;&lt;" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="22" attribute="GOBO1_POS" feature="GOBO1" preset="GOBO" coarse="23">
+					<ChannelFunction index="0" from="0" to="50" min_dmx_24="0" max_dmx_24="8388607" physfrom="0" physto="360" subattribute="GOBO1_POS" subattribute_user_name="Index" attribute="GOBO1_POS" attribute_user_name="G1&lt;&gt;" feature="GOBO1" feature_user_name="Gobo1" preset="GOBO" preset_user_name="Gobo">
+						<ChannelSet index="0" name="zero" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max index" from_dmx="127" to_dmx="127" />
+					</ChannelFunction>
+					<ChannelFunction index="1" from="50" to="100" min_dmx_24="8388608" max_dmx_24="16777215" physfrom="-120" physto="120" subattribute="GOBO1_ROT" subattribute_user_name="Rotate" attribute="GOBO1_POS" attribute_user_name="G1&lt;&gt;" feature="GOBO1" feature_user_name="Gobo1" preset="GOBO" preset_user_name="Gobo">
+						<ChannelSet index="0" name="&gt;&gt;&gt;" from_dmx="128" to_dmx="128" />
+						<ChannelSet index="1" name="Stop" from_dmx="190" to_dmx="193" />
+						<ChannelSet index="2" name="&lt;&lt;&lt;" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="23" attribute="IRIS" feature="BEAM1" preset="BEAM" coarse="24">
+					<ChannelFunction index="0" from="75" to="0" min_dmx_24="0" max_dmx_24="12582911" physfrom="1" physto="0.1" subattribute="IRIS" subattribute_user_name="Iris" attribute="IRIS" attribute_user_name="Iris" feature="BEAM1" feature_user_name="Beam" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="max" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="min" from_dmx="191" to_dmx="191" />
+					</ChannelFunction>
+					<ChannelFunction index="1" name="Strobe Pulse Close" from="75" to="87" min_dmx_24="12582912" max_dmx_24="14680063" physfrom="10" physto="1" subattribute="IRIS_STROBE_PULSE_CLOSE" subattribute_user_name="Strobe Pulse Close" attribute="IRIS" attribute_user_name="Iris" feature="BEAM1" feature_user_name="Beam" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="max Strobe Pulse Close" from_dmx="192" to_dmx="192" />
+						<ChannelSet index="1" name="min Strobe Pulse Close" from_dmx="223" to_dmx="223" />
+					</ChannelFunction>
+					<ChannelFunction index="2" name="Strobe Pulse Open" from="87" to="100" min_dmx_24="14680064" max_dmx_24="16777215" physfrom="1" physto="10" subattribute="IRIS_STROBE_PULSE_OPEN" subattribute_user_name="Strobe Pulse Open" attribute="IRIS_STROBE_PULSE_OPEN" attribute_user_name="IRIS_STROBE_PULSE_OPEN" feature="IRIS" feature_user_name="IRIS" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="min Strobe Pulse Open" from_dmx="224" to_dmx="224" />
+						<ChannelSet index="1" name="max Strobe Pulse Open" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="24" attribute="FIXTUREMODE" feature="CONTROL" preset="CONTROL" coarse="25">
+					<ChannelFunction index="0" name="Frost" from="0" to="38.8" min_dmx_24="0" max_dmx_24="6553599" physfrom="1" physto="1" wheel="4" subattribute="FROST" subattribute_user_name="Frost" attribute="FROST" attribute_user_name="Frost" feature="BEAM1" feature_user_name="Beam" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Heavy Wash mode" from_dmx="0" to_dmx="99" slot_index="0" />
+					</ChannelFunction>
+					<ChannelFunction index="1" name="Open" from="38.8" to="60.7" min_dmx_24="6553600" max_dmx_24="10223615" physfrom="1" physto="1" subattribute="FROST" subattribute_user_name="Frost" attribute="FROST" attribute_user_name="Frost" feature="BEAM1" feature_user_name="Beam" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Mide Wash mode" from_dmx="100" to_dmx="155" slot_index="1" />
+					</ChannelFunction>
+					<ChannelFunction index="2" name="Frost2" from="60.7" to="80.3" min_dmx_24="10223616" max_dmx_24="13500415" physfrom="1" physto="1" subattribute="FROST2" subattribute_user_name="Frost2" attribute="FROST2" attribute_user_name="Frost2" feature="BEAM1" feature_user_name="Beam" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Light Wash mode" from_dmx="156" to_dmx="205" slot_index="2" />
+					</ChannelFunction>
+					<ChannelFunction index="3" name="Frost3" from="80.3" to="100" min_dmx_24="13500416" max_dmx_24="16777215" physfrom="0" physto="0" subattribute="FROST3" subattribute_user_name="Frost3" attribute="FROST3" attribute_user_name="Frost3" feature="BEAM1" feature_user_name="Beam" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Spot Mode(open)" from_dmx="206" to_dmx="255" slot_index="3" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="25" attribute="BLADE3B" feature="SHAPER" preset="SHAPERS" coarse="26">
+					<ChannelFunction index="0" name="1A" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="BLADE3B" subattribute_user_name="3B" attribute="BLADE3B" attribute_user_name="3B" feature="SHAPER" feature_user_name="Frames" preset="SHAPERS" preset_user_name="Shapers">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="26" attribute="BLADE3A" feature="SHAPER" preset="SHAPERS" coarse="27">
+					<ChannelFunction index="0" name="1B" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="BLADE3A" subattribute_user_name="3A" attribute="BLADE3A" attribute_user_name="3A" feature="SHAPER" feature_user_name="Frames" preset="SHAPERS" preset_user_name="Shapers">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="27" attribute="BLADE1B" feature="SHAPER" preset="SHAPERS" coarse="28">
+					<ChannelFunction index="0" name="2A" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="BLADE1B" subattribute_user_name="1B" attribute="BLADE1B" attribute_user_name="1B" feature="SHAPER" feature_user_name="Frames" preset="SHAPERS" preset_user_name="Shapers">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="28" attribute="BLADE1A" feature="SHAPER" preset="SHAPERS" coarse="29">
+					<ChannelFunction index="0" name="2B" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="BLADE1A" subattribute_user_name="1A" attribute="BLADE1A" attribute_user_name="1A" feature="SHAPER" feature_user_name="Frames" preset="SHAPERS" preset_user_name="Shapers">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="29" attribute="BLADE4B" feature="SHAPER" preset="SHAPERS" coarse="30">
+					<ChannelFunction index="0" name="3A" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="BLADE4B" subattribute_user_name="4B" attribute="BLADE4B" attribute_user_name="4B" feature="SHAPER" feature_user_name="Frames" preset="SHAPERS" preset_user_name="Shapers">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="30" attribute="BLADE4A" feature="SHAPER" preset="SHAPERS" coarse="31">
+					<ChannelFunction index="0" name="3B" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="BLADE4A" subattribute_user_name="4A" attribute="BLADE4A" attribute_user_name="4A" feature="SHAPER" feature_user_name="Frames" preset="SHAPERS" preset_user_name="Shapers">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="31" attribute="BLADE2B" feature="SHAPER" preset="SHAPERS" coarse="32">
+					<ChannelFunction index="0" name="4A" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="BLADE2B" subattribute_user_name="2B" attribute="BLADE2B" attribute_user_name="2B" feature="SHAPER" feature_user_name="Frames" preset="SHAPERS" preset_user_name="Shapers">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="32" attribute="BLADE2A" feature="SHAPER" preset="SHAPERS" coarse="33">
+					<ChannelFunction index="0" name="4B" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="BLADE2A" subattribute_user_name="2A" attribute="BLADE2A" attribute_user_name="2A" feature="SHAPER" feature_user_name="Frames" preset="SHAPERS" preset_user_name="Shapers">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="33" attribute="SHAPER ROT" feature="SHAPER" preset="SHAPERS" coarse="34" default="127.5">
+					<ChannelFunction index="0" from="45" to="-45" min_dmx_24="0" max_dmx_24="16777215" physfrom="45" physto="-45" subattribute="SHAPER ROT" subattribute_user_name="Index" attribute="SHAPER ROT" attribute_user_name="FrameAssembly" feature="SHAPER" feature_user_name="Frames" preset="SHAPERS" preset_user_name="Shapers">
+						<ChannelSet index="0" name="max CW" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="center" from_dmx="128" to_dmx="128" />
+						<ChannelSet index="2" name="max CCW" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="34" attribute="FRAMEMSPEED" feature="MSPEED" preset="CONTROL" coarse="35" default="0.001">
+					<ChannelFunction index="0" from="100" to="0" min_dmx_24="0" max_dmx_24="16777215" subattribute="FRAMEMSPEEDTRACK" subattribute_user_name="Track" attribute="FRAMEMSPEED" attribute_user_name="Frame" feature="MSPEED" feature_user_name="Mspeed" preset="CONTROL" preset_user_name="Control">
+						<ChannelSet index="0" name="max" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="min" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="35" attribute="FRAMEMACROS" feature="SHAPERMACROS" preset="SHAPERS" coarse="36">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="FRAMEMACROSELECT" subattribute_user_name="MacroSelect" attribute="FRAMEMACROS" attribute_user_name="FrameMacros" feature="SHAPERMACROS" feature_user_name="FrameMacros" preset="SHAPERS" preset_user_name="Shapers">
+						<ChannelSet index="0" name="Open" from_dmx="0" to_dmx="7" />
+						<ChannelSet index="1" name="Macro 1" from_dmx="8" to_dmx="15" />
+						<ChannelSet index="2" name="Macro 2" from_dmx="16" to_dmx="23" />
+						<ChannelSet index="3" name="Macro 3" from_dmx="24" to_dmx="31" />
+						<ChannelSet index="4" name="Macro 4" from_dmx="32" to_dmx="39" />
+						<ChannelSet index="5" name="Macro 5" from_dmx="40" to_dmx="47" />
+						<ChannelSet index="6" name="Macro 6" from_dmx="48" to_dmx="55" />
+						<ChannelSet index="7" name="Macro 7" from_dmx="56" to_dmx="63" />
+						<ChannelSet index="8" name="Macro 8" from_dmx="64" to_dmx="71" />
+						<ChannelSet index="9" name="Macro 9" from_dmx="72" to_dmx="79" />
+						<ChannelSet index="10" name="Macro 10" from_dmx="80" to_dmx="87" />
+						<ChannelSet index="11" name="Macro 11" from_dmx="88" to_dmx="95" />
+						<ChannelSet index="12" name="Macro 12" from_dmx="96" to_dmx="103" />
+						<ChannelSet index="13" name="Macro 13" from_dmx="104" to_dmx="111" />
+						<ChannelSet index="14" name="Macro 14" from_dmx="112" to_dmx="119" />
+						<ChannelSet index="15" name="Macro 15" from_dmx="120" to_dmx="127" />
+						<ChannelSet index="16" name="Macro 16" from_dmx="128" to_dmx="135" />
+						<ChannelSet index="17" name="Macro 17" from_dmx="136" to_dmx="143" />
+						<ChannelSet index="18" name="Macro 18" from_dmx="144" to_dmx="151" />
+						<ChannelSet index="19" name="Macro 19" from_dmx="152" to_dmx="159" />
+						<ChannelSet index="20" name="Macro 20" from_dmx="160" to_dmx="167" />
+						<ChannelSet index="21" name="Macro 21" from_dmx="168" to_dmx="175" />
+						<ChannelSet index="22" name="Macro 22" from_dmx="176" to_dmx="183" />
+						<ChannelSet index="23" name="Macro 23" from_dmx="184" to_dmx="191" />
+						<ChannelSet index="24" name="Macro 24" from_dmx="192" to_dmx="199" />
+						<ChannelSet index="25" name="Macro 25" from_dmx="200" to_dmx="207" />
+						<ChannelSet index="26" name="Macro 26" from_dmx="208" to_dmx="215" />
+						<ChannelSet index="27" name="Macro 27" from_dmx="216" to_dmx="223" />
+						<ChannelSet index="28" name="Macro 28" from_dmx="224" to_dmx="231" />
+						<ChannelSet index="29" name="Macro 29" from_dmx="232" to_dmx="239" />
+						<ChannelSet index="30" name="Macro 30" from_dmx="240" to_dmx="247" />
+						<ChannelSet index="31" name="Macro 31" from_dmx="248" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="36" attribute="FIXTUREGLOBALRESET" feature="RESET" preset="CONTROL" coarse="37">
+					<ChannelFunction index="0" name="No Feature" from="0" to="7.4" min_dmx_24="0" max_dmx_24="1310719" subattribute="NOFEATURE" subattribute_user_name="No Feature" attribute="DUMMY" attribute_user_name="Dummy" feature="CONTROL" feature_user_name="Control" preset="CONTROL" preset_user_name="Control">
+						<ChannelSet index="0" name="No Feature" from_dmx="0" to_dmx="19" />
+					</ChannelFunction>
+					<ChannelFunction index="1" name="Col any pos" from="7.4" to="11.3" min_dmx_24="1310720" max_dmx_24="1966079" subattribute="COLORMIXMSPEEDTRACK" subattribute_user_name="Track" attribute="COLORMIXMSPEED" attribute_user_name="ColorMix" feature="MSPEED" feature_user_name="Mspeed" preset="CONTROL" preset_user_name="Control">
+						<ChannelSet index="0" name="Col any pos" from_dmx="20" to_dmx="29" />
+					</ChannelFunction>
+					<ChannelFunction index="2" name="Col/Gobo any pos" from="11.3" to="15.2" min_dmx_24="1966080" max_dmx_24="2621439" subattribute="GOBO2WHEELSELECTMSPEEDTRACK" subattribute_user_name="Track2" attribute="GOBO2WHEELSELECTMSPEED" attribute_user_name="Gobo2WheelSelect" feature="MSPEED" feature_user_name="Mspeed" preset="CONTROL" preset_user_name="Control">
+						<ChannelSet index="0" name="Col/Gobo any pos" from_dmx="30" to_dmx="39" />
+					</ChannelFunction>
+					<ChannelFunction index="3" name="Reset All" from="31.3" to="32.9" min_dmx_24="5242880" max_dmx_24="5570559" subattribute="FIXTUREGLOBALRESET" subattribute_user_name="Reset All" attribute="FIXTUREGLOBALRESET" attribute_user_name="FixtureGlobal" feature="RESET" feature_user_name="Reset" preset="CONTROL" preset_user_name="Control">
+						<ChannelSet index="0" name="Reset All" from_dmx="80" to_dmx="84" />
+					</ChannelFunction>
+					<ChannelFunction index="4" name="Reset P/T" from="32.9" to="34.1" min_dmx_24="5570560" max_dmx_24="5767167" subattribute="POSITIONRESET" subattribute_user_name="Reset P/T" attribute="POSITIONRESET" attribute_user_name="Position" feature="RESET" feature_user_name="Reset" preset="CONTROL" preset_user_name="Control">
+						<ChannelSet index="0" name="Reset P/T" from_dmx="85" to_dmx="87" />
+					</ChannelFunction>
+					<ChannelFunction index="5" name="Reset Colors" from="34.1" to="35.2" min_dmx_24="5767168" max_dmx_24="5963775" subattribute="COLORWHEELRESET" subattribute_user_name="Reset Colors" attribute="COLORWHEELRESET" attribute_user_name="ColorWheel" feature="RESET" feature_user_name="Reset" preset="CONTROL" preset_user_name="Control">
+						<ChannelSet index="0" name="Reset Colors" from_dmx="88" to_dmx="90" />
+					</ChannelFunction>
+					<ChannelFunction index="6" name="Reset Gobos" from="35.2" to="36.4" min_dmx_24="5963776" max_dmx_24="6160383" subattribute="GOBO1WHEELRESET" subattribute_user_name="Reset Gobo" attribute="GOBO1WHEELRESET" attribute_user_name="Gobo1Wheel" feature="RESET" feature_user_name="Reset" preset="CONTROL" preset_user_name="Control">
+						<ChannelSet index="0" name="Reset Gobos" from_dmx="91" to_dmx="93" />
+					</ChannelFunction>
+					<ChannelFunction index="7" name="Reset Zoom" from="36.4" to="37.6" min_dmx_24="6160384" max_dmx_24="6356991" subattribute="ZOOMRESET" subattribute_user_name="Reset" attribute="ZOOMRESET" attribute_user_name="Zoom" feature="RESET" feature_user_name="Reset" preset="CONTROL" preset_user_name="Control">
+						<ChannelSet index="0" name="Reset Zoom" from_dmx="94" to_dmx="96" />
+					</ChannelFunction>
+					<ChannelFunction index="8" name="Reset Others" from="37.6" to="38.8" min_dmx_24="6356992" max_dmx_24="6553599" subattribute="FIXTURENONPOSITIONRESET" subattribute_user_name="Reset Others" attribute="FIXTURENONPOSITIONRESET" attribute_user_name="FixtureNonPosition" feature="RESET" feature_user_name="Reset" preset="CONTROL" preset_user_name="Control">
+						<ChannelSet index="0" name="Reset Others" from_dmx="97" to_dmx="99" />
+					</ChannelFunction>
+					<ChannelFunction index="9" from="38.8" to="100" min_dmx_24="6553600" max_dmx_24="16777215" subattribute="MACROSELECT" subattribute_user_name="Select" attribute="MACROS" attribute_user_name="Macros" feature="MACRO" feature_user_name="Macro" preset="CONTROL" preset_user_name="Control">
+						<ChannelSet index="0" name="Internal program 1" from_dmx="100" to_dmx="119" />
+						<ChannelSet index="1" name="Internal program 2" from_dmx="120" to_dmx="139" />
+						<ChannelSet index="2" name="Internal program 3" from_dmx="140" to_dmx="159" />
+						<ChannelSet index="3" name="Internal program 4" from_dmx="160" to_dmx="179" />
+						<ChannelSet index="4" name="Internal program 5" from_dmx="180" to_dmx="199" />
+						<ChannelSet index="5" name="Internal program 6" from_dmx="200" to_dmx="219" />
+						<ChannelSet index="6" name="Internal program 7" from_dmx="220" to_dmx="239" />
+						<ChannelSet index="7" name="no function" from_dmx="240" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" />
+		</Instances>
+		<Wheels index="2">
+			<Wheel index="0" subattribute="GOBO1" attribute="GOBO1" feature="GOBO1" preset="GOBO">
+				<Slot index="0" media_name="Open" />
+				<Slot index="1" media_name="Gobo1.1" media_filename="carallon/gobos/elation/014900156.png" />
+				<Slot index="2" media_name="Gobo1.2" media_filename="carallon/gobos/elation/014900045.png" />
+				<Slot index="3" media_name="Gobo1.3" media_filename="carallon/gobos/clay_paky/00591307.png" />
+				<Slot index="4" media_name="Gobo1.4" media_filename="carallon/gobos/elation/014900031.png" />
+				<Slot index="5" media_name="Gobo1.5" media_filename="carallon/gobos/apollo/0599011014.png" />
+				<Slot index="6" media_name="Gobo1.6" media_filename="carallon/gobos/high_end_systems/023900053.png" />
+				<Slot index="7" media_name="Gobo1.7" media_filename="carallon/gobos/high_end_systems/023900143.png" />
+			</Wheel>
+			<Wheel index="1" subattribute="COLOR1" attribute="COLOR1" feature="COLOR1" preset="COLOR">
+				<Slot index="0" media_name="Open" />
+				<Slot index="1" media_name="Red" g="0" b="0" />
+				<Slot index="2" media_name="Blue" r="0" g="0" />
+				<Slot index="3" media_name="Green" r="0" b="0" />
+				<Slot index="4" media_name="Orange" g="153" b="0" />
+				<Slot index="5" media_name="Magenta" g="0" />
+				<Slot index="6" media_name="UV Filter" r="44" g="71" b="231" />
+			</Wheel>
+			<Wheel index="2" subattribute="COLOR2" attribute="COLOR2" feature="COLOR2" preset="COLOR">
+				<Slot index="0" media_name="Open" />
+				<Slot index="1" media_name="Light Pink" r="251" g="204" b="227" />
+				<Slot index="2" media_name="Purple" r="115" g="115" />
+				<Slot index="3" media_name="Light Green" r="150" g="251" b="162" />
+				<Slot index="4" media_name="Light Amber" g="153" b="51" />
+				<Slot index="5" media_name="Yellow" b="102" />
+				<Slot index="6" media_name="CTB" r="225" g="250" b="250" />
+			</Wheel>
+			<Wheel index="3" subattribute="FIXTUREMODE" attribute="FIXTUREMODE" feature="CONTROL" preset="CONTROL">
+				<Slot index="0" media_name="Heavy Wash mode" media_filename="carallon/effects/generic/000900018.png" />
+			</Wheel>
+		</Wheels>
+		<VirtualFunctionBlocks index="3" />
+		<FixtureMacroCollect index="5">
+			<FixtureMacro index="0">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="1">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="FIXTUREGLOBALRESET" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="82" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="2">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="POSITIONRESET" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="86" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="3">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="COLORWHEELRESET" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="89" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="4">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="GOBO1WHEELRESET" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="92" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="5">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="ZOOMRESET" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="95" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="6">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="FIXTURENONPOSITIONRESET" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="98" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="7" name="Internal program 1">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="110" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="8" name="Internal program 2">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="129" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="9" name="Internal program 3">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="149" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="10" name="Internal program 4">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="169" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="11" name="Internal program 5">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="190" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="12" name="Internal program 6">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="210" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="13" name="Internal program 7">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="229" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="14" name="no function">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="255" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="15" name="Internal program 1">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="110" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="16" name="Internal program 2">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="129" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="17" name="Internal program 3">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="149" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="18" name="Internal program 4">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="169" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="19" name="Internal program 5">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="190" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="20" name="Internal program 6">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="210" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="21" name="Internal program 7">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="229" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="22" name="no function">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="255" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="23" name="Internal program 1">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="110" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="24" name="Internal program 2">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="129" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="25" name="Internal program 3">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="149" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="26" name="Internal program 4">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="169" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="27" name="Internal program 5">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="190" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="28" name="Internal program 6">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="210" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="29" name="Internal program 7">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="229" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="30" name="no function">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="255" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="31" name="Internal program 1">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="110" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="32" name="Internal program 2">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="129" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="33" name="Internal program 3">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="149" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="34" name="Internal program 4">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="169" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="35" name="Internal program 5">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="190" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="36" name="Internal program 6">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="210" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="37" name="Internal program 7">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="229" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="38" name="no function">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="255" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="39" name="Internal program 1">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="110" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="40" name="Internal program 2">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="129" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="41" name="Internal program 3">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="149" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="42" name="Internal program 4">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="169" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="43" name="Internal program 5">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="190" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="44" name="Internal program 6">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="210" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="45" name="Internal program 7">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="229" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="46" name="no function">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="255" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="47" name="Internal program 1">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="110" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="48" name="Internal program 2">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="129" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="49" name="Internal program 3">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="149" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="50" name="Internal program 4">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="169" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="51" name="Internal program 5">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="190" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="52" name="Internal program 6">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="210" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="53" name="Internal program 7">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="229" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="54" name="no function">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="255" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="55" name="Internal program 1">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="110" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="56" name="Internal program 2">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="129" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="57" name="Internal program 3">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="149" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="58" name="Internal program 4">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="169" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="59" name="Internal program 5">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="190" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="60" name="Internal program 6">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="210" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="61" name="Internal program 7">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="229" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="62" name="no function">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="255" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="63" name="Internal program 1">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="110" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="64" name="Internal program 2">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="129" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="65" name="Internal program 3">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="149" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="66" name="Internal program 4">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="169" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="67" name="Internal program 5">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="190" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="68" name="Internal program 6">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="210" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="69" name="Internal program 7">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="229" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="70" name="no function">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="255" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="71" name="Internal program 1">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="110" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="72" name="Internal program 2">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="129" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="73" name="Internal program 3">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="149" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="74" name="Internal program 4">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="169" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="75" name="Internal program 5">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="190" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="76" name="Internal program 6">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="210" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="77" name="Internal program 7">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="229" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="78" name="no function">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="255" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="79" name="Internal program 1">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="110" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="80" name="Internal program 2">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="129" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="81" name="Internal program 3">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="149" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="82" name="Internal program 4">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="169" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="83" name="Internal program 5">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="190" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="84" name="Internal program 6">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="210" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="85" name="Internal program 7">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="229" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="86" name="no function">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="255" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="87" name="Internal program 1">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="110" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="88" name="Internal program 2">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="129" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="89" name="Internal program 3">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="149" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="90" name="Internal program 4">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="169" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="91" name="Internal program 5">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="190" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="92" name="Internal program 6">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="210" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="93" name="Internal program 7">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="229" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="94" name="no function">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="255" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="95" name="Internal program 1">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="110" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="96" name="Internal program 2">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="129" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="97" name="Internal program 3">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="149" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="98" name="Internal program 4">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="169" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="99" name="Internal program 5">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="190" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="100" name="Internal program 6">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="210" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="101" name="Internal program 7">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="229" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="102" name="no function">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="255" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="103" name="Internal program 1">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="110" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="104" name="Internal program 2">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="129" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="105" name="Internal program 3">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="149" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="106" name="Internal program 4">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="169" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="107" name="Internal program 5">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="190" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="108" name="Internal program 6">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="210" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="109" name="Internal program 7">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="229" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="110" name="no function">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="255" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="111" name="Internal program 1">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="110" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="112" name="Internal program 2">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="129" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="113" name="Internal program 3">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="149" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="114" name="Internal program 4">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="169" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="115" name="Internal program 5">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="190" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="116" name="Internal program 6">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="210" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="117" name="Internal program 7">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="229" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="118" name="no function">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="255" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="119" name="Internal program 1">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="110" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="120" name="Internal program 2">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="129" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="121" name="Internal program 3">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="149" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="122" name="Internal program 4">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="169" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="123" name="Internal program 5">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="190" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="124" name="Internal program 6">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="210" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="125" name="Internal program 7">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="229" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="126" name="no function">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="255" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="127" name="Internal program 1">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="110" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="128" name="Internal program 2">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="129" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="129" name="Internal program 3">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="149" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="130" name="Internal program 4">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="169" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="131" name="Internal program 5">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="190" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="132" name="Internal program 6">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="210" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="133" name="Internal program 7">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="229" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="134" name="no function">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="255" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="135" name="Internal program 1">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="110" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="136" name="Internal program 2">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="129" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="137" name="Internal program 3">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="149" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="138" name="Internal program 4">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="169" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="139" name="Internal program 5">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="190" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="140" name="Internal program 6">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="210" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="141" name="Internal program 7">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="229" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="142" name="no function">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="255" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="143" name="Internal program 1">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="110" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="144" name="Internal program 2">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="129" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="145" name="Internal program 3">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="149" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="146" name="Internal program 4">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="169" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="147" name="Internal program 5">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="190" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="148" name="Internal program 6">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="210" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="149" name="Internal program 7">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="229" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="150" name="no function">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="255" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="151" name="Internal program 1">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="110" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="152" name="Internal program 2">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="129" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="153" name="Internal program 3">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="149" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="154" name="Internal program 4">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="169" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="155" name="Internal program 5">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="190" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="156" name="Internal program 6">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="210" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="157" name="Internal program 7">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="229" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="158" name="no function">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="255" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="159" name="Internal program 1">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="110" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="160" name="Internal program 2">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="129" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="161" name="Internal program 3">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="149" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="162" name="Internal program 4">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="169" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="163" name="Internal program 5">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="190" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="164" name="Internal program 6">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="210" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="165" name="Internal program 7">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="229" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="166" name="no function">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="255" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="167" name="Internal program 1">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="110" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="168" name="Internal program 2">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="129" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="169" name="Internal program 3">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="149" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="170" name="Internal program 4">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="169" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="171" name="Internal program 5">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="190" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="172" name="Internal program 6">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="210" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="173" name="Internal program 7">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="229" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="174" name="no function">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="255" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="175" name="Internal program 1">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="110" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="176" name="Internal program 2">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="129" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="177" name="Internal program 3">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="149" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="178" name="Internal program 4">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="169" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="179" name="Internal program 5">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="190" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="180" name="Internal program 6">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="210" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="181" name="Internal program 7">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="229" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="182" name="no function">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="255" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="183" name="Internal program 1">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="110" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="184" name="Internal program 2">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="129" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="185" name="Internal program 3">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="149" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="186" name="Internal program 4">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="169" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="187" name="Internal program 5">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="190" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="188" name="Internal program 6">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="210" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="189" name="Internal program 7">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="229" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="190" name="no function">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="255" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="191" name="Internal program 1">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="110" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="192" name="Internal program 2">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="129" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="193" name="Internal program 3">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="149" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="194" name="Internal program 4">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="169" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="195" name="Internal program 5">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="190" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="196" name="Internal program 6">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="210" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="197" name="Internal program 7">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="229" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="198" name="no function">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="255" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="199" name="Internal program 1">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="110" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="200" name="Internal program 2">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="129" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="201" name="Internal program 3">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="149" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="202" name="Internal program 4">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="169" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="203" name="Internal program 5">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="190" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="204" name="Internal program 6">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="210" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="205" name="Internal program 7">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="229" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="206" name="no function">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="255" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="207" name="Internal program 1">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="110" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="208" name="Internal program 2">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="129" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="209" name="Internal program 3">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="149" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="210" name="Internal program 4">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="169" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="211" name="Internal program 5">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="190" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="212" name="Internal program 6">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="210" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="213" name="Internal program 7">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="229" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="214" name="no function">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="255" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="215" name="Internal program 1">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="110" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="216" name="Internal program 2">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="129" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="217" name="Internal program 3">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="149" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="218" name="Internal program 4">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="169" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="219" name="Internal program 5">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="190" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="220" name="Internal program 6">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="210" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="221" name="Internal program 7">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="229" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="222" name="no function">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="255" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="223" name="Internal program 1">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="110" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="224" name="Internal program 2">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="129" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="225" name="Internal program 3">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="149" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="226" name="Internal program 4">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="169" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="227" name="Internal program 5">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="190" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="228" name="Internal program 6">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="210" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="229" name="Internal program 7">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="229" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="230" name="no function">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="255" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="231" name="Internal program 1">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="110" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="232" name="Internal program 2">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="129" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="233" name="Internal program 3">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="149" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="234" name="Internal program 4">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="169" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="235" name="Internal program 5">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="190" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="236" name="Internal program 6">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="210" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="237" name="Internal program 7">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="229" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="238" name="no function">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="255" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="239" name="Internal program 1">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="110" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="240" name="Internal program 2">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="129" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="241" name="Internal program 3">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="149" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="242" name="Internal program 4">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="169" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="243" name="Internal program 5">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="190" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="244" name="Internal program 6">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="210" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="245" name="Internal program 7">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="229" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="246" name="no function">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="255" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="247" name="Internal program 1">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="110" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="248" name="Internal program 2">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="129" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="249" name="Internal program 3">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="149" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="250" name="Internal program 4">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="169" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="251" name="Internal program 5">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="190" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="252" name="Internal program 6">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="210" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="253" name="Internal program 7">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="229" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="254" name="no function">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="255" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="255" name="Internal program 1">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="110" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="256" name="Internal program 2">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="129" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="257" name="Internal program 3">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="149" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="258" name="Internal program 4">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="169" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="259" name="Internal program 5">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="190" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="260" name="Internal program 6">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="210" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="261" name="Internal program 7">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="229" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="262" name="no function">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="255" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="263" name="Internal program 1">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="110" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="264" name="Internal program 2">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="129" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="265" name="Internal program 3">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="149" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="266" name="Internal program 4">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="169" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="267" name="Internal program 5">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="190" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="268" name="Internal program 6">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="210" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="269" name="Internal program 7">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="229" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="270" name="no function">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="255" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="271" name="Internal program 1">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="110" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="272" name="Internal program 2">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="129" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="273" name="Internal program 3">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="149" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="274" name="Internal program 4">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="169" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="275" name="Internal program 5">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="190" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="276" name="Internal program 6">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="210" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="277" name="Internal program 7">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="229" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="278" name="no function">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="255" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="279" name="Internal program 1">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="110" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="280" name="Internal program 2">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="129" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="281" name="Internal program 3">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="149" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="282" name="Internal program 4">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="169" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="283" name="Internal program 5">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="190" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="284" name="Internal program 6">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="210" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="285" name="Internal program 7">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="229" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="286" name="no function">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="255" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="287" name="Internal program 1">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="110" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="288" name="Internal program 2">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="129" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="289" name="Internal program 3">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="149" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="290" name="Internal program 4">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="169" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="291" name="Internal program 5">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="190" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="292" name="Internal program 6">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="210" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="293" name="Internal program 7">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="229" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="294" name="no function">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="255" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="295" name="Internal program 1">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="110" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="296" name="Internal program 2">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="129" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="297" name="Internal program 3">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="149" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="298" name="Internal program 4">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="169" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="299" name="Internal program 5">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="190" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="300" name="Internal program 6">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="210" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="301" name="Internal program 7">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="229" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="302" name="no function">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="255" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="303" name="Internal program 1">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="110" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="304" name="Internal program 2">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="129" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="305" name="Internal program 3">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="149" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="306" name="Internal program 4">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="169" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="307" name="Internal program 5">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="190" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="308" name="Internal program 6">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="210" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="309" name="Internal program 7">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="229" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="310" name="no function">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="255" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="311" name="Internal program 1">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="110" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="312" name="Internal program 2">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="129" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="313" name="Internal program 3">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="149" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="314" name="Internal program 4">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="169" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="315" name="Internal program 5">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="190" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="316" name="Internal program 6">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="210" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="317" name="Internal program 7">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="229" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="318" name="no function">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="255" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="319" name="Internal program 1">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="110" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="320" name="Internal program 2">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="129" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="321" name="Internal program 3">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="149" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="322" name="Internal program 4">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="169" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="323" name="Internal program 5">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="190" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="324" name="Internal program 6">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="210" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="325" name="Internal program 7">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="229" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="326" name="no function">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="255" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="327" name="Internal program 1">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="110" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="328" name="Internal program 2">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="129" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="329" name="Internal program 3">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="149" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="330" name="Internal program 4">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="169" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="331" name="Internal program 5">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="190" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="332" name="Internal program 6">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="210" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="333" name="Internal program 7">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="229" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="334" name="no function">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="255" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="335" name="Internal program 1">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="110" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="336" name="Internal program 2">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="129" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="337" name="Internal program 3">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="149" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="338" name="Internal program 4">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="169" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="339" name="Internal program 5">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="190" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="340" name="Internal program 6">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="210" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="341" name="Internal program 7">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="229" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="342" name="no function">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="255" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="343" name="Internal program 1">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="110" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="344" name="Internal program 2">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="129" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="345" name="Internal program 3">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="149" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="346" name="Internal program 4">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="169" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="347" name="Internal program 5">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="190" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="348" name="Internal program 6">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="210" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="349" name="Internal program 7">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="229" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="350" name="no function">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="MACROSELECT" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="255" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+		</FixtureMacroCollect>
+		<Body />
+		<AutoPresets index="4" />
+	</FixtureType>
+</MA>

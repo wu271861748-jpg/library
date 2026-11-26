@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA major_vers="3" minor_vers="0" stream_vers="16">
+	<FixtureType name="FINE 2033" mode="12 chs" scale="1.000">
+		<short_name>FINE 2033</short_name>
+		<manufacturer>Fineart</manufacturer>
+		<short_manufacturer>Fineart</short_manufacturer>
+		<Modules>
+			<![CDATA[Module 1]]>
+			<Module class="Headmover" beamtype="Wash" scale="1.000" beam_angle="35.000" beam_intensity="10000.000">
+				<![CDATA[1]]>
+				<ChannelType attribute="COLORMIX2" feature="COLORMIX" preset="COLOR" coarse="2" default="0.000" highlight_value="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[2]]>
+				<ChannelType attribute="COLORMIX1" feature="COLORMIX" preset="COLOR" coarse="1" default="0.000" highlight_value="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[3]]>
+				<ChannelType attribute="COLORMIX3" feature="COLORMIX" preset="COLOR" coarse="3" default="0.000" highlight_value="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[4]]>
+				<ChannelType attribute="Lamp Power" feature="Lamp Power" preset="CONTROL" coarse="4" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="closed" from_dmx="0" to_dmx="63" auto_create="1"/>
+						<ChannelSet name="lampoff" from_dmx="64" to_dmx="95" auto_create="1"/>
+						<ChannelSet name="lampon" from_dmx="96" to_dmx="127" auto_create="1"/>
+						<ChannelSet name="open" from_dmx="128" to_dmx="255" auto_create="1"/>
+					</ChannelFunction>
+				</ChannelType>
+				<![CDATA[5]]>
+				<ChannelType attribute="PAN" feature="POSITION" preset="POSITION" coarse="5" fine="11" default="32767.750">
+					<ChannelFunction from="-270.000" to="270.000" min_dmx="0" max_dmx="65535" physfrom="-270.000" physto="270.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[6]]>
+				<ChannelType attribute="TILT" feature="POSITION" preset="POSITION" coarse="6" fine="12" default="32767.750">
+					<ChannelFunction from="-135.000" to="135.000" min_dmx="0" max_dmx="65535" physfrom="-135.000" physto="135.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[7]]>
+				<ChannelType attribute="FOCUS" feature="FOCUS" preset="FOCUS" coarse="7" default="255.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[8]]>
+				<ChannelType attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="8" default="255.000" highlight_value="100.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[9]]>
+				<ChannelType attribute="STROBE" feature="STROBE" preset="BEAM" coarse="9" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[10]]>
+				<ChannelType attribute="SPEED1" feature="SPEED" preset="CONTROL" coarse="10" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<Body>
+					<Size x="1.000" y="1.000" z="1.000"/>
+					<Center x="0.000" y="0.000" z="0.000"/>
+					<Light x="0.000" y="0.000" z="0.000"/>
+				</Body>
+			</Module>
+		</Modules>
+		<Instances>
+			<![CDATA[Instance 1]]>
+			<Instance patch="1" X="0.000" Y="0.000" locked="true"/>
+		</Instances>
+		<Wheels/>
+		<QFuncs/>
+	</FixtureType>
+</MA>

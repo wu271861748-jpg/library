@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.0.0/MA.xsd" major_vers="3" minor_vers="0" stream_vers="0">
+	<Info datetime="2017-05-09T11:22:25" showfile="india-2" />
+	<FixtureType index="11" name="D34" mode="3CH">
+		<short_name>D34</short_name>
+		<manufacturer>LIGHT SKY</manufacturer>
+		<short_manufacturer>LIGHT SKY</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="None" beamtype="Wash" beam_angle="35" beam_intensity="10000">
+				<ChannelType index="0" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="1" fine="2" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" attribute="DIM" feature="DIMMER" preset="DIMMER" />
+				</ChannelType>
+				<ChannelType index="1" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" coarse="3">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="1" subattribute="SHUTTER" attribute="SHUTTER" feature="SHUTTER" preset="BEAM">
+						<ChannelSet index="0" name="White" from_dmx="0" to_dmx="9" />
+						<ChannelSet index="1" name="Slow close Fast open" from_dmx="10" to_dmx="49" />
+						<ChannelSet index="2" name="Fast close Slow open" from_dmx="50" to_dmx="89" />
+						<ChannelSet index="3" name="Slow clos Slow open Slow" from_dmx="90" to_dmx="119" />
+						<ChannelSet index="4" name="Random strobe" from_dmx="120" to_dmx="179" />
+						<ChannelSet index="5" name="Sync strobe" from_dmx="180" to_dmx="249" />
+						<ChannelSet index="6" name="White" from_dmx="250" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" RW="0" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<Body />
+		<AutoPresets index="4" />
+	</FixtureType>
+</MA>

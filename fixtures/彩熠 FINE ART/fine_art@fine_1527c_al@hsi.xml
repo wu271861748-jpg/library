@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA major_vers="3" minor_vers="0" stream_vers="0">
+	<FixtureType name="FINE 1527C AL" mode="HSI" scale="1.000">
+		<short_name>FINE 1527C AL</short_name>
+		<manufacturer>FINE ART</manufacturer>
+		<short_manufacturer>FINE ART</short_manufacturer>
+		<Modules>
+			<![CDATA[Module 1]]>
+			<Module class="LED" beamtype="Wash" scale="1.000" beam_angle="30.000" beam_intensity="10000.000">
+				<![CDATA[1]]>
+				<ChannelType attribute="HUE" feature="COLORHSBC" preset="COLOR" coarse="1" fine="2" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="65535" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[2]]>
+				<ChannelType attribute="SATURATION" feature="SB+C" preset="COLOR" coarse="3" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[3]]>
+				<ChannelType attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="4" default="0.000" highlight_value="100.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[4]]>
+				<ChannelType attribute="COLORMACRO" feature="MACRO" preset="COLOR" coarse="5" default="0.000">
+					<ChannelFunction from="0.000" to="0.000" min_dmx="0" max_dmx="0" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="None" from_dmx="0" to_dmx="0" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="0.391" to="0.781" min_dmx="1" max_dmx="2" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="COLORMACRO" from_dmx="1" to_dmx="2" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="1.172" to="51.563" min_dmx="3" max_dmx="132" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="COLORWHEEL" from_dmx="3" to_dmx="132" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="51.953" to="77.344" min_dmx="133" max_dmx="198" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="COLORWHEEL Animation" from_dmx="133" to_dmx="198" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="77.734" to="100.000" min_dmx="199" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="HSI Animation" from_dmx="199" to_dmx="255" auto_create="1"/>
+					</ChannelFunction>
+				</ChannelType>
+				<![CDATA[5]]>
+				<ChannelType attribute="STROBE" feature="STROBE" preset="BEAM" coarse="6" default="107.400" highlight_value="42.000">
+					<ChannelFunction from="0.000" to="1.953" min_dmx="0" max_dmx="5" physfrom="0.000" physto="0.000" physdefined="0" phystime="0.000" attribute="SHUTTER" feature="STROBE" preset="BEAM">
+						<ChannelSet name="None" from_dmx="0" to_dmx="5" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="2.344" to="41.016" min_dmx="6" max_dmx="105" physfrom="1.000" physto="25.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="Strb &gt;" from_dmx="6" to_dmx="6" auto_create="1"/>
+						<ChannelSet name="Strb &gt;&gt;&gt;" from_dmx="105" to_dmx="105" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="41.406" to="42.969" min_dmx="106" max_dmx="110" physfrom="1.000" physto="1.000" physdefined="0" phystime="0.000" attribute="SHUTTER" feature="STROBE" preset="BEAM">
+						<ChannelSet name="None" from_dmx="106" to_dmx="110" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="43.359" to="69.922" min_dmx="111" max_dmx="179" physfrom="1.000" physto="25.000" physdefined="0" phystime="0.000" attribute="STROBE_PULSE" feature="STROBE" preset="BEAM">
+						<ChannelSet name="Pulse &gt;" from_dmx="111" to_dmx="111" auto_create="1"/>
+						<ChannelSet name="Pulse &gt;&gt;&gt;" from_dmx="179" to_dmx="179" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="70.313" to="72.266" min_dmx="180" max_dmx="185" physfrom="1.000" physto="1.000" physdefined="0" phystime="0.000" attribute="SHUTTER" feature="STROBE" preset="BEAM">
+						<ChannelSet name="None" from_dmx="180" to_dmx="185" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="72.656" to="100.000" min_dmx="186" max_dmx="255" physfrom="1.000" physto="25.000" physdefined="0" phystime="0.000" attribute="STROBE_RANDOM" feature="STROBE" preset="BEAM">
+						<ChannelSet name="Strb Rnd &gt;" from_dmx="186" to_dmx="186" auto_create="1"/>
+						<ChannelSet name="Strb Rnd &gt;&gt;&gt;" from_dmx="255" to_dmx="255" auto_create="1"/>
+					</ChannelFunction>
+				</ChannelType>
+				<Body>
+					<Size x="0.496" y="0.183" z="0.392"/>
+					<Center x="0.000" y="0.000" z="0.000"/>
+					<Light x="0.000" y="0.000" z="0.000"/>
+				</Body>
+			</Module>
+		</Modules>
+		<Instances>
+			<![CDATA[Instance 1]]>
+			<Instance patch="1" X="0.000" Y="0.000" locked="true"/>
+		</Instances>
+		<Wheels/>
+		<QFuncs/>
+	</FixtureType>
+</MA>

@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.1.2/MA.xsd" major_vers="3" minor_vers="1" stream_vers="2">
+	<Info datetime="2022-08-17T08:26:33" showfile="new show 2021-12-27" />
+	<FixtureType index="13" name="FINE 600C PANEL" mode="GEL-17">
+		<InfoItems>
+			<Info>Set menu option DMX Settings - DMX Protocol to P15 for this personality
+Set menu option DMX Settings - DMX Protocol Version to Version 4.4 for this personality
+Set menu option DMX Settings - RDM State to On for this personality
+Set menu option Lighting Control - RGBW Color Space to Direct Control for this personality</Info>
+			<Info type="Revision" date="2020-11-06T00:00:00">Automated import from MA Lighting (C-RevNum: 11; Date: 2020-03-10)</Info>
+			<Info type="Invisible" date="2020-11-06T00:00:00">generator_software_name=&quot;MA Importer&quot;,generator_software_version=&quot;d992b97cb7dbda8ecc892305f06c8a29b4ffc163&quot;</Info>
+		</InfoItems>
+		<short_name>FINE 600C PANEL</short_name>
+		<manufacturer>FINE ART</manufacturer>
+		<short_manufacturer>FINE ART</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" name="Main Module" class="LED" beamtype="Wash" beam_angle="75" beam_intensity="10000">
+				<Body>
+					<Size x="0.688" y="0.347" z="0.133" />
+				</Body>
+				<ChannelType index="0" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="1" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer">
+						<ChannelSet index="0" name="Min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="Max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="1" attribute="GEL1CCTSELECT" feature="GEL1" preset="COLOR" coarse="2">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="3200" physto="5600" subattribute="GEL1CCTSELECT" subattribute_user_name="GEL1 CCT SELECT" attribute="GEL1CCTSELECT" attribute_user_name="GEL1 CCT SELECT" feature="GEL1" feature_user_name="GEL1" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="3200K" from_dmx="0" to_dmx="127" />
+						<ChannelSet index="1" name="5600K" from_dmx="128" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="2" attribute="GEL1CMTYPE" feature="GEL1" preset="COLOR" coarse="3">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="GEL1CMTYPE" subattribute_user_name="GEL1 CMT YPE" attribute="GEL1CMTYPE" attribute_user_name="GEL1 CMT YPE" feature="GEL1" feature_user_name="GEL1" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="Color Priority" from_dmx="0" to_dmx="84" />
+						<ChannelSet index="1" name="Brightness Priority" from_dmx="85" to_dmx="170" />
+						<ChannelSet index="2" name="None" from_dmx="171" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="3" attribute="GEL1BRAND" feature="GEL1" preset="COLOR" coarse="4">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="GEL1BRAND" subattribute_user_name="GEL1 BRAND" attribute="GEL1BRAND" attribute_user_name="GEL1 BRAND" feature="GEL1" feature_user_name="GEL1" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="Rosco" from_dmx="0" to_dmx="127" />
+						<ChannelSet index="1" name="LEE Filters" from_dmx="128" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="4" attribute="GEL1CATEGORY" feature="GEL1" preset="COLOR" coarse="5">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="GEL1CATEGORY" subattribute_user_name="GEL1 CATEGORY" attribute="GEL1CATEGORY" attribute_user_name="GEL1 CATEGORY" feature="GEL1" feature_user_name="GEL1" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="Rosco Color Correction/LEE Color Correction" from_dmx="0" to_dmx="50" />
+						<ChannelSet index="1" name="Rosco CalColor/LEE Color Fliters" from_dmx="51" to_dmx="101" />
+						<ChannelSet index="2" name="Rosco Storaro Selection/LEE 600 Series" from_dmx="102" to_dmx="152" />
+						<ChannelSet index="3" name="Rosco Cinelux/LEE Cosmetic Filters" from_dmx="153" to_dmx="203" />
+						<ChannelSet index="4" name="LEE 700 Series" from_dmx="204" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="5" attribute="GEL1COLOR" feature="GEL1" preset="COLOR" coarse="6">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="GEL1COLOR" subattribute_user_name="GEL1 COLOR" attribute="GEL1COLOR" attribute_user_name="GEL1 COLOR" feature="GEL1" feature_user_name="GEL1" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="Color" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="6" attribute="COLORCROSSFADE" feature="COLORALL" preset="COLOR" coarse="7">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="COLORCROSSFADE" subattribute_user_name="Xfade" attribute="COLORCROSSFADE" attribute_user_name="ColorCrossfade" feature="COLORALL" feature_user_name="Color" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="GEL1&gt;GEL2" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="7" attribute="GEL2CCTSELECT" feature="GEL2" preset="COLOR" coarse="8">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="GEL2CCTSELECT" subattribute_user_name="GEL2 CCT SELECT" attribute="GEL2CCTSELECT" attribute_user_name="GEL2 CCT SELECT" feature="GEL2" feature_user_name="GEL2" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="3200K" from_dmx="0" to_dmx="127" />
+						<ChannelSet index="1" name="5600K" from_dmx="128" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="8" attribute="GEL2CMTYPE" feature="GEL2" preset="COLOR" coarse="9">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="GEL2CMTYPE" subattribute_user_name="GEL2 CMT YPE" attribute="GEL2CMTYPE" attribute_user_name="GEL2 CMT YPE" feature="GEL2" feature_user_name="GEL2" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="Color Priority" from_dmx="0" to_dmx="84" />
+						<ChannelSet index="1" name="Brightness Priority" from_dmx="85" to_dmx="170" />
+						<ChannelSet index="2" name="None" from_dmx="171" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="9" attribute="GEL2BRAND" feature="GEL2" preset="COLOR" coarse="10">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="GEL2BRAND" subattribute_user_name="GEL2 BRAND" attribute="GEL2BRAND" attribute_user_name="GEL2 BRAND" feature="GEL2" feature_user_name="GEL2" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="Rosco" from_dmx="0" to_dmx="127" />
+						<ChannelSet index="1" name="LEE Filters" from_dmx="128" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="10" attribute="GEL2CATEGORY" feature="GEL2" preset="COLOR" coarse="11">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="GEL2CATEGORY" subattribute_user_name="GEL2 CATEGORY" attribute="GEL2CATEGORY" attribute_user_name="GEL2 CATEGORY" feature="GEL2" feature_user_name="GEL2" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="Rosco Color Correction/LEE Color Correction" from_dmx="0" to_dmx="50" />
+						<ChannelSet index="1" name="Rosco CalColor/LEE Color Fliters" from_dmx="51" to_dmx="101" />
+						<ChannelSet index="2" name="Rosco Storaro Selection/LEE 600 Series" from_dmx="102" to_dmx="152" />
+						<ChannelSet index="3" name="Rosco Cinelux/LEE Cosmetic Filters" from_dmx="153" to_dmx="203" />
+						<ChannelSet index="4" name="LEE 700 Series" from_dmx="204" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="11" attribute="GEL2COLOR" feature="GEL2" preset="COLOR" coarse="12">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="GEL2COLOR" subattribute_user_name="GEL2 COLOR" attribute="GEL2COLOR" attribute_user_name="GEL2 COLOR" feature="GEL2" feature_user_name="GEL2" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="Color" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="12" attribute="GELTEANSTYP" feature="GEL2" preset="COLOR" coarse="13">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="GELTEANSTYP" subattribute_user_name="GEL TEANS TYP" attribute="GELTEANSTYP" attribute_user_name="GEL TEANS TYP" feature="GEL2" feature_user_name="GEL2" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="Direct Transition" from_dmx="0" to_dmx="51" />
+						<ChannelSet index="1" name="Through The White Spot" from_dmx="52" to_dmx="102" />
+						<ChannelSet index="2" name="Through The Black Spot" from_dmx="103" to_dmx="153" />
+						<ChannelSet index="3" name="Above The White Spot" from_dmx="154" to_dmx="204" />
+						<ChannelSet index="4" name="Under The White Spot" from_dmx="205" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="13" attribute="FUNCTION" feature="CONTROL" preset="CONTROL" coarse="14">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="FUNCTION" subattribute_user_name="FUNCTION" attribute="FUNCTION" attribute_user_name="FUNCTION" feature="CONTROL" feature_user_name="Control" preset="CONTROL" preset_user_name="Control">
+						<ChannelSet index="0" name="None" from_dmx="0" to_dmx="9" />
+						<ChannelSet index="1" name="High Fan" from_dmx="10" to_dmx="57" />
+						<ChannelSet index="2" name="Low Fan" from_dmx="58" to_dmx="105" />
+						<ChannelSet index="3" name="Live Fan" from_dmx="106" to_dmx="153" />
+						<ChannelSet index="4" name="None" from_dmx="154" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="14" attribute="PRESET" feature="CONTROL" preset="CONTROL" coarse="15">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="PRESET" subattribute_user_name="PRESET" attribute="PRESET" attribute_user_name="PRESET" feature="CONTROL" feature_user_name="Control" preset="CONTROL" preset_user_name="Control">
+						<ChannelSet index="0" name="No Effect" from_dmx="0" to_dmx="11" />
+						<ChannelSet index="1" name="User Preset 1" from_dmx="12" to_dmx="23" />
+						<ChannelSet index="2" name="User Preset 2" from_dmx="24" to_dmx="35" />
+						<ChannelSet index="3" name="User Preset 3" from_dmx="36" to_dmx="47" />
+						<ChannelSet index="4" name="User Preset 4" from_dmx="48" to_dmx="59" />
+						<ChannelSet index="5" name="User Preset 5" from_dmx="60" to_dmx="71" />
+						<ChannelSet index="6" name="User Preset 6" from_dmx="72" to_dmx="83" />
+						<ChannelSet index="7" name="User Preset 7" from_dmx="84" to_dmx="95" />
+						<ChannelSet index="8" name="User Preset 8" from_dmx="96" to_dmx="107" />
+						<ChannelSet index="9" name="User Preset 9" from_dmx="108" to_dmx="119" />
+						<ChannelSet index="10" name="User Preset 10" from_dmx="120" to_dmx="131" />
+						<ChannelSet index="11" name="Preset 1 (2900K 0 +/-GN)" from_dmx="132" to_dmx="143" />
+						<ChannelSet index="12" name="Preset 2 (3200K 0 +/-GN)" from_dmx="144" to_dmx="155" />
+						<ChannelSet index="13" name="Preset 3 (5600K 0 +/-GN)" from_dmx="156" to_dmx="167" />
+						<ChannelSet index="14" name="Preset 4 (6500K 0 +/-GN)" from_dmx="168" to_dmx="179" />
+						<ChannelSet index="15" name="Preset 5 (120 Hue 100% Saturation)" from_dmx="180" to_dmx="191" />
+						<ChannelSet index="16" name="Preset 6 (240 Hue 100% Saturation)" from_dmx="192" to_dmx="203" />
+						<ChannelSet index="17" name="Preset 7 (Rosco 3408 5600K)" from_dmx="204" to_dmx="215" />
+						<ChannelSet index="18" name="Preset 8 (Lee 187 3200K)" from_dmx="216" to_dmx="227" />
+						<ChannelSet index="19" name="Preset 9 (Rosco 3152 3200K)" from_dmx="228" to_dmx="239" />
+						<ChannelSet index="20" name="Preset 10 (Lee 162 3200K)" from_dmx="240" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="15" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" coarse="16" default="9.2" highlight_value="3.5">
+					<ChannelFunction index="0" name="Closed" from="0" to="1.953" min_dmx_24="0" max_dmx_24="393215" subattribute="SHUTTER" subattribute_user_name="Shutter" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Closed" from_dmx="0" to_dmx="5" />
+					</ChannelFunction>
+					<ChannelFunction index="1" name="Open" from="2.344" to="3.906" min_dmx_24="393216" max_dmx_24="720895" physfrom="1" subattribute="SHUTTER" subattribute_user_name="Shutter" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Open" from_dmx="6" to_dmx="10" />
+					</ChannelFunction>
+					<ChannelFunction index="2" name="Strobe 1-100%" from="4.297" to="41.016" min_dmx_24="720896" max_dmx_24="6946815" physfrom="1" physto="20" subattribute="STROBE" subattribute_user_name="Strobe" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Min Strobe" from_dmx="11" to_dmx="12" />
+						<ChannelSet index="1" name="Max Strobe" from_dmx="104" to_dmx="105" />
+					</ChannelFunction>
+					<ChannelFunction index="3" name="Open(2)" from="41.406" to="42.969" min_dmx_24="6946816" max_dmx_24="7274495" physfrom="1" subattribute="SHUTTER" subattribute_user_name="Shutter" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Open(2)" from_dmx="106" to_dmx="110" />
+					</ChannelFunction>
+					<ChannelFunction index="4" name="Pulse Strobe 1-100%" from="43.359" to="69.922" min_dmx_24="7274496" max_dmx_24="11796479" physfrom="1" physto="10" subattribute="STROBE_PULSE" subattribute_user_name="Pulse" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Min Pulse Strobe" from_dmx="111" to_dmx="112" />
+						<ChannelSet index="1" name="Max Pulse Strobe" from_dmx="178" to_dmx="179" />
+					</ChannelFunction>
+					<ChannelFunction index="5" name="Open(3)" from="70.313" to="72.266" min_dmx_24="11796480" max_dmx_24="12189695" physfrom="1" subattribute="SHUTTER" subattribute_user_name="Shutter" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Open(3)" from_dmx="180" to_dmx="185" />
+					</ChannelFunction>
+					<ChannelFunction index="6" name="Random Strobe 1-100%" from="72.656" to="98.828" min_dmx_24="12189696" max_dmx_24="16646143" physfrom="1" physto="10" subattribute="STROBE_RANDOM" subattribute_user_name="Rnd" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Min Random Strobe" from_dmx="186" to_dmx="187" />
+						<ChannelSet index="1" name="Max Random Strobe" from_dmx="252" to_dmx="253" />
+					</ChannelFunction>
+					<ChannelFunction index="7" name="Open(4)" from="99.219" to="100" min_dmx_24="16646144" max_dmx_24="16777215" physfrom="1" subattribute="SHUTTER" subattribute_user_name="Shutter" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Open(4)" from_dmx="254" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="16" attribute="UNKNOWN" feature="CONTROL" preset="CONTROL" coarse="17">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="UNKNOWN" subattribute_user_name="Unknown" attribute="UNKNOWN" attribute_user_name="Dummy" feature="CONTROL" feature_user_name="Control" preset="CONTROL" preset_user_name="Control" />
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<FixtureMacroCollect index="5" />
+		<Body />
+		<AutoPresets index="4" />
+	</FixtureType>
+</MA>

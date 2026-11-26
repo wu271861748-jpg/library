@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.0.0/MA.xsd" major_vers="3" minor_vers="0" stream_vers="0">
+	<Info datetime="2022-03-31T14:48:13" showfile="library test" />
+	<FixtureType index="40" name="LT-1220" mode="mode 3">
+		<short_name>LT-1220-3</short_name>
+		<manufacturer>Jolly</manufacturer>
+		<short_manufacturer>Jolly</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="Headmover" beamtype="Wash" beam_angle="35" beam_intensity="10000">
+				<Body>
+					<Size x="0" y="0" z="0" />
+				</Body>
+				<ChannelType index="0" attribute="COLORMIXER" feature="COLORMIX" preset="COLOR" coarse="1">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="COLOR1" attribute="COLOR1" feature="COLOR1" preset="COLOR">
+						<ChannelSet index="0" name="No Function" from_dmx="0" to_dmx="5" />
+						<ChannelSet index="1" name="LEE 790-Moroccan Pink" from_dmx="6" to_dmx="10" />
+						<ChannelSet index="2" name="LEE 157-Pink" from_dmx="11" to_dmx="15" />
+						<ChannelSet index="3" name="LEE 332-Special Rose Pink" from_dmx="16" to_dmx="20" />
+						<ChannelSet index="4" name="LEE 328-Follies Pink" from_dmx="21" to_dmx="25" />
+						<ChannelSet index="5" name="LEE 345-Fuchsia Pink" from_dmx="26" to_dmx="30" />
+						<ChannelSet index="6" name="LEE 194-Surprise Pink" from_dmx="31" to_dmx="35" />
+						<ChannelSet index="7" name="LEE 181-Congo Blue" from_dmx="36" to_dmx="40" />
+						<ChannelSet index="8" name="LEE 071-Tokyo Blue" from_dmx="41" to_dmx="45" />
+						<ChannelSet index="9" name="LEE 120-Deep Blue" from_dmx="46" to_dmx="50" />
+						<ChannelSet index="10" name="LEE 079-Just Blue" from_dmx="51" to_dmx="55" />
+						<ChannelSet index="11" name="LEE 132-Medium Blue" from_dmx="56" to_dmx="60" />
+						<ChannelSet index="12" name="LEE 200-Double CT Blue" from_dmx="61" to_dmx="66" />
+						<ChannelSet index="13" name="LEE 161-Slate Blue" from_dmx="67" to_dmx="70" />
+						<ChannelSet index="14" name="LEE 201-Full CT Blue" from_dmx="71" to_dmx="75" />
+						<ChannelSet index="15" name="LEE 202-Half CT Blue" from_dmx="76" to_dmx="80" />
+						<ChannelSet index="16" name="LEE 117-Steel Blue" from_dmx="81" to_dmx="85" />
+						<ChannelSet index="17" name="LEE 353-Lighter Blue" from_dmx="86" to_dmx="90" />
+						<ChannelSet index="18" name="LEE 118-Light Blue" from_dmx="91" to_dmx="95" />
+						<ChannelSet index="19" name="LEE 116-Medium Blue Green" from_dmx="96" to_dmx="100" />
+						<ChannelSet index="20" name="LEE 124-Dark Green" from_dmx="101" to_dmx="105" />
+						<ChannelSet index="21" name="LEE 139-Primary Green" from_dmx="106" to_dmx="110" />
+						<ChannelSet index="22" name="LEE 089-Moss Green" from_dmx="111" to_dmx="115" />
+						<ChannelSet index="23" name="LEE 122-Fern Green" from_dmx="116" to_dmx="120" />
+						<ChannelSet index="24" name="LEE 738-JAS Green" from_dmx="121" to_dmx="125" />
+						<ChannelSet index="25" name="LEE 088-Lime Green" from_dmx="126" to_dmx="130" />
+						<ChannelSet index="26" name="LEE 100-Spring Yellow" from_dmx="131" to_dmx="135" />
+						<ChannelSet index="27" name="LEE 104-Deep Amber" from_dmx="136" to_dmx="140" />
+						<ChannelSet index="28" name="LEE 179-Chrome Orange" from_dmx="141" to_dmx="145" />
+						<ChannelSet index="29" name="LEE 105-Orange" from_dmx="146" to_dmx="150" />
+						<ChannelSet index="30" name="LEE 021-Gold Amber" from_dmx="151" to_dmx="155" />
+						<ChannelSet index="31" name="LEE 778-Mellennium Gold" from_dmx="156" to_dmx="160" />
+						<ChannelSet index="32" name="LEE 135-Deep Golden Amber" from_dmx="161" to_dmx="165" />
+						<ChannelSet index="33" name="LEE 164-Flame Red" from_dmx="166" to_dmx="170" />
+						<ChannelSet index="34" name="Coulourwheel rotation forward fast - slow" from_dmx="171" to_dmx="185" />
+						<ChannelSet index="35" name="Coulourwheel rotation stop" from_dmx="186" to_dmx="190" />
+						<ChannelSet index="36" name="Coulourwheel rotation backward fast - slow" from_dmx="191" to_dmx="205" />
+						<ChannelSet index="37" name="Coulourwheel rotation stop" from_dmx="206" to_dmx="210" />
+						<ChannelSet index="38" name="Fast  slow" from_dmx="211" to_dmx="225" />
+						<ChannelSet index="39" name="Tungsten Simulation" from_dmx="226" to_dmx="230" />
+						<ChannelSet index="40" name="Warm white - 3200K" from_dmx="231" to_dmx="235" />
+						<ChannelSet index="41" name="Neutral white - 4200K" from_dmx="236" to_dmx="240" />
+						<ChannelSet index="42" name="Cold white - 5600K" from_dmx="241" to_dmx="245" />
+						<ChannelSet index="43" name="Cold white - 7200K" from_dmx="246" to_dmx="250" />
+						<ChannelSet index="44" name="Cold white - 8000K" from_dmx="251" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="1" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" coarse="2" fine="3" default="65535" color="ff0000">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB1" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="65535" to_dmx="65535" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="2" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" coarse="4" fine="5" color="00ff00">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB2" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="65535" to_dmx="65535" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="3" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" coarse="6" fine="7" color="0000ff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB3" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="65535" to_dmx="65535" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="4" attribute="COLORRGB5" feature="COLORRGB" preset="COLOR" coarse="8" fine="9" color="ffffff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB5" attribute="COLORRGB5" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="65535" to_dmx="65535" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="5" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" coarse="10" default="254.999">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="1" subattribute="SHUTTER" attribute="SHUTTER" feature="SHUTTER" preset="BEAM">
+						<ChannelSet index="0" name="Closed" from_dmx="0" to_dmx="15" />
+						<ChannelSet index="1" name="Random Strobe slow  fast" from_dmx="16" to_dmx="47" />
+						<ChannelSet index="2" name="Ramp Up slow  fast" from_dmx="48" to_dmx="79" />
+						<ChannelSet index="3" name="Ramp Down slow  fast" from_dmx="80" to_dmx="111" />
+						<ChannelSet index="4" name="Ramp UP  down slow  fast" from_dmx="112" to_dmx="143" />
+						<ChannelSet index="5" name="Strobe Pause 5s  1s slow  fast" from_dmx="144" to_dmx="199" />
+						<ChannelSet index="6" name="Strobe 1Hz  20 Hz slow  fast" from_dmx="200" to_dmx="239" />
+						<ChannelSet index="7" name="Open" from_dmx="240" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="6" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="11" fine="12" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" attribute="DIM" feature="DIMMER" preset="DIMMER">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="65535" to_dmx="65535" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="7" attribute="CTO" feature="CTC" preset="COLOR" coarse="13">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="CTO" attribute="CTO" feature="CTC" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="8" attribute="RED 1" feature="PIXEL" preset="COLOR" coarse="14">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="RED 1" attribute="RED 1" feature="PIXEL" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="9" attribute="GREEN 1" feature="PIXEL GREEN" preset="COLOR" coarse="15">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="GREEN 1" attribute="GREEN 1" feature="PIXEL GREEN" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="10" attribute="BLUE 1" feature="PIXEL BLUE" preset="COLOR" coarse="16">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="BLUE 1" attribute="BLUE 1" feature="PIXEL BLUE" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="11" attribute="WHITE 1" feature="PIXEL WHITE" preset="COLOR" coarse="17">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="WHITE 1" attribute="WHITE 1" feature="PIXEL WHITE" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="12" attribute="RED 2" feature="PIXEL" preset="COLOR" coarse="18">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="RED 2" attribute="RED 2" feature="PIXEL" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="13" attribute="GREEN 2" feature="PIXEL GREEN" preset="COLOR" coarse="19">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="GREEN 2" attribute="GREEN 2" feature="PIXEL GREEN" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="14" attribute="BLUE 2" feature="PIXEL BLUE" preset="COLOR" coarse="20">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="BLUE 2" attribute="BLUE 2" feature="PIXEL BLUE" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="15" attribute="WHITE 2" feature="PIXEL WHITE" preset="COLOR" coarse="21">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="WHITE 2" attribute="WHITE 2" feature="PIXEL WHITE" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="16" attribute="RED 3" feature="PIXEL" preset="COLOR" coarse="22">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="RED 3" attribute="RED 3" feature="PIXEL" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="17" attribute="GREEN 3" feature="PIXEL GREEN" preset="COLOR" coarse="23">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="GREEN 3" attribute="GREEN 3" feature="PIXEL GREEN" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="18" attribute="BLUE 3" feature="PIXEL BLUE" preset="COLOR" coarse="24">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="BLUE 3" attribute="BLUE 3" feature="PIXEL BLUE" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="19" attribute="WHITE 3" feature="PIXEL WHITE" preset="COLOR" coarse="25">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="WHITE 3" attribute="WHITE 3" feature="PIXEL WHITE" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="20" attribute="RED 4" feature="PIXEL" preset="COLOR" coarse="26">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="RED 4" attribute="RED 4" feature="PIXEL" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="21" attribute="GREEN 4" feature="PIXEL GREEN" preset="COLOR" coarse="27">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="GREEN 4" attribute="GREEN 4" feature="PIXEL GREEN" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="22" attribute="BLUE 4" feature="PIXEL BLUE" preset="COLOR" coarse="28">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="BLUE 4" attribute="BLUE 4" feature="PIXEL BLUE" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="23" attribute="WHITE 4" feature="PIXEL WHITE" preset="COLOR" coarse="29">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="WHITE 4" attribute="WHITE 4" feature="PIXEL WHITE" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="24" attribute="RED 5" feature="PIXEL" preset="COLOR" coarse="30">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="RED 5" attribute="RED 5" feature="PIXEL" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="25" attribute="GREEN 5" feature="PIXEL GREEN" preset="COLOR" coarse="31">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="GREEN 5" attribute="GREEN 5" feature="PIXEL GREEN" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="26" attribute="BLUE 5" feature="PIXEL BLUE" preset="COLOR" coarse="32">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="BLUE 5" attribute="BLUE 5" feature="PIXEL BLUE" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="27" attribute="WHITE 5" feature="PIXEL WHITE" preset="COLOR" coarse="33">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="WHITE 5" attribute="WHITE 5" feature="PIXEL WHITE" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="28" attribute="RED 6" feature="PIXEL" preset="COLOR" coarse="34">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="RED 6" attribute="RED 6" feature="PIXEL" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="29" attribute="GREEN 6" feature="PIXEL GREEN" preset="COLOR" coarse="35">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="GREEN 6" attribute="GREEN 6" feature="PIXEL GREEN" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="30" attribute="BLUE 6" feature="PIXEL BLUE" preset="COLOR" coarse="36">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="BLUE 6" attribute="BLUE 6" feature="PIXEL BLUE" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="31" attribute="WHITE 6" feature="PIXEL WHITE" preset="COLOR" coarse="37">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="WHITE 6" attribute="WHITE 6" feature="PIXEL WHITE" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="32" attribute="RED 7" feature="PIXEL" preset="COLOR" coarse="38">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="RED 7" attribute="RED 7" feature="PIXEL" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="33" attribute="GREEN 7" feature="PIXEL GREEN" preset="COLOR" coarse="39">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="GREEN 7" attribute="GREEN 7" feature="PIXEL GREEN" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="34" attribute="BLUE 7" feature="PIXEL BLUE" preset="COLOR" coarse="40">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="BLUE 7" attribute="BLUE 7" feature="PIXEL BLUE" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="35" attribute="WHITE 7" feature="PIXEL WHITE" preset="COLOR" coarse="41">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="WHITE 7" attribute="WHITE 7" feature="PIXEL WHITE" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="36" attribute="RED 8" feature="PIXEL" preset="COLOR" coarse="42">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="RED 8" attribute="RED 8" feature="PIXEL" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="37" attribute="GREEN 8" feature="PIXEL GREEN" preset="COLOR" coarse="43">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="GREEN 8" attribute="GREEN 8" feature="PIXEL GREEN" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="38" attribute="BLUE 8" feature="PIXEL BLUE" preset="COLOR" coarse="44">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="BLUE 8" attribute="BLUE 8" feature="PIXEL BLUE" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="39" attribute="WHITE 8" feature="PIXEL WHITE" preset="COLOR" coarse="45">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="WHITE 8" attribute="WHITE 8" feature="PIXEL WHITE" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="40" attribute="RED 9" feature="PIXEL" preset="COLOR" coarse="46">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="RED 9" attribute="RED 9" feature="PIXEL" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="41" attribute="GREEN 9" feature="PIXEL GREEN" preset="COLOR" coarse="47">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="GREEN 9" attribute="GREEN 9" feature="PIXEL GREEN" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="42" attribute="BLUE 9" feature="PIXEL BLUE" preset="COLOR" coarse="48">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="BLUE 9" attribute="BLUE 9" feature="PIXEL BLUE" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="43" attribute="WHITE 9" feature="PIXEL WHITE" preset="COLOR" coarse="49">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="WHITE 9" attribute="WHITE 9" feature="PIXEL WHITE" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="44" attribute="RED 10" feature="PIXEL" preset="COLOR" coarse="50">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="RED 10" attribute="RED 10" feature="PIXEL" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="45" attribute="GREEN 10" feature="PIXEL GREEN" preset="COLOR" coarse="51">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="GREEN 10" attribute="GREEN 10" feature="PIXEL GREEN" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="46" attribute="BLUE 10" feature="PIXEL BLUE" preset="COLOR" coarse="52">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="BLUE 10" attribute="BLUE 10" feature="PIXEL BLUE" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="47" attribute="WHITE 10" feature="PIXEL WHITE" preset="COLOR" coarse="53">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="WHITE 10" attribute="WHITE 10" feature="PIXEL WHITE" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="48" attribute="RED 11" feature="PIXEL" preset="COLOR" coarse="54">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="RED 11" attribute="RED 11" feature="PIXEL" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="49" attribute="GREEN 11" feature="PIXEL GREEN" preset="COLOR" coarse="55">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="GREEN 11" attribute="GREEN 11" feature="PIXEL GREEN" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="50" attribute="BLUE 11" feature="PIXEL BLUE" preset="COLOR" coarse="56">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="BLUE 11" attribute="BLUE 11" feature="PIXEL BLUE" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="51" attribute="WHITE 11" feature="PIXEL WHITE" preset="COLOR" coarse="57">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="WHITE 11" attribute="WHITE 11" feature="PIXEL WHITE" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="52" attribute="RED 12" feature="PIXEL" preset="COLOR" coarse="58">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="RED 12" attribute="RED 12" feature="PIXEL" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="53" attribute="GREEN 12" feature="PIXEL GREEN" preset="COLOR" coarse="59">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="GREEN 12" attribute="GREEN 12" feature="PIXEL GREEN" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="54" attribute="BLUE 12" feature="PIXEL BLUE" preset="COLOR" coarse="60">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="BLUE 12" attribute="BLUE 12" feature="PIXEL BLUE" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="55" attribute="WHITE 12" feature="PIXEL WHITE" preset="COLOR" coarse="61">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="WHITE 12" attribute="WHITE 12" feature="PIXEL WHITE" preset="COLOR" />
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<Body />
+		<AutoPresets index="4" />
+	</FixtureType>
+</MA>

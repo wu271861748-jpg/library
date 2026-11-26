@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/2.4.3/MA.xsd" major_vers="2" minor_vers="4" stream_vers="3">
+	<Info datetime="2014-07-14T10:29:42" showfile="zhanting14-5" />
+	<FixtureType index="16" name="LP-1512 ZOOM" mode="v1.0.0">
+		<short_name>LP-1512 ZOOM</short_name>
+		<manufacturer>Jolly</manufacturer>
+		<short_manufacturer>Jolly</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="Headmover" beamtype="Wash" beam_angle="15.000" beam_intensity="10000.000">
+				<Body>
+					<Size x="0.000" y="0.000" z="0.000" />
+					<Center x="0.000" y="0.000" z="0.000" />
+					<Light x="0.000" y="0.000" z="0.000" />
+				</Body>
+				<ChannelType index="0" attribute="COLORMACROS" feature="COLORALL" preset="COLOR" coarse="1">
+					<ChannelFunction index="0" name="LED  Effect" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" subattribute="COLORMACROSELECT" attribute="COLORMACROS" feature="COLORALL" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="1" attribute="INTENSITYMSPEED" feature="MSPEED" preset="CONTROL" coarse="2">
+					<ChannelFunction index="0" name="Dimmer Speed" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" subattribute="RESERVED" attribute="DUMMY" feature="CONTROL" preset="CONTROL" />
+				</ChannelType>
+				<ChannelType index="2" attribute="COLORDIM1" feature="COLORDIM" preset="COLOR" coarse="3" default="255.000" highlight_value="0.000">
+					<ChannelFunction index="0" name="Red 0.100%" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="COLORDIM1" attribute="COLORDIM1" feature="COLORDIM" preset="COLOR">
+						<ChannelSet index="0" name="close" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="Red" from_dmx="255" to_dmx="255" slot_index="0" />
+					</ChannelFunction>
+					<ChannelFunction index="1" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" subattribute="NOFEATURE" attribute="DUMMY" feature="CONTROL" preset="CONTROL" />
+				</ChannelType>
+				<ChannelType index="3" attribute="COLORDIM2" feature="COLORDIM" preset="COLOR" coarse="4" default="255.000" highlight_value="0.000">
+					<ChannelFunction index="0" name="Green 0..100%" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="COLORDIM2" attribute="COLORDIM2" feature="COLORDIM" preset="COLOR">
+						<ChannelSet index="0" name="close" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="Green" from_dmx="255" to_dmx="255" slot_index="1" />
+					</ChannelFunction>
+					<ChannelFunction index="1" from="0.000" to="100.000" min_dmx_24="16711680" max_dmx_24="16777215" subattribute="NOFEATURE" attribute="DUMMY" feature="CONTROL" preset="CONTROL" />
+				</ChannelType>
+				<ChannelType index="4" attribute="COLORDIM3" feature="COLORDIM" preset="COLOR" coarse="5" default="255.000" highlight_value="0.000">
+					<ChannelFunction index="0" name="Blue 0..100%" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="COLORDIM3" attribute="COLORDIM3" feature="COLORDIM" preset="COLOR">
+						<ChannelSet index="0" name="close" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="Blue" from_dmx="255" to_dmx="255" slot_index="2" />
+					</ChannelFunction>
+					<ChannelFunction index="1" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" subattribute="NOFEATURE" attribute="DUMMY" feature="CONTROL" preset="CONTROL" />
+				</ChannelType>
+				<ChannelType index="5" attribute="COLORDIM4" feature="COLORDIM" preset="COLOR" coarse="6" highlight_value="0.000">
+					<ChannelFunction index="0" name="White 0..100%" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="COLORDIM4" attribute="COLORDIM4" feature="COLORDIM" preset="COLOR">
+						<ChannelSet index="0" name="close" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="White" from_dmx="255" to_dmx="255" slot_index="3" />
+					</ChannelFunction>
+					<ChannelFunction index="1" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" subattribute="NOFEATURE" attribute="DUMMY" feature="CONTROL" preset="CONTROL" />
+				</ChannelType>
+				<ChannelType index="6" attribute="ZOOM" feature="FOCUS" preset="FOCUS" coarse="7">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.700" physto="1.000" subattribute="ZOOM" attribute="ZOOM" feature="FOCUS" preset="FOCUS" />
+				</ChannelType>
+				<ChannelType index="7" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" coarse="8" default="255.000" highlight_value="100.000">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="1.000" subattribute="SHUTTER" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" />
+				</ChannelType>
+				<ChannelType index="8" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="9" highlight_value="100.000">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="DIM" attribute="DIM" feature="DIMMER" preset="DIMMER" />
+				</ChannelType>
+				<ChannelType index="9" attribute="Reset" feature="CONTROL" preset="CONTROL" coarse="10">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" subattribute="Reset" attribute="Reset" feature="CONTROL" preset="CONTROL">
+						<ChannelSet index="0" name="ALL  Reset" from_dmx="80" to_dmx="87" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" patch="1" RW="0.000" />
+		</Instances>
+		<Wheels index="2">
+			<Wheel index="0" subattribute="COLOR1" attribute="COLOR1" feature="COLOR1" preset="COLOR">
+				<Slot index="0" media_name="Red" g="0" b="0" />
+				<Slot index="1" media_name="Green" r="0" b="0" />
+				<Slot index="2" media_name="Blue" r="0" g="0" />
+				<Slot index="3" media_name="White" />
+			</Wheel>
+		</Wheels>
+	</FixtureType>
+</MA>

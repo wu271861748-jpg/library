@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.1.2/MA.xsd" major_vers="3" minor_vers="1" stream_vers="2">
+	<Info datetime="2026-10-06T15:57:49" showfile="depence ceshi  zhuan yong 8.6" />
+	<FixtureType index="2" name="XM-S6F Strobe IP" mode="115 Channel">
+		<short_name>S6F Strobe IP</short_name>
+		<manufacturer>XM-LITE</manufacturer>
+		<short_manufacturer>XM-LITE</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="LED" beamtype="Wash" beam_angle="0" beam_intensity="0">
+				<Body>
+					<Size x="0.15" y="0.15" z="0.05" />
+				</Body>
+				<ChannelType index="0" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="1" fine="2" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+				<ChannelType index="1" attribute="STROBEDURATION" feature="SHUTTER" preset="BEAM" coarse="3">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="STROBEDURATION" subattribute_user_name="Duration" attribute="STROBEDURATION" attribute_user_name="StrobeDuration" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam" />
+				</ChannelType>
+				<ChannelType index="2" attribute="STROBESPEED" feature="SHUTTER" preset="BEAM" coarse="4">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="STROBESPEED" subattribute_user_name="Strobe Speed" attribute="STROBESPEED" attribute_user_name="Strobe Speed" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Close" from_dmx="0" to_dmx="5" />
+						<ChannelSet index="1" name="Slow" from_dmx="6" to_dmx="6" />
+						<ChannelSet index="2" name="Med" from_dmx="130" to_dmx="130" />
+						<ChannelSet index="3" name="Fast" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="3" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" coarse="5">
+					<ChannelFunction index="0" name="Strobe" from="0" to="1.19" min_dmx_24="0" max_dmx_24="393215" physfrom="1" subattribute="STROBE" subattribute_user_name="Strobe" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Strobe" from_dmx="0" to_dmx="5" />
+					</ChannelFunction>
+					<ChannelFunction index="1" name="Pulse Open" from="2.34" to="19.8" min_dmx_24="393216" max_dmx_24="3342335" physfrom="1" subattribute="STROBE_PULSE_OPEN" subattribute_user_name="Pulse Open" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Pulse Open" from_dmx="6" to_dmx="50" />
+					</ChannelFunction>
+					<ChannelFunction index="2" name="Pulse Close" from="20" to="39.21" min_dmx_24="3342336" max_dmx_24="6619135" physfrom="1" subattribute="STROBE_PULSE_CLOSE" subattribute_user_name="Pulse Close" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Pulse Close" from_dmx="51" to_dmx="100" />
+					</ChannelFunction>
+					<ChannelFunction index="3" name="Pulse" from="39.6" to="58.82" min_dmx_24="6619136" max_dmx_24="9895935" physfrom="1" subattribute="STROBE_PULSE" subattribute_user_name="Pulse" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Pulse" from_dmx="101" to_dmx="150" />
+					</ChannelFunction>
+					<ChannelFunction index="4" name="Lightning" from="59.21" to="78.43" min_dmx_24="9895936" max_dmx_24="13172735" physfrom="1" subattribute="STROBE_LIGHTNING" subattribute_user_name="Lightning" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Lightning" from_dmx="151" to_dmx="200" />
+					</ChannelFunction>
+					<ChannelFunction index="5" name="Rnd" from="78.82" to="100" min_dmx_24="13172736" max_dmx_24="16777215" physfrom="1" subattribute="STROBE_RANDOM" subattribute_user_name="Rnd" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Rnd" from_dmx="201" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="4" attribute="FUNCTION" feature="FUNCTION" preset="CONTROL" coarse="6" default="53.55">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="FUNCTION" subattribute_user_name="FUNCTION" attribute="FUNCTION" attribute_user_name="FUNCTION" feature="FUNCTION" feature_user_name="FUNCTION" preset="CONTROL" preset_user_name="Control">
+						<ChannelSet index="0" name="No Feature" from_dmx="0" to_dmx="9" />
+						<ChannelSet index="1" name="Fan Auto 3s(Default)" from_dmx="10" to_dmx="19" />
+						<ChannelSet index="2" name="Silent Mode (3s)" from_dmx="20" to_dmx="29" />
+						<ChannelSet index="3" name="Fan Off (3s)" from_dmx="30" to_dmx="39" />
+						<ChannelSet index="4" name="Smooth Dimmer 3s(Default)" from_dmx="40" to_dmx="49" />
+						<ChannelSet index="5" name="Fast Dimmer (3s)" from_dmx="50" to_dmx="59" />
+						<ChannelSet index="6" name="Dim Curve 1(Default)" from_dmx="60" to_dmx="69" />
+						<ChannelSet index="7" name="Dim Curve 2" from_dmx="70" to_dmx="79" />
+						<ChannelSet index="8" name="Dim Curve 3" from_dmx="80" to_dmx="89" />
+						<ChannelSet index="9" name="Dim Curve 4" from_dmx="90" to_dmx="99" />
+						<ChannelSet index="10" name="No Feature2" from_dmx="100" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="5" attribute="FROST" feature="BEAM1" preset="BEAM" coarse="7">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="FROST" subattribute_user_name="Frost" attribute="FROST" attribute_user_name="Frost" feature="BEAM1" feature_user_name="Beam" preset="BEAM" preset_user_name="Beam" />
+				</ChannelType>
+			</Module>
+			<Module index="1" name="RGB" class="LED" beamtype="Wash" beam_angle="20" beam_intensity="50000">
+				<Body>
+					<Size x="0.15" y="0.15" z="0.05" />
+				</Body>
+				<ChannelType index="0" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" coarse="1" default="255" highlight_value="100" color="ff0000">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB1" subattribute_user_name="R" attribute="COLORRGB1" attribute_user_name="R" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="1" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" coarse="2" default="255" highlight_value="100" color="00ff00">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB2" subattribute_user_name="G" attribute="COLORRGB2" attribute_user_name="G" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="2" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" coarse="3" default="255" highlight_value="100" color="0000ff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB3" subattribute_user_name="B" attribute="COLORRGB3" attribute_user_name="B" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="3" attribute="DIM" feature="DIMMER" preset="DIMMER" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+			</Module>
+			<Module index="2" name="W-W" class="LED" beamtype="Wash" beam_angle="35" beam_intensity="60000">
+				<Body>
+					<Size x="0.15" y="0.15" z="0.05" />
+				</Body>
+				<ChannelType index="0" attribute="COLORRGB5" feature="COLORRGB" preset="COLOR" coarse="1" default="255" highlight_value="100" color="ffffff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB5" subattribute_user_name="White" attribute="COLORRGB5" attribute_user_name="White" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="1" attribute="COLORRGB6" feature="COLORRGB" preset="COLOR" coarse="2" default="255" highlight_value="100" color="ffffcc">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB6" subattribute_user_name="Warm White" attribute="COLORRGB6" attribute_user_name="Warm White" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="2" attribute="DIM" feature="DIMMER" preset="DIMMER" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" />
+			<Instance index="1" module_index="1" patch="8" />
+			<Instance index="2" module_index="1" patch="11" />
+			<Instance index="3" module_index="1" patch="14" />
+			<Instance index="4" module_index="1" patch="17" />
+			<Instance index="5" module_index="1" patch="20" />
+			<Instance index="6" module_index="1" patch="23" />
+			<Instance index="7" module_index="1" patch="26" />
+			<Instance index="8" module_index="1" patch="29" />
+			<Instance index="9" module_index="1" patch="32" />
+			<Instance index="10" module_index="1" patch="35" />
+			<Instance index="11" module_index="1" patch="38" />
+			<Instance index="12" module_index="1" patch="41" />
+			<Instance index="13" module_index="1" patch="44" />
+			<Instance index="14" module_index="1" patch="47" />
+			<Instance index="15" module_index="1" patch="50" />
+			<Instance index="16" module_index="1" patch="53" />
+			<Instance index="17" module_index="1" patch="56" />
+			<Instance index="18" module_index="1" patch="59" />
+			<Instance index="19" module_index="1" patch="62" />
+			<Instance index="20" module_index="1" patch="65" />
+			<Instance index="21" module_index="1" patch="68" />
+			<Instance index="22" module_index="1" patch="71" />
+			<Instance index="23" module_index="1" patch="74" />
+			<Instance index="24" module_index="1" patch="77" />
+			<Instance index="25" module_index="2" patch="80" />
+			<Instance index="26" module_index="2" patch="82" />
+			<Instance index="27" module_index="2" patch="84" />
+			<Instance index="28" module_index="2" patch="86" />
+			<Instance index="29" module_index="2" patch="88" />
+			<Instance index="30" module_index="2" patch="90" />
+			<Instance index="31" module_index="2" patch="92" />
+			<Instance index="32" module_index="2" patch="94" />
+			<Instance index="33" module_index="2" patch="96" />
+			<Instance index="34" module_index="2" patch="98" />
+			<Instance index="35" module_index="2" patch="100" />
+			<Instance index="36" module_index="2" patch="102" />
+			<Instance index="37" module_index="2" patch="104" />
+			<Instance index="38" module_index="2" patch="106" />
+			<Instance index="39" module_index="2" patch="108" />
+			<Instance index="40" module_index="2" patch="110" />
+			<Instance index="41" module_index="2" patch="112" />
+			<Instance index="42" module_index="2" patch="114" />
+		</Instances>
+		<Wheels index="2">
+			<Wheel index="0" subattribute="COLOR1" attribute="COLOR1" feature="COLOR1" preset="COLOR">
+				<Slot index="0" />
+				<Slot index="1" />
+				<Slot index="2" />
+				<Slot index="3" />
+				<Slot index="4" />
+				<Slot index="5" />
+				<Slot index="6" />
+				<Slot index="7" />
+				<Slot index="8" />
+				<Slot index="9" />
+				<Slot index="10" />
+				<Slot index="11" />
+				<Slot index="12" />
+				<Slot index="13" />
+				<Slot index="14" />
+				<Slot index="15" />
+				<Slot index="16" />
+				<Slot index="17" />
+				<Slot index="18" />
+				<Slot index="19" />
+				<Slot index="20" />
+				<Slot index="21" />
+				<Slot index="22" />
+				<Slot index="23" />
+				<Slot index="24" />
+				<Slot index="25" />
+				<Slot index="26" />
+				<Slot index="27" />
+				<Slot index="28" />
+				<Slot index="29" />
+				<Slot index="30" />
+				<Slot index="31" />
+			</Wheel>
+		</Wheels>
+		<VirtualFunctionBlocks index="3" />
+		<FixtureMacroCollect index="5" />
+		<Body />
+		<AutoPresets index="4" />
+	</FixtureType>
+</MA>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.2.2/MA.xsd" major_vers="3" minor_vers="2" stream_vers="2">
+	<Info datetime="2016-11-26T15:14:04" showfile="new show 2016-10-31" />
+	<FixtureType index="55" name="DL300" mode="v1.0.0 Motion">
+		<InfoItems>
+			<Info>Patch the global channels personality after this</Info>
+			<Info type="Revision" date="2011-07-08T00:00:00">Automated import from LDS Lighting (C-RevNum: 0; Date: 2011-07-08)</Info>
+			<Info type="Invisible" date="2011-07-08T00:00:00">generator_software_name=&quot;LDS Importer&quot;,generator_software_version=&quot;0823efff202192e18a6a2c6d511c464ae36923b6&quot;</Info>
+		</InfoItems>
+		<short_name>DL300M</short_name>
+		<manufacturer>Jolly</manufacturer>
+		<short_manufacturer>Jolly</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" name="Main Module" class="None" beamtype="Spot" beam_angle="17" beam_intensity="3000">
+				<ChannelType index="0" attribute="PAN" feature="POSITION" preset="POSITION" coarse="1" fine="2" default="32768">
+					<ChannelFunction index="0" name="Pan 0..100%" from="0" to="540" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="540" subattribute="PAN" subattribute_user_name="Pan" attribute="PAN" attribute_user_name="Pan" feature="POSITION" feature_user_name="Position" preset="POSITION" preset_user_name="Position">
+						<ChannelSet index="0" name="居中" from_dmx="32768" to_dmx="32768" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="1" attribute="TILT" feature="POSITION" preset="POSITION" coarse="3" fine="4" default="32768">
+					<ChannelFunction index="0" name="Tilt 0..100%" from="0" to="270" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="270" subattribute="TILT" subattribute_user_name="Tilt" attribute="TILT" attribute_user_name="Tilt" feature="POSITION" feature_user_name="Position" preset="POSITION" preset_user_name="Position">
+						<ChannelSet index="0" name="居中" from_dmx="32768" to_dmx="32768" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="2" attribute="SPEED" feature="MSPEED" preset="CONTROL" coarse="5">
+					<ChannelFunction index="0" name="Time 100..1%" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="252.68" physto="0.15" subattribute="SPEED" subattribute_user_name="SPEED" attribute="SPEED" attribute_user_name="SPEED" feature="MSPEED" feature_user_name="Mspeed" preset="CONTROL" preset_user_name="Control" />
+				</ChannelType>
+				<ChannelType index="3" attribute="XY RESET" feature="RESET" preset="CONTROL" coarse="6">
+					<ChannelFunction index="0" from="0" to="255" min_dmx_24="0" max_dmx_24="16777215" subattribute="XY Reset" subattribute_user_name="XY Reset" attribute="XY RESET" attribute_user_name="XY Reset" feature="RESET" feature_user_name="Reset" preset="CONTROL" preset_user_name="Control">
+						<ChannelSet index="0" name="复位" from_dmx="255" to_dmx="255" />
+						<ChannelSet index="1" name="Not" from_dmx="0" to_dmx="0" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="4" attribute="PROJECTORFOCUS" feature="PROJECTOR" preset="CONTROL" coarse="7">
+					<ChannelFunction index="0" name="Focus 0..78" from="0" to="78" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.01" physto="78" subattribute="PROJECTORFOCUS" subattribute_user_name="Focus" attribute="PROJECTORFOCUS" attribute_user_name="Focus" feature="PROJECTOR" feature_user_name="Projector" preset="CONTROL" preset_user_name="Control" />
+				</ChannelType>
+				<ChannelType index="5" attribute="PROJECTORZOOM" feature="PROJECTOR" preset="CONTROL" coarse="8">
+					<ChannelFunction index="0" name="ZOOM 0..124" from="0" to="255" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.01" physto="124" subattribute="PROJECTORZOOM" subattribute_user_name="Zoom" attribute="PROJECTORZOOM" attribute_user_name="Zoom" feature="PROJECTOR" feature_user_name="Projector" preset="CONTROL" preset_user_name="Control" />
+				</ChannelType>
+				<ChannelType index="6" attribute="ON OFF" feature="PROJECTOR" preset="CONTROL" coarse="9">
+					<ChannelFunction index="0" from="0" to="255" min_dmx_24="0" max_dmx_24="16777215" subattribute="ON OFF" subattribute_user_name="ON OFF" attribute="ON OFF" attribute_user_name="ON OFF" feature="PROJECTOR" feature_user_name="Projector" preset="CONTROL" preset_user_name="Control">
+						<ChannelSet index="0" name="开灯" from_dmx="5" to_dmx="7" />
+						<ChannelSet index="1" name="开光栅" from_dmx="25" to_dmx="27" />
+						<ChannelSet index="2" name="关光栅" from_dmx="125" to_dmx="127" />
+						<ChannelSet index="3" name="关灯" from_dmx="205" to_dmx="207" />
+						<ChannelSet index="4" name="Z 允许" from_dmx="64" to_dmx="64" />
+						<ChannelSet index="5" name="Z 禁止" from_dmx="128" to_dmx="128" />
+						<ChannelSet index="6" name="Z F Reset" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" RW="0" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<FixtureMacroCollect index="5" />
+		<Body />
+		<AutoPresets index="4" />
+		<RdmNotifications index="6">
+			<RdmNotification index="0" Type="Absent" Subcategory="RDM Warning" />
+		</RdmNotifications>
+	</FixtureType>
+</MA>

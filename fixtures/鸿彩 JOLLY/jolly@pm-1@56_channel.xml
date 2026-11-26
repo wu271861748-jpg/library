@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.2.2/MA.xsd" major_vers="3" minor_vers="2" stream_vers="2">
+	<Info datetime="2017-08-18T15:36:35" showfile="new show 2017-08-03" />
+	<FixtureType index="11" name="PM-1" mode="56 Channel">
+		<short_name>PM-1</short_name>
+		<manufacturer>Jolly</manufacturer>
+		<short_manufacturer>Jolly</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="None" beamtype="Wash" beam_angle="35" beam_intensity="10000">
+				<ChannelType index="0" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" coarse="1" default="254.999" color="ff0000">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB1" subattribute_user_name="R" attribute="COLORRGB1" attribute_user_name="R" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="1" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" coarse="2" color="00ff00">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB2" subattribute_user_name="G" attribute="COLORRGB2" attribute_user_name="G" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="2" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" coarse="3" color="0000ff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB3" subattribute_user_name="B" attribute="COLORRGB3" attribute_user_name="B" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="3" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" coarse="4" default="254.999">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="1" subattribute="SHUTTER" subattribute_user_name="Shutter" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam" />
+				</ChannelType>
+				<ChannelType index="4" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="5" default="0.001" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+				<ChannelType index="5" attribute="EFFECTMACROS" feature="EFFECTMACROS" preset="BEAM" coarse="6">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="EFFECTMACROSELECT" subattribute_user_name="Select" attribute="EFFECTMACROS" attribute_user_name="EffectMacros" feature="EFFECTMACROS" feature_user_name="Macros" preset="BEAM" preset_user_name="Beam" />
+				</ChannelType>
+				<ChannelType index="6" attribute="PRG1" feature="PRG" preset="GOBO" coarse="7">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="1" subattribute_user_name="1" attribute="PRG1" attribute_user_name="PRG1" feature="PRG" feature_user_name="PRG" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+				<ChannelType index="7" attribute="PRG2" feature="PRG" preset="GOBO" coarse="8">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="2" subattribute_user_name="2" attribute="PRG2" attribute_user_name="PRG2" feature="PRG" feature_user_name="PRG" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+				<ChannelType index="8" attribute="PRG3" feature="PRG" preset="GOBO" coarse="9">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="3" subattribute_user_name="3" attribute="PRG3" attribute_user_name="PRG3" feature="PRG" feature_user_name="PRG" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+				<ChannelType index="9" attribute="PRG4" feature="PRG" preset="GOBO" coarse="10">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="4" subattribute_user_name="4" attribute="PRG4" attribute_user_name="PRG4" feature="PRG" feature_user_name="PRG" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+				<ChannelType index="10" attribute="PRG5" feature="PRG" preset="GOBO" coarse="11">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="5" subattribute_user_name="5" attribute="PRG5" attribute_user_name="PRG5" feature="PRG" feature_user_name="PRG" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+				<ChannelType index="11" attribute="PRG6" feature="PRG" preset="GOBO" coarse="12">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="6" subattribute_user_name="6" attribute="PRG6" attribute_user_name="PRG6" feature="PRG" feature_user_name="PRG" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+				<ChannelType index="12" attribute="PRG7" feature="PRG" preset="GOBO" coarse="13">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="7" subattribute_user_name="7" attribute="PRG7" attribute_user_name="PRG7" feature="PRG" feature_user_name="PRG" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+				<ChannelType index="13" attribute="PRG8" feature="PRG" preset="GOBO" coarse="14">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="8" subattribute_user_name="8" attribute="PRG8" attribute_user_name="PRG8" feature="PRG" feature_user_name="PRG" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+				<ChannelType index="14" attribute="PRG9" feature="PRG" preset="GOBO" coarse="15">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="9" subattribute_user_name="9" attribute="PRG9" attribute_user_name="PRG9" feature="PRG" feature_user_name="PRG" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+				<ChannelType index="15" attribute="PRG10" feature="PRG" preset="GOBO" coarse="16">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="10" subattribute_user_name="10" attribute="PRG10" attribute_user_name="PRG10" feature="PRG" feature_user_name="PRG" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+				<ChannelType index="16" attribute="PRG11" feature="PRG" preset="GOBO" coarse="17">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="11" subattribute_user_name="11" attribute="PRG11" attribute_user_name="PRG11" feature="PRG" feature_user_name="PRG" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+				<ChannelType index="17" attribute="PRG12" feature="PRG" preset="GOBO" coarse="18">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="12" subattribute_user_name="12" attribute="PRG12" attribute_user_name="PRG12" feature="PRG" feature_user_name="PRG" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+				<ChannelType index="18" attribute="PRG13" feature="PRG" preset="GOBO" coarse="19">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="13" subattribute_user_name="13" attribute="PRG13" attribute_user_name="PRG13" feature="PRG" feature_user_name="PRG" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+				<ChannelType index="19" attribute="PRG14" feature="PRG" preset="GOBO" coarse="20">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="14" subattribute_user_name="14" attribute="PRG14" attribute_user_name="PRG14" feature="PRG" feature_user_name="PRG" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+				<ChannelType index="20" attribute="PRG15" feature="PRG" preset="GOBO" coarse="21">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="15" subattribute_user_name="15" attribute="PRG15" attribute_user_name="PRG15" feature="PRG" feature_user_name="PRG" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+				<ChannelType index="21" attribute="PRG16" feature="PRG" preset="GOBO" coarse="22">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="16" subattribute_user_name="16" attribute="PRG16" attribute_user_name="PRG16" feature="PRG" feature_user_name="PRG" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+				<ChannelType index="22" attribute="PRG17" feature="PRG" preset="GOBO" coarse="23">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="17" subattribute_user_name="17" attribute="PRG17" attribute_user_name="PRG17" feature="PRG" feature_user_name="PRG" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+				<ChannelType index="23" attribute="PRG18" feature="PRG" preset="GOBO" coarse="24">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="18" subattribute_user_name="18" attribute="PRG18" attribute_user_name="PRG18" feature="PRG" feature_user_name="PRG" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+				<ChannelType index="24" attribute="PRG19" feature="PRG" preset="GOBO" coarse="25">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="19" subattribute_user_name="19" attribute="PRG19" attribute_user_name="PRG19" feature="PRG" feature_user_name="PRG" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+				<ChannelType index="25" attribute="PRG20" feature="PRG" preset="GOBO" coarse="26">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="20" subattribute_user_name="20" attribute="PRG20" attribute_user_name="PRG20" feature="PRG" feature_user_name="PRG" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+				<ChannelType index="26" attribute="PRG21" feature="PRG" preset="GOBO" coarse="27">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="21" subattribute_user_name="21" attribute="PRG21" attribute_user_name="PRG21" feature="PRG" feature_user_name="PRG" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+				<ChannelType index="27" attribute="PRG22" feature="PRG" preset="GOBO" coarse="28">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="22" subattribute_user_name="22" attribute="PRG22" attribute_user_name="PRG22" feature="PRG" feature_user_name="PRG" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+				<ChannelType index="28" attribute="PRG23" feature="PRG" preset="GOBO" coarse="29">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="23" subattribute_user_name="23" attribute="PRG23" attribute_user_name="PRG23" feature="PRG" feature_user_name="PRG" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+				<ChannelType index="29" attribute="PRG24" feature="PRG" preset="GOBO" coarse="30">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="24" subattribute_user_name="24" attribute="PRG24" attribute_user_name="PRG24" feature="PRG" feature_user_name="PRG" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+				<ChannelType index="30" attribute="PRG25" feature="PRG" preset="GOBO" coarse="31">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="25" subattribute_user_name="25" attribute="PRG25" attribute_user_name="PRG25" feature="PRG" feature_user_name="PRG" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+				<ChannelType index="31" attribute="PRG26" feature="PRG" preset="GOBO" coarse="32">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="26" subattribute_user_name="26" attribute="PRG26" attribute_user_name="PRG26" feature="PRG" feature_user_name="PRG" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+				<ChannelType index="32" attribute="PRG27" feature="PRG" preset="GOBO" coarse="33">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="27" subattribute_user_name="27" attribute="PRG27" attribute_user_name="PRG27" feature="PRG" feature_user_name="PRG" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+				<ChannelType index="33" attribute="PRG28" feature="PRG" preset="GOBO" coarse="34">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="28" subattribute_user_name="28" attribute="PRG28" attribute_user_name="PRG28" feature="PRG" feature_user_name="PRG" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+				<ChannelType index="34" attribute="PRG29" feature="PRG" preset="GOBO" coarse="35">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="29" subattribute_user_name="29" attribute="PRG29" attribute_user_name="PRG29" feature="PRG" feature_user_name="PRG" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+				<ChannelType index="35" attribute="PRG30" feature="PRG" preset="GOBO" coarse="36">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="30" subattribute_user_name="30" attribute="PRG30" attribute_user_name="PRG30" feature="PRG" feature_user_name="PRG" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+				<ChannelType index="36" attribute="PRG31" feature="PRG" preset="GOBO" coarse="37">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="31" subattribute_user_name="31" attribute="PRG31" attribute_user_name="PRG31" feature="PRG" feature_user_name="PRG" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+				<ChannelType index="37" attribute="PRG32" feature="PRG" preset="GOBO" coarse="38">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="32" subattribute_user_name="32" attribute="PRG32" attribute_user_name="PRG32" feature="PRG" feature_user_name="PRG" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+				<ChannelType index="38" attribute="PRG33" feature="PRG" preset="GOBO" coarse="39">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="33" subattribute_user_name="33" attribute="PRG33" attribute_user_name="PRG33" feature="PRG" feature_user_name="PRG" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+				<ChannelType index="39" attribute="PRG34" feature="PRG" preset="GOBO" coarse="40">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="34" subattribute_user_name="34" attribute="PRG34" attribute_user_name="PRG34" feature="PRG" feature_user_name="PRG" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+				<ChannelType index="40" attribute="PRG35" feature="PRG" preset="GOBO" coarse="41">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="35" subattribute_user_name="35" attribute="PRG35" attribute_user_name="PRG35" feature="PRG" feature_user_name="PRG" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+				<ChannelType index="41" attribute="PRG36" feature="PRG" preset="GOBO" coarse="42">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="36" subattribute_user_name="36" attribute="PRG36" attribute_user_name="PRG36" feature="PRG" feature_user_name="PRG" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+				<ChannelType index="42" attribute="PRG37" feature="PRG" preset="GOBO" coarse="43">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="37" subattribute_user_name="37" attribute="PRG37" attribute_user_name="PRG37" feature="PRG" feature_user_name="PRG" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+				<ChannelType index="43" attribute="PRG38" feature="PRG" preset="GOBO" coarse="44">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="38" subattribute_user_name="38" attribute="PRG38" attribute_user_name="PRG38" feature="PRG" feature_user_name="PRG" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+				<ChannelType index="44" attribute="PRG39" feature="PRG" preset="GOBO" coarse="45">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="39" subattribute_user_name="39" attribute="PRG39" attribute_user_name="PRG39" feature="PRG" feature_user_name="PRG" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+				<ChannelType index="45" attribute="PRG40" feature="PRG" preset="GOBO" coarse="46">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="40" subattribute_user_name="40" attribute="PRG40" attribute_user_name="PRG40" feature="PRG" feature_user_name="PRG" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+				<ChannelType index="46" attribute="PRG41" feature="PRG" preset="GOBO" coarse="47">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="41" subattribute_user_name="41" attribute="PRG41" attribute_user_name="PRG41" feature="PRG" feature_user_name="PRG" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+				<ChannelType index="47" attribute="PRG42" feature="PRG" preset="GOBO" coarse="48">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="42" subattribute_user_name="42" attribute="PRG42" attribute_user_name="PRG42" feature="PRG" feature_user_name="PRG" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+				<ChannelType index="48" attribute="PRG43" feature="PRG" preset="GOBO" coarse="49">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="43" subattribute_user_name="43" attribute="PRG43" attribute_user_name="PRG43" feature="PRG" feature_user_name="PRG" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+				<ChannelType index="49" attribute="PRG44" feature="PRG" preset="GOBO" coarse="50">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="44" subattribute_user_name="44" attribute="PRG44" attribute_user_name="PRG44" feature="PRG" feature_user_name="PRG" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+				<ChannelType index="50" attribute="PRG45" feature="PRG" preset="GOBO" coarse="51">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="45" subattribute_user_name="45" attribute="PRG45" attribute_user_name="PRG45" feature="PRG" feature_user_name="PRG" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+				<ChannelType index="51" attribute="PRG46" feature="PRG" preset="GOBO" coarse="52">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="46" subattribute_user_name="46" attribute="PRG46" attribute_user_name="PRG46" feature="PRG" feature_user_name="PRG" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+				<ChannelType index="52" attribute="PRG47" feature="PRG" preset="GOBO" coarse="53">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="47" subattribute_user_name="47" attribute="PRG47" attribute_user_name="PRG47" feature="PRG" feature_user_name="PRG" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+				<ChannelType index="53" attribute="PRG48" feature="PRG" preset="GOBO" coarse="54">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="48" subattribute_user_name="48" attribute="PRG48" attribute_user_name="PRG48" feature="PRG" feature_user_name="PRG" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+				<ChannelType index="54" attribute="PRG49" feature="PRG" preset="GOBO" coarse="55">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="49" subattribute_user_name="49" attribute="PRG49" attribute_user_name="PRG49" feature="PRG" feature_user_name="PRG" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+				<ChannelType index="55" attribute="PRG50" feature="PRG" preset="GOBO" coarse="56">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="50" subattribute_user_name="50" attribute="PRG50" attribute_user_name="PRG50" feature="PRG" feature_user_name="PRG" preset="GOBO" preset_user_name="Gobo" />
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" />
+		</Instances>
+		<Wheels index="2">
+			<Wheel index="0" subattribute="DIM2" attribute="DIM2" feature="DIMMER" preset="DIMMER" />
+		</Wheels>
+		<VirtualFunctionBlocks index="3" />
+		<FixtureMacroCollect index="5" />
+		<Body />
+		<AutoPresets index="4" />
+		<RdmNotifications index="6">
+			<RdmNotification index="0" Type="Absent" Subcategory="RDM Warning" />
+		</RdmNotifications>
+	</FixtureType>
+</MA>

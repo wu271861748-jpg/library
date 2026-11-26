@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA major_vers="3" minor_vers="0" stream_vers="16">
+	<FixtureType name="FINE DM1 Motion" mode="Motion" scale="0.000">
+		<short_name>FINE Dm1 Motion</short_name>
+		<manufacturer>Fineart</manufacturer>
+		<short_manufacturer>Fineart</short_manufacturer>
+		<notes>Fixture has pan and tilt locks
+Patch the Global channels personality after this</notes>
+		<revision date="2012-03-13" text="Automated import from MA Lighting (C-RevNum: 8; Date: 2012-02-29)"/>
+		<Modules>
+			<![CDATA[Module 1]]>
+			<Module name="dm1 motion" class="None" beamtype="Spot" scale="0.000" beam_angle="17.000" beam_intensity="10000.000">
+				<![CDATA[1]]>
+				<ChannelType attribute="PAN" feature="POSITION" preset="POSITION" coarse="1" fine="2" default="32768.000">
+					<ChannelFunction name="Pan -100..100%" from="-200.000" to="200.000" min_dmx="0" max_dmx="65535" physfrom="-200.000" physto="200.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="center" from_dmx="32768" to_dmx="32768" auto_create="1"/>
+					</ChannelFunction>
+				</ChannelType>
+				<![CDATA[2]]>
+				<ChannelType attribute="TILT" feature="POSITION" preset="POSITION" coarse="3" fine="4" default="32768.000">
+					<ChannelFunction name="Tilt -100..100%" from="-120.000" to="120.000" min_dmx="0" max_dmx="65535" physfrom="-120.000" physto="120.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="center" from_dmx="32768" to_dmx="32768" auto_create="1"/>
+					</ChannelFunction>
+				</ChannelType>
+				<![CDATA[3]]>
+				<ChannelType attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="5" default="0.000" highlight_value="100.000">
+					<ChannelFunction name="Intensity 0..100%" from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="5000.000" physdefined="0" phystime="0.000" attribute="PROJECTORINTENSITY" feature="PROJECTOR" preset="CONTROL"/>
+				</ChannelType>
+				<![CDATA[4]]>
+				<ChannelType attribute="FOCUS" feature="FOCUS" preset="FOCUS" coarse="6" default="0.000">
+					<ChannelFunction name="Focus 1..100%" from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.010" physto="1.000" physdefined="0" phystime="0.000" attribute="PROJECTORFOCUS" feature="PROJECTOR" preset="CONTROL"/>
+				</ChannelType>
+				<![CDATA[5]]>
+				<ChannelType attribute="ZOOM" feature="FOCUS" preset="FOCUS" coarse="7" default="255.000">
+					<ChannelFunction name="Zoom 1..100%" from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.010" physto="1.000" physdefined="0" phystime="0.000" attribute="PROJECTORZOOM" feature="PROJECTOR" preset="CONTROL"/>
+				</ChannelType>
+				<![CDATA[6]]>
+				<ChannelType attribute="POSITIONMSPEED" feature="MSPEED" preset="CONTROL" coarse="8" default="0.000" mode="LAMPCONTROL" is_pool="0">
+					<ChannelFunction name="Time 100..1%" from="0.000" to="100.000" min_dmx="0" max_dmx="255" mode_dmx_end="9" physfrom="252.680" physto="0.150" physdefined="0" phystime="0.000"/>
+					<ChannelFunction name="Time 100..1%" from="0.000" to="100.000" min_dmx="0" max_dmx="255" mode_dmx_start="14" physfrom="252.680" physto="0.150" physdefined="0" phystime="0.000"/>
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" mode_dmx_start="10" mode_dmx_end="13" physfrom="252.680" physto="252.680" physdefined="0" phystime="0.000">
+						<ChannelSet name="Time 100%" from_dmx="0" to_dmx="255" auto_create="1"/>
+					</ChannelFunction>
+				</ChannelType>
+				<![CDATA[7]]>
+				<ChannelType attribute="DUMMY" feature="CONTROL" preset="CONTROL" coarse="9" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[8]]>
+				<ChannelType attribute="LAMPCONTROL" feature="LAMP" preset="CONTROL" coarse="10" default="0.000">
+					<ChannelFunction from="0.000" to="3.906" min_dmx="0" max_dmx="9" physfrom="0.000" physto="0.000" physdefined="0" phystime="0.000" attribute="POSITIONMSPEEDMODE" feature="MSPEED" preset="CONTROL">
+						<ChannelSet name="Position MSpeed enabled" from_dmx="0" to_dmx="9" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="3.906" to="5.469" min_dmx="10" max_dmx="13" physfrom="1.000" physto="1.000" physdefined="0" phystime="0.000" attribute="POSITIONMSPEEDMODE" feature="MSPEED" preset="CONTROL">
+						<ChannelSet name="Position MSpeed disabled" from_dmx="10" to_dmx="13" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="5.469" to="7.813" min_dmx="14" max_dmx="19" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000" attribute="DUMMY" feature="CONTROL" preset="CONTROL"/>
+					<ChannelFunction from="7.813" to="11.328" min_dmx="20" max_dmx="28" physfrom="0.000" physto="0.000" physdefined="0" phystime="0.000" attribute="FIXTUREDISPLAY" feature="FIXTURE" preset="CONTROL">
+						<ChannelSet name="Display 0%" from_dmx="20" to_dmx="28" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="11.328" to="11.719" min_dmx="29" max_dmx="29" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000" attribute="DUMMY" feature="CONTROL" preset="CONTROL"/>
+					<ChannelFunction from="11.719" to="15.234" min_dmx="30" max_dmx="38" physfrom="0.500" physto="0.500" physdefined="0" phystime="0.000" attribute="FIXTUREDISPLAY" feature="FIXTURE" preset="CONTROL">
+						<ChannelSet name="Display 50%" from_dmx="30" to_dmx="38" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="15.234" to="15.625" min_dmx="39" max_dmx="39" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000" attribute="DUMMY" feature="CONTROL" preset="CONTROL"/>
+					<ChannelFunction from="15.625" to="19.141" min_dmx="40" max_dmx="48" physfrom="1.000" physto="1.000" physdefined="0" phystime="0.000" attribute="FIXTUREDISPLAY" feature="FIXTURE" preset="CONTROL">
+						<ChannelSet name="Display 100%" from_dmx="40" to_dmx="48" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="19.141" to="19.531" min_dmx="49" max_dmx="49" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000" attribute="DUMMY" feature="CONTROL" preset="CONTROL"/>
+					<ChannelFunction from="19.531" to="23.047" min_dmx="50" max_dmx="58" physfrom="1.000" physto="1.000" physdefined="0" phystime="0.000" attribute="MACROS" feature="CONTROL" preset="CONTROL">
+						<ChannelSet name="Preview" from_dmx="50" to_dmx="58" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="23.047" to="23.438" min_dmx="59" max_dmx="59" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000" attribute="DUMMY" feature="CONTROL" preset="CONTROL"/>
+					<ChannelFunction from="23.438" to="26.953" min_dmx="60" max_dmx="68" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000" attribute="FIXTUREGLOBALRESET" feature="RESET" preset="CONTROL">
+						<ChannelSet name="Reset" from_dmx="60" to_dmx="68" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="26.953" to="31.250" min_dmx="69" max_dmx="79" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000" attribute="DUMMY" feature="CONTROL" preset="CONTROL"/>
+					<ChannelFunction from="31.250" to="34.766" min_dmx="80" max_dmx="88" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="Lamp On" from_dmx="80" to_dmx="88" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="34.766" to="35.156" min_dmx="89" max_dmx="89" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000" attribute="DUMMY" feature="CONTROL" preset="CONTROL"/>
+					<ChannelFunction from="35.156" to="38.672" min_dmx="90" max_dmx="98" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="Lamp Off" from_dmx="90" to_dmx="98" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="38.672" to="46.875" min_dmx="99" max_dmx="119" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000" attribute="DUMMY" feature="CONTROL" preset="CONTROL"/>
+					<ChannelFunction from="46.875" to="51.172" min_dmx="120" max_dmx="130" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000" attribute="FIXTURESLEEP" feature="FIXTURE" preset="CONTROL">
+						<ChannelSet name="FixtureSleep" from_dmx="120" to_dmx="130" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="51.172" to="56.641" min_dmx="131" max_dmx="144" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000" attribute="DUMMY" feature="CONTROL" preset="CONTROL"/>
+					<ChannelFunction from="56.641" to="58.594" min_dmx="145" max_dmx="149" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000" attribute="MEDIASERVERRESET" feature="SERVER" preset="CONTROL">
+						<ChannelSet name="MediaServerReset" from_dmx="145" to_dmx="149" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="58.594" to="60.938" min_dmx="150" max_dmx="155" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000" attribute="CAMERARESET" feature="RESET" preset="CONTROL">
+						<ChannelSet name="CamReset" from_dmx="150" to_dmx="155" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="60.938" to="62.500" min_dmx="156" max_dmx="159" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000" attribute="UNKNOWN" feature="CONTROL" preset="CONTROL"/>
+					<ChannelFunction from="62.500" to="66.016" min_dmx="160" max_dmx="168" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000" attribute="POSITIONRESET" feature="RESET" preset="CONTROL">
+						<ChannelSet name="PosReset" from_dmx="160" to_dmx="168" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="66.016" to="66.406" min_dmx="169" max_dmx="169" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000" attribute="DUMMY" feature="CONTROL" preset="CONTROL"/>
+					<ChannelFunction from="66.406" to="69.922" min_dmx="170" max_dmx="178" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000" attribute="PROJECTORFOCUSRESET" feature="RESET" preset="CONTROL">
+						<ChannelSet name="ProjFocReset" from_dmx="170" to_dmx="178" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="69.922" to="70.313" min_dmx="179" max_dmx="179" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000" attribute="DUMMY" feature="CONTROL" preset="CONTROL"/>
+					<ChannelFunction from="70.313" to="72.266" min_dmx="180" max_dmx="184" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000" attribute="PROJECTORKEYPAD" feature="PROJECTOR" preset="CONTROL">
+						<ChannelSet name="Menu Select" from_dmx="180" to_dmx="184" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="72.266" to="73.828" min_dmx="185" max_dmx="188" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000" attribute="PROJECTORKEYPAD" feature="PROJECTOR" preset="CONTROL">
+						<ChannelSet name="Up Arrow" from_dmx="185" to_dmx="188" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="73.828" to="75.391" min_dmx="189" max_dmx="192" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000" attribute="PROJECTORKEYPAD" feature="PROJECTOR" preset="CONTROL">
+						<ChannelSet name="Down Arrow" from_dmx="189" to_dmx="192" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="75.391" to="76.953" min_dmx="193" max_dmx="196" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000" attribute="PROJECTORKEYPAD" feature="PROJECTOR" preset="CONTROL">
+						<ChannelSet name="Left Arrow" from_dmx="193" to_dmx="196" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="76.953" to="78.516" min_dmx="197" max_dmx="200" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000" attribute="PROJECTORKEYPAD" feature="PROJECTOR" preset="CONTROL">
+						<ChannelSet name="Right Arrow" from_dmx="197" to_dmx="200" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="78.516" to="80.078" min_dmx="201" max_dmx="204" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000" attribute="PROJECTORKEYPAD" feature="PROJECTOR" preset="CONTROL">
+						<ChannelSet name="Menu Store" from_dmx="201" to_dmx="204" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="80.078" to="81.641" min_dmx="205" max_dmx="208" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000" attribute="FLOORCEILINGPROJECTION" feature="PROJECTOR" preset="CONTROL">
+						<ChannelSet name="Floor" from_dmx="205" to_dmx="208" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="81.641" to="83.203" min_dmx="209" max_dmx="212" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000" attribute="FLOORCEILINGPROJECTION" feature="PROJECTOR" preset="CONTROL">
+						<ChannelSet name="Ceiling" from_dmx="209" to_dmx="212" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="83.203" to="84.766" min_dmx="213" max_dmx="216" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000" attribute="FRONTREARPROJECTION" feature="PROJECTOR" preset="CONTROL">
+						<ChannelSet name="Front" from_dmx="213" to_dmx="216" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="84.766" to="86.328" min_dmx="217" max_dmx="220" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000" attribute="FRONTREARPROJECTION" feature="PROJECTOR" preset="CONTROL">
+						<ChannelSet name="Rear" from_dmx="217" to_dmx="220" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="86.328" to="87.891" min_dmx="221" max_dmx="224" physfrom="0.000" physto="0.000" physdefined="0" phystime="0.000" attribute="PROJECTORINPUT" feature="PROJECTOR" preset="CONTROL">
+						<ChannelSet name="External RGBHV" from_dmx="221" to_dmx="224" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="87.891" to="89.453" min_dmx="225" max_dmx="228" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000" attribute="PROJECTORINPUT" feature="PROJECTOR" preset="CONTROL">
+						<ChannelSet name="Select Media Server" from_dmx="225" to_dmx="228" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="89.453" to="91.016" min_dmx="229" max_dmx="232" physfrom="1.000" physto="1.000" physdefined="0" phystime="0.000" attribute="MEDIASERVERINPUT" feature="MEDIA" preset="GOBO">
+						<ChannelSet name="External S-Video" from_dmx="229" to_dmx="232" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="91.016" to="92.578" min_dmx="233" max_dmx="236" physfrom="0.000" physto="0.000" physdefined="0" phystime="0.000" attribute="MEDIASERVERINPUT" feature="MEDIA" preset="GOBO">
+						<ChannelSet name="Internal Camera" from_dmx="233" to_dmx="236" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="92.578" to="94.141" min_dmx="237" max_dmx="240" physfrom="1.000" physto="1.000" physdefined="0" phystime="0.000" attribute="PROJECTORLENSSHIFT" feature="PROJECTOR" preset="CONTROL">
+						<ChannelSet name="on" from_dmx="237" to_dmx="240" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="94.141" to="95.703" min_dmx="241" max_dmx="244" physfrom="0.000" physto="0.000" physdefined="0" phystime="0.000" attribute="PROJECTORLENSSHIFT" feature="PROJECTOR" preset="CONTROL">
+						<ChannelSet name="off" from_dmx="241" to_dmx="244" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="95.703" to="97.266" min_dmx="245" max_dmx="248" physfrom="0.000" physto="0.000" physdefined="0" phystime="0.000" attribute="MACROS2" feature="MACRO" preset="CONTROL">
+						<ChannelSet name="Camera to SDI output" from_dmx="245" to_dmx="248" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="97.266" to="98.828" min_dmx="249" max_dmx="252" physfrom="1.000" physto="1.000" physdefined="0" phystime="0.000" attribute="MACROS2" feature="MACRO" preset="CONTROL">
+						<ChannelSet name="SDI input to capture card" from_dmx="249" to_dmx="252" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="98.828" to="100.000" min_dmx="253" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000" attribute="DUMMY" feature="CONTROL" preset="CONTROL"/>
+				</ChannelType>
+				<![CDATA[9]]>
+				<ChannelType attribute="CAMERAZOOM" feature="CAMERA" preset="CONTROL" coarse="11" fine="12" default="65535.000">
+					<ChannelFunction name="Zoom 1..100%" from="0.000" to="100.000" min_dmx="0" max_dmx="65535" physfrom="0.450" physto="45.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[10]]>
+				<ChannelType attribute="CAMERAFOCUS" feature="CAMERA" preset="CONTROL" coarse="13" fine="14" default="0.000">
+					<ChannelFunction from="0.000" to="0.781" min_dmx="0" max_dmx="511" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="Auto" from_dmx="0" to_dmx="511" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction name="CameraFocus 100..1%" from="0.781" to="100.000" min_dmx="512" max_dmx="65535" physfrom="1.000" physto="0.010" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[11]]>
+				<ChannelType attribute="CAMERAIRIMAGE" feature="CAMERA" preset="CONTROL" coarse="15" default="0.000">
+					<ChannelFunction from="0.000" to="25.000" min_dmx="0" max_dmx="63" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="Image Normal" from_dmx="0" to_dmx="63" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="25.000" to="100.000" min_dmx="64" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="Image IR" from_dmx="64" to_dmx="127" auto_create="1"/>
+						<ChannelSet name="Image IR; IRIlluminator: 100..0%" from_dmx="128" to_dmx="255" auto_create="1"/>
+					</ChannelFunction>
+				</ChannelType>
+				<![CDATA[12]]>
+				<ChannelType attribute="CAMERASHUTTER" feature="CAMERA" preset="CONTROL" coarse="16" default="0.000">
+					<ChannelFunction from="0.000" to="25.000" min_dmx="0" max_dmx="63" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="Shutter Auto" from_dmx="0" to_dmx="63" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="25.000" to="37.500" min_dmx="64" max_dmx="95" physfrom="30.000" physto="30.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="Shutter 100%" from_dmx="64" to_dmx="95" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="37.500" to="49.609" min_dmx="96" max_dmx="126" physfrom="15.000" physto="15.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="Shutter 80%" from_dmx="96" to_dmx="126" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="49.609" to="61.719" min_dmx="127" max_dmx="157" physfrom="8.000" physto="8.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="Shutter 60%" from_dmx="127" to_dmx="157" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="61.719" to="73.828" min_dmx="158" max_dmx="188" physfrom="4.000" physto="4.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="Shutter 41%" from_dmx="158" to_dmx="188" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="73.828" to="85.938" min_dmx="189" max_dmx="219" physfrom="2.000" physto="2.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="Shutter 21%" from_dmx="189" to_dmx="219" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="85.938" to="100.000" min_dmx="220" max_dmx="255" physfrom="1.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="Shutter 1%" from_dmx="220" to_dmx="255" auto_create="1"/>
+					</ChannelFunction>
+				</ChannelType>
+				<![CDATA[13]]>
+				<ChannelType attribute="WHITEBALANCE" feature="CAMERA" preset="CONTROL" coarse="17" default="0.000">
+					<ChannelFunction from="0.000" to="25.000" min_dmx="0" max_dmx="63" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="Auto" from_dmx="0" to_dmx="63" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="25.000" to="37.500" min_dmx="64" max_dmx="95" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="Indoor" from_dmx="64" to_dmx="95" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="37.500" to="50.000" min_dmx="96" max_dmx="127" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="Outdoor" from_dmx="96" to_dmx="127" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="50.000" to="75.000" min_dmx="128" max_dmx="191" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="Manual" from_dmx="128" to_dmx="191" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="75.000" to="100.000" min_dmx="192" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000" attribute="DUMMY" feature="CONTROL" preset="CONTROL"/>
+				</ChannelType>
+				<![CDATA[14]]>
+				<ChannelType attribute="CAMERAIMAGEHORIZONTALFLIP" feature="CAMERA" preset="CONTROL" coarse="18" default="0.000">
+					<ChannelFunction from="0.000" to="25.000" min_dmx="0" max_dmx="63" physfrom="0.000" physto="0.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="off" from_dmx="0" to_dmx="63" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="25.000" to="50.000" min_dmx="64" max_dmx="127" physfrom="1.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="on" from_dmx="64" to_dmx="127" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="50.000" to="75.000" min_dmx="128" max_dmx="191" physfrom="0.000" physto="0.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="off (2)" from_dmx="128" to_dmx="191" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="75.000" to="100.000" min_dmx="192" max_dmx="255" physfrom="1.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="on (2)" from_dmx="192" to_dmx="255" auto_create="1"/>
+					</ChannelFunction>
+				</ChannelType>
+				<![CDATA[15]]>
+				<ChannelType attribute="CAMERAIMAGECOLOR" feature="CAMERA" preset="CONTROL" coarse="19" default="0.000">
+					<ChannelFunction from="0.000" to="50.000" min_dmx="0" max_dmx="127" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="ImageColor" from_dmx="0" to_dmx="63" auto_create="1"/>
+						<ChannelSet name="ImageColor; FreezeFrame Freeze Frame: on" from_dmx="64" to_dmx="127" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction from="50.000" to="100.000" min_dmx="128" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="Image Black/White" from_dmx="128" to_dmx="159" auto_create="1"/>
+						<ChannelSet name="Image Black/White; FreezeFrame Freeze Frame: on" from_dmx="160" to_dmx="191" auto_create="1"/>
+						<ChannelSet name="Image Black/White; NegativePicture Negative Picture: off" from_dmx="192" to_dmx="223" auto_create="1"/>
+						<ChannelSet name="Image Black/White; FreezeFrame Freeze Frame: on; NegativePicture Negative Picture: off" from_dmx="224" to_dmx="255" auto_create="1"/>
+					</ChannelFunction>
+				</ChannelType>
+				<![CDATA[16]]>
+				<ChannelType attribute="REDADJUST" feature="RGBADJUST" preset="COLOR" coarse="20" default="0.000" mode="WHITEBALANCE" is_pool="0">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" mode_dmx_end="127" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000" attribute="DUMMY" feature="CONTROL" preset="CONTROL"/>
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" mode_dmx_start="192" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000" attribute="DUMMY" feature="CONTROL" preset="CONTROL"/>
+					<ChannelFunction name="R 0..100%" from="0.000" to="100.000" min_dmx="0" max_dmx="255" mode_dmx_start="128" mode_dmx_end="191" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[17]]>
+				<ChannelType attribute="BLUEADJUST" feature="RGBADJUST" preset="COLOR" coarse="21" default="0.000" mode="WHITEBALANCE" is_pool="0">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" mode_dmx_end="127" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000" attribute="DUMMY" feature="CONTROL" preset="CONTROL"/>
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" mode_dmx_start="192" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000" attribute="DUMMY" feature="CONTROL" preset="CONTROL"/>
+					<ChannelFunction name="B 0..100%" from="0.000" to="100.000" min_dmx="0" max_dmx="255" mode_dmx_start="128" mode_dmx_end="191" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<Body>
+					<Size x="1.000" y="1.000" z="1.000"/>
+					<Center x="0.000" y="0.000" z="0.000"/>
+					<Light x="0.000" y="0.000" z="0.000"/>
+				</Body>
+			</Module>
+		</Modules>
+		<Instances>
+			<![CDATA[Instance 1]]>
+			<Instance type="dm1 motion" patch="1" X="0.000" Y="0.000" locked="true"/>
+		</Instances>
+		<Wheels/>
+		<QFuncs/>
+	</FixtureType>
+</MA>

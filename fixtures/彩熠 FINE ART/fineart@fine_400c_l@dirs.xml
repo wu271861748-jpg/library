@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA major_vers="3" minor_vers="0" stream_vers="0">
+	<FixtureType name="FINE 400C L" mode="DIRS" scale="0.000">
+		<short_name>FINE 400C L</short_name>
+		<manufacturer>Fineart</manufacturer>
+		<short_manufacturer>Fineart</short_manufacturer>
+		<Modules>
+			<![CDATA[Module 1]]>
+			<Module name="Main Module" class="LED" beamtype="Wash" scale="0.000" beam_angle="25.000" beam_intensity="10000.000">
+				<![CDATA[1]]>
+				<ChannelType attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" coarse="1" default="255.000" highlight_value="100.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="min" from_dmx="0" to_dmx="0" auto_create="1"/>
+						<ChannelSet name="max" from_dmx="255" to_dmx="255" auto_create="1"/>
+					</ChannelFunction>
+				</ChannelType>
+				<![CDATA[2]]>
+				<ChannelType attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" coarse="2" default="255.000" highlight_value="100.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="min" from_dmx="0" to_dmx="0" auto_create="1"/>
+						<ChannelSet name="max" from_dmx="255" to_dmx="255" auto_create="1"/>
+					</ChannelFunction>
+				</ChannelType>
+				<![CDATA[3]]>
+				<ChannelType attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" coarse="3" default="255.000" highlight_value="100.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="min" from_dmx="0" to_dmx="0" auto_create="1"/>
+						<ChannelSet name="max" from_dmx="255" to_dmx="255" auto_create="1"/>
+					</ChannelFunction>
+				</ChannelType>
+				<![CDATA[4]]>
+				<ChannelType attribute="COLORRGB4" feature="COLORRGB" preset="COLOR" coarse="4" default="255.000" highlight_value="100.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="min" from_dmx="0" to_dmx="0" auto_create="1"/>
+						<ChannelSet name="max" from_dmx="255" to_dmx="255" auto_create="1"/>
+					</ChannelFunction>
+				</ChannelType>
+				<![CDATA[5]]>
+				<ChannelType attribute="COLORRGB5" feature="COLORRGB" preset="COLOR" coarse="5" default="255.000" highlight_value="100.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000" attribute="COLORRGB7" feature="COLORRGB" preset="COLOR">
+						<ChannelSet name="min" from_dmx="0" to_dmx="0" auto_create="1"/>
+						<ChannelSet name="max" from_dmx="255" to_dmx="255" auto_create="1"/>
+					</ChannelFunction>
+				</ChannelType>
+				<![CDATA[6]]>
+				<ChannelType attribute="RED" feature="RGB" preset="COLOR" coarse="6" default="255.000" highlight_value="100.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000" attribute="DUMMY" feature="CONTROL" preset="CONTROL"/>
+				</ChannelType>
+				<![CDATA[7]]>
+				<ChannelType attribute="GREEN" feature="RGB" preset="COLOR" coarse="7" default="255.000" highlight_value="100.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000" attribute="DUMMY" feature="CONTROL" preset="CONTROL"/>
+				</ChannelType>
+				<![CDATA[8]]>
+				<ChannelType attribute="BLUE" feature="RGB" preset="COLOR" coarse="8" default="255.000" highlight_value="100.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="closed" from_dmx="0" to_dmx="0" auto_create="1"/>
+						<ChannelSet name="open" from_dmx="255" to_dmx="255" auto_create="1"/>
+					</ChannelFunction>
+				</ChannelType>
+				<![CDATA[9]]>
+				<ChannelType attribute="STROBE" feature="STROBE" preset="BEAM" coarse="11" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000" attribute="DUMMY" feature="CONTROL" preset="CONTROL"/>
+				</ChannelType>
+				<![CDATA[10]]>
+				<ChannelType attribute="FANS" feature="FIXTURE" preset="CONTROL" coarse="12" default="0.000">
+					<ChannelFunction from="0.000" to="0.391" min_dmx="0" max_dmx="0" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="As Menu" from_dmx="0" to_dmx="0" auto_create="1"/>
+					</ChannelFunction>
+					<ChannelFunction name="Speed 1..100%" from="0.391" to="100.000" min_dmx="1" max_dmx="255" physfrom="0.010" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="min Speed" from_dmx="6" to_dmx="25" auto_create="1"/>
+						<ChannelSet name="max Speed" from_dmx="26" to_dmx="50" auto_create="1"/>
+						<ChannelSet name="Fan Auto" from_dmx="51" to_dmx="75" auto_create="1"/>
+					</ChannelFunction>
+				</ChannelType>
+				<![CDATA[11]]>
+				<ChannelType attribute="WHITE" feature="RGB" preset="COLOR" coarse="9" default="255.000" highlight_value="10.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[12]]>
+				<ChannelType attribute="AMBER" feature="RGB" preset="COLOR" coarse="10" default="255.000" highlight_value="10.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<Body>
+					<Size x="0.150" y="0.150" z="0.050"/>
+					<Center x="0.000" y="0.000" z="0.000"/>
+					<Light x="0.000" y="0.000" z="0.000"/>
+				</Body>
+			</Module>
+		</Modules>
+		<Instances>
+			<![CDATA[Instance 1]]>
+			<Instance type="Main Module" patch="1" X="0.000" Y="0.000" locked="true"/>
+		</Instances>
+		<Wheels/>
+		<QFuncs/>
+	</FixtureType>
+</MA>

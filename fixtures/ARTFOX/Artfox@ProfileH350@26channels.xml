@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MA major_vers="2" minor_vers="0" stream_vers="0">
+  <FixtureType name="profile_h350" mode="Profile">
+    <short_name>H350</short_name>
+    <manufacturer>Artfox</manufacturer>
+    <short_manufacturer>Artfox</short_manufacturer>
+    <notes>Created By Artfox</notes>
+    <revision date="2023-2-16" text="Generated with the Software developped by YEL." />
+    <Modules>
+      <Module name="Main Module" class="Headmover" beamtype="LED" beam_angle="1.00" beam_intensity="3000.00">
+        <ChannelType index="1" attribute="PAN" feature="POSITION" preset="POSITION" coarse="1" fine="2">
+          <ChannelFunction name="PAN" attribute="PAN" feature="POSITION" preset="POSITION" subattribute="PAN" from="0" to="100" min_dmx="0" max_dmx="65535" physfrom="-270" physto="270" />
+        </ChannelType>
+        <ChannelType index="2" attribute="TILT" feature="Position" preset="Position" coarse="3" fine="4">
+          <ChannelFunction name="TILT" attribute="TILT" feature="Position" preset="Position" subattribute="TILT" from="0" to="100" min_dmx="0" max_dmx="65535" physfrom="-135" physto="135" />
+        </ChannelType>
+        <ChannelType index="3" attribute="P/T SPEED" feature="CONTROL" preset="CONTROL" coarse="5">
+          <ChannelFunction name="P/T SPEED" attribute="P/T SPEED" feature="CONTROL" preset="CONTROL" subattribute="P/T SPEED" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="4" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="6">
+          <ChannelFunction name="DIM" attribute="DIM" feature="DIMMER" preset="DIMMER" subattribute="DIM" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0.0" physto="100.0" />
+        </ChannelType>
+        <ChannelType index="5" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" coarse="7" default="255">
+          <ChannelFunction name="SHUTTER" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" subattribute="SHUTTER" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="6" attribute="COLOR1" feature="COLOR1" preset="COLOR" coarse="8">
+          <ChannelFunction name="COLOR1" attribute="COLOR1" feature="COLOR1" preset="COLOR" subattribute="COLOR1" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="7" attribute="GOBO1" feature="Gobo1" preset="Gobo" coarse="9">
+          <ChannelFunction name="GOBO1" attribute="GOBO1" feature="Gobo1" preset="Gobo" subattribute="GOBO1" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="8" attribute="GOBO1_POS" feature="Gobo1" preset="Gobo" coarse="10">
+          <ChannelFunction name="GOBO1_POS" attribute="GOBO1_POS" feature="Gobo1" preset="Gobo" subattribute="GOBO1_POS" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="9" attribute="FOCUS" feature="Focus" preset="Focus" coarse="11">
+          <ChannelFunction name="FOCUS" attribute="FOCUS" feature="Focus" preset="Focus" subattribute="FOCUS" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="10" attribute="ZOOM" feature="FOCUS" preset="FOCUS" coarse="12">
+          <ChannelFunction name="ZOOM" attribute="ZOOM" feature="FOCUS" preset="FOCUS" subattribute="ZOOM" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="11" attribute="PRISMA1" feature="BEAM1" preset="Beam" coarse="13">
+          <ChannelFunction name="PRISMA1" attribute="PRISMA1" feature="BEAM1" preset="Beam" subattribute="PRISMA1" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="12" attribute="PRISMA1_POS" feature="BEAM1" preset="Beam" coarse="14">
+          <ChannelFunction name="PRISMA1_POS" attribute="PRISMA1_POS" feature="BEAM1" preset="Beam" subattribute="PRISMA1_POS" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="13" attribute="FROST" feature="BEAM1" preset="Beam" coarse="15">
+          <ChannelFunction name="FROST" attribute="FROST" feature="BEAM1" preset="Beam" subattribute="FROST" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="14" attribute="IRIS" feature="BEAM1" preset="BEAM" coarse="16">
+          <ChannelFunction name="IRIS" attribute="IRIS" feature="BEAM1" preset="BEAM" subattribute="IRIS" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="15" attribute="BLADE1A" feature="Shaper" preset="Shapers" coarse="17">
+          <ChannelFunction name="BLADE1A" attribute="BLADE1A" feature="Shaper" preset="Shapers" subattribute="BLADE1A" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="16" attribute="BLADE1B" feature="Shaper" preset="Shapers" coarse="18">
+          <ChannelFunction name="BLADE1B" attribute="BLADE1B" feature="Shaper" preset="Shapers" subattribute="BLADE1B" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="17" attribute="BLADE2A" feature="Shaper" preset="Shapers" coarse="19">
+          <ChannelFunction name="BLADE2A" attribute="BLADE2A" feature="Shaper" preset="Shapers" subattribute="BLADE2A" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="18" attribute="BLADE2B" feature="Shaper" preset="Shapers" coarse="20">
+          <ChannelFunction name="BLADE2B" attribute="BLADE2B" feature="Shaper" preset="Shapers" subattribute="BLADE2B" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="19" attribute="BLADE3A" feature="Shaper" preset="Shapers" coarse="21">
+          <ChannelFunction name="BLADE3A" attribute="BLADE3A" feature="Shaper" preset="Shapers" subattribute="BLADE3A" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="20" attribute="BLADE3B" feature="Shaper" preset="Shapers" coarse="22">
+          <ChannelFunction name="BLADE3B" attribute="BLADE3B" feature="Shaper" preset="Shapers" subattribute="BLADE3B" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="21" attribute="BLADE4A" feature="Shaper" preset="Shapers" coarse="23">
+          <ChannelFunction name="BLADE4A" attribute="BLADE4A" feature="Shaper" preset="Shapers" subattribute="BLADE4A" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="22" attribute="BLADE4B" feature="Shaper" preset="Shapers" coarse="24">
+          <ChannelFunction name="BLADE4B" attribute="BLADE4B" feature="Shaper" preset="Shapers" subattribute="BLADE4B" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+      </Module>
+    </Modules>
+  </FixtureType>
+</MA>

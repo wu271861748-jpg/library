@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/2.3.0/MA.xsd" major_vers="2" minor_vers="3" stream_vers="0">
+	<Info datetime="2012-11-10T23:45:06" showfile="2012shanhaizhan" />
+	<FixtureType index="2" name="DL4-Global-A" mode="v1.o.o">
+		<short_name>DL4-Global-A</short_name>
+		<manufacturer>Jolly</manufacturer>
+		<short_manufacturer>Jolly</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="None" beamtype="Wash" beam_angle="35.000" beam_intensity="10000.000">
+				<Body>
+					<Size x="0.000" y="0.000" z="0.000" />
+					<Center x="0.000" y="0.000" z="0.000" />
+					<Light x="0.000" y="0.000" z="0.000" />
+				</Body>
+				<ChannelType index="0" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="1" default="255.000">
+					<ChannelFunction index="0" name="Brightness" from="0.000" to="255.000" physfrom="0.000" physto="1.000" subattribute="DIM" attribute="DIM" feature="DIMMER" preset="DIMMER">
+						<ChannelSet index="0" name="Brightness" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="1" attribute="V_KEY_1A" feature="KEYSTONE" preset="VIDEO" coarse="2">
+					<ChannelFunction index="0" name="Key Stone 1X" from="0.000" to="255.000" subattribute="V_KEY_1A" attribute="V_KEY_1A" feature="KEYSTONE" preset="VIDEO">
+						<ChannelSet index="0" name="Key Stone 1X" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="2" attribute="V_KEY_1B" feature="KEYSTONE" preset="VIDEO" coarse="3">
+					<ChannelFunction index="0" from="0.000" to="255.000" subattribute="V_KEY_1B" attribute="V_KEY_1B" feature="KEYSTONE" preset="VIDEO">
+						<ChannelSet index="0" name="Key Stone 1Y" from_dmx="0" to_dmx="0" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="3" attribute="V_KEY_2A" feature="KEYSTONE" preset="VIDEO" coarse="4">
+					<ChannelFunction index="0" from="0.000" to="255.000" subattribute="V_KEY_2A" attribute="V_KEY_2A" feature="KEYSTONE" preset="VIDEO">
+						<ChannelSet index="0" name="Ken Stone 2X" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="4" attribute="V_KEY_2B" feature="KEYSTONE" preset="VIDEO" coarse="5">
+					<ChannelFunction index="0" from="0.000" to="255.000" subattribute="V_KEY_2B" attribute="V_KEY_2B" feature="KEYSTONE" preset="VIDEO">
+						<ChannelSet index="0" name="Ken Stone 2Y" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="5" attribute="V_KEY_3A" feature="KEYSTONE" preset="VIDEO" coarse="6">
+					<ChannelFunction index="0" from="0.000" to="255.000" subattribute="V_KEY_3A" attribute="V_KEY_3A" feature="KEYSTONE" preset="VIDEO">
+						<ChannelSet index="0" name="Key Stone 3X" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="6" attribute="V_KEY_3B" feature="KEYSTONE" preset="VIDEO" coarse="7">
+					<ChannelFunction index="0" from="0.000" to="255.000" subattribute="V_KEY_3B" attribute="V_KEY_3B" feature="KEYSTONE" preset="VIDEO">
+						<ChannelSet index="0" name="Key Stone 3Y" from_dmx="0" to_dmx="0" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="7" attribute="V_KEY_4A" feature="KEYSTONE" preset="VIDEO" coarse="8">
+					<ChannelFunction index="0" from="0.000" to="255.000" subattribute="V_KEY_4A" attribute="V_KEY_4A" feature="KEYSTONE" preset="VIDEO">
+						<ChannelSet index="0" name="Key Stone 4X" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="8" attribute="V_KEY_4B" feature="KEYSTONE" preset="VIDEO" coarse="9">
+					<ChannelFunction index="0" from="0.000" to="255.000" subattribute="V_KEY_4B" attribute="V_KEY_4B" feature="KEYSTONE" preset="VIDEO">
+						<ChannelSet index="0" name="Ken Stone 4Y" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="9" attribute="V_KEY_CX" feature="KEYSTONE" preset="VIDEO" coarse="10" default="128.000">
+					<ChannelFunction index="0" from="0.000" to="255.000" subattribute="V_KEY_CX" attribute="V_KEY_CX" feature="KEYSTONE" preset="VIDEO">
+						<ChannelSet index="0" name="X-Rati" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="10" attribute="V_KEY_CY" feature="KEYSTONE" preset="VIDEO" coarse="11" default="128.000">
+					<ChannelFunction index="0" from="0.000" to="255.000" subattribute="V_KEY_CY" attribute="V_KEY_CY" feature="KEYSTONE" preset="VIDEO">
+						<ChannelSet index="0" name="Y-Rati" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="11" attribute="V_SOFTEDGE_1A" feature="SOFTEDGE" preset="VIDEO" coarse="12">
+					<ChannelFunction index="0" from="0.000" to="255.000" subattribute="V_SOFTEDGE_1A" attribute="V_SOFTEDGE_1A" feature="SOFTEDGE" preset="VIDEO">
+						<ChannelSet index="0" name="Width coar" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="12" attribute="V_SOFTEDGE_1B" feature="SOFTEDGE" preset="VIDEO" coarse="13">
+					<ChannelFunction index="0" from="0.000" to="255.000" subattribute="V_SOFTEDGE_1B" attribute="V_SOFTEDGE_1B" feature="SOFTEDGE" preset="VIDEO">
+						<ChannelSet index="0" name="Width fine" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="13" attribute="V_SOFTEDGE_2A" feature="SOFTEDGE" preset="VIDEO" coarse="14">
+					<ChannelFunction index="0" from="0.000" to="255.000" subattribute="V_SOFTEDGE_2A" attribute="V_SOFTEDGE_2A" feature="SOFTEDGE" preset="VIDEO">
+						<ChannelSet index="0" name="height coar" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="14" attribute="V_SOFTEDGE_2B" feature="SOFTEDGE" preset="VIDEO" coarse="15">
+					<ChannelFunction index="0" from="0.000" to="255.000" subattribute="V_SOFTEDGE_2B" attribute="V_SOFTEDGE_2B" feature="SOFTEDGE" preset="VIDEO">
+						<ChannelSet index="0" name="Height fine" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="15" attribute="V_BORDER_LEFT_SOFT" feature="BORDER" preset="VIDEO" coarse="16" default="128.000">
+					<ChannelFunction index="0" from="0.000" to="255.000" subattribute="V_BORDER_LEFT_SOFT" attribute="V_BORDER_LEFT_SOFT" feature="BORDER" preset="VIDEO">
+						<ChannelSet index="0" name="Xpos coars" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="16" attribute="V_BORDER_LEFT_HARD" feature="BORDER" preset="VIDEO" coarse="17" default="128.000">
+					<ChannelFunction index="0" from="0.000" to="255.000" subattribute="V_BORDER_LEFT_HARD" attribute="V_BORDER_LEFT_HARD" feature="BORDER" preset="VIDEO">
+						<ChannelSet index="0" name="Xpos fine" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="17" attribute="V_BORDER_RIGHT_SOFT" feature="BORDER" preset="VIDEO" coarse="18" default="128.000">
+					<ChannelFunction index="0" from="0.000" to="255.000" subattribute="V_BORDER_RIGHT_SOFT" attribute="V_BORDER_RIGHT_SOFT" feature="BORDER" preset="VIDEO">
+						<ChannelSet index="0" name="Ypos coars" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="18" attribute="V_BORDER_RIGHT_HARD" feature="BORDER" preset="VIDEO" coarse="19" default="128.000">
+					<ChannelFunction index="0" from="0.000" to="255.000" subattribute="V_BORDER_RIGHT_HARD" attribute="V_BORDER_RIGHT_HARD" feature="BORDER" preset="VIDEO">
+						<ChannelSet index="0" name="Ypos fine" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="19" attribute="LEFT FADE" feature="EDGE-FADE" preset="SHAPERS" coarse="20">
+					<ChannelFunction index="0" from="0.000" to="255.000" subattribute="LEFT FADE" attribute="LEFT FADE" feature="EDGE-FADE" preset="SHAPERS">
+						<ChannelSet index="0" name="Fade Left" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="20" attribute="TOP FADE" feature="EDGE-FADE" preset="SHAPERS" coarse="21">
+					<ChannelFunction index="0" from="0.000" to="255.000" subattribute="TOP FADE" attribute="TOP FADE" feature="EDGE-FADE" preset="SHAPERS">
+						<ChannelSet index="0" name="Fade top" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="21" attribute="Right FADE" feature="EDGE-FADE" preset="SHAPERS" coarse="22">
+					<ChannelFunction index="0" from="0.000" to="255.000" subattribute="Right FADE" attribute="Right FADE" feature="EDGE-FADE" preset="SHAPERS">
+						<ChannelSet index="0" name="Fade right" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="22" attribute="Bottom FADE" feature="EDGE-FADE" preset="SHAPERS" coarse="23">
+					<ChannelFunction index="0" from="0.000" to="255.000" subattribute="Bottom FADE" attribute="Bottom FADE" feature="EDGE-FADE" preset="SHAPERS">
+						<ChannelSet index="0" name="Fade botto" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" patch="1" RW="0.000" />
+		</Instances>
+		<Wheels index="2" />
+	</FixtureType>
+</MA>

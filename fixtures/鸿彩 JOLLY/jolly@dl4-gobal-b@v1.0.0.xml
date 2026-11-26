@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/2.3.0/MA.xsd" major_vers="2" minor_vers="3" stream_vers="0">
+	<Info datetime="2012-11-10T23:45:11" showfile="2012shanhaizhan" />
+	<FixtureType index="3" name="DL4-Gobal-B" mode="v1.0.0">
+		<short_name>DL4-Gobal-B</short_name>
+		<manufacturer>Jolly</manufacturer>
+		<short_manufacturer>Jolly</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="None" beamtype="Wash" beam_angle="35.000" beam_intensity="10000.000">
+				<Body>
+					<Size x="0.000" y="0.000" z="0.000" />
+					<Center x="0.000" y="0.000" z="0.000" />
+					<Light x="0.000" y="0.000" z="0.000" />
+				</Body>
+				<ChannelType index="0" attribute="Mask Select" feature="MASK" preset="SHAPERS" coarse="1">
+					<ChannelFunction index="0" from="0.000" to="255.000" subattribute="Mask Select" attribute="Mask Select" feature="MASK" preset="SHAPERS">
+						<ChannelSet index="0" name="Mask type" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="1" attribute="Mask Size" feature="MASK" preset="SHAPERS" coarse="2">
+					<ChannelFunction index="0" from="0.000" to="255.000" subattribute="Mask Size" attribute="Mask Size" feature="MASK" preset="SHAPERS">
+						<ChannelSet index="0" name="Mask size" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="2" attribute="SPEED" feature="MSPEED" preset="CONTROL" coarse="3">
+					<ChannelFunction index="0" from="0.000" to="255.000" subattribute="SPEED" attribute="SPEED" feature="MSPEED" preset="CONTROL">
+						<ChannelSet index="0" name="Mspeed" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="3" attribute="Select 1" feature="EFFECT" preset="BEAM" coarse="4">
+					<ChannelFunction index="0" from="0.000" to="255.000" subattribute="Select 1" attribute="Select 1" feature="EFFECT" preset="BEAM">
+						<ChannelSet index="0" name="Effect1" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="4" attribute="Adjust 1-1" feature="EFFECT" preset="BEAM" coarse="5">
+					<ChannelFunction index="0" from="0.000" to="255.000" subattribute="Adjust 1-1" attribute="Adjust 1-1" feature="EFFECT" preset="BEAM">
+						<ChannelSet index="0" name="Adjust1-1" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="5" attribute="Adjust 1-2" feature="EFFECT" preset="BEAM" coarse="6">
+					<ChannelFunction index="0" from="0.000" to="255.000" subattribute="Adjust 1-2" attribute="Adjust 1-2" feature="EFFECT" preset="BEAM">
+						<ChannelSet index="0" name="Adjust1-2" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="6" attribute="Adjust 1-3" feature="EFFECT" preset="BEAM" coarse="7">
+					<ChannelFunction index="0" from="0.000" to="255.000" subattribute="Adjust 1-3" attribute="Adjust 1-3" feature="EFFECT" preset="BEAM">
+						<ChannelSet index="0" name="Adjust1-3" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="7" attribute="Select 2" feature="EFFECT" preset="BEAM" coarse="8">
+					<ChannelFunction index="0" from="0.000" to="255.000" subattribute="Select 2" attribute="Select 2" feature="EFFECT" preset="BEAM">
+						<ChannelSet index="0" name="Effect2" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="8" attribute="Adjust 2-1" feature="EFFECT" preset="BEAM" coarse="9">
+					<ChannelFunction index="0" from="0.000" to="255.000" subattribute="Adjust 2-1" attribute="Adjust 2-1" feature="EFFECT" preset="BEAM">
+						<ChannelSet index="0" name="Adjust2-1" from_dmx="0" to_dmx="0" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="9" attribute="Adjust 2-2" feature="EFFECT" preset="BEAM" coarse="10">
+					<ChannelFunction index="0" from="0.000" to="255.000" subattribute="Adjust 2-2" attribute="Adjust 2-2" feature="EFFECT" preset="BEAM">
+						<ChannelSet index="0" name="Adjust2-2" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="10" attribute="Adjust 2-3" feature="EFFECT" preset="BEAM" coarse="11">
+					<ChannelFunction index="0" from="0.000" to="255.000" subattribute="Adjust 2-3" attribute="Adjust 2-3" feature="EFFECT" preset="BEAM">
+						<ChannelSet index="0" name="Adjust2-3" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="11" attribute="BLADE1A" feature="SHAPER" preset="SHAPERS" coarse="12" default="128.000">
+					<ChannelFunction index="0" from="0.000" to="255.000" physfrom="0.000" physto="0.450" subattribute="BLADE1A" attribute="BLADE1A" feature="SHAPER" preset="SHAPERS">
+						<ChannelSet index="0" name="Top Left" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="12" attribute="BLADE1B" feature="SHAPER" preset="SHAPERS" coarse="13" default="128.000">
+					<ChannelFunction index="0" from="0.000" to="255.000" physfrom="0.000" physto="0.450" subattribute="BLADE1B" attribute="BLADE1B" feature="SHAPER" preset="SHAPERS">
+						<ChannelSet index="0" name="Top right" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="13" attribute="BLADE2A" feature="SHAPER" preset="SHAPERS" coarse="14" default="128.000">
+					<ChannelFunction index="0" from="0.000" to="255.000" physfrom="0.000" physto="0.450" subattribute="BLADE2A" attribute="BLADE2A" feature="SHAPER" preset="SHAPERS">
+						<ChannelSet index="0" name="Left Top" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="14" attribute="BLADE2B" feature="SHAPER" preset="SHAPERS" coarse="15" default="128.000">
+					<ChannelFunction index="0" from="0.000" to="255.000" physfrom="0.000" physto="0.450" subattribute="BLADE2B" attribute="BLADE2B" feature="SHAPER" preset="SHAPERS">
+						<ChannelSet index="0" name="Left bottom" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="15" attribute="BLADE3A" feature="SHAPER" preset="SHAPERS" coarse="16" default="128.000">
+					<ChannelFunction index="0" from="0.000" to="255.000" physfrom="0.000" physto="0.450" subattribute="BLADE3A" attribute="BLADE3A" feature="SHAPER" preset="SHAPERS">
+						<ChannelSet index="0" name="Right top" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="16" attribute="BLADE3B" feature="SHAPER" preset="SHAPERS" coarse="17" default="128.000">
+					<ChannelFunction index="0" from="0.000" to="255.000" physfrom="0.000" physto="0.450" subattribute="BLADE3B" attribute="BLADE3B" feature="SHAPER" preset="SHAPERS">
+						<ChannelSet index="0" name="Right bottom" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="17" attribute="BLADE4A" feature="SHAPER" preset="SHAPERS" coarse="18" default="128.000">
+					<ChannelFunction index="0" from="0.000" to="255.000" physfrom="0.000" physto="0.450" subattribute="BLADE4A" attribute="BLADE4A" feature="SHAPER" preset="SHAPERS">
+						<ChannelSet index="0" name="Bottom left" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="18" attribute="BLADE4B" feature="SHAPER" preset="SHAPERS" coarse="19" default="128.000">
+					<ChannelFunction index="0" from="0.000" to="255.000" physfrom="0.000" physto="0.450" subattribute="BLADE4B" attribute="BLADE4B" feature="SHAPER" preset="SHAPERS">
+						<ChannelSet index="0" name="Bottom right" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="19" attribute="Contrast" feature="CONTROL" preset="CONTROL" coarse="20">
+					<ChannelFunction index="0" from="0.000" to="255.000" subattribute="Contrast" attribute="Contrast" feature="CONTROL" preset="CONTROL">
+						<ChannelSet index="0" name="Off computer" from_dmx="101" to_dmx="105" />
+						<ChannelSet index="1" name="Restar computer" from_dmx="106" to_dmx="110" />
+						<ChannelSet index="2" name="Display inf" from_dmx="201" to_dmx="205" />
+						<ChannelSet index="3" name="Dispaly wg" from_dmx="211" to_dmx="215" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" patch="1" RW="0.000" />
+		</Instances>
+		<Wheels index="2" />
+	</FixtureType>
+</MA>

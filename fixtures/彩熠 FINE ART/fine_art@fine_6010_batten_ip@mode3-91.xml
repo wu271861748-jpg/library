@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.1.2/MA.xsd" major_vers="3" minor_vers="1" stream_vers="2">
+	<Info datetime="2024-11-05T17:22:10" showfile="new show 2023-03-24" />
+	<FixtureType index="31" name="FINE 6010 Batten IP" mode="Mode3-91">
+		<short_name>FINE 6010 Batten IP</short_name>
+		<manufacturer>FINE ART</manufacturer>
+		<short_manufacturer>FINE ART</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="None" beamtype="Wash" beam_angle="35" beam_intensity="10000">
+				<ChannelType index="0" attribute="TILT" feature="POSITION" preset="POSITION" coarse="1" fine="2">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="-90" physto="90" subattribute="TILT" subattribute_user_name="Tilt" attribute="TILT" attribute_user_name="Tilt" feature="POSITION" feature_user_name="Position" preset="POSITION" preset_user_name="Position" />
+				</ChannelType>
+				<ChannelType index="1" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="3" fine="4">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+				<ChannelType index="2" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" coarse="5">
+					<ChannelFunction index="0" name="close" from="0" to="1.569" min_dmx_24="0" max_dmx_24="262148" physfrom="1" subattribute="SHUTTER" subattribute_user_name="Shutter" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="close" from_dmx="0" to_dmx="4" />
+					</ChannelFunction>
+					<ChannelFunction index="1" from="1.961" to="50.588" min_dmx_24="327680" max_dmx_24="8519679" physfrom="1" subattribute="SHUTTER" subattribute_user_name="Shutter" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Single flash each time value is changed within range" from_dmx="5" to_dmx="9" />
+						<ChannelSet index="1" name="Pluse Slow-&gt;Fast" from_dmx="10" to_dmx="39" />
+						<ChannelSet index="2" name="Opening pulse slow-&gt;fast" from_dmx="40" to_dmx="69" />
+						<ChannelSet index="3" name="Closing pulse slow-&gt;fast" from_dmx="70" to_dmx="99" />
+						<ChannelSet index="4" name="Double flash" from_dmx="100" to_dmx="129" />
+					</ChannelFunction>
+					<ChannelFunction index="2" name="rnd Shutter" from="50.98" to="98.039" min_dmx_24="8519810" max_dmx_24="16384250" physfrom="1" subattribute="SHUTTER" subattribute_user_name="Shutter" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Random dot strobe" from_dmx="130" to_dmx="159" />
+						<ChannelSet index="1" name="Random strobe" from_dmx="160" to_dmx="199" />
+						<ChannelSet index="2" name="strobe sync all pixels slow-&gt;fast" from_dmx="200" to_dmx="250" />
+					</ChannelFunction>
+					<ChannelFunction index="3" name="open" from="98.431" to="100" min_dmx_24="16449787" max_dmx_24="16711935" physfrom="1" subattribute="SHUTTER" subattribute_user_name="Shutter" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="open" from_dmx="251" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="3" attribute="EDGESHUTTER" feature="SHUTTER" preset="BEAM" coarse="6">
+					<ChannelFunction index="0" name="close" from="0" to="1.569" min_dmx_24="0" max_dmx_24="327679" subattribute="EDGESHUTTER" subattribute_user_name="EdgeShutter" attribute="EDGESHUTTER" attribute_user_name="EdgeShutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="close" from_dmx="0" to_dmx="4" />
+					</ChannelFunction>
+					<ChannelFunction index="1" from="1.961" to="50.588" min_dmx_24="327680" max_dmx_24="8519679" subattribute="EDGESHUTTER" subattribute_user_name="EdgeShutter" attribute="EDGESHUTTER" attribute_user_name="EdgeShutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Single flash each time value is changed within range" from_dmx="5" to_dmx="9" />
+						<ChannelSet index="1" name="Pluse Slow-&gt;Fast" from_dmx="10" to_dmx="39" />
+						<ChannelSet index="2" name="Opening pulse slow-&gt;fast" from_dmx="40" to_dmx="69" />
+						<ChannelSet index="3" name="Closing pulse slow-&gt;fast" from_dmx="70" to_dmx="99" />
+						<ChannelSet index="4" name="Double flash" from_dmx="100" to_dmx="129" />
+					</ChannelFunction>
+					<ChannelFunction index="2" name="shutter rnd" from="50.98" to="98.039" min_dmx_24="8519680" max_dmx_24="16449535" subattribute="EDGESHUTTER" subattribute_user_name="EdgeShutter" attribute="EDGESHUTTER" attribute_user_name="EdgeShutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Random pixel strobe slow-&gt;fast" from_dmx="130" to_dmx="159" />
+						<ChannelSet index="1" name="Random all strobe slow-&gt;fast" from_dmx="160" to_dmx="199" />
+						<ChannelSet index="2" name="strobe sync all pixels slow-&gt;fast" from_dmx="200" to_dmx="250" />
+					</ChannelFunction>
+					<ChannelFunction index="3" name="open" from="98.431" to="100" min_dmx_24="16449536" max_dmx_24="16777215" subattribute="EDGESHUTTER" subattribute_user_name="EdgeShutter" attribute="EDGESHUTTER" attribute_user_name="EdgeShutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="open" from_dmx="251" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="4" attribute="ZOOM" feature="FOCUS" preset="FOCUS" coarse="7">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.7" physto="1" subattribute="ZOOM" subattribute_user_name="Zoom" attribute="ZOOM" attribute_user_name="Zoom" feature="FOCUS" feature_user_name="Focus" preset="FOCUS" preset_user_name="Focus" />
+				</ChannelType>
+				<ChannelType index="5" attribute="LAMPCONTROL" feature="LAMP" preset="CONTROL" coarse="8" default="254.5">
+					<ChannelFunction index="0" name="Dimmer Curve" from="0" to="11.373" min_dmx_24="0" max_dmx_24="1966079" physfrom="0" physto="1" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer">
+						<ChannelSet index="0" name="Default(between suare and cubic )" from_dmx="18" to_dmx="19" />
+						<ChannelSet index="1" name="square" from_dmx="20" to_dmx="21" />
+						<ChannelSet index="2" name="cubic" from_dmx="22" to_dmx="23" />
+						<ChannelSet index="3" name="cubic" from_dmx="24" to_dmx="25" />
+						<ChannelSet index="4" name="S-Curve" from_dmx="26" to_dmx="27" />
+					</ChannelFunction>
+					<ChannelFunction index="1" name="Display mode" from="11.765" to="21.569" min_dmx_24="1966080" max_dmx_24="3670015" subattribute="LAMPCONTROL" subattribute_user_name="LAMPCONTROL" attribute="LAMPCONTROL" attribute_user_name="LampControl" feature="LAMP" feature_user_name="Lamp" preset="CONTROL" preset_user_name="Control" />
+					<ChannelFunction index="2" name="Power mode" from="21.961" to="27.059" min_dmx_24="3670016" max_dmx_24="4587519" subattribute="POWER" subattribute_user_name="POWER" attribute="MODE2" attribute_user_name="power" feature="FIXTURE" feature_user_name="Fixture" preset="CONTROL" preset_user_name="Control" />
+					<ChannelFunction index="3" name="Pixel mirror" from="27.451" to="35.686" min_dmx_24="4587520" max_dmx_24="6029311" subattribute="LAMPCONTROL" subattribute_user_name="LAMPCONTROL" attribute="LAMPCONTROL" attribute_user_name="LampControl" feature="LAMP" feature_user_name="Lamp" preset="CONTROL" preset_user_name="Control" />
+					<ChannelFunction index="4" name="Position Feedback" from="36.078" to="38.039" min_dmx_24="6029312" max_dmx_24="6422527" subattribute="LAMPCONTROL" subattribute_user_name="LAMPCONTROL" attribute="LAMPCONTROL" attribute_user_name="LampControl" feature="LAMP" feature_user_name="Lamp" preset="CONTROL" preset_user_name="Control" />
+					<ChannelFunction index="5" name="Tilt inversion" from="38.431" to="84.314" min_dmx_24="6422528" max_dmx_24="14155775" subattribute="LAMPCONTROL" subattribute_user_name="LAMPCONTROL" attribute="LAMPCONTROL" attribute_user_name="LampControl" feature="LAMP" feature_user_name="Lamp" preset="CONTROL" preset_user_name="Control" />
+					<ChannelFunction index="6" name="PWM" from="84.706" to="97.647" min_dmx_24="14155776" max_dmx_24="16383999" subattribute="POWER" subattribute_user_name="POWER" attribute="MODE2" attribute_user_name="power" feature="FIXTURE" feature_user_name="Fixture" preset="CONTROL" preset_user_name="Control" />
+					<ChannelFunction index="7" from="98.039" to="100" min_dmx_24="16384000" max_dmx_24="16777215" subattribute="RESET" subattribute_user_name="Reset" attribute="RESET1" attribute_user_name="Reset" feature="RESET" feature_user_name="Reset" preset="CONTROL" preset_user_name="Control" />
+				</ChannelType>
+			</Module>
+			<Module index="1" name="MainClr RGBW" class="None" beamtype="Wash" beam_angle="35" beam_intensity="10000">
+				<ChannelType index="0" attribute="MAINCLRR" feature="MAINCLRRGBW" preset="COLOR" coarse="1">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="MAINCLRR" subattribute_user_name="MainClr R" attribute="MAINCLRR" attribute_user_name="MainClr R" feature="MAINCLRRGBW" feature_user_name="MAINCLRRGBW" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="1" attribute="MAINCLRG" feature="MAINCLRRGBW" preset="COLOR" coarse="2">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="MAINCLRG" subattribute_user_name="MainClr G" attribute="MAINCLRG" attribute_user_name="MainClr G" feature="MAINCLRRGBW" feature_user_name="MAINCLRRGBW" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="2" attribute="MAINCLRB" feature="MAINCLRRGBW" preset="COLOR" coarse="3">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="MAINCLRB" subattribute_user_name="MainClr B" attribute="MAINCLRB" attribute_user_name="MainClr B" feature="MAINCLRRGBW" feature_user_name="MAINCLRRGBW" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="3" attribute="MAINCLRW" feature="MAINCLRRGBW" preset="COLOR" coarse="4">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="MAINCLRW" subattribute_user_name="MainClr W" attribute="MAINCLRW" attribute_user_name="MainClr W" feature="MAINCLRRGBW" feature_user_name="MAINCLRRGBW" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+			</Module>
+			<Module index="2" name="EdgeW CW WW" class="None" beamtype="Wash" beam_angle="35" beam_intensity="10000">
+				<ChannelType index="0" attribute="EDGEWCW" feature="EDGEWHITE" preset="COLOR" coarse="1">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="EDGEWCW" subattribute_user_name="EdgeW CW" attribute="EDGEWCW" attribute_user_name="EdgeW CW" feature="EDGEWHITE" feature_user_name="EDGEWHITE" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="1" attribute="EDGEWWW" feature="EDGEWHITE" preset="COLOR" coarse="2">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="EDGEWWW" subattribute_user_name="EdgeW WW" attribute="EDGEWWW" attribute_user_name="EdgeW WW" feature="EDGEWHITE" feature_user_name="EDGEWHITE" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+			</Module>
+			<Module index="3" name="EdgeC RGB" class="None" beamtype="Wash" beam_angle="35" beam_intensity="10000">
+				<ChannelType index="0" attribute="EDGER" feature="EDGERGB" preset="COLOR" coarse="1">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="EDGER" subattribute_user_name="Edge R" attribute="EDGER" attribute_user_name="Edge R" feature="EDGERGB" feature_user_name="Edge RGB" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="1" attribute="EDGEG" feature="EDGERGB" preset="COLOR" coarse="2">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="EDGEG" subattribute_user_name="Edge G" attribute="EDGEG" attribute_user_name="EDGEG" feature="EDGERGB" feature_user_name="Edge RGB" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="2" attribute="EDGEB" feature="EDGERGB" preset="COLOR" coarse="3">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="EDGEB" subattribute_user_name="Edge B" attribute="EDGEB" attribute_user_name="EDGEB" feature="EDGERGB" feature_user_name="Edge RGB" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" />
+			<Instance index="1" module_index="1" patch="9" />
+			<Instance index="2" module_index="1" patch="13" />
+			<Instance index="3" module_index="1" patch="17" />
+			<Instance index="4" module_index="1" patch="21" />
+			<Instance index="5" module_index="1" patch="25" />
+			<Instance index="6" module_index="1" patch="29" />
+			<Instance index="7" module_index="1" patch="33" />
+			<Instance index="8" module_index="1" patch="37" />
+			<Instance index="9" module_index="1" patch="41" />
+			<Instance index="10" module_index="1" patch="45" />
+			<Instance index="11" module_index="2" patch="49" />
+			<Instance index="12" module_index="2" patch="51" />
+			<Instance index="13" module_index="2" patch="53" />
+			<Instance index="14" module_index="2" patch="55" />
+			<Instance index="15" module_index="2" patch="57" />
+			<Instance index="16" module_index="2" patch="59" />
+			<Instance index="17" module_index="2" patch="61" />
+			<Instance index="18" module_index="2" patch="63" />
+			<Instance index="19" module_index="2" patch="65" />
+			<Instance index="20" module_index="2" patch="67" />
+			<Instance index="21" module_index="2" patch="69" />
+			<Instance index="22" module_index="2" patch="71" />
+			<Instance index="23" module_index="2" patch="73" />
+			<Instance index="24" module_index="2" patch="75" />
+			<Instance index="25" module_index="2" patch="77" />
+			<Instance index="26" module_index="2" patch="79" />
+			<Instance index="27" module_index="2" patch="81" />
+			<Instance index="28" module_index="2" patch="83" />
+			<Instance index="29" module_index="2" patch="85" />
+			<Instance index="30" module_index="2" patch="87" />
+			<Instance index="31" module_index="3" patch="89" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<FixtureMacroCollect index="5" />
+		<Body />
+		<AutoPresets index="4" />
+	</FixtureType>
+</MA>

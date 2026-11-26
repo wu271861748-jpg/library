@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.1.2/MA.xsd" major_vers="3" minor_vers="1" stream_vers="2">
+	<Info datetime="2019-09-02T14:14:07" showfile="library test" />
+	<FixtureType index="5" name="T90H-WW" mode="2Channel">
+		<short_name>T90HWW2CH</short_name>
+		<manufacturer>Terbly</manufacturer>
+		<short_manufacturer>Terbly</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="Conventional" beamtype="Spot" beam_angle="26" beam_intensity="10000">
+				<Body>
+					<Size x="0.179" y="0.179" z="0.617" />
+				</Body>
+				<ChannelType index="0" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="1" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer">
+						<ChannelSet index="0" name="Close" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="Open" from_dmx="65535" to_dmx="65535" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="1" attribute="FIXTUREGLOBALRESET" feature="RESET" preset="CONTROL" coarse="2">
+					<ChannelFunction index="0" from="0" to="30.9" min_dmx_24="0" max_dmx_24="5242879" subattribute="NOFEATURE" subattribute_user_name="No Feature" attribute="DUMMY" attribute_user_name="Dummy" feature="CONTROL" feature_user_name="Control" preset="CONTROL" preset_user_name="Control">
+						<ChannelSet index="0" name="Safe" from_dmx="0" to_dmx="79" />
+					</ChannelFunction>
+					<ChannelFunction index="1" from="39.2" to="93.7" min_dmx_24="6553600" max_dmx_24="15728639" subattribute="Eff_MACR" subattribute_user_name="Eff_MACR" attribute="EFF_MACR" attribute_user_name="Eff_MACR" feature="CONTROL" feature_user_name="Control" preset="CONTROL" preset_user_name="Control">
+						<ChannelSet index="0" name="Internal pro 1" from_dmx="100" to_dmx="119" />
+						<ChannelSet index="1" name="Internal pro 2" from_dmx="120" to_dmx="139" />
+						<ChannelSet index="2" name="Internal pro 3" from_dmx="140" to_dmx="159" />
+						<ChannelSet index="3" name="Internal pro 4" from_dmx="160" to_dmx="179" />
+						<ChannelSet index="4" name="Internal pro 5" from_dmx="180" to_dmx="199" />
+						<ChannelSet index="5" name="Internal pro 6" from_dmx="200" to_dmx="219" />
+						<ChannelSet index="6" name="Internal pro 7" from_dmx="220" to_dmx="239" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<FixtureMacroCollect index="5" />
+		<Body />
+		<AutoPresets index="4" />
+	</FixtureType>
+</MA>

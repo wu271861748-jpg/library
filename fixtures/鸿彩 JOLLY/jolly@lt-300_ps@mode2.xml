@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.0.0/MA.xsd" major_vers="3" minor_vers="0" stream_vers="0">
+	<Info datetime="2023-03-03T10:28:45" showfile="new show 2022-08-24" />
+	<FixtureType index="6" name="LT-300 PS" mode="mode2">
+		<short_name>LT-300 PS</short_name>
+		<manufacturer>Jolly</manufacturer>
+		<short_manufacturer>Jolly</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="None" beamtype="Wash" beam_angle="35" beam_intensity="10000">
+				<ChannelType index="0" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" coarse="1" fine="2" default="65535" color="ff0000">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB1" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="65535" to_dmx="65535" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="1" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" coarse="3" fine="4" default="65535" color="00ff00">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB2" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="65535" to_dmx="65535" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="2" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" coarse="5" fine="6" default="65535" color="0000ff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB3" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="65535" to_dmx="65535" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="3" attribute="COLORRGB5" feature="COLORRGB" preset="COLOR" coarse="7" fine="8" color="ffffff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB5" attribute="COLORRGB5" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="65535" to_dmx="65535" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="4" attribute="CTO" feature="CTC" preset="COLOR" coarse="9">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="CTO" attribute="CTO" feature="CTC" preset="COLOR">
+						<ChannelSet index="0" name="NO Function" from_dmx="0" to_dmx="5" />
+						<ChannelSet index="1" name="2800K-2900K" from_dmx="6" to_dmx="13" />
+						<ChannelSet index="2" name="2900K-3000K" from_dmx="13" to_dmx="20" />
+						<ChannelSet index="3" name="3000K-3100K" from_dmx="20" to_dmx="27" />
+						<ChannelSet index="4" name="3100K-3200K" from_dmx="27" to_dmx="34" />
+						<ChannelSet index="5" name="3200K-3300K" from_dmx="34" to_dmx="41" />
+						<ChannelSet index="6" name="3300K-3400K" from_dmx="41" to_dmx="48" />
+						<ChannelSet index="7" name="3400K-3500K" from_dmx="48" to_dmx="55" />
+						<ChannelSet index="8" name="3500K-3600K" from_dmx="55" to_dmx="62" />
+						<ChannelSet index="9" name="3600K-3700K" from_dmx="62" to_dmx="69" />
+						<ChannelSet index="10" name="3700K-3800K" from_dmx="69" to_dmx="76" />
+						<ChannelSet index="11" name="3800K-3900K" from_dmx="76" to_dmx="83" />
+						<ChannelSet index="12" name="3900K-4000K" from_dmx="83" to_dmx="90" />
+						<ChannelSet index="13" name="4000K-4100K" from_dmx="90" to_dmx="97" />
+						<ChannelSet index="14" name="4100K-4200K" from_dmx="97" to_dmx="104" />
+						<ChannelSet index="15" name="4200K-4300K" from_dmx="104" to_dmx="111" />
+						<ChannelSet index="16" name="4300K-4400K" from_dmx="111" to_dmx="118" />
+						<ChannelSet index="17" name="4400K-4500K" from_dmx="118" to_dmx="125" />
+						<ChannelSet index="18" name="4500K-4600K" from_dmx="125" to_dmx="132" />
+						<ChannelSet index="19" name="4600K-4700K" from_dmx="132" to_dmx="139" />
+						<ChannelSet index="20" name="4700K-4800K" from_dmx="139" to_dmx="146" />
+						<ChannelSet index="21" name="4800K-4900K" from_dmx="146" to_dmx="153" />
+						<ChannelSet index="22" name="4900K-5000K" from_dmx="153" to_dmx="160" />
+						<ChannelSet index="23" name="5000K-5100K" from_dmx="160" to_dmx="167" />
+						<ChannelSet index="24" name="5100K-5200K" from_dmx="167" to_dmx="174" />
+						<ChannelSet index="25" name="5200K-5300K" from_dmx="174" to_dmx="181" />
+						<ChannelSet index="26" name="5300K-5400K" from_dmx="181" to_dmx="188" />
+						<ChannelSet index="27" name="5400K-5500K" from_dmx="188" to_dmx="195" />
+						<ChannelSet index="28" name="5500K-5600K" from_dmx="195" to_dmx="202" />
+						<ChannelSet index="29" name="5600K-5700K" from_dmx="202" to_dmx="209" />
+						<ChannelSet index="30" name="5700K-6000K" from_dmx="209" to_dmx="216" />
+						<ChannelSet index="31" name="6000K-6500K" from_dmx="216" to_dmx="223" />
+						<ChannelSet index="32" name="6500K-7000K" from_dmx="223" to_dmx="230" />
+						<ChannelSet index="33" name="7000K-7500K" from_dmx="230" to_dmx="237" />
+						<ChannelSet index="34" name="7500K-8000K" from_dmx="237" to_dmx="244" />
+						<ChannelSet index="35" name="8000K" from_dmx="244" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="5" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" coarse="10">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="1" subattribute="SHUTTER" attribute="SHUTTER" feature="SHUTTER" preset="BEAM">
+						<ChannelSet index="0" name="Open" from_dmx="0" to_dmx="10" />
+						<ChannelSet index="1" name="Close" from_dmx="11" to_dmx="15" />
+						<ChannelSet index="2" name="Random Strobe" from_dmx="16" to_dmx="47" />
+						<ChannelSet index="3" name="Ramp Up" from_dmx="48" to_dmx="79" />
+						<ChannelSet index="4" name="Ramp Down" from_dmx="80" to_dmx="111" />
+						<ChannelSet index="5" name="Ramp Up  Ramp Down" from_dmx="112" to_dmx="143" />
+						<ChannelSet index="6" name="Strobe Slow1hz-&gt;Fast25hz" from_dmx="144" to_dmx="239" />
+						<ChannelSet index="7" name="Close" from_dmx="240" to_dmx="249" />
+						<ChannelSet index="8" name="Open" from_dmx="250" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="6" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="11" fine="12" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" attribute="DIM" feature="DIMMER" preset="DIMMER">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="65535" to_dmx="65535" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="7" attribute="FUNTRON" feature="CONTROL" preset="CONTROL" coarse="13">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="FUNTRON" attribute="FUNTRON" feature="CONTROL" preset="CONTROL">
+						<ChannelSet index="0" name="Reserved" from_dmx="0" to_dmx="55" />
+						<ChannelSet index="1" name="Dimmer Speed Smooth" from_dmx="56" to_dmx="60" />
+						<ChannelSet index="2" name="Dimmer Speed Fast" from_dmx="61" to_dmx="65" />
+						<ChannelSet index="3" name="Reserved" from_dmx="66" to_dmx="70" />
+						<ChannelSet index="4" name="Linear" from_dmx="71" to_dmx="75" />
+						<ChannelSet index="5" name="Threatrical" from_dmx="76" to_dmx="80" />
+						<ChannelSet index="6" name=" Sqaure Law" from_dmx="81" to_dmx="85" />
+						<ChannelSet index="7" name="Inverse Sqaure Law" from_dmx="86" to_dmx="90" />
+						<ChannelSet index="8" name="Reserved" from_dmx="91" to_dmx="95" />
+						<ChannelSet index="9" name="No DMX Hold" from_dmx="96" to_dmx="100" />
+						<ChannelSet index="10" name="No DMX Shutter Closed" from_dmx="101" to_dmx="105" />
+						<ChannelSet index="11" name="No DMX Static Mode" from_dmx="106" to_dmx="110" />
+						<ChannelSet index="12" name="Reserved" from_dmx="111" to_dmx="200" />
+						<ChannelSet index="13" name="PWM Rate 1200 Hz" from_dmx="201" to_dmx="205" />
+						<ChannelSet index="14" name="PWM Rate 2400 Hz" from_dmx="206" to_dmx="210" />
+						<ChannelSet index="15" name="PWM Rate 4800 Hz" from_dmx="211" to_dmx="215" />
+						<ChannelSet index="16" name="PWM Rate 9600 Hz" from_dmx="216" to_dmx="220" />
+						<ChannelSet index="17" name="PWM Rate 25000 Hz" from_dmx="221" to_dmx="225" />
+						<ChannelSet index="18" name="Reserved" from_dmx="226" to_dmx="255" />
+						<ChannelSet index="19" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="20" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="21" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="22" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="23" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="24" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="25" from_dmx="0" to_dmx="0" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" RW="0" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<Body />
+		<AutoPresets index="4" />
+	</FixtureType>
+</MA>

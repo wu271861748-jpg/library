@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.3.4/MA.xsd" major_vers="3" minor_vers="3" stream_vers="4">
+	<Info datetime="2023-02-06T15:56:44" showfile="test fixure" />
+	<FixtureType index="141" name="COLOR KEEP TWO" mode="8CH">
+		<short_name>COLOR KEEP TWO</short_name>
+		<manufacturer>EK</manufacturer>
+		<short_manufacturer>EK</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="None" beamtype="Wash" beam_angle="35" beam_intensity="10000">
+				<ChannelType index="0" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" coarse="1" default="254.999" highlight_value="100" color="ff0000">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB1" subattribute_user_name="R" attribute="COLORRGB1" attribute_user_name="R" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="1" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" coarse="2" default="254.999" highlight_value="100" color="00ff00">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB2" subattribute_user_name="G" attribute="COLORRGB2" attribute_user_name="G" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="2" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" coarse="3" default="254.999" highlight_value="100" color="0000ff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB3" subattribute_user_name="B" attribute="COLORRGB3" attribute_user_name="B" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="3" attribute="COLORRGB5" feature="COLORRGB" preset="COLOR" coarse="4" default="254.999" highlight_value="100" color="ffffff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB5" subattribute_user_name="White" attribute="COLORRGB5" attribute_user_name="White" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="4" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" coarse="5" default="254.999">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="1" subattribute="SHUTTER" subattribute_user_name="Shutter" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Open1" from_dmx="0" to_dmx="10" />
+						<ChannelSet index="1" name="Strobe Slow to Fast" from_dmx="11" to_dmx="140" />
+						<ChannelSet index="2" name="Open2" from_dmx="141" to_dmx="150" />
+						<ChannelSet index="3" name="Rnd Strobe" from_dmx="151" to_dmx="250" />
+						<ChannelSet index="4" name="Open3" from_dmx="251" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="5" attribute="CTO" feature="CTC" preset="COLOR" coarse="6">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="CTO" subattribute_user_name="CTO" attribute="CTO" attribute_user_name="CTO" feature="CTC" feature_user_name="CTC" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="No Function" from_dmx="0" to_dmx="10" />
+						<ChannelSet index="1" name="2200K" from_dmx="11" to_dmx="20" />
+						<ChannelSet index="2" name="2300K" from_dmx="21" to_dmx="30" />
+						<ChannelSet index="3" name="2400K" from_dmx="31" to_dmx="40" />
+						<ChannelSet index="4" name="2500K" from_dmx="41" to_dmx="50" />
+						<ChannelSet index="5" name="2600K" from_dmx="51" to_dmx="60" />
+						<ChannelSet index="6" name="2700K" from_dmx="61" to_dmx="70" />
+						<ChannelSet index="7" name="2800K" from_dmx="71" to_dmx="80" />
+						<ChannelSet index="8" name="2900K" from_dmx="81" to_dmx="90" />
+						<ChannelSet index="9" name="3000K" from_dmx="91" to_dmx="100" />
+						<ChannelSet index="10" name="3100K" from_dmx="101" to_dmx="110" />
+						<ChannelSet index="11" name="3200K" from_dmx="111" to_dmx="120" />
+						<ChannelSet index="12" name="3300K" from_dmx="121" to_dmx="130" />
+						<ChannelSet index="13" name="3500K" from_dmx="131" to_dmx="140" />
+						<ChannelSet index="14" name="4000K" from_dmx="141" to_dmx="150" />
+						<ChannelSet index="15" name="4500K" from_dmx="151" to_dmx="160" />
+						<ChannelSet index="16" name="5000K" from_dmx="161" to_dmx="170" />
+						<ChannelSet index="17" name="5700K" from_dmx="171" to_dmx="180" />
+						<ChannelSet index="18" name="6500K" from_dmx="181" to_dmx="190" />
+						<ChannelSet index="19" name="7000K" from_dmx="191" to_dmx="200" />
+						<ChannelSet index="20" name="7500K" from_dmx="201" to_dmx="210" />
+						<ChannelSet index="21" name="8000K" from_dmx="211" to_dmx="220" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="6" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="7" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+				<ChannelType index="7" attribute="FUNCTION" feature="CONTROL" preset="CONTROL" coarse="8">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="FUNCTION" subattribute_user_name="Function" attribute="FUNCTION" attribute_user_name="Function" feature="CONTROL" feature_user_name="Control" preset="CONTROL" preset_user_name="Control">
+						<ChannelSet index="0" name="RGBW Mode" from_dmx="0" to_dmx="10" />
+						<ChannelSet index="1" name="CMY Mode" from_dmx="11" to_dmx="20" />
+						<ChannelSet index="2" name="Dimmer Off" from_dmx="21" to_dmx="30" />
+						<ChannelSet index="3" name="Dimmer1" from_dmx="31" to_dmx="40" />
+						<ChannelSet index="4" name="Dimmer2" from_dmx="41" to_dmx="50" />
+						<ChannelSet index="5" name="Dimmer3" from_dmx="51" to_dmx="60" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<FixtureMacroCollect index="5" />
+		<Body />
+		<AutoPresets index="4" />
+		<RdmNotifications index="6">
+			<RdmNotification index="0" Type="Absent" Subcategory="RDM Warning" />
+		</RdmNotifications>
+	</FixtureType>
+</MA>

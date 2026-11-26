@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MA major_vers="2" minor_vers="0" stream_vers="0">
+  <FixtureType name="Artfox_19E" mode="19E">
+    <short_name>19E</short_name>
+    <manufacturer>Artfox</manufacturer>
+    <short_manufacturer>Artfox</short_manufacturer>
+    <notes>Created By Artfox Lighting LTD</notes>
+    <revision date="2018/3/20 星期二" text="Generated with the Software developped by Artfox." />
+    <Modules>
+      <Module name="Main Module" class="Headmover" beamtype="Spot" beam_angle="1.00" beam_intensity="3000.00">
+        <ChannelType index="1" attribute="PAN" feature="POSITION" preset="POSITION" coarse="1" fine="2" default="32639">
+          <ChannelFunction name="PAN" attribute="PAN" feature="POSITION" preset="POSITION" subattribute="PAN" from="0" to="100" min_dmx="0" max_dmx="65535" physfrom="-270" physto="270" />
+        </ChannelType>
+        <ChannelType index="2" attribute="TILT" feature="Position" preset="Position" coarse="3" fine="4" default="32639">
+          <ChannelFunction name="TILT" attribute="TILT" feature="Position" preset="Position" subattribute="TILT" from="0" to="100" min_dmx="0" max_dmx="65535" physfrom="-135" physto="135" />
+        </ChannelType>
+        <ChannelType index="3" attribute="P/T SPEED" feature="CONTROL" preset="CONTROL" coarse="5">
+          <ChannelFunction name="P/T SPEED" attribute="P/T SPEED" feature="CONTROL" preset="CONTROL" subattribute="P/T SPEED" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="4" attribute="STROBE" feature="SHUTTER" preset="BEAM" coarse="6">
+          <ChannelFunction name="STROBE" attribute="STROBE" feature="SHUTTER" preset="BEAM" subattribute="STROBE" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0.0" physto="25.0" />
+        </ChannelType>
+        <ChannelType index="5" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="7" highlight_value="100.00">
+          <ChannelFunction name="DIM" attribute="DIM" feature="DIMMER" preset="DIMMER" subattribute="DIM" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0.0" physto="100.0" />
+        </ChannelType>
+        <ChannelType index="6" attribute="CONTROL" feature="Control" preset="CONTROL" coarse="8">
+          <ChannelFunction name="CONTROL" attribute="CONTROL" feature="Control" preset="CONTROL" subattribute="CONTROL" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="7" attribute="ZOOM" feature="FOCUS" preset="FOCUS" coarse="9">
+          <ChannelFunction name="ZOOM" attribute="ZOOM" feature="FOCUS" preset="FOCUS" subattribute="ZOOM" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="8" attribute="COLORMIX1" feature="COLORMIX" preset="COLOR" coarse="10" invert="true">
+          <ChannelFunction name="COLORMIX1" attribute="COLORMIX1" feature="COLORMIX" preset="COLOR" subattribute="COLORMIX1" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="9" attribute="COLORMIX2" feature="COLORMIX" preset="COLOR" coarse="11" invert="true">
+          <ChannelFunction name="COLORMIX2" attribute="COLORMIX2" feature="COLORMIX" preset="COLOR" subattribute="COLORMIX2" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="10" attribute="COLORMIX3" feature="COLORMIX" preset="COLOR" coarse="12" invert="true">
+          <ChannelFunction name="COLORMIX3" attribute="COLORMIX3" feature="COLORMIX" preset="COLOR" subattribute="COLORMIX3" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="11" attribute="WHITE" feature="COLORMIX" preset="COLOR" coarse="13">
+          <ChannelFunction name="WHITE" attribute="WHITE" feature="COLORMIX" preset="COLOR" subattribute="WHITE" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="12" attribute="COLOR1" feature="Color1" preset="Color" coarse="14">
+          <ChannelFunction name="COLOR1" attribute="COLOR1" feature="Color1" preset="Color" subattribute="COLOR1" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="13" attribute="COLOR2" feature="Color2" preset="Color" coarse="15">
+          <ChannelFunction name="COLOR2" attribute="COLOR2" feature="Color2" preset="Color" subattribute="COLOR2" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="14" attribute="color dim" feature="Control" preset="Control" coarse="16">
+          <ChannelFunction name="color dim" attribute="color dim" feature="Control" preset="Control" subattribute="color dim" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="15" attribute="chase patterns" feature="Control" preset="Control" coarse="17">
+          <ChannelFunction name="chase patterns" attribute="chase patterns" feature="Control" preset="Control" subattribute="chase patterns" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="16" attribute="SPEED" feature="Control" preset="CONTROL" coarse="18">
+          <ChannelFunction name="SPEED" attribute="SPEED" feature="Control" preset="CONTROL" subattribute="SPEED" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="17" attribute="chase fade" feature="Control" preset="Control" coarse="19">
+          <ChannelFunction name="chase fade" attribute="chase fade" feature="Control" preset="Control" subattribute="chase fade" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+        <ChannelType index="18" attribute="reset" feature="Control" preset="Control" coarse="20">
+          <ChannelFunction name="reset" attribute="reset" feature="Control" preset="Control" subattribute="reset" from="0" to="100" min_dmx="0" max_dmx="255" physfrom="0" physto="1" />
+        </ChannelType>
+      </Module>
+    </Modules>
+  </FixtureType>
+</MA>

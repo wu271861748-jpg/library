@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.0.0/MA.xsd" major_vers="3" minor_vers="0" stream_vers="0">
+	<Info datetime="2022-03-04T11:22:18" showfile="new show 2021-12-29" />
+	<FixtureType index="25" name="3000 CC" mode="31 CH">
+		<short_name>3000 CC</short_name>
+		<manufacturer>Jolly</manufacturer>
+		<short_manufacturer>Jolly</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="Headmover" beamtype="Wash" beam_angle="35" beam_intensity="10000">
+				<Body>
+					<Size x="0" y="0" z="0" />
+				</Body>
+				<ChannelType index="0" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="1" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" attribute="DIM" feature="DIMMER" preset="DIMMER" />
+				</ChannelType>
+				<ChannelType index="1" attribute="R1" feature="COLORRGB" preset="COLOR" coarse="2" default="255">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="R1" attribute="R1" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="2" attribute="G1" feature="COLORRGB" preset="COLOR" coarse="3">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="G1" attribute="G1" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="3" attribute="B1" feature="COLORRGB" preset="COLOR" coarse="4">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="B1" attribute="B1" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="4" attribute="W1" feature="COLORRGB" preset="COLOR" coarse="5">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="W1" attribute="W1" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="5" attribute="R2" feature="COLORRGB" preset="COLOR" coarse="6" default="255">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="R2" attribute="R2" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="6" attribute="G2" feature="COLORRGB" preset="COLOR" coarse="7">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="G2" attribute="G2" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="7" attribute="B2" feature="COLORRGB" preset="COLOR" coarse="8">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="B2" attribute="B2" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="8" attribute="W2" feature="COLORRGB" preset="COLOR" coarse="9">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="W2" attribute="W2" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="9" attribute="R3" feature="COLORRGB" preset="COLOR" coarse="10" default="255">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="R3" attribute="R3" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="10" attribute="G3" feature="COLORRGB" preset="COLOR" coarse="11">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="G3" attribute="G3" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="11" attribute="B3" feature="COLORRGB" preset="COLOR" coarse="12">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="B3" attribute="B3" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="12" attribute="W3" feature="COLORRGB" preset="COLOR" coarse="13">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="W3" attribute="W3" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="13" attribute="R4" feature="COLORRGB" preset="COLOR" coarse="14" default="255">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="R4" attribute="R4" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="14" attribute="G4" feature="COLORRGB" preset="COLOR" coarse="15">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="G4" attribute="G4" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="15" attribute="B4" feature="COLORRGB" preset="COLOR" coarse="16">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="B4" attribute="B4" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="16" attribute="W4" feature="COLORRGB" preset="COLOR" coarse="17">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="W4" attribute="W4" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="17" attribute="R5" feature="COLORRGB" preset="COLOR" coarse="18" default="255">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="R5" attribute="R5" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="18" attribute="G5" feature="COLORRGB" preset="COLOR" coarse="19">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="G5" attribute="G5" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="19" attribute="B5" feature="COLORRGB" preset="COLOR" coarse="20">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="B5" attribute="B5" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="20" attribute="W5" feature="COLORRGB" preset="COLOR" coarse="21">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="W5" attribute="W5" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="21" attribute="R6" feature="COLORRGB" preset="COLOR" coarse="22" default="255">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="R6" attribute="R6" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="22" attribute="G6" feature="COLORRGB" preset="COLOR" coarse="23">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="G6" attribute="G6" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="23" attribute="B6" feature="COLORRGB" preset="COLOR" coarse="24">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="B6" attribute="B6" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="24" attribute="W6" feature="COLORRGB" preset="COLOR" coarse="25">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="W6" attribute="W6" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="25" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" coarse="26" default="255">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="1" subattribute="SHUTTER" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" />
+				</ChannelType>
+				<ChannelType index="26" attribute="STROBESPEED" feature="SHUTTER" preset="BEAM" coarse="27" default="51">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="1" subattribute="STROBESPEED" attribute="STROBESPEED" feature="SHUTTER" preset="BEAM" />
+				</ChannelType>
+				<ChannelType index="27" attribute="STROBEEFFECT" feature="SHUTTER" preset="BEAM" coarse="28">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="STROBEEFFECT" attribute="STROBEEFFECT" feature="SHUTTER" preset="BEAM" />
+				</ChannelType>
+				<ChannelType index="28" attribute="SHAPESELECT" feature="SHAPESELECT" preset="GOBO" coarse="29">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="SHAPESELECT" attribute="SHAPESELECT" feature="SHAPESELECT" preset="GOBO" />
+				</ChannelType>
+				<ChannelType index="29" attribute="SHAPESPEED" feature="SHAPESELECT" preset="GOBO" coarse="30">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="SHAPESPEED" attribute="SHAPESPEED" feature="SHAPESELECT" preset="GOBO" />
+				</ChannelType>
+				<ChannelType index="30" attribute="COLORMIXER" feature="COLORMIX" preset="COLOR" coarse="31">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="COLORMIXCOLOR" attribute="COLORMIXER" feature="COLORMIX" preset="COLOR" />
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" RW="0" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<Body />
+		<AutoPresets index="4" />
+	</FixtureType>
+</MA>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.3.4/MA.xsd" major_vers="3" minor_vers="3" stream_vers="4">
+	<Info datetime="2026-07-16T08:56:56" showfile="new show 2025-12-17" />
+	<FixtureType index="11" name="RADIANT 3000" mode="BASIC-STROBE">
+		<InfoItems>
+			<Info>Created using MA FixtureBuilder version v1.5</Info>
+		</InfoItems>
+		<short_name>RADIANT 3000</short_name>
+		<manufacturer>EK</manufacturer>
+		<short_manufacturer>EK</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="LED" beamtype="Wash" beam_angle="35" beam_intensity="10000">
+				<Body>
+					<Size x="0.468" y="0.179" z="0.191" />
+				</Body>
+				<ChannelType index="0" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="1" fine="2" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer">
+						<ChannelSet index="0" name="Closed" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="Open" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="1" attribute="FLASHDURATION" feature="CONTROL" preset="CONTROL" coarse="3">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="FD" subattribute_user_name="Flash Duration" attribute="FLASHDURATION" attribute_user_name="Flash Duration" feature="CONTROL" feature_user_name="Control" preset="CONTROL" preset_user_name="Control">
+						<ChannelSet index="0" name="15ms-990ms" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="2" attribute="FLASHRATE" feature="CONTROL" preset="CONTROL" coarse="4">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="FDR" subattribute_user_name="Flash Duration Rate" attribute="FLASHRATE" attribute_user_name="Flash Duration Rate" feature="CONTROL" feature_user_name="Control" preset="CONTROL" preset_user_name="Control">
+						<ChannelSet index="0" name="No Flash" from_dmx="0" to_dmx="10" />
+						<ChannelSet index="1" name="Strobe Slow to Fast" from_dmx="11" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="3" attribute="FLASHFX" feature="CONTROL" preset="CONTROL" coarse="5" default="5.1">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="FFX" subattribute_user_name="Flash FX" attribute="FLASHFX" attribute_user_name="Flash FX" feature="CONTROL" feature_user_name="Control" preset="CONTROL" preset_user_name="Control">
+						<ChannelSet index="0" name="No Effect" from_dmx="0" to_dmx="2" />
+						<ChannelSet index="1" name="Static" from_dmx="3" to_dmx="5" />
+						<ChannelSet index="2" name="Ramp Up" from_dmx="6" to_dmx="42" />
+						<ChannelSet index="3" name="Ramp Down" from_dmx="43" to_dmx="85" />
+						<ChannelSet index="4" name="Ramp Up-Down" from_dmx="86" to_dmx="128" />
+						<ChannelSet index="5" name="Random" from_dmx="129" to_dmx="171" />
+						<ChannelSet index="6" name="Lightning" from_dmx="172" to_dmx="214" />
+						<ChannelSet index="7" name="Spikes" from_dmx="215" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<FixtureMacroCollect index="5" />
+		<Body />
+		<AutoPresets index="4" />
+		<RdmNotifications index="6">
+			<RdmNotification index="0" Type="Absent" Subcategory="RDM Warning" />
+		</RdmNotifications>
+	</FixtureType>
+</MA>

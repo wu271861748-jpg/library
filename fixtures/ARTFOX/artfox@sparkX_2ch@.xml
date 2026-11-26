@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.2.2/MA.xsd" major_vers="3" minor_vers="2" stream_vers="2">
+	<Info datetime="2019-01-02T11:40:42" showfile="new show 2019-01-02" />
+	<FixtureType index="2" name="SparkX">
+		<short_name>SparkX</short_name>
+		<manufacturer>ARTFOX</manufacturer>
+		<short_manufacturer>ARTFOX</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="None" beamtype="Wash" beam_angle="35" beam_intensity="10000">
+				<ChannelType index="0" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="1">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" subattribute_user_name="Fire" attribute="DIM" attribute_user_name="Fire" feature="DIMMER" feature_user_name="Fire" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+				<ChannelType index="1" attribute="DIM2" feature="DIMMER" preset="DIMMER" coarse="2">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM2" subattribute_user_name="Function" attribute="DIM2" attribute_user_name="Function" feature="DIMMER" feature_user_name="Fire" preset="DIMMER" preset_user_name="Dimmer">
+						<ChannelSet index="0" name="Warm Close" from_dmx="0" to_dmx="20" />
+						<ChannelSet index="1" name="Warm open" from_dmx="50" to_dmx="100" />
+						<ChannelSet index="2" name="Clear" from_dmx="150" to_dmx="200" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<FixtureMacroCollect index="5" />
+		<Body />
+		<AutoPresets index="4" />
+		<RdmNotifications index="6">
+			<RdmNotification index="0" Type="Absent" Subcategory="RDM Warning" />
+		</RdmNotifications>
+	</FixtureType>
+</MA>

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.0.0/MA.xsd" major_vers="3" minor_vers="0" stream_vers="0">
+	<Info datetime="2023-05-19T10:19:13" showfile="new show 2023-03-24" />
+	<FixtureType index="62" name="E-1000PS" mode="Mode 2">
+		<short_name>E-1000PS</short_name>
+		<manufacturer>Jolly</manufacturer>
+		<short_manufacturer>Jolly</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="None" beamtype="Wash" beam_angle="35" beam_intensity="10000">
+				<ChannelType index="0" attribute="TILT" feature="POSITION" preset="POSITION" coarse="1" fine="2" default="32767.5">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="-90" physto="90" subattribute="TILT" attribute="TILT" feature="POSITION" preset="POSITION" />
+				</ChannelType>
+				<ChannelType index="1" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="3" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" attribute="DIM" feature="DIMMER" preset="DIMMER" />
+				</ChannelType>
+				<ChannelType index="2" attribute="PLATEDIMMER" feature="DIMMER" preset="DIMMER" coarse="4">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="PLATEDIMMER" attribute="PLATEDIMMER" feature="DIMMER" preset="DIMMER" />
+				</ChannelType>
+				<ChannelType index="3" attribute="BEAMDIMMER" feature="DIMMER" preset="DIMMER" coarse="5">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="BEAMDIMMER" attribute="BEAMDIMMER" feature="DIMMER" preset="DIMMER" />
+				</ChannelType>
+				<ChannelType index="4" attribute="PLATEFLASHDURATION" feature="SHUTTER" preset="BEAM" coarse="6">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="PLATEFLASHDURATION" attribute="PLATEFLASHDURATION" feature="SHUTTER" preset="BEAM" />
+				</ChannelType>
+				<ChannelType index="5" attribute="PLATEFLASHRATE" feature="SHUTTER" preset="BEAM" coarse="7">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="PLATEFLASHRATE" attribute="PLATEFLASHRATE" feature="SHUTTER" preset="BEAM" />
+				</ChannelType>
+				<ChannelType index="6" attribute="BEAMFLASHDURATION" feature="SHUTTER" preset="BEAM" coarse="8">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="BEAMFLASHDURATION" attribute="BEAMFLASHDURATION" feature="SHUTTER" preset="BEAM" />
+				</ChannelType>
+				<ChannelType index="7" attribute="BEAMFLASHRATE" feature="SHUTTER" preset="BEAM" coarse="9">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="BEAMFLASHRATE" attribute="BEAMFLASHRATE" feature="SHUTTER" preset="BEAM" />
+				</ChannelType>
+				<ChannelType index="8" attribute="PIXRED" feature="COLORPIX" preset="COLOR" coarse="10" default="255">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="PIXRED" attribute="PIXRED" feature="COLORPIX" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="9" attribute="PIXGREEN" feature="COLORPIX" preset="COLOR" coarse="11" default="255">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="PIXGREEN" attribute="PIXGREEN" feature="COLORPIX" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="10" attribute="PIXBLUE" feature="COLORPIX" preset="COLOR" coarse="12" default="255">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="PIXBLUE" attribute="PIXBLUE" feature="COLORPIX" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="11" attribute="FUNTRON" feature="CONTROL" preset="CONTROL" coarse="13">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="FUNTRON" attribute="FUNTRON" feature="CONTROL" preset="CONTROL">
+						<ChannelSet index="0" name="No Function" from_dmx="0" to_dmx="5" />
+						<ChannelSet index="1" name="Liner" from_dmx="6" to_dmx="10" />
+						<ChannelSet index="2" name="Square" from_dmx="11" to_dmx="15" />
+						<ChannelSet index="3" name="Inv Square" from_dmx="16" to_dmx="20" />
+						<ChannelSet index="4" name="Scurve" from_dmx="21" to_dmx="25" />
+						<ChannelSet index="5" name="600HZ" from_dmx="26" to_dmx="30" />
+						<ChannelSet index="6" name="1200HZ" from_dmx="31" to_dmx="35" />
+						<ChannelSet index="7" name="4000HZ" from_dmx="36" to_dmx="40" />
+						<ChannelSet index="8" name="6000HZ" from_dmx="41" to_dmx="45" />
+						<ChannelSet index="9" name="25000HZ" from_dmx="46" to_dmx="50" />
+						<ChannelSet index="10" name="Fan Mode Auto" from_dmx="51" to_dmx="55" />
+						<ChannelSet index="11" name="Fan Mode Fast" from_dmx="56" to_dmx="60" />
+						<ChannelSet index="12" name="Tilt Reset" from_dmx="61" to_dmx="65" />
+						<ChannelSet index="13" name="Tilt Invert ON" from_dmx="66" to_dmx="70" />
+						<ChannelSet index="14" name="Tilt Invert OFF" from_dmx="71" to_dmx="75" />
+						<ChannelSet index="15" name="Plate Invert ON" from_dmx="76" to_dmx="80" />
+						<ChannelSet index="16" name="Plate Invert OFF" from_dmx="81" to_dmx="85" />
+						<ChannelSet index="17" name="Beam Invert ON" from_dmx="86" to_dmx="90" />
+						<ChannelSet index="18" name="Beam Invert OFF" from_dmx="91" to_dmx="95" />
+						<ChannelSet index="19" name="Dimmer Speed Smooth" from_dmx="96" to_dmx="100" />
+						<ChannelSet index="20" name="Dimmer Speed Fast" from_dmx="101" to_dmx="105" />
+						<ChannelSet index="21" name="No DMX Hold" from_dmx="106" to_dmx="110" />
+						<ChannelSet index="22" name="No DMX Shutter Closed" from_dmx="111" to_dmx="115" />
+						<ChannelSet index="23" name="No DMX Static Mode" from_dmx="116" to_dmx="120" />
+						<ChannelSet index="24" name="No Function" from_dmx="121" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" RW="0" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<Body />
+		<AutoPresets index="4" />
+	</FixtureType>
+</MA>

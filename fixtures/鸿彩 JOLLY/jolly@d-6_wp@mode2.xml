@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.0.0/MA.xsd" major_vers="3" minor_vers="0" stream_vers="0">
+	<Info datetime="2021-06-28T16:17:43" showfile="new show 2021-04-22" />
+	<FixtureType index="5" name="D-6 WP" mode="Mode2">
+		<short_name>D-6 WP</short_name>
+		<manufacturer>Jolly</manufacturer>
+		<short_manufacturer>Jolly</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="None" beamtype="Wash" beam_angle="35" beam_intensity="10000">
+				<ChannelType index="0" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" coarse="1" fine="2" default="65535" color="ff0000">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB1" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="Red" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="1" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" coarse="3" fine="4" default="65535" color="00ff00">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB2" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="Green" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="2" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" coarse="5" fine="6" default="65535" color="0000ff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB3" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="Blue" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="3" attribute="COLORRGB5" feature="COLORRGB" preset="COLOR" coarse="7" fine="8" color="ffffff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB5" attribute="COLORRGB5" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="White" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="4" attribute="CTO" feature="CTC" preset="COLOR" coarse="9">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="CTO" attribute="CTO" feature="CTC" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="5" attribute="COLORMIXER" feature="COLORMIX" preset="COLOR" coarse="10">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="COLORMIXCOLOR" attribute="COLORMIXER" feature="COLORMIX" preset="COLOR">
+						<ChannelSet index="0" name="Color Macro" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="6" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" coarse="11" default="255">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="1" subattribute="SHUTTER" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" />
+				</ChannelType>
+				<ChannelType index="7" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="12" fine="13">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" attribute="DIM" feature="DIMMER" preset="DIMMER" />
+				</ChannelType>
+				<ChannelType index="8" attribute="PAN" feature="POSITION" preset="POSITION" coarse="14" fine="15" default="32767.5">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="-180" physto="180" subattribute="PAN" attribute="PAN" feature="POSITION" preset="POSITION" />
+				</ChannelType>
+				<ChannelType index="9" attribute="TILT" feature="POSITION" preset="POSITION" coarse="17" fine="18" default="32767.5">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="-90" physto="90" subattribute="TILT" attribute="TILT" feature="POSITION" preset="POSITION" />
+				</ChannelType>
+				<ChannelType index="10" attribute="DIST" feature="POSITION" preset="POSITION" coarse="16">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="360" subattribute="DIST" attribute="DIST" feature="POSITION" preset="POSITION">
+						<ChannelSet index="0" name="X Rot" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="11" attribute="ROLL" feature="POSITION" preset="POSITION" coarse="19">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="360" subattribute="ROLL" attribute="ROLL" feature="POSITION" preset="POSITION">
+						<ChannelSet index="0" name="Y Rot" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="12" attribute="EFFECTMACROS" feature="EFFECTMACROS" preset="BEAM" coarse="20">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="EFFECTMACROSELECT" attribute="EFFECTMACROS" feature="EFFECTMACROS" preset="BEAM" />
+				</ChannelType>
+				<ChannelType index="13" attribute="PIXRED" feature="COLORPIX" preset="COLOR" coarse="21" default="0.001">
+					<ChannelFunction index="0" name="Pix Red" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="0.45" subattribute="PIXRED" attribute="PIXRED" feature="COLORPIX" preset="COLOR">
+						<ChannelSet index="0" name="Pix Red" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="14" attribute="PIXGREEN" feature="COLORPIX" preset="COLOR" coarse="22" default="0.001">
+					<ChannelFunction index="0" name="Pix Green" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="0.45" subattribute="PIXGREEN" attribute="PIXGREEN" feature="COLORPIX" preset="COLOR">
+						<ChannelSet index="0" name="Pix Green" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="15" attribute="PIXBLUE" feature="COLORPIX" preset="COLOR" coarse="23" default="0.001">
+					<ChannelFunction index="0" name="Pix Blue" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="0.45" subattribute="PIXBLUE" attribute="PIXBLUE" feature="COLORPIX" preset="COLOR">
+						<ChannelSet index="0" name="Pix Blue" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="16" attribute="PIXSHUTTER" feature="PIXSHUTTER" preset="BEAM" coarse="24" default="255">
+					<ChannelFunction index="0" name="Pix Shutter" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="0.45" subattribute="PIXSHUTTER" attribute="PIXSHUTTER" feature="PIXSHUTTER" preset="BEAM">
+						<ChannelSet index="0" name="Pix Shutter" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="17" attribute="DIM2" feature="DIMMER" preset="DIMMER" coarse="25" default="254.999">
+					<ChannelFunction index="0" name="Pix Dimmer" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="0.45" subattribute="DIM2" attribute="DIM2" feature="DIMMER" preset="DIMMER">
+						<ChannelSet index="0" name="Pix Dimmer" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="18" attribute="SHAPESELECT" feature="SHAPESELECT" preset="GOBO" coarse="26">
+					<ChannelFunction index="0" name="Shape Select" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="0.45" subattribute="SHAPESELECT" attribute="SHAPESELECT" feature="SHAPESELECT" preset="GOBO">
+						<ChannelSet index="0" name="close" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" from_dmx="8" to_dmx="8" />
+						<ChannelSet index="2" from_dmx="9" to_dmx="9" />
+						<ChannelSet index="3" from_dmx="10" to_dmx="10" />
+						<ChannelSet index="4" from_dmx="11" to_dmx="11" />
+						<ChannelSet index="5" from_dmx="12" to_dmx="12" />
+						<ChannelSet index="6" from_dmx="13" to_dmx="13" />
+						<ChannelSet index="7" from_dmx="14" to_dmx="14" />
+						<ChannelSet index="8" from_dmx="15" to_dmx="15" />
+						<ChannelSet index="9" from_dmx="16" to_dmx="16" />
+						<ChannelSet index="10" from_dmx="17" to_dmx="17" />
+						<ChannelSet index="11" from_dmx="18" to_dmx="18" />
+						<ChannelSet index="12" from_dmx="19" to_dmx="19" />
+						<ChannelSet index="13" from_dmx="20" to_dmx="20" />
+						<ChannelSet index="14" from_dmx="21" to_dmx="21" />
+						<ChannelSet index="15" from_dmx="22" to_dmx="22" />
+						<ChannelSet index="16" from_dmx="23" to_dmx="23" />
+						<ChannelSet index="17" from_dmx="24" to_dmx="24" />
+						<ChannelSet index="18" from_dmx="25" to_dmx="25" />
+						<ChannelSet index="19" from_dmx="26" to_dmx="26" />
+						<ChannelSet index="20" from_dmx="27" to_dmx="27" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="19" attribute="SHAPESPEED" feature="SHAPESELECT" preset="GOBO" coarse="27">
+					<ChannelFunction index="0" name="Shape Speed" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="0.45" subattribute="SHAPESPEED" attribute="SHAPESPEED" feature="SHAPESELECT" preset="GOBO">
+						<ChannelSet index="0" name="Shape Speed" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="20" attribute="SHAPETRANSITI" feature="SHAPESELECT" preset="GOBO" coarse="28">
+					<ChannelFunction index="0" name="Shape Transiti" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="0.45" subattribute="SHAPETRANSITI" attribute="SHAPETRANSITI" feature="SHAPESELECT" preset="GOBO">
+						<ChannelSet index="0" name="Shape Transiti" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="21" attribute="SHAPECOLOR" feature="COLORSHAPE" preset="COLOR" coarse="29" default="254.999">
+					<ChannelFunction index="0" name="Shape Red" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="-60" physto="60" subattribute="COLORSHAPE" attribute="SHAPECOLOR" feature="COLORSHAPE" preset="COLOR">
+						<ChannelSet index="0" name="Shape Red" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="22" attribute="SHAPEGREEN" feature="COLORSHAPE" preset="COLOR" coarse="30" default="254.999">
+					<ChannelFunction index="0" name="Shape Green" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="-60" physto="60" subattribute="SHAPEGREEN" attribute="SHAPEGREEN" feature="COLORSHAPE" preset="COLOR">
+						<ChannelSet index="0" name="Shape Green" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="23" attribute="SHAPEBLUE" feature="COLORSHAPE" preset="COLOR" coarse="31" default="254.999">
+					<ChannelFunction index="0" name="Shape Blue" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="360" subattribute="SHAPEBLUE" attribute="SHAPEBLUE" feature="COLORSHAPE" preset="COLOR">
+						<ChannelSet index="0" name="Shape Blue" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="24" attribute="SHAPEWHITE" feature="COLORSHAPE" preset="COLOR" coarse="32">
+					<ChannelFunction index="0" name="Shape White" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="360" subattribute="SHAPEWHITE" attribute="SHAPEWHITE" feature="COLORSHAPE" preset="COLOR">
+						<ChannelSet index="0" name="Shape White" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="25" attribute="DIMMERCURVE" feature="DIMMER" preset="DIMMER" coarse="33" default="255">
+					<ChannelFunction index="0" name="Shape Dimmer" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="DIMMERCURVE" attribute="DIMMERCURVE" feature="DIMMER" preset="DIMMER">
+						<ChannelSet index="0" name="Shape Dimmer" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="26" attribute="MININTENSITY" feature="DIMMER" preset="DIMMER" coarse="34">
+					<ChannelFunction index="0" name="Black Dimmer" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="MININTENSITY" attribute="MININTENSITY" feature="DIMMER" preset="DIMMER">
+						<ChannelSet index="0" name="Black Dimmer" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="27" attribute="SHAPEOFFSET" feature="SHAPESELECT" preset="GOBO" coarse="35">
+					<ChannelFunction index="0" name="Shape Offset" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="-45" physto="45" subattribute="SHAPEOFFSET" attribute="SHAPEOFFSET" feature="SHAPESELECT" preset="GOBO">
+						<ChannelSet index="0" name="Shape Offset" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="28" attribute="SHAPESHUTTER" feature="SHAPESHUTTER" preset="BEAM" coarse="36" default="255">
+					<ChannelFunction index="0" name="Shape Shutter" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="1" subattribute="SHAPESHUTTER" attribute="SHAPESHUTTER" feature="SHAPESHUTTER" preset="BEAM">
+						<ChannelSet index="0" name="Shape Shutter" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="29" attribute="BLACKSHUTTER" feature="BLACKSHUTTER" preset="BEAM" coarse="37">
+					<ChannelFunction index="0" name="Black Shutter" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="1" subattribute="BLACKSHUTTER" attribute="BLACKSHUTTER" feature="BLACKSHUTTER" preset="BEAM">
+						<ChannelSet index="0" name="Black Shutter" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="30" attribute="BLACKSELECT" feature="BLACKSELECT" preset="GOBO" coarse="38">
+					<ChannelFunction index="0" name="Black Select" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="BLACKSELECT" attribute="BLACKSELECT" feature="BLACKSELECT" preset="GOBO">
+						<ChannelSet index="0" name="Black Select" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<Body />
+		<AutoPresets index="4" />
+	</FixtureType>
+</MA>

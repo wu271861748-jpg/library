@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA major_vers="3" minor_vers="1" stream_vers="1">
+	<FixtureType name="FINE 404dg 4" mode="4 CH" scale="0.000">
+		<short_name>FINE 404dg 4</short_name>
+		<manufacturer>Fineart</manufacturer>
+		<short_manufacturer>Fineart</short_manufacturer>
+		<notes>Set DIP switch 1 to off for start address 1, set to on for start address 193.  All other switches should be off</notes>
+		<revision date="2012-03-13" text="Automated import from MA Lighting (C-RevNum: 4; Date: 2012-02-29)"/>
+		<Modules>
+			<![CDATA[Module 1]]>
+			<Module name="Cluster" class="LED" beamtype="Wash" scale="0.000" beam_angle="25.000" beam_intensity="10000.000">
+				<![CDATA[1]]>
+				<ChannelType attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="1" default="0.000" highlight_value="100.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<Body>
+					<Size x="0.062" y="0.062" z="0.250"/>
+					<Center x="0.000" y="0.000" z="-0.250"/>
+					<Light x="0.000" y="0.000" z="0.250"/>
+				</Body>
+			</Module>
+		</Modules>
+		<Instances>
+			<![CDATA[Instance 1]]>
+			<Instance type="Cluster" patch="1" X="-0.219" Y="-0.219" locked="true"/>
+			<![CDATA[Instance 2]]>
+			<Instance type="Cluster" patch="2" X="-0.156" Y="-0.219" locked="true"/>
+			<![CDATA[Instance 3]]>
+			<Instance type="Cluster" patch="3" X="-0.094" Y="-0.219" locked="true"/>
+			<![CDATA[Instance 4]]>
+			<Instance type="Cluster" patch="4" X="-0.031" Y="-0.219" locked="true"/>
+		</Instances>
+		<Wheels/>
+		<QFuncs/>
+	</FixtureType>
+</MA>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/2.3.0/MA.xsd" major_vers="2" minor_vers="3" stream_vers="0">
+	<Info datetime="2012-11-10T23:45:00" showfile="2012shanhaizhan" />
+	<FixtureType index="1" name="DL4-Mov" mode="v1.0.0">
+		<short_name>DL4-Mov</short_name>
+		<manufacturer>Jolly</manufacturer>
+		<short_manufacturer>Jolly</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="None" beamtype="Wash" beam_angle="35.000" beam_intensity="10000.000">
+				<Body>
+					<Size x="0.000" y="0.000" z="0.000" />
+					<Center x="0.000" y="0.000" z="0.000" />
+					<Light x="0.000" y="0.000" z="0.000" />
+				</Body>
+				<ChannelType index="0" attribute="PAN" feature="POSITION" preset="POSITION" coarse="1" fine="2">
+					<ChannelFunction index="0" from="0.000" to="255.000" physfrom="-180.000" physto="180.000" subattribute="PAN" attribute="PAN" feature="POSITION" preset="POSITION" />
+				</ChannelType>
+				<ChannelType index="1" attribute="TILT" feature="POSITION" preset="POSITION" coarse="3" fine="4">
+					<ChannelFunction index="0" from="0.000" to="255.000" physfrom="-90.000" physto="90.000" subattribute="TILT" attribute="TILT" feature="POSITION" preset="POSITION" />
+				</ChannelType>
+				<ChannelType index="2" attribute="POSITIONMSPEED" feature="MSPEED" preset="CONTROL" coarse="5">
+					<ChannelFunction index="0" from="0.000" to="100.000" subattribute="POSITIONMSPEEDTRACK" attribute="POSITIONMSPEED" feature="MSPEED" preset="CONTROL" />
+				</ChannelType>
+				<ChannelType index="3" attribute="ZOOM" feature="FOCUS" preset="FOCUS" coarse="6">
+					<ChannelFunction index="0" from="0.000" to="100.000" physfrom="0.700" physto="1.000" subattribute="ZOOM" attribute="ZOOM" feature="FOCUS" preset="FOCUS" />
+				</ChannelType>
+				<ChannelType index="4" attribute="FOCUS" feature="FOCUS" preset="FOCUS" coarse="7">
+					<ChannelFunction index="0" from="0.000" to="100.000" subattribute="FOCUS" attribute="FOCUS" feature="FOCUS" preset="FOCUS" />
+				</ChannelType>
+				<ChannelType index="5" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" coarse="8" default="255.000">
+					<ChannelFunction index="0" from="0.000" to="100.000" physfrom="1.000" subattribute="SHUTTER" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" />
+				</ChannelType>
+				<ChannelType index="6" attribute="Reset" feature="CONTROL" preset="CONTROL" coarse="9">
+					<ChannelFunction index="0" name="Lamp On/off" from="0.000" to="255.000" subattribute="Reset" attribute="Reset" feature="CONTROL" preset="CONTROL">
+						<ChannelSet index="0" name="Lamp off" from_dmx="40" to_dmx="49" />
+						<ChannelSet index="1" name="All Reset" from_dmx="80" to_dmx="84" />
+						<ChannelSet index="2" name="Lamp On" from_dmx="250" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="7" attribute="DUMMY" feature="CONTROL" preset="CONTROL" coarse="10">
+					<ChannelFunction index="0" from="0.000" to="100.000" subattribute="RESERVED" attribute="DUMMY" feature="CONTROL" preset="CONTROL" />
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" patch="1" RW="0.000" />
+		</Instances>
+		<Wheels index="2" />
+	</FixtureType>
+</MA>

@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.2.2/MA.xsd" major_vers="3" minor_vers="2" stream_vers="2">
+	<Info datetime="2021-06-04T10:54:06" showfile="guangzhou 2021" />
+	<FixtureType index="33" name="IP-D800" mode="23CH">
+		<short_name>IP-D800</short_name>
+		<manufacturer>LIGHT SKY</manufacturer>
+		<short_manufacturer>LIGHT SKY</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="Headmover" beamtype="Spot" beam_angle="1" beam_intensity="10000">
+				<Body>
+					<Size x="0.509" y="0.27" z="0.567" />
+				</Body>
+				<ChannelType index="0" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" coarse="1">
+					<ChannelFunction index="0" from="0" to="0.35" min_dmx_24="0" max_dmx_24="655359" physfrom="1" subattribute="SHUTTER" subattribute_user_name="Shutter" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="White" from_dmx="0" to_dmx="9" />
+					</ChannelFunction>
+					<ChannelFunction index="1" from="0.39" to="19.21" min_dmx_24="655360" max_dmx_24="3276799" subattribute="STROBE_PULSE_OPEN" subattribute_user_name="Pulse Open" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam" />
+					<ChannelFunction index="2" from="19.6" to="34.9" min_dmx_24="3276800" max_dmx_24="5898239" subattribute="STROBE_PULSE_CLOSE" subattribute_user_name="Pulse Close" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam" />
+					<ChannelFunction index="3" from="47.05" to="70.19" min_dmx_24="7864320" max_dmx_24="11796479" physfrom="5" physto="15" subattribute="STROBE_RANDOM" subattribute_user_name="Rnd" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Random&gt;" from_dmx="130" to_dmx="140" />
+						<ChannelSet index="1" name="Random&gt;&gt;&gt;" from_dmx="178" to_dmx="179" />
+					</ChannelFunction>
+					<ChannelFunction index="4" from="70.58" to="100" min_dmx_24="11796480" max_dmx_24="16777215" physfrom="5" physto="15" subattribute="STROBE" subattribute_user_name="Strobe" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="&gt;" from_dmx="190" to_dmx="200" />
+						<ChannelSet index="1" name="&gt;&gt;" from_dmx="220" to_dmx="230" />
+						<ChannelSet index="2" name="&gt;&gt;&gt;" from_dmx="254" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="1" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="2" fine="3" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer">
+						<ChannelSet index="0" name="Close" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="Open" from_dmx="65535" to_dmx="65535" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="2" attribute="COLOR1" feature="COLOR1" preset="COLOR" coarse="4" snap="true">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" wheel="1" subattribute="COLOR1" subattribute_user_name="Select" attribute="COLOR1" attribute_user_name="C1" feature="COLOR1" feature_user_name="Color1" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="White" from_dmx="0" to_dmx="1" slot_index="0" />
+						<ChannelSet index="1" name="Red" from_dmx="105" to_dmx="119" slot_index="1" />
+						<ChannelSet index="2" name="Orange" from_dmx="120" to_dmx="134" slot_index="2" />
+						<ChannelSet index="3" name="CTO 1" from_dmx="135" to_dmx="149" slot_index="3" />
+						<ChannelSet index="4" name="CTO 2" from_dmx="150" to_dmx="164" slot_index="4" />
+						<ChannelSet index="5" name="CTO 3" from_dmx="165" to_dmx="179" slot_index="5" />
+						<ChannelSet index="6" name="&gt;&gt;" from_dmx="180" to_dmx="190" />
+						<ChannelSet index="7" name="&gt;&gt;&gt;" from_dmx="210" to_dmx="214" />
+						<ChannelSet index="8" name="&lt;&lt;&lt;" from_dmx="215" to_dmx="220" />
+						<ChannelSet index="9" name="&lt;&lt;" from_dmx="245" to_dmx="249" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="3" attribute="BLADE1A" feature="SHAPER" preset="SHAPERS" coarse="5">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="0.45" subattribute="BLADE1A" subattribute_user_name="1A" attribute="BLADE1A" attribute_user_name="1A" feature="SHAPER" feature_user_name="Frames" preset="SHAPERS" preset_user_name="Shapers" />
+				</ChannelType>
+				<ChannelType index="4" attribute="BLADE1B" feature="SHAPER" preset="SHAPERS" coarse="6">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="0.45" subattribute="BLADE1B" subattribute_user_name="1B" attribute="BLADE1B" attribute_user_name="1B" feature="SHAPER" feature_user_name="Frames" preset="SHAPERS" preset_user_name="Shapers" />
+				</ChannelType>
+				<ChannelType index="5" attribute="BLADE2A" feature="SHAPER" preset="SHAPERS" coarse="7">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="0.45" subattribute="BLADE2A" subattribute_user_name="2A" attribute="BLADE2A" attribute_user_name="2A" feature="SHAPER" feature_user_name="Frames" preset="SHAPERS" preset_user_name="Shapers" />
+				</ChannelType>
+				<ChannelType index="6" attribute="BLADE2B" feature="SHAPER" preset="SHAPERS" coarse="8">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="0.45" subattribute="BLADE2B" subattribute_user_name="2B" attribute="BLADE2B" attribute_user_name="2B" feature="SHAPER" feature_user_name="Frames" preset="SHAPERS" preset_user_name="Shapers" />
+				</ChannelType>
+				<ChannelType index="7" attribute="BLADE3A" feature="SHAPER" preset="SHAPERS" coarse="9">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="0.45" subattribute="BLADE3A" subattribute_user_name="3A" attribute="BLADE3A" attribute_user_name="3A" feature="SHAPER" feature_user_name="Frames" preset="SHAPERS" preset_user_name="Shapers" />
+				</ChannelType>
+				<ChannelType index="8" attribute="BLADE3B" feature="SHAPER" preset="SHAPERS" coarse="10">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="0.45" subattribute="BLADE3B" subattribute_user_name="3B" attribute="BLADE3B" attribute_user_name="3B" feature="SHAPER" feature_user_name="Frames" preset="SHAPERS" preset_user_name="Shapers" />
+				</ChannelType>
+				<ChannelType index="9" attribute="BLADE4A" feature="SHAPER" preset="SHAPERS" coarse="11">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="0.45" subattribute="BLADE4A" subattribute_user_name="4A" attribute="BLADE4A" attribute_user_name="4A" feature="SHAPER" feature_user_name="Frames" preset="SHAPERS" preset_user_name="Shapers" />
+				</ChannelType>
+				<ChannelType index="10" attribute="BLADE4B" feature="SHAPER" preset="SHAPERS" coarse="12">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="0.45" subattribute="BLADE4B" subattribute_user_name="4B" attribute="BLADE4B" attribute_user_name="4B" feature="SHAPER" feature_user_name="Frames" preset="SHAPERS" preset_user_name="Shapers" />
+				</ChannelType>
+				<ChannelType index="11" attribute="FRAMINGANGLE" feature="SHAPER" preset="SHAPERS" coarse="13">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="FRAMINGANGLE" subattribute_user_name="FramingAngle" attribute="FRAMINGANGLE" attribute_user_name="FramingAngle" feature="SHAPER" feature_user_name="Frames" preset="SHAPERS" preset_user_name="Shapers">
+						<ChannelSet index="0" name="0" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="120" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="12" attribute="FRAMEMACROS" feature="SHAPER" preset="SHAPERS" coarse="14">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="FRAMEMACROSELECT" subattribute_user_name="MacroSelect" attribute="FRAMEMACROS" attribute_user_name="FrameMacros" feature="SHAPER" feature_user_name="Frames" preset="SHAPERS" preset_user_name="Shapers">
+						<ChannelSet index="0" name="White" from_dmx="0" to_dmx="10" />
+						<ChannelSet index="1" name="Shape 1" from_dmx="11" to_dmx="20" />
+						<ChannelSet index="2" name="Shape 2" from_dmx="21" to_dmx="30" />
+						<ChannelSet index="3" name="Shape 3" from_dmx="31" to_dmx="40" />
+						<ChannelSet index="4" name="Shape 4" from_dmx="41" to_dmx="50" />
+						<ChannelSet index="5" name="Shape 5" from_dmx="51" to_dmx="60" />
+						<ChannelSet index="6" name="Shape 6" from_dmx="61" to_dmx="70" />
+						<ChannelSet index="7" name="Shape 7" from_dmx="71" to_dmx="80" />
+						<ChannelSet index="8" name="Shape 8" from_dmx="81" to_dmx="90" />
+						<ChannelSet index="9" name="Shape 9" from_dmx="91" to_dmx="100" />
+						<ChannelSet index="10" name="Shape 10" from_dmx="101" to_dmx="110" />
+						<ChannelSet index="11" name="Shape 11" from_dmx="111" to_dmx="120" />
+						<ChannelSet index="12" name="Shape 12" from_dmx="121" to_dmx="130" />
+						<ChannelSet index="13" name="Shape 13" from_dmx="131" to_dmx="140" />
+						<ChannelSet index="14" name="Shape 14" from_dmx="141" to_dmx="150" />
+						<ChannelSet index="15" name="Shape 15" from_dmx="151" to_dmx="160" />
+						<ChannelSet index="16" name="Shape 16" from_dmx="161" to_dmx="170" />
+						<ChannelSet index="17" name="Shape 17" from_dmx="171" to_dmx="180" />
+						<ChannelSet index="18" name="Shape 18" from_dmx="181" to_dmx="190" />
+						<ChannelSet index="19" name="Shape 19" from_dmx="191" to_dmx="200" />
+						<ChannelSet index="20" name="Shape 20" from_dmx="201" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="13" attribute="FRAMEMACROSIZE" feature="SHAPER" preset="SHAPERS" coarse="15">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="FRAMEMACROSIZE" subattribute_user_name="Frame Zoom" attribute="FRAMEMACROSIZE" attribute_user_name="Frame Zoom" feature="SHAPER" feature_user_name="Frames" preset="SHAPERS" preset_user_name="Shapers" />
+				</ChannelType>
+				<ChannelType index="14" attribute="IRIS" feature="BEAM1" preset="BEAM" coarse="16">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="1" physto="1" subattribute="IRIS" subattribute_user_name="Iris" attribute="IRIS" attribute_user_name="Iris" feature="BEAM1" feature_user_name="Beam" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Max" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="Min" from_dmx="127" to_dmx="127" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="15" attribute="ZOOM" feature="FOCUS" preset="FOCUS" coarse="17" fine="18" default="65535">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="55" physto="5" subattribute="ZOOM" subattribute_user_name="Zoom" attribute="ZOOM" attribute_user_name="Zoom" feature="FOCUS" feature_user_name="Focus" preset="FOCUS" preset_user_name="Focus">
+						<ChannelSet index="0" name="Max" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="Min" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="16" attribute="FOCUS" feature="FOCUS" preset="FOCUS" coarse="19" fine="20" default="32767.5">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="FOCUS" subattribute_user_name="Focus" attribute="FOCUS" attribute_user_name="Focus" feature="FOCUS" feature_user_name="Focus" preset="FOCUS" preset_user_name="Focus" />
+				</ChannelType>
+				<ChannelType index="17" attribute="AUTODISTANCE" feature="FOCUS" preset="FOCUS" coarse="21" fine="22">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="AUTODISTANCE" subattribute_user_name="Auto Distance" attribute="AUTODISTANCE" attribute_user_name="Auto Distance" feature="FOCUS" feature_user_name="Focus" preset="FOCUS" preset_user_name="Focus">
+						<ChannelSet index="0" name="White" from_dmx="0" to_dmx="9" />
+						<ChannelSet index="1" name="5m" from_dmx="10" to_dmx="19" />
+						<ChannelSet index="2" name="10m" from_dmx="20" to_dmx="29" />
+						<ChannelSet index="3" name="15m" from_dmx="30" to_dmx="39" />
+						<ChannelSet index="4" name="20m" from_dmx="40" to_dmx="49" />
+						<ChannelSet index="5" name="30m" from_dmx="50" to_dmx="59" />
+						<ChannelSet index="6" name="40m" from_dmx="60" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="18" attribute="FUNCTION" feature="CONTROL" preset="CONTROL" coarse="23">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="MODE" subattribute_user_name="Mode" attribute="FUNCTION" attribute_user_name="Function" feature="CONTROL" feature_user_name="Control" preset="CONTROL" preset_user_name="Control">
+						<ChannelSet index="0" name="White" from_dmx="0" to_dmx="10" />
+						<ChannelSet index="1" name="ALL Reset" from_dmx="11" to_dmx="20" />
+						<ChannelSet index="2" name="Color Reset" from_dmx="31" to_dmx="40" />
+						<ChannelSet index="3" name="Shape Reset" from_dmx="51" to_dmx="60" />
+						<ChannelSet index="4" name="Focus Reset" from_dmx="61" to_dmx="70" />
+						<ChannelSet index="5" name="Mute" from_dmx="71" to_dmx="80" />
+						<ChannelSet index="6" name="Normal" from_dmx="81" to_dmx="90" />
+						<ChannelSet index="7" name="Hight" from_dmx="91" to_dmx="100" />
+						<ChannelSet index="8" name="LCD Open" from_dmx="171" to_dmx="180" />
+						<ChannelSet index="9" name="LCD Auto" from_dmx="181" to_dmx="190" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" />
+		</Instances>
+		<Wheels index="2">
+			<Wheel index="0" subattribute="COLOR1" attribute="COLOR1" feature="COLOR1" preset="COLOR">
+				<Slot index="0" media_name="1" />
+				<Slot index="1" media_name="1" g="0" b="0" />
+				<Slot index="2" media_name="1" g="68" b="0" />
+				<Slot index="3" media_name="1" g="190" b="125" />
+				<Slot index="4" media_name="1" g="171" b="138" />
+				<Slot index="5" media_name="1" g="203" b="140" />
+			</Wheel>
+		</Wheels>
+		<VirtualFunctionBlocks index="3" />
+		<FixtureMacroCollect index="5" />
+		<Body />
+		<AutoPresets index="4" />
+		<RdmNotifications index="6">
+			<RdmNotification index="0" Type="Absent" Subcategory="RDM Warning" />
+		</RdmNotifications>
+	</FixtureType>
+</MA>

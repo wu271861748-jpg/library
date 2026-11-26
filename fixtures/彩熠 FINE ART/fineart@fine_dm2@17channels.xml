@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA major_vers="3" minor_vers="0" stream_vers="16">
+	<FixtureType name="FINE DM2" mode="17channels" scale="1.000">
+		<short_name>FINe DM2</short_name>
+		<manufacturer>Fineart</manufacturer>
+		<short_manufacturer>Fineart</short_manufacturer>
+		<Modules>
+			<![CDATA[Module 1]]>
+			<Module class="None" beamtype="Wash" scale="1.000" beam_angle="35.000" beam_intensity="10000.000">
+				<![CDATA[1]]>
+				<ChannelType attribute="PAN" feature="POSITION" preset="POSITION" coarse="1" fine="3" default="32767.750">
+					<ChannelFunction from="-200.000" to="200.000" min_dmx="0" max_dmx="65535" physfrom="-200.000" physto="200.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[2]]>
+				<ChannelType attribute="TILT" feature="POSITION" preset="POSITION" coarse="2" fine="4" default="32768.023">
+					<ChannelFunction from="-120.000" to="120.000" min_dmx="0" max_dmx="65535" physfrom="-120.000" physto="120.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[3]]>
+				<ChannelType attribute="Position MSpeed Track" feature="Position MSpeed" preset="CONTROL" coarse="5" default="0.000" snap="1">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[4]]>
+				<ChannelType attribute="ZOOM" feature="FOCUS" preset="FOCUS" coarse="6" default="127.500">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[5]]>
+				<ChannelType attribute="FOCUS" feature="FOCUS" preset="FOCUS" coarse="7" default="127.500">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[6]]>
+				<ChannelType attribute="IRIS" feature="IRIS" preset="BEAM" coarse="8" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[7]]>
+				<ChannelType attribute="BLADE1A" feature="SHAPER1" preset="SHAPERS" coarse="9" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[8]]>
+				<ChannelType attribute="BLADE2A" feature="SHAPER1" preset="SHAPERS" coarse="10" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[9]]>
+				<ChannelType attribute="LENSUP" feature="OTHER" preset="SHAPERS" coarse="11" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[10]]>
+				<ChannelType attribute="LENSLR" feature="OTHER" preset="SHAPERS" coarse="12" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[11]]>
+				<ChannelType attribute="IMAGEINVERT" feature="OTHER1" preset="VIDEO" coarse="13" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="Invert TB" from_dmx="0" to_dmx="63" auto_create="1"/>
+						<ChannelSet name="Invert BT" from_dmx="64" to_dmx="127" auto_create="1"/>
+						<ChannelSet name="InvertLR" from_dmx="128" to_dmx="191" auto_create="1"/>
+						<ChannelSet name="InvertRL" from_dmx="192" to_dmx="255" auto_create="1"/>
+					</ChannelFunction>
+				</ChannelType>
+				<![CDATA[12]]>
+				<ChannelType attribute="VIDEOSOURCE" feature="OTHER1" preset="VIDEO" coarse="14" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="Input2 Analog" from_dmx="0" to_dmx="15" auto_create="1"/>
+						<ChannelSet name="Input2 Video" from_dmx="16" to_dmx="31" auto_create="1"/>
+						<ChannelSet name="Input 2 YPBPR" from_dmx="32" to_dmx="47" auto_create="1"/>
+						<ChannelSet name="Input1 Analog" from_dmx="48" to_dmx="63" auto_create="1"/>
+						<ChannelSet name="Input1 Digital" from_dmx="64" to_dmx="79" auto_create="1"/>
+						<ChannelSet name="Input1 HDCP" from_dmx="80" to_dmx="95" auto_create="1"/>
+						<ChannelSet name="Input1 Scart" from_dmx="96" to_dmx="111" auto_create="1"/>
+						<ChannelSet name="Input3 Video" from_dmx="112" to_dmx="127" auto_create="1"/>
+						<ChannelSet name="Input3 YPBPR" from_dmx="128" to_dmx="143" auto_create="1"/>
+						<ChannelSet name="Input3 S-Video" from_dmx="144" to_dmx="159" auto_create="1"/>
+						<ChannelSet name="External" from_dmx="160" to_dmx="255" auto_create="1"/>
+					</ChannelFunction>
+				</ChannelType>
+				<![CDATA[13]]>
+				<ChannelType attribute="VIDEOMUTE" feature="OTHER1" preset="VIDEO" coarse="15" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[14]]>
+				<ChannelType attribute="Lamp On" feature="Lamp Control" preset="CONTROL" coarse="16" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="Power On" from_dmx="0" to_dmx="64" auto_create="1"/>
+						<ChannelSet name="none" from_dmx="64" to_dmx="127" auto_create="1"/>
+						<ChannelSet name="Project Reset" from_dmx="128" to_dmx="191" auto_create="1"/>
+						<ChannelSet name="Power Off" from_dmx="192" to_dmx="255" auto_create="1"/>
+					</ChannelFunction>
+				</ChannelType>
+				<![CDATA[15]]>
+				<ChannelType attribute="Fixture Global Reset" feature="Fixture Global Reset" preset="CONTROL" coarse="17" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="None" from_dmx="0" to_dmx="26" auto_create="1"/>
+						<ChannelSet name="Beam Reset" from_dmx="27" to_dmx="76" auto_create="1"/>
+						<ChannelSet name="PositionReset" from_dmx="77" to_dmx="127" auto_create="1"/>
+						<ChannelSet name="Global Reset" from_dmx="128" to_dmx="255" auto_create="1"/>
+					</ChannelFunction>
+				</ChannelType>
+				<Body>
+					<Size x="1.000" y="1.000" z="1.000"/>
+					<Center x="0.000" y="0.000" z="0.000"/>
+					<Light x="0.000" y="0.000" z="0.000"/>
+				</Body>
+			</Module>
+		</Modules>
+		<Instances>
+			<![CDATA[Instance 1]]>
+			<Instance patch="1" X="0.000" Y="0.000" locked="true"/>
+		</Instances>
+		<Wheels/>
+		<QFuncs/>
+	</FixtureType>
+</MA>

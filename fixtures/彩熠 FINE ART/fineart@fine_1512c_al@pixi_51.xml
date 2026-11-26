@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA major_vers="3" minor_vers="0" stream_vers="0">
+	<FixtureType name="FINE 1512C AL" mode="PIXI 51" scale="1.000">
+		<short_name>FINE 1512C AL</short_name>
+		<manufacturer>Fineart</manufacturer>
+		<short_manufacturer>Fineart</short_manufacturer>
+		<Modules>
+			<![CDATA[Module 1]]>
+			<Module class="LED" beamtype="Wash" scale="1.000" beam_angle="35.000" beam_intensity="10000.000">
+				<![CDATA[1]]>
+				<ChannelType attribute="CONTROL" feature="CONTROL" preset="CONTROL" coarse="1" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="RGBW Mode" from_dmx="6" to_dmx="15" auto_create="1"/>
+						<ChannelSet name="PIXIE Mode" from_dmx="16" to_dmx="25" auto_create="1"/>
+						<ChannelSet name="HSI Mode" from_dmx="26" to_dmx="35" auto_create="1"/>
+						<ChannelSet name="CMY ode" from_dmx="36" to_dmx="45" auto_create="1"/>
+						<ChannelSet name="CCT Mode" from_dmx="46" to_dmx="55" auto_create="1"/>
+						<ChannelSet name="GRB Mode" from_dmx="56" to_dmx="65" auto_create="1"/>
+					</ChannelFunction>
+				</ChannelType>
+				<![CDATA[2]]>
+				<ChannelType attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="2" default="0.000" highlight_value="100.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[3]]>
+				<ChannelType attribute="SHUTTER" feature="STROBE" preset="BEAM" coarse="3" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[4]]>
+				<ChannelType attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" coarse="4" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[5]]>
+				<ChannelType attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" coarse="5" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[6]]>
+				<ChannelType attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" coarse="6" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[7]]>
+				<ChannelType attribute="COLORRGB4" feature="COLORRGB" preset="COLOR" coarse="7" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<Body>
+					<Size x="1.000" y="1.000" z="1.000"/>
+					<Center x="0.000" y="0.000" z="0.000"/>
+					<Light x="0.000" y="0.000" z="0.000"/>
+				</Body>
+			</Module>
+			<![CDATA[Module 2]]>
+			<Module name="RGBW" class="LED" beamtype="Wash" scale="1.000" beam_angle="35.000" beam_intensity="10000.000">
+				<![CDATA[1]]>
+				<ChannelType attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" coarse="1" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[2]]>
+				<ChannelType attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" coarse="2" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[3]]>
+				<ChannelType attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" coarse="3" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[4]]>
+				<ChannelType attribute="COLORRGB4" feature="COLORRGB" preset="COLOR" coarse="4" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<Body>
+					<Size x="1.000" y="1.000" z="1.000"/>
+					<Center x="0.000" y="0.000" z="0.000"/>
+					<Light x="0.000" y="0.000" z="0.000"/>
+				</Body>
+			</Module>
+		</Modules>
+		<Instances>
+			<![CDATA[Instance 1]]>
+			<Instance patch="1" X="0.000" Y="0.000" locked="true"/>
+			<![CDATA[Instance 2]]>
+			<Instance type="RGBW" patch="8" X="0.000" Y="0.000" locked="true"/>
+			<![CDATA[Instance 3]]>
+			<Instance type="RGBW" patch="12" X="0.000" Y="0.000" locked="true"/>
+			<![CDATA[Instance 4]]>
+			<Instance type="RGBW" patch="16" X="0.000" Y="0.000" locked="true"/>
+			<![CDATA[Instance 5]]>
+			<Instance type="RGBW" patch="20" X="0.000" Y="0.000" locked="true"/>
+			<![CDATA[Instance 6]]>
+			<Instance type="RGBW" patch="24" X="0.000" Y="0.000" locked="true"/>
+			<![CDATA[Instance 7]]>
+			<Instance type="RGBW" patch="28" X="0.000" Y="0.000" locked="true"/>
+			<![CDATA[Instance 8]]>
+			<Instance type="RGBW" patch="32" X="0.000" Y="0.000" locked="true"/>
+			<![CDATA[Instance 9]]>
+			<Instance type="RGBW" patch="36" X="0.000" Y="0.000" locked="true"/>
+			<![CDATA[Instance 10]]>
+			<Instance type="RGBW" patch="40" X="0.000" Y="0.000" locked="true"/>
+			<![CDATA[Instance 11]]>
+			<Instance type="RGBW" patch="44" X="0.000" Y="0.000" locked="true"/>
+			<![CDATA[Instance 12]]>
+			<Instance type="RGBW" patch="48" X="0.000" Y="0.000" locked="true"/>
+			<![CDATA[Instance 13]]>
+			<Instance type="RGBW" patch="0" X="0.000" Y="0.000" locked="false"/>
+			<![CDATA[Instance 14]]>
+			<Instance type="RGBW" patch="0" X="0.000" Y="0.000" locked="false"/>
+		</Instances>
+		<Wheels/>
+		<QFuncs/>
+	</FixtureType>
+</MA>

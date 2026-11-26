@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA major_vers="3" minor_vers="0" stream_vers="0">
+	<FixtureType name="FINE 470 BSW IP" mode="standard" scale="1.000">
+		<short_name>FINE 470 BSW IP</short_name>
+		<manufacturer>Fineart</manufacturer>
+		<short_manufacturer>Fineart</short_manufacturer>
+		<Modules>
+			<![CDATA[Module 1]]>
+			<Module class="None" beamtype="Wash" scale="1.000" beam_angle="35.000" beam_intensity="10000.000">
+				<![CDATA[1]]>
+				<ChannelType attribute="COLOR1" feature="COLOR1" preset="COLOR" coarse="1" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[2]]>
+				<ChannelType attribute="SHUTTER" feature="STROBE" preset="BEAM" coarse="2" default="255.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[3]]>
+				<ChannelType attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="3" fine="4" default="0.000" highlight_value="100.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="65535" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[4]]>
+				<ChannelType attribute="GOBO1" feature="GOBO1" preset="GOBO" coarse="5" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[5]]>
+				<ChannelType attribute="GOBO2" feature="GOBO2" preset="GOBO" coarse="6" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[6]]>
+				<ChannelType attribute="GOBO2_ROT" feature="GOBO2" preset="GOBO" coarse="7" fine="8" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="65535" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[7]]>
+				<ChannelType attribute="PRISMA1" feature="PRISMA" preset="BEAM" coarse="9" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[8]]>
+				<ChannelType attribute="PRISMA1_ROT" feature="PRISMA" preset="BEAM" coarse="10" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[9]]>
+				<ChannelType attribute="FROST" feature="FOCUS" preset="FOCUS" coarse="11" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[10]]>
+				<ChannelType attribute="ZOOM" feature="FOCUS" preset="FOCUS" coarse="12" default="127.500">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[11]]>
+				<ChannelType attribute="FOCUS" feature="FOCUS" preset="FOCUS" coarse="13" default="211.650">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[12]]>
+				<ChannelType attribute="PAN" feature="POSITION" preset="POSITION" coarse="14" fine="15" default="32767.750">
+					<ChannelFunction from="-270.000" to="270.000" min_dmx="0" max_dmx="65535" physfrom="-270.000" physto="270.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[13]]>
+				<ChannelType attribute="TILT" feature="POSITION" preset="POSITION" coarse="16" fine="17" default="32767.750">
+					<ChannelFunction from="-135.000" to="135.000" min_dmx="0" max_dmx="65535" physfrom="-135.000" physto="135.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[14]]>
+				<ChannelType attribute="CONTROL" feature="CONTROL" preset="CONTROL" coarse="18" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[15]]>
+				<ChannelType attribute="FIXTUREGLOBALRESET" feature="RESET" preset="CONTROL" coarse="19" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="Reset" from_dmx="26" to_dmx="76" auto_create="1"/>
+						<ChannelSet name="PAN Tilt Reset" from_dmx="77" to_dmx="127" auto_create="1"/>
+						<ChannelSet name="Fixture Reset" from_dmx="128" to_dmx="255" auto_create="1"/>
+					</ChannelFunction>
+				</ChannelType>
+				<![CDATA[16]]>
+				<ChannelType attribute="LAMPCONTROL" feature="LAMP" preset="CONTROL" coarse="20" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="LAMP OFF" from_dmx="26" to_dmx="100" auto_create="1"/>
+						<ChannelSet name="gong lv jian ban" from_dmx="101" to_dmx="179" auto_create="1"/>
+						<ChannelSet name="LAMP ON" from_dmx="180" to_dmx="255" auto_create="1"/>
+					</ChannelFunction>
+				</ChannelType>
+				<![CDATA[17]]>
+				<ChannelType attribute="EFFECTWHEEL" feature="EFFECT" preset="BEAM" coarse="21" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<Body>
+					<Size x="1.000" y="1.000" z="1.000"/>
+					<Center x="0.000" y="0.000" z="0.000"/>
+					<Light x="0.000" y="0.000" z="0.000"/>
+				</Body>
+			</Module>
+		</Modules>
+		<Instances>
+			<![CDATA[Instance 1]]>
+			<Instance patch="1" X="0.000" Y="0.000" locked="true"/>
+		</Instances>
+		<Wheels/>
+		<QFuncs/>
+	</FixtureType>
+</MA>

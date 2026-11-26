@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA major_vers="3" minor_vers="1" stream_vers="1">
+	<FixtureType name="Fine II 1500 WASH LT" mode="16 bit" scale="1.000">
+		<short_name>Fine II  WASH LT</short_name>
+		<manufacturer>Fineart</manufacturer>
+		<short_manufacturer>Fineart</short_manufacturer>
+		<Modules>
+			<![CDATA[Module 1]]>
+			<Module class="Headmover" beamtype="Wash" scale="1.000" beam_angle="35.000" beam_intensity="10000.000">
+				<![CDATA[1]]>
+				<ChannelType attribute="COLORMIX1" feature="COLORMIX" preset="COLOR" coarse="1" default="0.000" highlight_value="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[2]]>
+				<ChannelType attribute="COLORMIX2" feature="COLORMIX" preset="COLOR" coarse="2" default="0.000" highlight_value="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[3]]>
+				<ChannelType attribute="COLORMIX3" feature="COLORMIX" preset="COLOR" coarse="3" default="0.000" highlight_value="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[4]]>
+				<ChannelType attribute="CTO" feature="CTO" preset="COLOR" coarse="4" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[5]]>
+				<ChannelType attribute="COLOR1" feature="COLOR1" preset="COLOR" coarse="5" default="0.000" highlight_value="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000" wheel="1">
+						<ChannelSet name="Open" from_dmx="0" to_dmx="8" slot_index="0" slot_from="0.000" auto_create="1"/>
+						<ChannelSet name="Red" from_dmx="18" to_dmx="26" slot_index="1" auto_create="1"/>
+						<ChannelSet name="Amber" from_dmx="36" to_dmx="44" slot_index="2" auto_create="1"/>
+						<ChannelSet name="Green" from_dmx="54" to_dmx="62" slot_index="3" auto_create="1"/>
+						<ChannelSet name="LBlue" from_dmx="72" to_dmx="80" slot_index="4" auto_create="1"/>
+						<ChannelSet name="Orange" from_dmx="90" to_dmx="98" slot_index="5" auto_create="1"/>
+						<ChannelSet name="UV" from_dmx="108" to_dmx="116" slot_index="6" auto_create="1"/>
+					</ChannelFunction>
+				</ChannelType>
+				<![CDATA[6]]>
+				<ChannelType attribute="STROBE" feature="STROBE" preset="BEAM" coarse="6" default="104.999">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="closed" from_dmx="0" to_dmx="3" auto_create="1"/>
+						<ChannelSet name="open" from_dmx="104" to_dmx="107" auto_create="1"/>
+						<ChannelSet name="open" from_dmx="208" to_dmx="212" auto_create="1"/>
+						<ChannelSet name="open" from_dmx="252" to_dmx="255" auto_create="1"/>
+					</ChannelFunction>
+				</ChannelType>
+				<![CDATA[7]]>
+				<ChannelType attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="7" fine="8" default="0.000" highlight_value="100.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="65535" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="Closed" from_dmx="0" to_dmx="0" auto_create="1"/>
+						<ChannelSet name="Open" from_dmx="65535" to_dmx="65535" auto_create="1"/>
+					</ChannelFunction>
+				</ChannelType>
+				<![CDATA[8]]>
+				<ChannelType attribute="PRISMA1" feature="PRISMA" preset="BEAM" coarse="9" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000" wheel="2">
+						<ChannelSet name="White" from_dmx="0" to_dmx="63" slot_index="0" auto_create="1"/>
+						<ChannelSet name="gobo1" from_dmx="64" to_dmx="127" slot_index="1" auto_create="1"/>
+						<ChannelSet name="gobo2" from_dmx="128" to_dmx="191" slot_index="2" auto_create="1"/>
+						<ChannelSet name="gobo3" from_dmx="192" to_dmx="255" slot_index="3" auto_create="1"/>
+					</ChannelFunction>
+				</ChannelType>
+				<![CDATA[9]]>
+				<ChannelType attribute="PRISMA1_ROT" feature="PRISMA" preset="BEAM" coarse="10" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="stop" from_dmx="191" to_dmx="192" auto_create="1"/>
+					</ChannelFunction>
+				</ChannelType>
+				<![CDATA[10]]>
+				<ChannelType attribute="ZOOM" feature="FOCUS" preset="FOCUS" coarse="12" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="Wide" from_dmx="0" to_dmx="0" auto_create="1"/>
+						<ChannelSet name="Narrow" from_dmx="255" to_dmx="255" auto_create="1"/>
+					</ChannelFunction>
+				</ChannelType>
+				<![CDATA[11]]>
+				<ChannelType attribute="PAN" feature="POSITION" preset="POSITION" coarse="13" fine="14" default="32767.750">
+					<ChannelFunction from="-270.000" to="270.000" min_dmx="0" max_dmx="65535" physfrom="-270.000" physto="270.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[12]]>
+				<ChannelType attribute="TILT" feature="POSITION" preset="POSITION" coarse="15" fine="16" default="32767.750">
+					<ChannelFunction from="-135.000" to="135.000" min_dmx="0" max_dmx="65535" physfrom="-135.000" physto="135.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[13]]>
+				<ChannelType attribute="CONTROL" feature="CONTROL" preset="CONTROL" coarse="17" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[14]]>
+				<ChannelType attribute="Fixture Global Reset" feature="Fixture Global Reset" preset="CONTROL" coarse="18" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="None" from_dmx="0" to_dmx="25" auto_create="1"/>
+						<ChannelSet name="beamreset" from_dmx="26" to_dmx="76" auto_create="1"/>
+						<ChannelSet name="positionreset" from_dmx="77" to_dmx="127" auto_create="1"/>
+						<ChannelSet name="fixturereset" from_dmx="128" to_dmx="255" auto_create="1"/>
+					</ChannelFunction>
+				</ChannelType>
+				<![CDATA[15]]>
+				<ChannelType attribute="Lamp On" feature="Lamp Control" preset="CONTROL" coarse="19" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="None" from_dmx="0" to_dmx="15" auto_create="1"/>
+						<ChannelSet name="Full speed" from_dmx="16" to_dmx="20" auto_create="1"/>
+						<ChannelSet name="Half speed" from_dmx="21" to_dmx="25" auto_create="1"/>
+						<ChannelSet name="Lamp Off" from_dmx="26" to_dmx="100" auto_create="1"/>
+						<ChannelSet name="Half Power" from_dmx="121" to_dmx="179" auto_create="1"/>
+						<ChannelSet name="Lamp On" from_dmx="180" to_dmx="255" auto_create="1"/>
+					</ChannelFunction>
+				</ChannelType>
+				<![CDATA[16]]>
+				<ChannelType attribute="PRISMA1_POS" feature="PRISMA" preset="BEAM" coarse="11" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[17]]>
+				<ChannelType attribute="Position MSpeed Track" feature="Position MSpeed" preset="CONTROL" coarse="20" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[18]]>
+				<ChannelType attribute="Colour Mix MSpeed Track" feature="Colour Mix MSpeed" preset="CONTROL" coarse="21" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[19]]>
+				<ChannelType attribute="Zoom MSpeed Track" feature="Zoom MSpeed" preset="CONTROL" coarse="22" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<Body>
+					<Size x="1.000" y="1.000" z="1.000"/>
+					<Center x="0.000" y="0.000" z="0.000"/>
+					<Light x="0.000" y="0.000" z="0.000"/>
+				</Body>
+			</Module>
+		</Modules>
+		<Instances>
+			<![CDATA[Instance 1]]>
+			<Instance patch="1" X="0.000" Y="0.000" locked="true"/>
+		</Instances>
+		<Wheels>
+			<![CDATA[Wheel 1]]>
+			<Wheel attribute="COLOR1" feature="COLOR1" preset="COLOR">
+				<![CDATA[Slot 1]]>
+				<Slot media_name="Open"/>
+				<![CDATA[Slot 2]]>
+				<Slot r="255" g="0" b="0" media_name="Red"/>
+				<![CDATA[Slot 3]]>
+				<Slot r="255" g="184" b="4" media_name="Amber"/>
+				<![CDATA[Slot 4]]>
+				<Slot r="0" g="255" b="0" media_name="Green"/>
+				<![CDATA[Slot 5]]>
+				<Slot r="0" g="158" b="254" media_name="LBlue"/>
+				<![CDATA[Slot 6]]>
+				<Slot r="255" g="116" b="26" media_name="Orange"/>
+				<![CDATA[Slot 7]]>
+				<Slot r="52" g="7" b="255" media_name="UV"/>
+			</Wheel>
+			<![CDATA[Wheel 2]]>
+			<Wheel attribute="PRISMA1" feature="PRISMA" preset="BEAM">
+				<![CDATA[Slot 1]]>
+				<Slot media_name="White"/>
+				<![CDATA[Slot 2]]>
+				<Slot media_name="gobo1"/>
+				<![CDATA[Slot 3]]>
+				<Slot media_name="gobo2"/>
+				<![CDATA[Slot 4]]>
+				<Slot media_name="gobo3"/>
+			</Wheel>
+		</Wheels>
+		<QFuncs/>
+	</FixtureType>
+</MA>

@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.2.2/MA.xsd" major_vers="3" minor_vers="2" stream_vers="2">
+	<Info datetime="2017-07-27T12:54:36" showfile="new show 2017-03-27" />
+	<FixtureType index="11" name="GTD-LY1008" mode="standard 16ch">
+		<InfoItems>
+			<Info type="Revision" date="2015-04-16T08:45:50">The new library</Info>
+		</InfoItems>
+		<short_name>LY1008</short_name>
+		<manufacturer>GTD Lighting</manufacturer>
+		<short_manufacturer>GTD</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="None" beamtype="Wash" beam_angle="35" beam_intensity="10000">
+				<ChannelType index="0" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" coarse="1" default="51">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="1" subattribute="SHUTTER" subattribute_user_name="Shutter" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Black" from_dmx="0" to_dmx="31" />
+						<ChannelSet index="1" name="Open" from_dmx="32" to_dmx="63" />
+						<ChannelSet index="2" name="Shutter speed from slow to fast" from_dmx="64" to_dmx="127" />
+						<ChannelSet index="3" name="Open" from_dmx="128" to_dmx="159" />
+						<ChannelSet index="4" name="Shutter Macro speed from slow to fast" from_dmx="160" to_dmx="223" />
+						<ChannelSet index="5" name="Open" from_dmx="224" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="1" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="2" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+				<ChannelType index="2" attribute="POSITIONMSPEED" feature="MSPEED" preset="CONTROL" coarse="15">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="-90" physto="90" subattribute="POSITIONMSPEEDTIME" subattribute_user_name="Time" attribute="POSITIONMSPEED" attribute_user_name="Position" feature="MSPEED" feature_user_name="Mspeed" preset="CONTROL" preset_user_name="Control" />
+				</ChannelType>
+				<ChannelType index="3" attribute="LAMPCONTROL" feature="LAMP" preset="CONTROL" coarse="16">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="LAMPOFF" subattribute_user_name="Lamp Off" attribute="LAMPCONTROL" attribute_user_name="LampControl" feature="LAMP" feature_user_name="Lamp" preset="CONTROL" preset_user_name="Control">
+						<ChannelSet index="0" name="Reserved" from_dmx="0" to_dmx="9" />
+						<ChannelSet index="1" name="Reserved" from_dmx="10" to_dmx="59" />
+						<ChannelSet index="2" name="All reset" from_dmx="60" to_dmx="69" />
+						<ChannelSet index="3" name="Reserved" from_dmx="70" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+			<Module index="1" name="WHITE" class="None" beamtype="Wash" beam_angle="35" beam_intensity="10000">
+				<ChannelType index="0" attribute="COLORRGB5" feature="COLORRGB" preset="COLOR" coarse="1" highlight_value="100" color="ffffff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB5" subattribute_user_name="White" attribute="COLORRGB5" attribute_user_name="White" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+			</Module>
+			<Module index="2" name="TILT" class="None" beamtype="Wash" beam_angle="35" beam_intensity="10000">
+				<ChannelType index="0" attribute="TILT" feature="POSITION" preset="POSITION" coarse="1" default="127.5">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="-90" physto="90" subattribute="TILT" subattribute_user_name="Tilt" attribute="TILT" attribute_user_name="Tilt" feature="POSITION" feature_user_name="Position" preset="POSITION" preset_user_name="Position" />
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="1" patch="3" RW="0" />
+			<Instance index="1" module_index="1" patch="4" RW="0" />
+			<Instance index="2" module_index="1" patch="5" RW="0" />
+			<Instance index="3" module_index="1" patch="6" RW="0" />
+			<Instance index="4" module_index="1" patch="7" RW="0" />
+			<Instance index="5" module_index="1" patch="8" RW="0" />
+			<Instance index="6" module_index="1" patch="9" RW="0" />
+			<Instance index="7" module_index="1" patch="10" RW="0" />
+			<Instance index="8" module_index="2" patch="11" RW="0" />
+			<Instance index="9" module_index="2" patch="12" RW="0" />
+			<Instance index="10" module_index="2" patch="13" RW="0" />
+			<Instance index="11" module_index="2" patch="14" RW="0" />
+			<Instance index="12" module_index="0" RW="0" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<FixtureMacroCollect index="5">
+			<FixtureMacro index="0" name="Reserved">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="LAMPOFF" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" attribute="LAMPCONTROL" instance_index="12" />
+				<FixtureMacroStep index="1" duration="1" attribute="LAMPCONTROL" instance_index="12" />
+			</FixtureMacro>
+			<FixtureMacro index="1" name="Reserved">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="LAMPOFF" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="35" attribute="LAMPCONTROL" instance_index="12" />
+				<FixtureMacroStep index="1" duration="1" attribute="LAMPCONTROL" instance_index="12" />
+			</FixtureMacro>
+			<FixtureMacro index="2" name="All reset">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="LAMPOFF" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="64" attribute="LAMPCONTROL" instance_index="12" />
+				<FixtureMacroStep index="1" duration="1" attribute="LAMPCONTROL" instance_index="12" />
+			</FixtureMacro>
+			<FixtureMacro index="3" name="Reserved">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="LAMPOFF" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="255" attribute="LAMPCONTROL" instance_index="12" />
+				<FixtureMacroStep index="1" duration="1" attribute="LAMPCONTROL" instance_index="12" />
+			</FixtureMacro>
+		</FixtureMacroCollect>
+		<Body />
+		<AutoPresets index="4" />
+		<RdmNotifications index="6">
+			<RdmNotification index="0" Type="Absent" Subcategory="RDM Warning" />
+		</RdmNotifications>
+	</FixtureType>
+</MA>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA major_vers="3" minor_vers="0" stream_vers="15">
+	<FixtureType name="FINE 300T  FS" mode="5 Channels" scale="1.000">
+		<short_name>FINE 300T FS</short_name>
+		<manufacturer>Fineart</manufacturer>
+		<short_manufacturer>Fineart</short_manufacturer>
+		<Modules>
+			<![CDATA[Module 1]]>
+			<Module class="LED" beamtype="Wash" scale="1.000" beam_angle="35.000" beam_intensity="10000.000">
+				<![CDATA[1]]>
+				<ChannelType attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="1" fine="2" default="0.000" highlight_value="100.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="65535" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<![CDATA[2]]>
+				<ChannelType attribute="SHUTTER" feature="STROBE" preset="BEAM" coarse="3" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="Open" from_dmx="0" to_dmx="5" auto_create="1"/>
+						<ChannelSet name="Standard Strobe" from_dmx="6" to_dmx="105" auto_create="1"/>
+						<ChannelSet name="Thunder Strobe" from_dmx="110" to_dmx="179" auto_create="1"/>
+						<ChannelSet name="Random Strobe" from_dmx="186" to_dmx="225" auto_create="1"/>
+					</ChannelFunction>
+				</ChannelType>
+				<![CDATA[3]]>
+				<ChannelType attribute="ZOOM" feature="FOCUS" preset="FOCUS" coarse="4" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000">
+						<ChannelSet name="min" from_dmx="0" to_dmx="0" auto_create="1"/>
+						<ChannelSet name="max" from_dmx="255" to_dmx="255" auto_create="1"/>
+					</ChannelFunction>
+				</ChannelType>
+				<![CDATA[4]]>
+				<ChannelType attribute="CONTROL" feature="CONTROL" preset="CONTROL" coarse="5" default="0.000">
+					<ChannelFunction from="0.000" to="100.000" min_dmx="0" max_dmx="255" physfrom="0.000" physto="1.000" physdefined="0" phystime="0.000"/>
+				</ChannelType>
+				<Body>
+					<Size x="1.000" y="1.000" z="1.000"/>
+					<Center x="0.000" y="0.000" z="0.000"/>
+					<Light x="0.000" y="0.000" z="0.000"/>
+				</Body>
+			</Module>
+		</Modules>
+		<Instances>
+			<![CDATA[Instance 1]]>
+			<Instance patch="1" X="0.000" Y="0.000" locked="true"/>
+		</Instances>
+		<Wheels/>
+		<QFuncs/>
+	</FixtureType>
+</MA>

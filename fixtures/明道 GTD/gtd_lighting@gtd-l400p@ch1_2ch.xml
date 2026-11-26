@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.3.4/MA.xsd" major_vers="3" minor_vers="3" stream_vers="4">
+	<Info datetime="2019-03-04T16:13:45" showfile="2018 gtd exhibition final20180522" />
+	<FixtureType index="8" name="GTD-L400P" mode="Ch1 2ch">
+		<short_name>L400P</short_name>
+		<manufacturer>GTD lighting</manufacturer>
+		<short_manufacturer>GTD</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="Conventional" beamtype="Wash" beam_angle="22" beam_intensity="2500">
+				<Body>
+					<Size x="0.2" y="0.2" z="0.25" />
+				</Body>
+				<ChannelType index="0" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" coarse="1" default="51.724" highlight_value="20">
+					<ChannelFunction index="0" from="0" to="12" min_dmx_24="0" max_dmx_24="2097151" physfrom="0" physto="0" subattribute="SHUTTER" subattribute_user_name="Shutter" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Closed" from_dmx="0" to_dmx="31" />
+					</ChannelFunction>
+					<ChannelFunction index="1" from="12.1" to="24.6" min_dmx_24="2097152" max_dmx_24="4194303" physfrom="1" physto="1" subattribute="SHUTTER" subattribute_user_name="Shutter" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Open" from_dmx="32" to_dmx="63" />
+					</ChannelFunction>
+					<ChannelFunction index="2" from="24.7" to="49.7" min_dmx_24="4194304" max_dmx_24="8388607" physfrom="0.1" physto="20" subattribute="STROBE" subattribute_user_name="Strobe" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Strobe Min" from_dmx="64" to_dmx="64" />
+						<ChannelSet index="1" name="Strobe Max" from_dmx="127" to_dmx="127" />
+					</ChannelFunction>
+					<ChannelFunction index="3" from="49.8" to="62.2" min_dmx_24="8388608" max_dmx_24="10485759" physfrom="1" physto="1" subattribute="SHUTTER" subattribute_user_name="Shutter" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Open &lt;2&gt;" from_dmx="128" to_dmx="159" />
+					</ChannelFunction>
+					<ChannelFunction index="4" from="62.3" to="87.3" min_dmx_24="10485760" max_dmx_24="14680063" physfrom="0.1" physto="20" subattribute="STROBE" subattribute_user_name="Strobe" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Random Min" from_dmx="160" to_dmx="160" />
+						<ChannelSet index="1" name="Random Max" from_dmx="223" to_dmx="223" />
+					</ChannelFunction>
+					<ChannelFunction index="5" from="87.4" to="100" min_dmx_24="14680064" max_dmx_24="16777215" physfrom="1" physto="1" subattribute="SHUTTER" subattribute_user_name="Shutter" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Open &lt;3&gt;" from_dmx="224" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="1" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="2" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="6.5" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" RW="0" />
+		</Instances>
+		<Wheels index="2">
+			<Wheel index="0" subattribute="COLORMIXCOLOR" attribute="COLORMIXER" feature="COLORMIX" preset="COLOR">
+				<Slot index="0" media_name="Open" r="254" g="254" b="254" />
+				<Slot index="1" media_name="Red" g="0" b="0" />
+				<Slot index="2" media_name="Yellow" b="0" />
+				<Slot index="3" media_name="Green" r="0" b="0" />
+				<Slot index="4" media_name="Cyan" r="0" />
+				<Slot index="5" media_name="Blue" r="0" g="0" />
+				<Slot index="6" media_name="Magerta" g="0" />
+				<Slot index="7" media_name="White" r="254" g="254" b="254" />
+			</Wheel>
+		</Wheels>
+		<VirtualFunctionBlocks index="3" />
+		<FixtureMacroCollect index="5" />
+		<Body />
+		<AutoPresets index="4" />
+		<RdmNotifications index="6">
+			<RdmNotification index="0" Type="Absent" Subcategory="RDM Warning" />
+		</RdmNotifications>
+	</FixtureType>
+</MA>

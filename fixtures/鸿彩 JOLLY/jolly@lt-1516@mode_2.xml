@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.0.0/MA.xsd" major_vers="3" minor_vers="0" stream_vers="0">
+	<Info datetime="2023-02-15T17:25:07" showfile="library test" />
+	<FixtureType index="182" name="LT-1516" mode="mode 2">
+		<short_name>LT-1516</short_name>
+		<manufacturer>Jolly</manufacturer>
+		<short_manufacturer>Jolly</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="None" beamtype="Wash" beam_angle="35" beam_intensity="10000">
+				<ChannelType index="0" attribute="COLORMIXER" feature="COLORMIX" preset="COLOR" coarse="1">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="COLORMIXCOLOR" attribute="COLORMIXER" feature="COLORMIX" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="1" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" coarse="2" fine="3" default="255" color="ff0000">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB1" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="65535" to_dmx="65535" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="2" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" coarse="4" fine="5" color="00ff00">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB2" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="65535" to_dmx="65535" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="3" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" coarse="6" fine="7" color="0000ff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB3" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="65535" to_dmx="65535" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="4" attribute="COLORRGB5" feature="COLORRGB" preset="COLOR" coarse="8" fine="9" color="ffffff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB5" attribute="COLORRGB5" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="65535" to_dmx="65535" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="5" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" coarse="10" default="255">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="1" subattribute="SHUTTER" attribute="SHUTTER" feature="SHUTTER" preset="BEAM">
+						<ChannelSet index="0" name="Shutter Closed" from_dmx="0" to_dmx="15" />
+						<ChannelSet index="1" name="Random Strobe slow  fast" from_dmx="16" to_dmx="47" />
+						<ChannelSet index="2" name="Ramp Up slow  fast" from_dmx="48" to_dmx="79" />
+						<ChannelSet index="3" name="Ramp Down slow  fast" from_dmx="80" to_dmx="111" />
+						<ChannelSet index="4" name="Ramp UP  down slow  fast" from_dmx="112" to_dmx="143" />
+						<ChannelSet index="5" name="Strobe Pause 5s  1s slow  fast" from_dmx="144" to_dmx="199" />
+						<ChannelSet index="6" name="Strobe 1Hz  20 Hz slow  fast" from_dmx="200" to_dmx="239" />
+						<ChannelSet index="7" name="Shutter Open" from_dmx="240" to_dmx="255" />
+						<ChannelSet index="8" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="9" from_dmx="0" to_dmx="0" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="6" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="11" fine="12" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" attribute="DIM" feature="DIMMER" preset="DIMMER">
+						<ChannelSet index="0" name="close" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="open" from_dmx="65535" to_dmx="65535" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="7" attribute="CTO" feature="CTC" preset="COLOR" coarse="13">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="CTO" attribute="CTO" feature="CTC" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="8" attribute="SHAPESELECT" feature="SHAPESELECT" preset="GOBO" coarse="14">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="SHAPESELECT" attribute="SHAPESELECT" feature="SHAPESELECT" preset="GOBO">
+						<ChannelSet index="0" from_dmx="0" to_dmx="0" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="9" attribute="SHAPESPEED" feature="SHAPESELECT" preset="GOBO" coarse="15" default="102">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="SHAPESPEED" attribute="SHAPESPEED" feature="SHAPESELECT" preset="GOBO" />
+				</ChannelType>
+				<ChannelType index="10" attribute="SHAPETRANSITI" feature="SHAPESELECT" preset="GOBO" coarse="16">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="SHAPETRANSITI" attribute="SHAPETRANSITI" feature="SHAPESELECT" preset="GOBO" />
+				</ChannelType>
+				<ChannelType index="11" attribute="FUNTRON" feature="CONTROL" preset="CONTROL" coarse="17">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="FUNTRON" attribute="FUNTRON" feature="CONTROL" preset="CONTROL">
+						<ChannelSet index="0" name="safe" from_dmx="0" to_dmx="55" />
+						<ChannelSet index="1" name="Dimmer Speed Smooth" from_dmx="56" to_dmx="60" />
+						<ChannelSet index="2" name="Dimmer Speed Fast" from_dmx="61" to_dmx="65" />
+						<ChannelSet index="3" name="Reserved" from_dmx="66" to_dmx="70" />
+						<ChannelSet index="4" name="Dimmer Curve Linear" from_dmx="71" to_dmx="75" />
+						<ChannelSet index="5" name="Dimmer Curve Threatrical" from_dmx="76" to_dmx="80" />
+						<ChannelSet index="6" name="Dimmer Curve Sqaure Law" from_dmx="81" to_dmx="85" />
+						<ChannelSet index="7" name="Dimmer Curve Inverse Sqaure Law" from_dmx="86" to_dmx="90" />
+						<ChannelSet index="8" name="Reserved" from_dmx="91" to_dmx="95" />
+						<ChannelSet index="9" name="No DMX Hold" from_dmx="96" to_dmx="100" />
+						<ChannelSet index="10" name="No DMX Shutter Closed" from_dmx="101" to_dmx="105" />
+						<ChannelSet index="11" name="No DMX Play Program 1" from_dmx="106" to_dmx="110" />
+						<ChannelSet index="12" name="Reserved" from_dmx="111" to_dmx="115" />
+						<ChannelSet index="13" name="Display Backlight On" from_dmx="116" to_dmx="120" />
+						<ChannelSet index="14" name="Display Backlight Off" from_dmx="121" to_dmx="125" />
+						<ChannelSet index="15" name="Reserved" from_dmx="126" to_dmx="135" />
+						<ChannelSet index="16" name="DMX Mode Standard" from_dmx="136" to_dmx="140" />
+						<ChannelSet index="17" name="DMX Mode Advanced" from_dmx="141" to_dmx="145" />
+						<ChannelSet index="18" name="DMX Mode Pattern" from_dmx="146" to_dmx="150" />
+						<ChannelSet index="19" name="DMX Mode Pixel" from_dmx="151" to_dmx="155" />
+						<ChannelSet index="20" name="DMX Mode Compressed Pixel" from_dmx="156" to_dmx="160" />
+						<ChannelSet index="21" name="DMX Mode Pixel Dim" from_dmx="161" to_dmx="165" />
+						<ChannelSet index="22" name="DMX Mode Rocket Mode" from_dmx="166" to_dmx="170" />
+						<ChannelSet index="23" name="Reserved" from_dmx="171" to_dmx="180" />
+						<ChannelSet index="24" name="Fixture Reset" from_dmx="181" to_dmx="185" />
+						<ChannelSet index="25" name="Factory defaultexcept DMX Address  Mode" from_dmx="186" to_dmx="190" />
+						<ChannelSet index="26" name="Reserved" from_dmx="191" to_dmx="200" />
+						<ChannelSet index="27" name="PWM Rate 600 Hz" from_dmx="201" to_dmx="205" />
+						<ChannelSet index="28" name="PWM Rate 1200 Hz" from_dmx="206" to_dmx="210" />
+						<ChannelSet index="29" name="PWM Rate 2000 Hz" from_dmx="211" to_dmx="215" />
+						<ChannelSet index="30" name="PWM Rate 2400 Hz" from_dmx="216" to_dmx="220" />
+						<ChannelSet index="31" name="PWM Rate 6000 Hz" from_dmx="221" to_dmx="225" />
+						<ChannelSet index="32" name="Reserved" from_dmx="226" to_dmx="230" />
+						<ChannelSet index="33" name="Boot Mode Auto" from_dmx="231" to_dmx="235" />
+						<ChannelSet index="34" name="Boot Mode DMX" from_dmx="236" to_dmx="240" />
+						<ChannelSet index="35" name="Boot Mode Program Play" from_dmx="241" to_dmx="245" />
+						<ChannelSet index="36" name="Boot Mode Static" from_dmx="246" to_dmx="250" />
+						<ChannelSet index="37" name="Reserved" from_dmx="251" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" RW="0" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<Body />
+		<AutoPresets index="4" />
+	</FixtureType>
+</MA>
