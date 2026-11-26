@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/2.8.3/MA.xsd" major_vers="2" minor_vers="8" stream_vers="3">
+	<Info datetime="2015-06-12T09:20:59" showfile="newshow" />
+	<FixtureType index="1" name="LED-MB9A W 20DMX" mode="20channel">
+		<short_name>MB9AW</short_name>
+		<manufacturer>ACME</manufacturer>
+		<short_manufacturer>ACME</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="Headmover" beamtype="Wash" beam_angle="35.000" beam_intensity="10000.000">
+				<Body>
+					<Size x="0.500" y="0.420" z="0.660" />
+				</Body>
+				<ChannelType index="0" attribute="ROLL" feature="POSITION" preset="POSITION" coarse="1">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="-90.000" physto="90.000" subattribute="ROLL" attribute="ROLL" feature="POSITION" preset="POSITION" />
+				</ChannelType>
+				<ChannelType index="1" attribute="PAN" feature="POSITION" preset="POSITION" coarse="2" default="127.500">
+					<ChannelFunction index="0" from="-270.000" to="270.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="-270.000" physto="270.000" subattribute="PAN" attribute="PAN" feature="POSITION" preset="POSITION">
+						<ChannelSet index="0" name="Pan 1" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="2" attribute="TILT" feature="POSITION" preset="POSITION" coarse="3" default="127.500">
+					<ChannelFunction index="0" from="-45.000" to="45.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="-45.000" physto="45.000" subattribute="TILT" attribute="TILT" feature="POSITION" preset="POSITION">
+						<ChannelSet index="0" name="Til 1" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="3" attribute="STAGEY" feature="STAGE" preset="POSITION" coarse="4" default="127.500">
+					<ChannelFunction index="0" from="-45.000" to="45.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="-45.000" physto="45.000" subattribute="TILT" attribute="TILT" feature="POSITION" preset="POSITION">
+						<ChannelSet index="0" name="Til 2" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="4" attribute="MP_TR_Y" feature="MP_TR" preset="POSITION" coarse="5" default="127.500">
+					<ChannelFunction index="0" from="-45.000" to="45.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="-45.000" physto="45.000" subattribute="TILT" attribute="TILT" feature="POSITION" preset="POSITION">
+						<ChannelSet index="0" name="Til 3" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="5" coarse="6">
+					<ChannelFunction index="0" name="PT Macro" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="-90.000" physto="90.000" subattribute="ROLL" attribute="ROLL" feature="POSITION" preset="POSITION">
+						<ChannelSet index="0" name="NO Function" from_dmx="0" to_dmx="7" />
+						<ChannelSet index="1" name="PT Macro 1" from_dmx="8" to_dmx="22" />
+						<ChannelSet index="2" name="PT Macro 2" from_dmx="23" to_dmx="37" />
+						<ChannelSet index="3" name="PT Macro 3" from_dmx="38" to_dmx="52" />
+						<ChannelSet index="4" name="PT Macro 4" from_dmx="53" to_dmx="67" />
+						<ChannelSet index="5" name="PT Macro 5" from_dmx="68" to_dmx="82" />
+						<ChannelSet index="6" name="PT Macro 6" from_dmx="83" to_dmx="97" />
+						<ChannelSet index="7" name="PT Macro 7" from_dmx="98" to_dmx="112" />
+						<ChannelSet index="8" name="PT Macro 8" from_dmx="113" to_dmx="127" />
+						<ChannelSet index="9" name="PT Macro 9" from_dmx="128" to_dmx="142" />
+						<ChannelSet index="10" name="PT Macro 10" from_dmx="143" to_dmx="157" />
+						<ChannelSet index="11" name="PT Macro 11" from_dmx="158" to_dmx="172" />
+						<ChannelSet index="12" name="PT Macro 12" from_dmx="173" to_dmx="187" />
+						<ChannelSet index="13" name="PT Macro 13" from_dmx="188" to_dmx="202" />
+						<ChannelSet index="14" name="PT Macro 14" from_dmx="203" to_dmx="217" />
+						<ChannelSet index="15" name="PT Macro 15" from_dmx="218" to_dmx="232" />
+						<ChannelSet index="16" name="PT Macro 16" from_dmx="233" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="6" attribute="V_VSPEED" feature="V_VIDEO" preset="VIDEO" coarse="7">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" subattribute="V_VSPEED" attribute="V_VSPEED" feature="V_VIDEO" preset="VIDEO">
+						<ChannelSet index="0" name="PT Macro Speed" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="7" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="8" highlight_value="100.000" grandmaster="true" is_dimmer="true">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="DIM" attribute="DIM" feature="DIMMER" preset="DIMMER" />
+				</ChannelType>
+				<ChannelType index="8" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" coarse="9">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="1.000" subattribute="SHUTTER" attribute="SHUTTER" feature="SHUTTER" preset="BEAM">
+						<ChannelSet index="0" name="Open" from_dmx="0" to_dmx="15" />
+						<ChannelSet index="1" name="Strobe" from_dmx="16" to_dmx="131" />
+						<ChannelSet index="2" name="Open" from_dmx="132" to_dmx="139" />
+						<ChannelSet index="3" name="Pulse effect" from_dmx="140" to_dmx="181" />
+						<ChannelSet index="4" name="Open" from_dmx="182" to_dmx="189" />
+						<ChannelSet index="5" name="Reverse pulse" from_dmx="190" to_dmx="231" />
+						<ChannelSet index="6" name="Open" from_dmx="232" to_dmx="239" />
+						<ChannelSet index="7" name="Ran strobe" from_dmx="240" to_dmx="247" />
+						<ChannelSet index="8" name="Open" from_dmx="248" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="9" attribute="EFFECTINDEXROTATE" feature="EFFECT" preset="BEAM" coarse="19">
+					<ChannelFunction index="0" name="LED Macro" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" subattribute="EFFECTINDEX" attribute="EFFECTINDEXROTATE" feature="EFFECT" preset="BEAM">
+						<ChannelSet index="0" name="NO Function" from_dmx="0" to_dmx="7" />
+						<ChannelSet index="1" name="Macro 1" from_dmx="8" to_dmx="21" />
+						<ChannelSet index="2" name="Macro 2" from_dmx="22" to_dmx="35" />
+						<ChannelSet index="3" name="Macro 3" from_dmx="36" to_dmx="49" />
+						<ChannelSet index="4" name="Macro 4" from_dmx="50" to_dmx="63" />
+						<ChannelSet index="5" name="Macro 5" from_dmx="64" to_dmx="77" />
+						<ChannelSet index="6" name="Macro 6" from_dmx="78" to_dmx="91" />
+						<ChannelSet index="7" name="Macro 7" from_dmx="92" to_dmx="105" />
+						<ChannelSet index="8" name="Macro 8" from_dmx="106" to_dmx="119" />
+						<ChannelSet index="9" name="Macro 9" from_dmx="120" to_dmx="133" />
+						<ChannelSet index="10" name="Macro 10" from_dmx="134" to_dmx="147" />
+						<ChannelSet index="11" name="Macro 11" from_dmx="148" to_dmx="161" />
+						<ChannelSet index="12" name="Macro 12" from_dmx="162" to_dmx="175" />
+						<ChannelSet index="13" name="Macro 13" from_dmx="176" to_dmx="189" />
+						<ChannelSet index="14" name="Macro 14" from_dmx="190" to_dmx="203" />
+						<ChannelSet index="15" name="Macro 15" from_dmx="204" to_dmx="217" />
+						<ChannelSet index="16" name="Macro 16" from_dmx="218" to_dmx="231" />
+						<ChannelSet index="17" name="Full On" from_dmx="232" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="10" attribute="EFFECTWHEEL" feature="EFFECT" preset="BEAM" coarse="20">
+					<ChannelFunction index="0" name="LED Macro Speed" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" subattribute="EFFECTWHEELSELECT" attribute="EFFECTWHEEL" feature="EFFECT" preset="BEAM">
+						<ChannelSet index="0" name="LED Macro Speed" from_dmx="0" to_dmx="247" />
+						<ChannelSet index="1" name="Sound Mode" from_dmx="248" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+			<Module index="1" name="W" class="LED" beamtype="Wash" beam_angle="35.000" beam_intensity="10000.000">
+				<Body>
+					<Size x="0.150" y="0.150" z="0.050" />
+				</Body>
+				<ChannelType index="0" attribute="COLORRGB5" feature="COLORRGB" preset="COLOR" coarse="1" highlight_value="100.000" grandmaster="true" is_dimmer="true">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="COLORRGB5" attribute="COLORRGB5" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" RW="0.000" />
+			<Instance index="1" type="W" patch="10" RW="0.000" />
+			<Instance index="2" type="W" patch="11" RW="0.000" />
+			<Instance index="3" type="W" patch="12" RW="0.000" />
+			<Instance index="4" type="W" patch="13" RW="0.000" />
+			<Instance index="5" type="W" patch="14" RW="0.000" />
+			<Instance index="6" type="W" patch="15" RW="0.000" />
+			<Instance index="7" type="W" patch="16" RW="0.000" />
+			<Instance index="8" type="W" patch="17" RW="0.000" />
+			<Instance index="9" type="W" patch="18" RW="0.000" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<Body />
+	</FixtureType>
+</MA>

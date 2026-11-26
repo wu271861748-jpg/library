@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.2.2/MA.xsd" major_vers="3" minor_vers="2" stream_vers="2">
+	<Info datetime="2017-09-11T21:45:32" showfile="xp show 2017-09-07" />
+	<FixtureType index="69" name="LP-F2000VW" mode="3Achannel">
+		<short_name>F2000VW</short_name>
+		<manufacturer>ACME</manufacturer>
+		<short_manufacturer>ACME</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="LED" beamtype="Wash" beam_angle="130" beam_intensity="10000">
+				<Body>
+					<Size x="0.15" y="0.15" z="0.05" />
+				</Body>
+				<ChannelType index="0" attribute="COLORRGB6" feature="COLORRGB" preset="COLOR" coarse="1" default="255" color="ffffcc">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB6" subattribute_user_name="Warm White" attribute="COLORRGB6" attribute_user_name="Warm White" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="1" attribute="COLORRGB5" feature="COLORRGB" preset="COLOR" coarse="2" default="255" color="ffffff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB5" subattribute_user_name="White" attribute="COLORRGB5" attribute_user_name="White" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="2" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="3" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" RW="0" />
+		</Instances>
+		<Wheels index="2">
+			<Wheel index="0" subattribute="CTO" attribute="CTO" feature="CTC" preset="COLOR">
+				<Slot index="0" media_name="5600k" />
+				<Slot index="1" media_name="5300k" r="253" b="228" />
+				<Slot index="2" media_name="5000K" g="253" b="203" />
+				<Slot index="3" media_name="4700K" g="244" b="192" />
+				<Slot index="4" media_name="4400k" g="250" b="184" />
+				<Slot index="5" media_name="4100k" r="253" b="143" />
+				<Slot index="6" media_name="3800k" r="248" b="134" />
+				<Slot index="7" media_name="3500K" g="248" b="134" />
+				<Slot index="8" media_name="3200k" g="247" b="120" />
+			</Wheel>
+		</Wheels>
+		<VirtualFunctionBlocks index="3" />
+		<FixtureMacroCollect index="5" />
+		<Body />
+		<AutoPresets index="4" />
+		<RdmNotifications index="6">
+			<RdmNotification index="0" Type="Absent" Subcategory="RDM Warning" />
+		</RdmNotifications>
+	</FixtureType>
+</MA>

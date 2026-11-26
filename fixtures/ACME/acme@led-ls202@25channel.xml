@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.2.2/MA.xsd" major_vers="3" minor_vers="2" stream_vers="2">
+	<Info datetime="2016-08-04T11:54:35" showfile="jay 0719  gz" />
+	<FixtureType index="34" name="LED-LS202" mode="25channel">
+		<short_name>LS202</short_name>
+		<manufacturer>ACME</manufacturer>
+		<short_manufacturer>ACME</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="Conventional" beamtype="Effect" beam_angle="35" beam_intensity="10000">
+				<Body>
+					<Size x="0.5" y="0.25" z="0.1" />
+				</Body>
+				<ChannelType index="0" attribute="PAN" feature="POSITION" preset="POSITION" coarse="1" default="62.985">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="-180" physto="180" subattribute="PAN" subattribute_user_name="Pan" attribute="PAN" attribute_user_name="Pan" feature="POSITION" feature_user_name="Position" preset="POSITION" preset_user_name="Position" />
+				</ChannelType>
+				<ChannelType index="1" attribute="TILT" feature="POSITION" preset="POSITION" coarse="2" default="62.985">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="-90" physto="90" subattribute="TILT" subattribute_user_name="Tilt" attribute="TILT" attribute_user_name="Tilt" feature="POSITION" feature_user_name="Position" preset="POSITION" preset_user_name="Position" />
+				</ChannelType>
+				<ChannelType index="2" attribute="ZEROX" feature="STAGE" preset="POSITION" coarse="3">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="ZEROX" subattribute_user_name="ZEROX" attribute="ZEROX" attribute_user_name="Zero X" feature="STAGE" feature_user_name="Stage" preset="POSITION" preset_user_name="Position" />
+				</ChannelType>
+				<ChannelType index="3" attribute="ZEROY" feature="STAGE" preset="POSITION" coarse="4">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="ZEROY" subattribute_user_name="ZEROY" attribute="ZEROY" attribute_user_name="Zero Y" feature="STAGE" feature_user_name="Stage" preset="POSITION" preset_user_name="Position" />
+				</ChannelType>
+				<ChannelType index="4" attribute="PATTSPIN" feature="STAGE" preset="POSITION" coarse="5">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="PATTSPIN" subattribute_user_name="PATT SPIN" attribute="PATTSPIN" attribute_user_name="Patt Spin" feature="STAGE" feature_user_name="Stage" preset="POSITION" preset_user_name="Position" />
+				</ChannelType>
+				<ChannelType index="5" attribute="COLOR1" feature="COLOR1" preset="COLOR" coarse="6">
+					<ChannelFunction index="0" from="0" to="50" min_dmx_24="0" max_dmx_24="8454143" subattribute="COLOR1" subattribute_user_name="Select" attribute="COLOR1" attribute_user_name="C1" feature="COLOR1" feature_user_name="Color1" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="Open" from_dmx="0" to_dmx="3" />
+						<ChannelSet index="1" name="white/C1" from_dmx="4" to_dmx="7" />
+						<ChannelSet index="2" name="Color 1" from_dmx="8" to_dmx="11" />
+						<ChannelSet index="3" name="C1/C2" from_dmx="12" to_dmx="15" />
+						<ChannelSet index="4" name="Color 2" from_dmx="16" to_dmx="19" />
+						<ChannelSet index="5" name="C2/C3" from_dmx="20" to_dmx="22" />
+						<ChannelSet index="6" name="Color 3" from_dmx="23" to_dmx="26" />
+						<ChannelSet index="7" name="C3/C4" from_dmx="27" to_dmx="30" />
+						<ChannelSet index="8" name="Color 4" from_dmx="31" to_dmx="34" />
+						<ChannelSet index="9" name="C4/C5" from_dmx="35" to_dmx="38" />
+						<ChannelSet index="10" name="Color 5" from_dmx="39" to_dmx="42" />
+						<ChannelSet index="11" name="C5/C6" from_dmx="43" to_dmx="45" />
+						<ChannelSet index="12" name="Color 6" from_dmx="46" to_dmx="49" />
+						<ChannelSet index="13" name="C6/C7" from_dmx="50" to_dmx="53" />
+						<ChannelSet index="14" name="Color 7" from_dmx="54" to_dmx="57" />
+						<ChannelSet index="15" name="C7/C8" from_dmx="58" to_dmx="61" />
+						<ChannelSet index="16" name="Color 8" from_dmx="62" to_dmx="64" />
+						<ChannelSet index="17" name="Index" from_dmx="65" to_dmx="127" />
+					</ChannelFunction>
+					<ChannelFunction index="1" from="50.05" to="100" min_dmx_24="8454144" max_dmx_24="16777215" subattribute="COLOR1_SPIN" subattribute_user_name="Spin" attribute="COLOR1" attribute_user_name="C1" feature="COLOR1" feature_user_name="Color1" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="&gt;&gt;&gt;" from_dmx="129" to_dmx="129" />
+						<ChannelSet index="1" name="&gt;" from_dmx="190" to_dmx="190" />
+						<ChannelSet index="2" name="Stop" from_dmx="191" to_dmx="193" />
+						<ChannelSet index="3" name="&lt;" from_dmx="194" to_dmx="194" />
+						<ChannelSet index="4" name="&lt;&lt;&lt;" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="6" attribute="PATMACRO" feature="MP_TR" preset="POSITION" coarse="7">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="PATMACRO" subattribute_user_name="PAT MACRO" attribute="PATMACRO" attribute_user_name="Pat Macro" feature="MP_TR" feature_user_name="MP Trans" preset="POSITION" preset_user_name="Position">
+						<ChannelSet index="0" name="Off" from_dmx="0" to_dmx="7" />
+						<ChannelSet index="1" name="Macro 1" from_dmx="8" to_dmx="16" />
+						<ChannelSet index="2" name="Macro 2" from_dmx="17" to_dmx="25" />
+						<ChannelSet index="3" name="Macro 3" from_dmx="26" to_dmx="33" />
+						<ChannelSet index="4" name="Macro 4" from_dmx="34" to_dmx="42" />
+						<ChannelSet index="5" name="Macro 5" from_dmx="43" to_dmx="50" />
+						<ChannelSet index="6" name="Macro 6" from_dmx="51" to_dmx="59" />
+						<ChannelSet index="7" name="Macro 7" from_dmx="60" to_dmx="67" />
+						<ChannelSet index="8" name="Macro 8" from_dmx="68" to_dmx="76" />
+						<ChannelSet index="9" name="Macro 9" from_dmx="77" to_dmx="84" />
+						<ChannelSet index="10" name="Macro 10" from_dmx="85" to_dmx="93" />
+						<ChannelSet index="11" name="Macro 11" from_dmx="94" to_dmx="101" />
+						<ChannelSet index="12" name="Macro 12" from_dmx="102" to_dmx="110" />
+						<ChannelSet index="13" name="Macro 13" from_dmx="111" to_dmx="118" />
+						<ChannelSet index="14" name="Macro 14" from_dmx="119" to_dmx="127" />
+						<ChannelSet index="15" name="Macro 15" from_dmx="128" to_dmx="135" />
+						<ChannelSet index="16" name="Macro 16" from_dmx="136" to_dmx="144" />
+						<ChannelSet index="17" name="Macro 17" from_dmx="145" to_dmx="152" />
+						<ChannelSet index="18" name="Macro 18" from_dmx="153" to_dmx="161" />
+						<ChannelSet index="19" name="Macro 19" from_dmx="162" to_dmx="169" />
+						<ChannelSet index="20" name="Macro 20" from_dmx="170" to_dmx="178" />
+						<ChannelSet index="21" name="Macro 21" from_dmx="179" to_dmx="186" />
+						<ChannelSet index="22" name="Macro 22" from_dmx="187" to_dmx="195" />
+						<ChannelSet index="23" name="Macro 23" from_dmx="196" to_dmx="203" />
+						<ChannelSet index="24" name="Macro 24" from_dmx="204" to_dmx="212" />
+						<ChannelSet index="25" name="Macro 25" from_dmx="213" to_dmx="220" />
+						<ChannelSet index="26" name="Macro 26" from_dmx="221" to_dmx="229" />
+						<ChannelSet index="27" name="Macro 27" from_dmx="230" to_dmx="237" />
+						<ChannelSet index="28" name="Macro 28" from_dmx="238" to_dmx="246" />
+						<ChannelSet index="29" name="Macro 29" from_dmx="247" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="7" attribute="PATRLROT" feature="MP_TR" preset="POSITION" coarse="8">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="PATRLROT" subattribute_user_name="PAT RL ROT" attribute="PATRLROT" attribute_user_name="Pat RL Rot" feature="MP_TR" feature_user_name="MP Trans" preset="POSITION" preset_user_name="Position" />
+				</ChannelType>
+				<ChannelType index="8" attribute="PATHVROT" feature="MP_TR" preset="POSITION" coarse="9">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="PATHVROT" subattribute_user_name="PAT HV ROT" attribute="PATHVROT" attribute_user_name="Pat HV Rot" feature="MP_TR" feature_user_name="MP Trans" preset="POSITION" preset_user_name="Position" />
+				</ChannelType>
+				<ChannelType index="9" attribute="PATTZOOM" feature="MP_TR" preset="POSITION" coarse="10">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="PATTZOOM" subattribute_user_name="PATT ZOOM" attribute="PATTZOOM" attribute_user_name="Patt Zoom" feature="MP_TR" feature_user_name="MP Trans" preset="POSITION" preset_user_name="Position" />
+				</ChannelType>
+				<ChannelType index="10" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" coarse="11" default="8.158">
+					<ChannelFunction index="0" from="0" to="6.08" min_dmx_24="0" max_dmx_24="1048575" physfrom="1" subattribute="SHUTTER" subattribute_user_name="Shutter" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Closed" from_dmx="0" to_dmx="7" />
+						<ChannelSet index="1" name="Open1" from_dmx="8" to_dmx="15" />
+					</ChannelFunction>
+					<ChannelFunction index="1" name="Strobe" from="6.08" to="51.57" min_dmx_24="1048576" max_dmx_24="8650751" physfrom="1" physto="20" subattribute="STROBE" subattribute_user_name="Strobe" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="min Strobe" from_dmx="16" to_dmx="16" />
+						<ChannelSet index="1" name="max Strobe" from_dmx="131" to_dmx="131" />
+					</ChannelFunction>
+					<ChannelFunction index="2" from="51.57" to="54.71" min_dmx_24="8650752" max_dmx_24="9175039" physfrom="1" subattribute="SHUTTER" subattribute_user_name="Shutter" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Open2" from_dmx="132" to_dmx="139" />
+					</ChannelFunction>
+					<ChannelFunction index="3" name="Pulse Open" from="54.71" to="71.18" min_dmx_24="9175040" max_dmx_24="11927551" physfrom="1" subattribute="STROBE_PULSE_OPEN" subattribute_user_name="Pulse Open" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="min Pulse Open" from_dmx="140" to_dmx="140" />
+						<ChannelSet index="1" name="max Pulse Open" from_dmx="181" to_dmx="181" />
+					</ChannelFunction>
+					<ChannelFunction index="4" from="71.18" to="74.31" min_dmx_24="11927552" max_dmx_24="12451839" physfrom="1" subattribute="SHUTTER" subattribute_user_name="Shutter" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Open3" from_dmx="182" to_dmx="189" />
+					</ChannelFunction>
+					<ChannelFunction index="5" name="Pulse Close" from="74.31" to="90.78" min_dmx_24="12451840" max_dmx_24="15204351" physfrom="1" subattribute="STROBE_PULSE_CLOSE" subattribute_user_name="Pulse Close" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="min Pulse Close" from_dmx="190" to_dmx="190" />
+						<ChannelSet index="1" name="max Pulse Close" from_dmx="231" to_dmx="231" />
+					</ChannelFunction>
+					<ChannelFunction index="6" from="90.78" to="93.92" min_dmx_24="15204352" max_dmx_24="15728639" physfrom="1" subattribute="SHUTTER" subattribute_user_name="Shutter" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="open4" from_dmx="232" to_dmx="239" />
+					</ChannelFunction>
+					<ChannelFunction index="7" from="93.92" to="97.06" min_dmx_24="15728640" max_dmx_24="16252927" physfrom="1" subattribute="STROBE_RANDOM" subattribute_user_name="Rnd" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Rnd Strobe" from_dmx="240" to_dmx="247" />
+					</ChannelFunction>
+					<ChannelFunction index="8" from="97.06" to="100" min_dmx_24="16252928" max_dmx_24="16777215" physfrom="1" subattribute="SHUTTER" subattribute_user_name="Shutter" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Open5" from_dmx="248" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="11" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="12" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+			</Module>
+			<Module index="1" name="Function" class="Conventional" beamtype="Effect" beam_angle="1" beam_intensity="10000">
+				<Body>
+					<Size x="0" y="0" z="0" />
+				</Body>
+				<ChannelType index="0" attribute="FIXTUREGLOBALRESET" feature="RESET" preset="CONTROL" coarse="1">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="FIXTUREGLOBALRESET" subattribute_user_name="Reset" attribute="FIXTUREGLOBALRESET" attribute_user_name="FixtureGlobal" feature="RESET" feature_user_name="Reset" preset="CONTROL" preset_user_name="Control">
+						<ChannelSet index="0" name="Safe" from_dmx="0" to_dmx="79" />
+						<ChannelSet index="1" name="Reset All" from_dmx="80" to_dmx="84" />
+						<ChannelSet index="2" name="Reset PT" from_dmx="85" to_dmx="87" />
+						<ChannelSet index="3" name="Reset Color" from_dmx="88" to_dmx="90" />
+						<ChannelSet index="4" name="NO Functio" from_dmx="91" to_dmx="99" />
+						<ChannelSet index="5" name="BO PT" from_dmx="100" to_dmx="109" />
+						<ChannelSet index="6" name="BO Color" from_dmx="110" to_dmx="119" />
+						<ChannelSet index="7" name="NO Functio2" from_dmx="120" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" />
+			<Instance index="1" module_index="0" patch="13" />
+			<Instance index="2" module_index="1" patch="25" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<FixtureMacroCollect index="5">
+			<FixtureMacro index="0" name="Safe">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="FIXTUREGLOBALRESET" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="1" name="Reset All">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="FIXTUREGLOBALRESET" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="82" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="2" name="Reset PT">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="FIXTUREGLOBALRESET" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="86" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="3" name="Reset Color">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="FIXTUREGLOBALRESET" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="89" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="4" name="NO Functio">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="FIXTUREGLOBALRESET" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="95" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="5" name="BO PT">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="FIXTUREGLOBALRESET" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="105" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="6" name="BO Color">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="FIXTUREGLOBALRESET" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="115" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="7" name="NO Functio2">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="FIXTUREGLOBALRESET" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="255" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="FIXTUREGLOBALRESET" instance_index="0" />
+			</FixtureMacro>
+		</FixtureMacroCollect>
+		<Body />
+		<AutoPresets index="4" />
+		<RdmNotifications index="6">
+			<RdmNotification index="0" Type="Absent" Subcategory="RDM Warning" />
+		</RdmNotifications>
+	</FixtureType>
+</MA>

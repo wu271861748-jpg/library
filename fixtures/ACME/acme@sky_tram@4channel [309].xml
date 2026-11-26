@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.2.2/MA.xsd" major_vers="3" minor_vers="2" stream_vers="2">
+	<Info datetime="2014-08-01T00:21:13" showfile="500bswf" />
+	<FixtureType index="10" name="Sky Tram" mode="4channel">
+		<short_name>Sky Tram</short_name>
+		<manufacturer>ACME</manufacturer>
+		<short_manufacturer>ACME</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" name="Trans1" class="Moving Path" beamtype="None" beam_angle="0" beam_intensity="0">
+				<ChannelType index="0" attribute="MP_TR_X" feature="MP_TR" preset="POSITION" coarse="1" fine="2" default="32767.5">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="-1" physto="1" phystime="1" subattribute="MP_TR_X" subattribute_user_name="X" attribute="MP_TR_X" attribute_user_name="X" feature="MP_TR" feature_user_name="MP Trans" preset="POSITION" preset_user_name="Position" />
+				</ChannelType>
+				<ChannelType index="1" attribute="MOVEMENTSPEED" feature="MOVEMENTSDPEED" preset="POSITION" coarse="3">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="MOVEMENTSPEED" subattribute_user_name="Movement Speed" attribute="MOVEMENTSPEED" attribute_user_name="Movement Speed" feature="MOVEMENTSDPEED" feature_user_name="Movement Speed" preset="POSITION" preset_user_name="Position" />
+				</ChannelType>
+				<ChannelType index="2" attribute="FUNCTION" feature="LAMP CONTROL" preset="CONTROL" coarse="4">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="Function" subattribute_user_name="Function" attribute="FUNCTION" attribute_user_name="Function" feature="LAMP CONTROL" feature_user_name="Lamp Control" preset="CONTROL" preset_user_name="Control">
+						<ChannelSet index="0" name="No Function" from_dmx="0" to_dmx="69" />
+						<ChannelSet index="1" name="Display Up" from_dmx="70" to_dmx="79" />
+						<ChannelSet index="2" name="Display Down" from_dmx="80" to_dmx="89" />
+						<ChannelSet index="3" name="LCD Auto Off" from_dmx="90" to_dmx="99" />
+						<ChannelSet index="4" name="LCD Auto On" from_dmx="100" to_dmx="109" />
+						<ChannelSet index="5" name="LCD On" from_dmx="110" to_dmx="119" />
+						<ChannelSet index="6" name="LCD Off" from_dmx="120" to_dmx="129" />
+						<ChannelSet index="7" name="Enable Motor" from_dmx="130" to_dmx="139" />
+						<ChannelSet index="8" name="Disable Motor" from_dmx="140" to_dmx="149" />
+						<ChannelSet index="9" name="Disable Right" from_dmx="150" to_dmx="159" />
+						<ChannelSet index="10" name="Enable Right" from_dmx="160" to_dmx="169" />
+						<ChannelSet index="11" name="Disable Left" from_dmx="170" to_dmx="179" />
+						<ChannelSet index="12" name="Enable Left" from_dmx="180" to_dmx="189" />
+						<ChannelSet index="13" name="Restore Set Position" from_dmx="190" to_dmx="199" />
+						<ChannelSet index="14" name="Restore end Position" from_dmx="200" to_dmx="209" />
+						<ChannelSet index="15" name="Set Current P to Star" from_dmx="210" to_dmx="219" />
+						<ChannelSet index="16" name="Set Current P to End" from_dmx="220" to_dmx="229" />
+						<ChannelSet index="17" name="Auto Reset Position" from_dmx="230" to_dmx="239" />
+						<ChannelSet index="18" name="Ready to Reset" from_dmx="240" to_dmx="249" />
+						<ChannelSet index="19" name="Emergency stop" from_dmx="250" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" locked="false" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<FixtureMacroCollect index="5" />
+		<Body />
+		<AutoPresets index="4" />
+		<RdmNotifications index="6">
+			<RdmNotification index="0" Type="Absent" Subcategory="RDM Warning" />
+		</RdmNotifications>
+	</FixtureType>
+</MA>

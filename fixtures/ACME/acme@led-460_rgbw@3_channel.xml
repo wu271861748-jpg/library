@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.0.0/MA.xsd" major_vers="3" minor_vers="0" stream_vers="0">
+	<Info datetime="2015-05-25T09:04:29" showfile="newshow" />
+	<FixtureType index="37" name="LED-460 RGBW" mode="3 channel">
+		<InfoItems>
+			<Info>Set Menu option Chnd to 3Ch for this personality</Info>
+			<Info type="Revision" date="2013-11-05T00:00:00">Automated import from MA Lighting (C-RevNum: 0; Date: 2013-10-18)</Info>
+			<Info type="Invisible" date="2013-11-05T00:00:00">generator_software_name=&quot;MA Importer&quot;,generator_software_version=&quot;54de29c2484d7b1a8a85bce4d4e3ba7f8beff23f&quot;</Info>
+		</InfoItems>
+		<short_name>460RGBW</short_name>
+		<manufacturer>Acme</manufacturer>
+		<short_manufacturer>Acme</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" name="Main Module" class="Conventional" beamtype="Wash" beam_angle="25" beam_intensity="10000">
+				<Body>
+					<Size x="0.418" y="0.233" z="0.244" />
+				</Body>
+				<ChannelType index="0" attribute="CHASE" feature="CHASE" preset="CONTROL" coarse="1">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="CHASESELECT" attribute="CHASE" feature="CHASE" preset="CONTROL">
+						<ChannelSet index="0" name="entry 0" from_dmx="0" to_dmx="7" slot_from="0" slot_to="0" />
+						<ChannelSet index="1" name="entry 1" from_dmx="8" to_dmx="22" slot_from="1" slot_to="1" />
+						<ChannelSet index="2" name="entry 2" from_dmx="23" to_dmx="37" slot_from="2" slot_to="2" />
+						<ChannelSet index="3" name="entry 3" from_dmx="38" to_dmx="52" slot_from="3" slot_to="3" />
+						<ChannelSet index="4" name="entry 4" from_dmx="53" to_dmx="67" slot_from="4" slot_to="4" />
+						<ChannelSet index="5" name="entry 5" from_dmx="68" to_dmx="82" slot_from="5" slot_to="5" />
+						<ChannelSet index="6" name="entry 6" from_dmx="83" to_dmx="97" slot_from="6" slot_to="6" />
+						<ChannelSet index="7" name="entry 7" from_dmx="98" to_dmx="112" slot_from="7" slot_to="7" />
+						<ChannelSet index="8" name="entry 8" from_dmx="113" to_dmx="127" slot_from="8" slot_to="8" />
+						<ChannelSet index="9" name="entry 9" from_dmx="128" to_dmx="142" slot_from="9" slot_to="9" />
+						<ChannelSet index="10" name="entry 10" from_dmx="143" to_dmx="157" slot_from="10" slot_to="10" />
+						<ChannelSet index="11" name="entry 11" from_dmx="158" to_dmx="172" slot_from="11" slot_to="11" />
+						<ChannelSet index="12" name="entry 12" from_dmx="173" to_dmx="187" slot_from="12" slot_to="12" />
+						<ChannelSet index="13" name="entry 13" from_dmx="188" to_dmx="202" slot_from="13" slot_to="13" />
+						<ChannelSet index="14" name="entry 14" from_dmx="203" to_dmx="217" slot_from="14" slot_to="14" />
+						<ChannelSet index="15" name="entry 15" from_dmx="218" to_dmx="232" slot_from="15" slot_to="15" />
+						<ChannelSet index="16" name="entry 16" from_dmx="233" to_dmx="247" slot_from="16" slot_to="16" />
+						<ChannelSet index="17" name="Stand alone" from_dmx="248" to_dmx="255" slot_from="17" slot_to="17" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="1" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="2" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" attribute="DIM" feature="DIMMER" preset="DIMMER">
+						<ChannelSet index="0" name="closed" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="open" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="2" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" coarse="3" highlight_value="0">
+					<ChannelFunction index="0" from="0" to="3.125" min_dmx_24="0" max_dmx_24="524287" physfrom="1" physto="1" subattribute="SHUTTER" attribute="SHUTTER" feature="SHUTTER" preset="BEAM">
+						<ChannelSet index="0" name="open" from_dmx="0" to_dmx="7" />
+					</ChannelFunction>
+					<ChannelFunction index="1" name="Strobe 1..100%" from="3.125" to="96.875" min_dmx_24="524288" max_dmx_24="16252927" physfrom="0.1" physto="10" subattribute="STROBE" attribute="SHUTTER" feature="SHUTTER" preset="BEAM">
+						<ChannelSet index="0" name="min Strobe" from_dmx="8" to_dmx="8" />
+						<ChannelSet index="1" name="max Strobe" from_dmx="247" to_dmx="247" />
+					</ChannelFunction>
+					<ChannelFunction index="2" from="96.875" to="100" min_dmx_24="16252928" max_dmx_24="16777215" physfrom="1" physto="1" subattribute="SHUTTERAUDIO" attribute="SHUTTER" feature="SHUTTER" preset="BEAM">
+						<ChannelSet index="0" name="Audio 100%" from_dmx="248" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<Body />
+		<AutoPresets index="4" />
+	</FixtureType>
+</MA>

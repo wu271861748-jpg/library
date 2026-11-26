@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/2.8.3/MA.xsd" major_vers="2" minor_vers="8" stream_vers="3">
+	<Info datetime="2013-09-04T09:15:25" showfile="new show 2012-04-24" />
+	<FixtureType index="68" name="LP324ADB CW/WW 1DMX">
+		<short_name>324ADB CW/WW 1DMX</short_name>
+		<manufacturer>ACME</manufacturer>
+		<short_manufacturer>ACME</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="None" beamtype="Wash" beam_angle="35.000" beam_intensity="10000.000">
+				<ChannelType index="0" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="1" highlight_value="100.000" grandmaster="true" is_dimmer="true">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="DIM" attribute="DIM" feature="DIMMER" preset="DIMMER" />
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" RW="0.000" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<Body />
+	</FixtureType>
+</MA>

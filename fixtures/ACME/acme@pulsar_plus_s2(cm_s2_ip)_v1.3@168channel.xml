@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.2.2/MA.xsd" major_vers="3" minor_vers="2" stream_vers="2">
+	<Info datetime="2026-06-09T15:38:32" showfile="1545748787" />
+	<FixtureType index="91" name="PULSAR PLUS S2(CM S2 IP) V1.3" mode="168channel">
+		<InfoItems>
+			<Info>Fixture has on/off switch
+Set menu option Channel Mode to Extended RGBW for this personality</Info>
+			<Info type="Revision" date="2016-05-13T00:00:00">Automated import from MA Lighting (C-RevNum: 6; Date: 2016-05-11)</Info>
+			<Info type="Invisible" date="2016-05-13T00:00:00">generator_software_name=&quot;MA Importer&quot;,generator_software_version=&quot;00d7136ab774ccc2a27cadac97ac748b188e0aa5&quot;</Info>
+			<Info type="Revision" date="2016-05-13T00:00:00">Positions for Single LEDs are automatically aligned by MA Lighting Technology</Info>
+			<Info type="Revision" date="2015-03-11T00:00:00">Positions for Single LEDs set manually by MA Tech Support</Info>
+		</InfoItems>
+		<short_name>PULSARS2IP</short_name>
+		<manufacturer>ACME</manufacturer>
+		<short_manufacturer>ACME</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" name="RGBW" class="None" beamtype="None" beam_angle="0" beam_intensity="0">
+				<ChannelType index="0" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" coarse="1" fine="2" default="65535" highlight_value="100" color="ff0000">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB1" subattribute_user_name="R" attribute="COLORRGB1" attribute_user_name="R" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="1" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" coarse="3" fine="4" default="65535" highlight_value="100" color="00ff00">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB2" subattribute_user_name="G" attribute="COLORRGB2" attribute_user_name="G" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="2" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" coarse="5" fine="6" default="65535" highlight_value="100" color="0000ff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB3" subattribute_user_name="B" attribute="COLORRGB3" attribute_user_name="B" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="3" attribute="COLORRGB19" feature="COLORRGB" preset="COLOR" coarse="7" fine="8" highlight_value="0" color="bae33d">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB19" subattribute_user_name="Mint Green" attribute="COLORRGB19" attribute_user_name="Lime" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="4" attribute="DIM" feature="DIMMER" preset="DIMMER" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer">
+						<ChannelSet index="0" name="closed" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="open" from_dmx="16777215" to_dmx="16777215" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+			<Module index="1" name="Beam" class="None" beamtype="None" beam_angle="0" beam_intensity="0">
+				<ChannelType index="0" attribute="DIM" feature="DIMMER" preset="DIMMER" default="0.001" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+				<ChannelType index="1" attribute="COLORRGB5" feature="COLORRGB" preset="COLOR" coarse="1" default="254.999" highlight_value="100" color="ffffff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB5" subattribute_user_name="White" attribute="COLORRGB5" attribute_user_name="White" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+			</Module>
+			<Module index="2" name="RGB" class="None" beamtype="None" beam_angle="0" beam_intensity="0">
+				<ChannelType index="0" attribute="DIM" feature="DIMMER" preset="DIMMER" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+				<ChannelType index="1" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" coarse="1" default="254.999" highlight_value="100" color="ff0000">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB1" subattribute_user_name="R" attribute="COLORRGB1" attribute_user_name="R" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="2" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" coarse="2" default="254.999" highlight_value="100" color="00ff00">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB2" subattribute_user_name="G" attribute="COLORRGB2" attribute_user_name="G" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="3" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" coarse="3" default="254.999" highlight_value="100" color="0000ff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB3" subattribute_user_name="B" attribute="COLORRGB3" attribute_user_name="B" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+			</Module>
+			<Module index="3" name="White" class="None" beamtype="None" beam_angle="0" beam_intensity="0">
+				<ChannelType index="0" attribute="DIM" feature="DIMMER" preset="DIMMER" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+				<ChannelType index="1" attribute="COLORRGB5" feature="COLORRGB" preset="COLOR" coarse="1" default="254.999" highlight_value="100" color="ffffff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB5" subattribute_user_name="White" attribute="COLORRGB5" attribute_user_name="White" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" parent_instance="0" />
+			<Instance index="1" module_index="0" patch="9" parent_instance="0" />
+			<Instance index="2" module_index="0" patch="17" parent_instance="0" />
+			<Instance index="3" module_index="0" patch="25" parent_instance="0" />
+			<Instance index="4" module_index="0" patch="33" parent_instance="0" />
+			<Instance index="5" module_index="0" patch="41" parent_instance="0" />
+			<Instance index="6" module_index="0" patch="49" parent_instance="0" />
+			<Instance index="7" module_index="0" patch="57" parent_instance="0" />
+			<Instance index="8" module_index="1" patch="65" parent_instance="0" />
+			<Instance index="9" module_index="1" patch="66" parent_instance="0" />
+			<Instance index="10" module_index="1" patch="67" parent_instance="0" />
+			<Instance index="11" module_index="1" patch="68" parent_instance="0" />
+			<Instance index="12" module_index="1" patch="69" parent_instance="0" />
+			<Instance index="13" module_index="1" patch="70" parent_instance="0" />
+			<Instance index="14" module_index="1" patch="71" parent_instance="0" />
+			<Instance index="15" module_index="1" patch="72" parent_instance="0" />
+			<Instance index="16" module_index="1" patch="73" parent_instance="0" />
+			<Instance index="17" module_index="1" patch="74" parent_instance="0" />
+			<Instance index="18" module_index="1" patch="75" parent_instance="0" />
+			<Instance index="19" module_index="1" patch="76" parent_instance="0" />
+			<Instance index="20" module_index="1" patch="77" parent_instance="0" />
+			<Instance index="21" module_index="1" patch="78" parent_instance="0" />
+			<Instance index="22" module_index="1" patch="79" parent_instance="0" />
+			<Instance index="23" module_index="1" patch="80" parent_instance="0" />
+			<Instance index="24" module_index="2" patch="81" parent_instance="0" />
+			<Instance index="25" module_index="2" patch="84" parent_instance="0" />
+			<Instance index="26" module_index="2" patch="87" parent_instance="0" />
+			<Instance index="27" module_index="2" patch="90" parent_instance="0" />
+			<Instance index="28" module_index="2" patch="93" parent_instance="0" />
+			<Instance index="29" module_index="2" patch="96" parent_instance="0" />
+			<Instance index="30" module_index="2" patch="99" parent_instance="0" />
+			<Instance index="31" module_index="2" patch="102" parent_instance="0" />
+			<Instance index="32" module_index="2" patch="105" parent_instance="0" />
+			<Instance index="33" module_index="2" patch="108" parent_instance="0" />
+			<Instance index="34" module_index="2" patch="111" parent_instance="0" />
+			<Instance index="35" module_index="2" patch="114" parent_instance="0" />
+			<Instance index="36" module_index="2" patch="117" parent_instance="0" />
+			<Instance index="37" module_index="2" patch="120" parent_instance="0" />
+			<Instance index="38" module_index="2" patch="123" parent_instance="0" />
+			<Instance index="39" module_index="2" patch="126" parent_instance="0" />
+			<Instance index="40" module_index="3" patch="129" parent_instance="0" />
+			<Instance index="41" module_index="3" patch="130" parent_instance="0" />
+			<Instance index="42" module_index="3" patch="131" parent_instance="0" />
+			<Instance index="43" module_index="3" patch="132" parent_instance="0" />
+			<Instance index="44" module_index="3" patch="133" parent_instance="0" />
+			<Instance index="45" module_index="3" patch="134" parent_instance="0" />
+			<Instance index="46" module_index="3" patch="135" parent_instance="0" />
+			<Instance index="47" module_index="3" patch="136" parent_instance="0" />
+			<Instance index="48" module_index="3" patch="137" parent_instance="0" />
+			<Instance index="49" module_index="3" patch="138" parent_instance="0" />
+			<Instance index="50" module_index="3" patch="139" parent_instance="0" />
+			<Instance index="51" module_index="3" patch="140" parent_instance="0" />
+			<Instance index="52" module_index="3" patch="141" parent_instance="0" />
+			<Instance index="53" module_index="3" patch="142" parent_instance="0" />
+			<Instance index="54" module_index="3" patch="143" parent_instance="0" />
+			<Instance index="55" module_index="3" patch="144" parent_instance="0" />
+			<Instance index="56" module_index="3" patch="145" parent_instance="0" />
+			<Instance index="57" module_index="3" patch="146" parent_instance="0" />
+			<Instance index="58" module_index="3" patch="147" parent_instance="0" />
+			<Instance index="59" module_index="3" patch="148" parent_instance="0" />
+			<Instance index="60" module_index="3" patch="149" parent_instance="0" />
+			<Instance index="61" module_index="3" patch="150" parent_instance="0" />
+			<Instance index="62" module_index="3" patch="151" parent_instance="0" />
+			<Instance index="63" module_index="3" patch="152" parent_instance="0" />
+			<Instance index="64" module_index="3" patch="153" parent_instance="0" />
+			<Instance index="65" module_index="3" patch="154" parent_instance="0" />
+			<Instance index="66" module_index="3" patch="155" parent_instance="0" />
+			<Instance index="67" module_index="3" patch="156" parent_instance="0" />
+			<Instance index="68" module_index="3" patch="157" parent_instance="0" />
+			<Instance index="69" module_index="3" patch="158" parent_instance="0" />
+			<Instance index="70" module_index="3" patch="159" parent_instance="0" />
+			<Instance index="71" module_index="3" patch="160" parent_instance="0" />
+			<Instance index="72" module_index="3" patch="161" parent_instance="0" />
+			<Instance index="73" module_index="3" patch="162" parent_instance="0" />
+			<Instance index="74" module_index="3" patch="163" parent_instance="0" />
+			<Instance index="75" module_index="3" patch="164" parent_instance="0" />
+			<Instance index="76" module_index="3" patch="165" parent_instance="0" />
+			<Instance index="77" module_index="3" patch="166" parent_instance="0" />
+			<Instance index="78" module_index="3" patch="167" parent_instance="0" />
+			<Instance index="79" module_index="3" patch="168" parent_instance="0" />
+		</Instances>
+		<Wheels index="2">
+			<Wheel index="0" subattribute="COLOR1" attribute="COLOR1" feature="COLOR1" preset="COLOR">
+				<Slot index="0" media_name="Null" />
+				<Slot index="1" media_name="010 Medium Yellow" b="0" />
+				<Slot index="2" media_name="019 Fire" g="59" b="0" />
+				<Slot index="3" media_name="021 Gold Amber" r="248" g="134" b="23" />
+				<Slot index="4" media_name="025 Sunset Red" r="246" g="99" b="28" />
+				<Slot index="5" media_name="036 Medium Pink" g="153" b="215" />
+				<Slot index="6" media_name="052 Light Lavender" r="181" g="139" b="247" />
+				<Slot index="7" media_name="058 Lavender" r="174" g="109" b="241" />
+				<Slot index="8" media_name="068 Sky Blue" r="66" g="183" b="244" />
+				<Slot index="9" media_name="079 Just Blue" r="68" g="121" b="223" />
+				<Slot index="10" media_name="088 Lime Green" r="200" g="238" b="91" />
+				<Slot index="11" media_name="089 Moss Green" r="146" g="234" b="31" />
+				<Slot index="12" media_name="090 Dark Yellow Green" r="0" g="190" b="0" />
+				<Slot index="13" media_name="100 Spring Yellow" r="235" g="247" b="0" />
+				<Slot index="14" media_name="101 Yellow" r="220" g="209" b="0" />
+				<Slot index="15" media_name="102 Light Amber" r="217" g="195" b="75" />
+				<Slot index="16" media_name="103 Straw" r="223" g="207" b="181" />
+				<Slot index="17" media_name="104 Deep Amber" g="215" b="0" />
+				<Slot index="18" media_name="105 Orange" g="155" b="0" />
+				<Slot index="19" media_name="111 Dark Pink" g="136" b="189" />
+				<Slot index="20" media_name="115 Peacock Blue" r="0" g="234" b="195" />
+				<Slot index="21" media_name="116 Medium Blue-Green" r="0" g="197" b="183" />
+				<Slot index="22" media_name="117 Steel Blue" r="177" g="248" b="241" />
+				<Slot index="23" media_name="118 Light Blue" r="0" g="225" b="236" />
+				<Slot index="24" media_name="120 Deep Blue" r="0" g="40" b="199" />
+				<Slot index="25" media_name="121 LEE Green" r="158" g="248" b="82" />
+				<Slot index="26" media_name="122 Fern Green" r="107" g="223" b="91" />
+				<Slot index="27" media_name="124 Dark Green" r="0" g="223" b="117" />
+				<Slot index="28" media_name="126 Mauve" r="189" g="0" b="190" />
+				<Slot index="29" media_name="128 Bright Pink" r="230" g="88" b="176" />
+				<Slot index="30" media_name="132 Medium Blue" r="0" g="164" b="179" />
+				<Slot index="31" media_name="135 Deep Golden Amber" r="231" g="70" b="0" />
+				<Slot index="32" media_name="136 Pale Lavender" r="238" g="187" b="228" />
+				<Slot index="33" media_name="137 Special Lavender" r="162" g="146" b="188" />
+				<Slot index="34" media_name="138 Pale Green" r="192" g="223" b="138" />
+				<Slot index="35" media_name="139 Primary Green" r="72" g="193" b="0" />
+				<Slot index="36" media_name="141 Bright Blue" r="0" g="209" b="228" />
+				<Slot index="37" media_name="147 Apricot" r="223" g="163" b="122" />
+				<Slot index="38" media_name="152 Pale Gold" g="209" b="190" />
+				<Slot index="39" media_name="157 Pink" g="145" b="159" />
+				<Slot index="40" media_name="162 Bastard Amber" r="248" g="221" b="213" />
+				<Slot index="41" media_name="164 Flame Red" g="47" b="0" />
+				<Slot index="42" media_name="165 Daylight Blue" r="78" g="173" b="206" />
+				<Slot index="43" media_name="170 Deep Lavender" r="228" g="168" b="219" />
+				<Slot index="44" media_name="181 Congo Blue" r="79" g="0" b="168" />
+				<Slot index="45" media_name="194 Surprise Pink" r="186" g="146" />
+				<Slot index="46" media_name="197 Alice Blue" r="126" g="168" b="228" />
+				<Slot index="47" media_name="201 Full C.T. Blue" r="193" g="223" b="248" />
+				<Slot index="48" media_name="202 Half C.T. Blue" r="213" g="239" />
+				<Slot index="49" media_name="353 Lighter Blue" r="95" g="228" b="225" />
+				<Slot index="50" media_name="778 Millennium Gold" r="204" g="94" b="0" />
+			</Wheel>
+		</Wheels>
+		<VirtualFunctionBlocks index="3" />
+		<FixtureMacroCollect index="5">
+			<FixtureMacro index="0">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="RESET" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" instance_index="-1" />
+				<FixtureMacroStep index="1" duration="1" instance_index="-1" />
+			</FixtureMacro>
+			<FixtureMacro index="1">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="RESET" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="75" instance_index="-1" />
+				<FixtureMacroStep index="1" duration="1" instance_index="-1" />
+			</FixtureMacro>
+			<FixtureMacro index="2">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="RESET" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="255" instance_index="-1" />
+				<FixtureMacroStep index="1" duration="1" instance_index="-1" />
+			</FixtureMacro>
+		</FixtureMacroCollect>
+		<Body />
+		<AutoPresets index="4" />
+		<RdmNotifications index="6">
+			<RdmNotification index="0" Type="Absent" Subcategory="RDM Warning" />
+		</RdmNotifications>
+	</FixtureType>
+</MA>

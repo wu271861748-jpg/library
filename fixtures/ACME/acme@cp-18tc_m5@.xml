@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/2.8.3/MA.xsd" major_vers="2" minor_vers="8" stream_vers="3">
+	<Info datetime="2013-09-13T08:54:06" showfile="new show 2012-04-24" />
+	<FixtureType index="29" name="CP-18TC M5">
+		<short_name>CP-18TC M5</short_name>
+		<manufacturer>ACME</manufacturer>
+		<short_manufacturer>ACME</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="None" beamtype="Wash" beam_angle="35.000" beam_intensity="10000.000">
+				<ChannelType index="0" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" default="255.000" highlight_value="0.000" grandmaster="true">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="COLORRGB1" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="1" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" default="255.000" highlight_value="0.000" grandmaster="true">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="COLORRGB2" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="2" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" default="255.000" highlight_value="0.000" grandmaster="true">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="COLORRGB3" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="3" attribute="DIM" feature="DIMMER" preset="DIMMER" highlight_value="100.000" grandmaster="true" is_virtual_dimmer="true" is_dimmer="true">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="DIM" attribute="DIM" feature="DIMMER" preset="DIMMER" />
+				</ChannelType>
+				<ChannelType index="4" attribute="COLOR1" feature="COLOR1" preset="COLOR">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" subattribute="COLOR1" attribute="COLOR1" feature="COLOR1" preset="COLOR">
+						<ChannelSet index="0" name="Open" from_dmx="0" to_dmx="7" slot_index="0" />
+						<ChannelSet index="1" name="Color1" from_dmx="8" to_dmx="15" slot_index="1" />
+						<ChannelSet index="2" name="Color2" from_dmx="16" to_dmx="23" slot_index="2" />
+						<ChannelSet index="3" name="Color3" from_dmx="24" to_dmx="30" slot_index="3" />
+						<ChannelSet index="4" name="Color4" from_dmx="31" to_dmx="38" slot_index="4" />
+						<ChannelSet index="5" name="Color5" from_dmx="39" to_dmx="46" slot_index="5" />
+						<ChannelSet index="6" name="Color6" from_dmx="47" to_dmx="54" slot_index="6" />
+						<ChannelSet index="7" name="Color7" from_dmx="55" to_dmx="61" slot_index="7" />
+						<ChannelSet index="8" name="Color8" from_dmx="62" to_dmx="69" slot_index="8" />
+						<ChannelSet index="9" name="Color9" from_dmx="70" to_dmx="77" slot_index="9" />
+						<ChannelSet index="10" name="Color10" from_dmx="78" to_dmx="85" slot_index="10" />
+						<ChannelSet index="11" name="Color11" from_dmx="86" to_dmx="92" slot_index="11" />
+						<ChannelSet index="12" name="Color12" from_dmx="93" to_dmx="100" slot_index="12" />
+						<ChannelSet index="13" name="Color13" from_dmx="101" to_dmx="108" slot_index="13" />
+						<ChannelSet index="14" name="Color14" from_dmx="109" to_dmx="116" slot_index="14" />
+						<ChannelSet index="15" name="Color15" from_dmx="117" to_dmx="123" slot_index="15" />
+						<ChannelSet index="16" name="Color16" from_dmx="124" to_dmx="131" slot_index="16" />
+						<ChannelSet index="17" name="Color17" from_dmx="132" to_dmx="139" slot_index="17" />
+						<ChannelSet index="18" name="Color18" from_dmx="140" to_dmx="147" slot_index="18" />
+						<ChannelSet index="19" name="Color19" from_dmx="148" to_dmx="154" slot_index="19" />
+						<ChannelSet index="20" name="Color20" from_dmx="155" to_dmx="162" slot_index="20" />
+						<ChannelSet index="21" name="Color21" from_dmx="163" to_dmx="170" slot_index="21" />
+						<ChannelSet index="22" name="Color22" from_dmx="171" to_dmx="178" slot_index="22" />
+						<ChannelSet index="23" name="Color23" from_dmx="179" to_dmx="185" slot_index="23" />
+						<ChannelSet index="24" name="Color24" from_dmx="186" to_dmx="193" slot_index="24" />
+						<ChannelSet index="25" name="Color25" from_dmx="194" to_dmx="201" slot_index="25" />
+						<ChannelSet index="26" name="Color26" from_dmx="202" to_dmx="209" slot_index="26" />
+						<ChannelSet index="27" name="Color27" from_dmx="210" to_dmx="216" slot_index="27" />
+						<ChannelSet index="28" name="Color28" from_dmx="217" to_dmx="224" slot_index="28" />
+						<ChannelSet index="29" name="Color29" from_dmx="225" to_dmx="232" slot_index="29" />
+						<ChannelSet index="30" name="Color30" from_dmx="233" to_dmx="240" slot_index="30" />
+						<ChannelSet index="31" name="Color31" from_dmx="241" to_dmx="247" slot_index="31" />
+						<ChannelSet index="32" name="Color32" from_dmx="248" to_dmx="255" slot_index="32" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="5" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" default="7.905" highlight_value="3.100">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="1.000" subattribute="SHUTTER" attribute="SHUTTER" feature="SHUTTER" preset="BEAM">
+						<ChannelSet index="0" name="Closed" from_dmx="0" to_dmx="7" slot_index="0" />
+						<ChannelSet index="1" name="Open" from_dmx="8" to_dmx="15" slot_index="1" />
+						<ChannelSet index="2" name="Strobe" from_dmx="16" to_dmx="131" slot_index="2" />
+						<ChannelSet index="3" name="Open" from_dmx="132" to_dmx="139" slot_index="3" />
+						<ChannelSet index="4" name="Op Pls" from_dmx="140" to_dmx="181" slot_index="4" />
+						<ChannelSet index="5" name="Open" from_dmx="182" to_dmx="189" slot_index="5" />
+						<ChannelSet index="6" name="Cl Pls" from_dmx="190" to_dmx="231" slot_index="6" />
+						<ChannelSet index="7" name="Open" from_dmx="232" to_dmx="239" slot_index="7" />
+						<ChannelSet index="8" name="Rnd Shutter" from_dmx="240" to_dmx="247" slot_index="8" />
+						<ChannelSet index="9" name="Open" from_dmx="248" to_dmx="255" slot_index="9" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" RW="0.000" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<Body />
+	</FixtureType>
+</MA>

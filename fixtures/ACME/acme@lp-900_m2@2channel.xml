@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.2.2/MA.xsd" major_vers="3" minor_vers="2" stream_vers="2">
+	<Info datetime="2016-07-05T15:27:49" showfile="newshow" />
+	<FixtureType index="23" name="LP-900 M2" mode="2channel">
+		<short_name>LP-900 2DMX</short_name>
+		<manufacturer>ACME</manufacturer>
+		<short_manufacturer>ACME</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="LED" beamtype="Wash" beam_angle="35" beam_intensity="10000">
+				<Body>
+					<Size x="0.15" y="0.15" z="0.05" />
+				</Body>
+				<ChannelType index="0" attribute="CTO" feature="CTC" preset="COLOR" coarse="1" default="127.5">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="CTO" subattribute_user_name="CTO" attribute="CTO" attribute_user_name="CTO" feature="CTC" feature_user_name="CTC" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="Color Mix" from_dmx="0" to_dmx="255" slot_index="0" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="1" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="2" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" RW="0" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<FixtureMacroCollect index="5" />
+		<Body />
+		<AutoPresets index="4" />
+		<RdmNotifications index="6">
+			<RdmNotification index="0" Type="Absent" Subcategory="RDM Warning" />
+		</RdmNotifications>
+	</FixtureType>
+</MA>

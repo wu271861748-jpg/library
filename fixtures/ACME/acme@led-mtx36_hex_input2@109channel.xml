@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.2.2/MA.xsd" major_vers="3" minor_vers="2" stream_vers="2">
+	<Info datetime="2019-12-03T05:43:20" showfile="new show 2019-11-29" />
+	<FixtureType index="8" name="LED-MTX36 HEX Input2" mode="109channel">
+		<InfoItems>
+			<Info>Set mode selector switch to 1 RGB</Info>
+			<Info type="Revision" date="2013-09-03T00:00:00">Automated import from MA Lighting (C-RevNum: 7; Date: 2012-02-29)</Info>
+			<Info type="Invisible" date="2013-09-03T00:00:00">generator_software_name=&quot;MA Importer&quot;,generator_software_version=&quot;5f6b42bb2658c4832ffd420fab04b1e552d5dd51&quot;</Info>
+		</InfoItems>
+		<short_name>MTX36HEX  WPY</short_name>
+		<manufacturer>ACME</manufacturer>
+		<short_manufacturer>ACME</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" name="Main Module" class="LED" beamtype="Wash" beam_angle="45" beam_intensity="5000">
+				<Body>
+					<Size x="0.083" y="0.083" z="0.105" />
+				</Body>
+				<ChannelType index="0" attribute="COLORRGB5" feature="COLORRGB" preset="COLOR" coarse="1" default="255" highlight_value="100" color="ffffff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB5" subattribute_user_name="White" attribute="COLORRGB5" attribute_user_name="White" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="1" attribute="COLORRGB15" feature="COLORRGB" preset="COLOR" coarse="2" default="255" highlight_value="100" color="000000">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB15" subattribute_user_name="UV" attribute="COLORRGB15" attribute_user_name="UV" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="2" attribute="COLORRGB14" feature="COLORRGB" preset="COLOR" coarse="3" default="255" highlight_value="100" color="ffff00">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB14" subattribute_user_name="Yellow" attribute="COLORRGB14" attribute_user_name="Yellow" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="3" attribute="DIM" feature="DIMMER" preset="DIMMER" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer">
+						<ChannelSet index="0" name="closed" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="open" from_dmx="16777215" to_dmx="16777215" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+			<Module index="1" class="None" beamtype="Wash" beam_angle="35" beam_intensity="0">
+				<ChannelType index="0" attribute="VIRTUAL_COLOR_MODE" feature="COLORHSB" preset="COLOR" coarse="1" default="76.5">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="VIRTUAL_COLOR_MODE" subattribute_user_name="Mode" attribute="VIRTUAL_COLOR_MODE" attribute_user_name="Mode" feature="COLORHSB" feature_user_name="HSB" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="Blackout" from_dmx="0" to_dmx="25" />
+						<ChannelSet index="1" name="Console Input" from_dmx="26" to_dmx="95" />
+						<ChannelSet index="2" name="Media Input" from_dmx="96" to_dmx="165" />
+						<ChannelSet index="3" name="Mix Input" from_dmx="166" to_dmx="235" />
+						<ChannelSet index="4" name="Blackout" from_dmx="236" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="1" attribute="DIM" feature="DIMMER" preset="DIMMER" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="1" />
+			<Instance index="1" module_index="0" patch="2" X="-0.25" Y="-0.25" />
+			<Instance index="2" module_index="0" patch="5" X="-0.15" Y="-0.25" />
+			<Instance index="3" module_index="0" patch="8" X="-0.05" Y="-0.25" />
+			<Instance index="4" module_index="0" patch="11" X="0.05" Y="-0.25" />
+			<Instance index="5" module_index="0" patch="14" X="0.15" Y="-0.25" />
+			<Instance index="6" module_index="0" patch="17" X="0.25" Y="-0.25" />
+			<Instance index="7" module_index="0" patch="20" X="-0.25" Y="-0.15" />
+			<Instance index="8" module_index="0" patch="23" X="-0.15" Y="-0.15" />
+			<Instance index="9" module_index="0" patch="26" X="-0.05" Y="-0.15" />
+			<Instance index="10" module_index="0" patch="29" X="0.05" Y="-0.15" />
+			<Instance index="11" module_index="0" patch="32" X="0.15" Y="-0.15" />
+			<Instance index="12" module_index="0" patch="35" X="0.25" Y="-0.15" />
+			<Instance index="13" module_index="0" patch="38" X="-0.25" Y="-0.05" />
+			<Instance index="14" module_index="0" patch="41" X="-0.15" Y="-0.05" />
+			<Instance index="15" module_index="0" patch="44" X="-0.05" Y="-0.05" />
+			<Instance index="16" module_index="0" patch="47" X="0.05" Y="-0.05" />
+			<Instance index="17" module_index="0" patch="50" X="0.15" Y="-0.05" />
+			<Instance index="18" module_index="0" patch="53" X="0.25" Y="-0.05" />
+			<Instance index="19" module_index="0" patch="56" X="-0.25" Y="0.05" />
+			<Instance index="20" module_index="0" patch="59" X="-0.15" Y="0.05" />
+			<Instance index="21" module_index="0" patch="62" X="-0.05" Y="0.05" />
+			<Instance index="22" module_index="0" patch="65" X="0.05" Y="0.05" />
+			<Instance index="23" module_index="0" patch="68" X="0.15" Y="0.05" />
+			<Instance index="24" module_index="0" patch="71" X="0.25" Y="0.05" />
+			<Instance index="25" module_index="0" patch="74" X="-0.25" Y="0.15" />
+			<Instance index="26" module_index="0" patch="77" X="-0.15" Y="0.15" />
+			<Instance index="27" module_index="0" patch="80" X="-0.05" Y="0.15" />
+			<Instance index="28" module_index="0" patch="83" X="0.05" Y="0.15" />
+			<Instance index="29" module_index="0" patch="86" X="0.15" Y="0.15" />
+			<Instance index="30" module_index="0" patch="89" X="0.25" Y="0.15" />
+			<Instance index="31" module_index="0" patch="92" X="-0.25" Y="0.25" />
+			<Instance index="32" module_index="0" patch="95" X="-0.15" Y="0.25" />
+			<Instance index="33" module_index="0" patch="98" X="-0.05" Y="0.25" />
+			<Instance index="34" module_index="0" patch="101" X="0.05" Y="0.25" />
+			<Instance index="35" module_index="0" patch="104" X="0.15" Y="0.25" />
+			<Instance index="36" module_index="0" patch="107" X="0.25" Y="0.25" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<FixtureMacroCollect index="5" />
+		<Body />
+		<AutoPresets index="4" />
+		<RdmNotifications index="6">
+			<RdmNotification index="0" Type="Absent" Subcategory="RDM Warning" />
+		</RdmNotifications>
+	</FixtureType>
+</MA>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.2.2/MA.xsd" major_vers="3" minor_vers="2" stream_vers="2">
+	<Info datetime="2017-08-28T13:44:17" showfile="xp show 2017-08-23" />
+	<FixtureType index="67" name="LED-ST5000" mode="2 channel">
+		<InfoItems>
+			<Info>Set DIP switches 1-5 to OFF for this personality
+Set DIP switch 6 to OFF for high power mode, set switch to ON for low power mode
+Ch 2 - Maximum flash duration is 650mSec with 50Hz mains supply, or 530mSec with 60Hz.
+Ch 3 - Maximum strobe rate is 25Hz with 50Hz mains supply, or 30Hz with 60Hz supply.
+For blinder effect (permanent on) increase strobe duration until it is longer than the interval between flashes.  Have not tried to model this.
+For single flashes, set intensity and Strobe rate to 0.  The unit will flash once each time intensity is varied.  Have not tried to model this.</Info>
+			<Info type="Revision" date="2015-12-07T00:00:00">Automated import from MA Lighting (C-RevNum: 0; Date: 2013-08-12)</Info>
+			<Info type="Invisible" date="2015-12-07T00:00:00">generator_software_name=&quot;MA Importer&quot;,generator_software_version=&quot;9f54f4b62519d7c623c7e8e9b20a0a67177041b6&quot;</Info>
+		</InfoItems>
+		<short_name>LEDST5000 2</short_name>
+		<manufacturer>ACME</manufacturer>
+		<short_manufacturer>ACME</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" name="Main Module" class="Conventional" beamtype="Wash" beam_angle="120" beam_intensity="10000">
+				<Body>
+					<Size x="0.472" y="0.255" z="0.255" />
+				</Body>
+				<ChannelType index="0" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" coarse="1" default="0.001" highlight_value="50">
+					<ChannelFunction index="0" from="0" to="2.16" min_dmx_24="0" max_dmx_24="393215" physfrom="0" physto="0" subattribute="SHUTTER" subattribute_user_name="Shutter" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Off" from_dmx="0" to_dmx="5" slot_from="0" slot_to="0" />
+					</ChannelFunction>
+					<ChannelFunction index="1" name="Strobe" from="2.16" to="100" min_dmx_24="393216" max_dmx_24="16777215" physfrom="0.4" physto="20" subattribute="STROBE" subattribute_user_name="Strobe" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="min Strobe" from_dmx="6" to_dmx="6" />
+						<ChannelSet index="1" name="max Strobe" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="1" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="2" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<FixtureMacroCollect index="5" />
+		<Body />
+		<AutoPresets index="4" />
+		<RdmNotifications index="6">
+			<RdmNotification index="0" Type="Absent" Subcategory="RDM Warning" />
+		</RdmNotifications>
+	</FixtureType>
+</MA>

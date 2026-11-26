@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.0.0/MA.xsd" major_vers="3" minor_vers="0" stream_vers="0">
+	<Info datetime="2016-04-22T09:54:11" showfile="bb2" />
+	<FixtureType index="1" name="LED-BR20 9DMX">
+		<short_name>LED-BR20</short_name>
+		<manufacturer>ACME</manufacturer>
+		<short_manufacturer>ACME</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="None" beamtype="Wash" beam_angle="35" beam_intensity="10000">
+				<ChannelType index="0" attribute="COLOR1" feature="COLOR1" preset="COLOR" coarse="1" default="67.83">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="COLOR1" attribute="COLOR1" feature="COLOR1" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="1" attribute="PAN" feature="POSITION" preset="POSITION" coarse="2" default="127.5">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="PAN" attribute="PAN" feature="POSITION" preset="POSITION" />
+				</ChannelType>
+				<ChannelType index="2" attribute="TILT" feature="POSITION" preset="POSITION" coarse="3">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="-90" physto="90" subattribute="TILT" attribute="TILT" feature="POSITION" preset="POSITION" />
+				</ChannelType>
+				<ChannelType index="3" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" coarse="4">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="1" subattribute="SHUTTER" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" />
+				</ChannelType>
+				<ChannelType index="4" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="5">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" attribute="DIM" feature="DIMMER" preset="DIMMER" />
+				</ChannelType>
+				<ChannelType index="5" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" coarse="6" default="255" color="ff0000">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB1" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="6" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" coarse="7" default="255" color="00ff00">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB2" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="7" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" coarse="8" default="255" color="0000ff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB3" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="8" attribute="COLORRGB5" feature="COLORRGB" preset="COLOR" coarse="9" color="ffffff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB5" attribute="COLORRGB5" feature="COLORRGB" preset="COLOR" />
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" RW="0" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<Body />
+		<AutoPresets index="4" />
+	</FixtureType>
+</MA>

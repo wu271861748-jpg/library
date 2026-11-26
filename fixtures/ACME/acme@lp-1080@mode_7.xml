@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.2.2/MA.xsd" major_vers="3" minor_vers="2" stream_vers="2">
+	<Info datetime="2014-04-03T22:29:35" showfile="new show 2014-04-03" />
+	<FixtureType index="3" name="LP-1080" mode="Mode 7">
+		<InfoItems>
+			<Info>Set Menu option Chnd to nod7 for this personality</Info>
+			<Info type="Revision" date="2015-12-07T00:00:00">Automated import from MA Lighting (C-RevNum: 0; Date: 2013-09-05)</Info>
+			<Info type="Invisible" date="2015-12-07T00:00:00">generator_software_name=&quot;MA Importer&quot;,generator_software_version=&quot;9f54f4b62519d7c623c7e8e9b20a0a67177041b6&quot;</Info>
+		</InfoItems>
+		<short_name>1080M7</short_name>
+		<manufacturer>ACME</manufacturer>
+		<short_manufacturer>ACME</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" name="Main Module" class="LED" beamtype="Wash" beam_angle="25" beam_intensity="10000">
+				<Body>
+					<Size x="0.515" y="0.225" z="0.142" />
+				</Body>
+				<ChannelType index="0" attribute="COLOR1" feature="COLOR1" preset="COLOR" coarse="1" default="0.001" highlight_value="46.5">
+					<ChannelFunction index="0" from="0" to="5.69" min_dmx_24="0" max_dmx_24="983039" physfrom="0" physto="0" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer">
+						<ChannelSet index="0" name="entry 0" from_dmx="0" to_dmx="14" />
+					</ChannelFunction>
+					<ChannelFunction index="1" from="5.69" to="49.609" min_dmx_24="983040" max_dmx_24="8323071" wheel="1" subattribute="COLOR1" subattribute_user_name="Select" attribute="COLOR1" attribute_user_name="C1" feature="COLOR1" feature_user_name="Color1" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="Red" from_dmx="15" to_dmx="30" slot_index="1" slot_from="0" slot_to="0" />
+						<ChannelSet index="1" name="Yellow" from_dmx="31" to_dmx="46" slot_index="2" slot_from="0" slot_to="0" />
+						<ChannelSet index="2" name="Green" from_dmx="47" to_dmx="62" slot_index="3" slot_from="0" slot_to="0" />
+						<ChannelSet index="3" name="Cyan" from_dmx="63" to_dmx="78" slot_index="4" slot_from="0" slot_to="0" />
+						<ChannelSet index="4" name="Blue" from_dmx="79" to_dmx="94" slot_index="5" slot_from="0" slot_to="0" />
+						<ChannelSet index="5" name="Magenta" from_dmx="95" to_dmx="110" slot_index="6" slot_from="0" slot_to="0" />
+						<ChannelSet index="6" name="White" from_dmx="111" to_dmx="126" slot_index="7" slot_from="0" slot_to="0" />
+					</ChannelFunction>
+					<ChannelFunction index="2" from="49.609" to="100" min_dmx_24="8323072" max_dmx_24="16777215" wheel="1" subattribute="COLORMIXMACROSELECT" subattribute_user_name="Macro Select" attribute="COLORMIXER" attribute_user_name="ColorMix" feature="COLORMIX" feature_user_name="ColorMix" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="entry 0 (2)" from_dmx="127" to_dmx="127" slot_index="0" slot_from="0" slot_to="0" />
+						<ChannelSet index="1" name="Colour macro" from_dmx="128" to_dmx="191" slot_from="1" slot_to="1" />
+						<ChannelSet index="2" name="Colour fade" from_dmx="192" to_dmx="255" slot_from="2" slot_to="2" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="1" attribute="DIM" feature="DIMMER" preset="DIMMER" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" />
+		</Instances>
+		<Wheels index="2">
+			<Wheel index="0" subattribute="COLOR1" attribute="COLOR1" feature="COLOR1" preset="COLOR">
+				<Slot index="0" media_name="Open" />
+				<Slot index="1" media_name="Color 1" g="0" b="3" />
+				<Slot index="2" media_name="Color 2" r="253" b="0" />
+				<Slot index="3" media_name="Color 3" r="4" b="0" />
+				<Slot index="4" media_name="Color 4" r="0" b="248" />
+				<Slot index="5" media_name="Color 5" r="7" g="0" />
+				<Slot index="6" media_name="Color 6" r="253" g="0" />
+				<Slot index="7" media_name="Color 7" />
+			</Wheel>
+		</Wheels>
+		<VirtualFunctionBlocks index="3" />
+		<FixtureMacroCollect index="5" />
+		<Body />
+		<AutoPresets index="4" />
+		<RdmNotifications index="6">
+			<RdmNotification index="0" Type="Absent" Subcategory="RDM Warning" />
+		</RdmNotifications>
+	</FixtureType>
+</MA>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.2.2/MA.xsd" major_vers="3" minor_vers="2" stream_vers="2">
+	<Info datetime="2024-11-03T19:01:12" showfile="wash 250" />
+	<FixtureType index="62" name="ULTRA PAR IP LP (BL 100 IP)" mode="2ch WW">
+		<short_name>ULTRA PAR IP LP (BL 100 IP)</short_name>
+		<manufacturer>ACME</manufacturer>
+		<short_manufacturer>ACME</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="Conventional" beamtype="Wash" beam_angle="50" beam_intensity="10000">
+				<Body>
+					<Size x="0.13" y="0.13" z="0.24" />
+				</Body>
+				<ChannelType index="0" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="1" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+				<ChannelType index="1" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" coarse="2" default="0.001" highlight_value="0">
+					<ChannelFunction index="0" from="0" to="2.16" min_dmx_24="0" max_dmx_24="327685" physfrom="1" physto="1" subattribute="SHUTTER" subattribute_user_name="Shutter" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Open 1" from_dmx="0" to_dmx="5" />
+					</ChannelFunction>
+					<ChannelFunction index="1" from="2.16" to="48.43" min_dmx_24="393222" max_dmx_24="8061051" physfrom="0.9" physto="20" subattribute="STROBE" subattribute_user_name="Strobe" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="min strobe" from_dmx="6" to_dmx="6" />
+						<ChannelSet index="1" name="max strobe" from_dmx="123" to_dmx="123" />
+					</ChannelFunction>
+					<ChannelFunction index="2" from="48.43" to="50" min_dmx_24="8126588" max_dmx_24="8323199" physfrom="1" physto="1" subattribute="SHUTTER" subattribute_user_name="Shutter" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Open 2" from_dmx="124" to_dmx="127" />
+					</ChannelFunction>
+					<ChannelFunction index="3" name="Rnd" from="50" to="97.84" min_dmx_24="8388736" max_dmx_24="16318713" physfrom="10" physto="20" subattribute="STROBE_RANDOM" subattribute_user_name="Rnd" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Rnd1 Strobe" from_dmx="128" to_dmx="168" />
+						<ChannelSet index="1" name="Rnd2 Strobe" from_dmx="169" to_dmx="208" />
+						<ChannelSet index="2" name="Rnd3 Strobe" from_dmx="209" to_dmx="249" />
+					</ChannelFunction>
+					<ChannelFunction index="4" from="97.84" to="100" min_dmx_24="16384250" max_dmx_24="16711935" physfrom="1" physto="1" subattribute="SHUTTER" subattribute_user_name="Shutter" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Open 3" from_dmx="250" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<FixtureMacroCollect index="5" />
+		<Body />
+		<AutoPresets index="4" />
+		<RdmNotifications index="6">
+			<RdmNotification index="0" Type="Absent" Subcategory="RDM Warning" />
+		</RdmNotifications>
+	</FixtureType>
+</MA>

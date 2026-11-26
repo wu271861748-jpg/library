@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/2.5.3/MA.xsd" major_vers="2" minor_vers="5" stream_vers="3">
+	<Info datetime="2013-08-21T19:33:02" showfile="new show 2012-04-24" />
+	<FixtureType index="44" name="BW-903RGBW 5CH">
+		<short_name>BW903RGBW 5CH</short_name>
+		<manufacturer>ACME</manufacturer>
+		<short_manufacturer>ACME</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="None" beamtype="Wash" beam_angle="35.000" beam_intensity="10000.000">
+				<Body>
+					<Size x="0.000" y="0.000" z="0.000" />
+					<Center x="0.000" y="0.000" z="0.000" />
+					<Light x="0.000" y="0.000" z="0.000" />
+				</Body>
+				<ChannelType index="0" attribute="COLORMIX1" feature="COLORMIX" preset="COLOR" coarse="1" default="255.000" highlight_value="100.000">
+					<ChannelFunction index="0" name="Red" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="COLORMIX1" attribute="COLORMIX1" feature="COLORMIX" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="1" attribute="COLORMIX2" feature="COLORMIX" preset="COLOR" coarse="2" default="255.000" highlight_value="100.000">
+					<ChannelFunction index="0" name="Green" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="COLORMIX2" attribute="COLORMIX2" feature="COLORMIX" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="2" attribute="COLORMIX3" feature="COLORMIX" preset="COLOR" coarse="3" default="255.000" highlight_value="100.000">
+					<ChannelFunction index="0" name="Blue" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="COLORMIX3" attribute="COLORMIX3" feature="COLORMIX" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="3" attribute="CTC" feature="CTC" preset="COLOR" coarse="4" default="255.000" highlight_value="100.000">
+					<ChannelFunction index="0" name="White" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" subattribute="CTC" attribute="CTC" feature="CTC" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="4" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="5" highlight_value="100.000" grandmaster="true" is_dimmer="true">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="DIM" attribute="DIM" feature="DIMMER" preset="DIMMER" />
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" patch="1" RW="0.000" />
+		</Instances>
+		<Wheels index="2" />
+	</FixtureType>
+</MA>

@@ -1,0 +1,1200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.2.2/MA.xsd" major_vers="3" minor_vers="2" stream_vers="2">
+	<Info datetime="2015-06-08T10:31:46" showfile="new show 2015-05-13" />
+	<FixtureType index="71" name="PAR 100" mode="103channel">
+		<InfoItems>
+			<Info>Fixture has on/off switch
+Set menu option Channel Mode to Extended RGBW for this personality</Info>
+			<Info type="Revision" date="2016-05-13T00:00:00">Automated import from MA Lighting (C-RevNum: 6; Date: 2016-05-11)</Info>
+			<Info type="Invisible" date="2016-05-13T00:00:00">generator_software_name=&quot;MA Importer&quot;,generator_software_version=&quot;00d7136ab774ccc2a27cadac97ac748b188e0aa5&quot;</Info>
+			<Info type="Revision" date="2016-05-13T00:00:00">Positions for Single LEDs are automatically aligned by MA Lighting Technology</Info>
+			<Info type="Revision" date="2015-03-11T00:00:00">Positions for Single LEDs set manually by MA Tech Support</Info>
+		</InfoItems>
+		<short_name>PAR100</short_name>
+		<manufacturer>ACME</manufacturer>
+		<short_manufacturer>ACME</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" name="PAR 100" class="Headmover" beamtype="Wash" beam_angle="0" beam_intensity="0">
+				<Model index="201" name="AE-100PAR" model_key="943ed712-d303-4037-9fed-105716b270ac" available_for_user="true" sunshadeType="Regular" vertices_have_pos="true" vertices_have_tex0="true" model_type="Model">
+					<Materials>
+						<Material3d specularPower="0.69" name="H_XSX1">
+							<DiffuseColor r="0.12" g="0.12" b="0.12" a="1" />
+							<SpecularColor r="1" g="1" b="1" a="1" />
+							<EmissiveColor r="0" g="0" b="0" a="1" />
+							<DiffuseInking x="0" y="0" z="0" />
+							<EmissiveInking x="0" y="0" z="0" />
+							<SurfaceTexture />
+							<AlphaTexture />
+						</Material3d>
+					</Materials>
+					<Vertices>
+						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
+					</Vertices>
+					<Faces>
+						sAEAAAYAAgAAAAgABAADAAcACAADAAkAAQAFAAoABgAAAAwACAAHAAsADAAHAA0AAQAJAA4ACgAAABAA
+						DAALAA8AEAALABEAAQANABIADgAAABQAEAAPABMAFAAPABUAAQARABYAEgAAABgAFAATABcAGAATABkA
+						AQAVABoAFgAAABwAGAAXABsAHAAXAB0AAQAZAB4AGgAAACAAHAAbAB8AIAAbACEAAQAdACIAHgAAACQA
+						IAAfACMAJAAfACUAAQAhACYAIgAAACgAJAAjACcAKAAjACkAAQAlACoAJgAAACwAKAAnACsALAAnAC0A
+						AQApAC4AKgAAADAALAArAC8AMAArADEAAQAtADIALgAAADQAMAAvADMANAAvADUAAQAxADYAMgAAADgA
+						NAAzADcAOAAzADkAAQA1ADoANgAAADwAOAA3ADsAPAA3AD0AAQA5AD4AOgAAAEAAPAA7AD8AQAA7AEEA
+						AQA9AEIAPgAAAEQAQAA/AEMARAA/AEUAAQBBAEYAQgAAAEgARABDAEcASABDAEkAAQBFAEoARgAAAEwA
+						SABHAEsATABHAE0AAQBJAE4ASgAAAFAATABLAE8AUABLAFEAAQBNAFIATgAAAFQAUABPAFMAVABPAFUA
+						AQBRAFYAUgAAAFgAVABTAFcAWABTAFkAAQBVAFoAVgAAAFwAWABXAFsAXABXAF0AAQBZAF4AWgAAAGAA
+						XABbAF8AYABbAGEAAQBdAGIAXgAAAGQAYABfAGMAZABfAGUAAQBhAGYAYgAAAGgAZABjAGcAaABjAGkA
+						AQBlAGoAZgAAAGwAaABnAGsAbABnAG0AAQBpAG4AagAAAHAAbABrAG8AcABrAHEAAQBtAHIAbgAAAHQA
+						cABvAHMAdABvAHUAAQBxAHYAcgAAAHgAdABzAHcAeABzAHkAAQB1AHoAdgAAAHwAeAB3AHsAfAB3AH0A
+						AQB5AH4AegAAAIAAfAB7AH8AgAB7AIEAAQB9AIIAfgAAAIQAgAB/AIMAhAB/AIUAAQCBAIYAggAAAIgA
+						hACDAIcAiACDAIkAAQCFAIoAhgAAAIwAiACHAIsAjACHAI0AAQCJAI4AigAAAJAAjACLAI8AkACLAJEA
+						AQCNAAIAjgAAAAQAkACPAAMABACPAAUAAQCRAA==
+					</Faces>
+					<SubSets>
+						<SubSet3d material_index="0" FaceStart="0" FacesCount="144" />
+					</SubSets>
+					<Model index="0" name="LED" add_children_here="true" sunshadeType="Regular" vertices_have_pos="true" vertices_have_tex0="true" model_type="Model">
+						<Materials>
+							<Material3d specularPower="0.1" name="_XAT">
+								<DiffuseColor r="0.8" g="0.8" b="0.8" a="1" />
+								<SpecularColor r="0.898" g="0.898" b="0.898" a="0" />
+								<EmissiveColor r="0" g="0" b="0" a="1" />
+								<DiffuseInking x="0" y="0" z="0" />
+								<EmissiveInking x="0" y="0" z="0" />
+								<SurfaceTexture />
+								<AlphaTexture />
+							</Material3d>
+						</Materials>
+						<Vertices>
+							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
+							1aBSOyCtajpjT++6PCqCN+T/f7/fBjE/biMpPy8K+zrVoNI6IJVrOn7v67quxAm35f9/v3CDGD+2kRQ/
+							8eYNPAjXozsgY2g6ceDtunB6Kzbk/3+/7NluPwAAQD9n2tQ7f8J1OyBpaTphsOu60McOt+X/f79xI1M/
+							AAAwP+3mjTv/1iM7IG9qOmsb7bpl82O35f9/v/ZsNz8AACA/+OYNOwDXozogd2s6mt3ruqVEGbfm/3+/
+							e7YbPwAAED8H+Rk8aiVgOyAJaDpqQ+y67uqrtub/f7/ZR3g/UMcrP3P15jsUHCg7ICdpOsWn7LoHmUU3
+							5v9/v+M1Wj981SA/EvmZO1Al4DogQ2o65CvuuiYcEjfl/3+/7SM8P6jjFT/9+Bk7VCVgOiBhazo62Oy6
+							YBA/N+b/f7/2ER4/1PEKP3NdITypmuM6INNnOo167bqsjFs35P9/vy4Ofj8aOhY/EQzyO9Szqjog/Wg6
+							N3rtuqIV2jXk/3+/o4peP5SrED9dXaE7rZpjOiAnajq2eu267Cqyt+X/f78XBz8/DB0LP2ldITujmuM5
+							IFNrOpcc7LoghKq35v9/v4yDHz+GjgU/
+						</Vertices>
+						<Faces>
+							9AIAAAYAAgABAAUABgABAAcAAwACAAYABwACAAgABAADAAcACAADAAgAAAAEAAoABgAFAAkACgAFAAsA
+							BwAGAAoACwAGAAwACAAHAAsADAAHAAwAAAAIAA4ACgAJAA0ADgAJAA8ACwAKAA4ADwAKABAADAALAA8A
+							EAALABAAAAAMABIADgANABEAEgANABMADwAOABIAEwAOABQAEAAPABMAFAAPABQAAAAQABYAEgARABUA
+							FgARABcAEwASABYAFwASABgAFAATABcAGAATABgAAAAUABoAFgAVABkAGgAVABsAFwAWABoAGwAWABwA
+							GAAXABsAHAAXABwAAAAYAB4AGgAZAB0AHgAZAB8AGwAaAB4AHwAaACAAHAAbAB8AIAAbACAAAAAcACIA
+							HgAdACEAIgAdACMAHwAeACIAIwAeACQAIAAfACMAJAAfACQAAAAgACYAIgAhACUAJgAhACcAIwAiACYA
+							JwAiACgAJAAjACcAKAAjACgAAAAkACoAJgAlACkAKgAlACsAJwAmACoAKwAmACwAKAAnACsALAAnACwA
+							AAAoAC4AKgApAC0ALgApAC8AKwAqAC4ALwAqADAALAArAC8AMAArADAAAAAsADIALgAtADEAMgAtADMA
+							LwAuADIAMwAuADQAMAAvADMANAAvADQAAAAwADYAMgAxADUANgAxADcAMwAyADYANwAyADgANAAzADcA
+							OAAzADgAAAA0ADoANgA1ADkAOgA1ADsANwA2ADoAOwA2ADwAOAA3ADsAPAA3ADwAAAA4AD4AOgA5AD0A
+							PgA5AD8AOwA6AD4APwA6AEAAPAA7AD8AQAA7AEAAAAA8AEIAPgA9AEEAQgA9AEMAPwA+AEIAQwA+AEQA
+							QAA/AEMARAA/AEQAAABAAEYAQgBBAEUARgBBAEcAQwBCAEYARwBCAEgARABDAEcASABDAEgAAABEAEoA
+							RgBFAEkASgBFAEsARwBGAEoASwBGAEwASABHAEsATABHAEwAAABIAE4ASgBJAE0ATgBJAE8ASwBKAE4A
+							TwBKAFAATABLAE8AUABLAFAAAABMAFIATgBNAFEAUgBNAFMATwBOAFIAUwBOAFQAUABPAFMAVABPAFQA
+							AABQAFYAUgBRAFUAVgBRAFcAUwBSAFYAVwBSAFgAVABTAFcAWABTAFgAAABUAFoAVgBVAFkAWgBVAFsA
+							VwBWAFoAWwBWAFwAWABXAFsAXABXAFwAAABYAF4AWgBZAF0AXgBZAF8AWwBaAF4AXwBaAGAAXABbAF8A
+							YABbAGAAAABcAGIAXgBdAGEAYgBdAGMAXwBeAGIAYwBeAGQAYABfAGMAZABfAGQAAABgAGYAYgBhAGUA
+							ZgBhAGcAYwBiAGYAZwBiAGgAZABjAGcAaABjAGgAAABkAGoAZgBlAGkAagBlAGsAZwBmAGoAawBmAGwA
+							aABnAGsAbABnAGwAAABoAG4AagBpAG0AbgBpAG8AawBqAG4AbwBqAHAAbABrAG8AcABrAHAAAABsAHIA
+							bgBtAHEAcgBtAHMAbwBuAHIAcwBuAHQAcABvAHMAdABvAHQAAABwAHYAcgBxAHUAdgBxAHcAcwByAHYA
+							dwByAHgAdABzAHcAeABzAHgAAAB0AHoAdgB1AHkAegB1AHsAdwB2AHoAewB2AHwAeAB3AHsAfAB3AHwA
+							AAB4AH4AegB5AH0AfgB5AH8AewB6AH4AfwB6AIAAfAB7AH8AgAB7AIAAAAB8AIIAfgB9AIEAggB9AIMA
+							fwB+AIIAgwB+AIQAgAB/AIMAhAB/AIQAAACAAIYAggCBAIUAhgCBAIcAgwCCAIYAhwCCAIgAhACDAIcA
+							iACDAIgAAACEAIoAhgCFAIkAigCFAIsAhwCGAIoAiwCGAIwAiACHAIsAjACHAIwAAACIAI4AigCJAI0A
+							jgCJAI8AiwCKAI4AjwCKAJAAjACLAI8AkACLAJAAAACMAAIAjgCNAAEAAgCNAAMAjwCOAAIAAwCOAAQA
+							kACPAAMABACPAAQAAACQAA==
+						</Faces>
+						<SubSets>
+							<SubSet3d material_index="0" FaceStart="0" FacesCount="252" />
+						</SubSets>
+					</Model>
+					<Model index="1" name="L" vertices_have_pos="true" vertices_have_tex0="true" model_type="Model">
+						<Materials>
+							<Material3d specularPower="0.69" name="L">
+								<DiffuseColor r="0.8" g="0.8" b="0.8" a="1" />
+								<SpecularColor r="1" g="1" b="1" a="1" />
+								<EmissiveColor r="0" g="0" b="0" a="1" />
+								<DiffuseInking x="0" y="0" z="0" />
+								<EmissiveInking x="0.8" y="0.8" z="0.8" />
+								<SurfaceTexture />
+								<AlphaTexture />
+							</Material3d>
+						</Materials>
+						<Vertices>
+							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
+							nEuwvdSdVrb0tEo7sf9/v4yDHz+GjgU/
+						</Vertices>
+						<Faces>
+							9AIAAAYAAgABAAUABgABAAcAAwACAAYABwACAAgABAADAAcACAADAAgAAAAEAAoABgAFAAkACgAFAAsA
+							BwAGAAoACwAGAAwACAAHAAsADAAHAAwAAAAIAA4ACgAJAA0ADgAJAA8ACwAKAA4ADwAKABAADAALAA8A
+							EAALABAAAAAMABIADgANABEAEgANABMADwAOABIAEwAOABQAEAAPABMAFAAPABQAAAAQABYAEgARABUA
+							FgARABcAEwASABYAFwASABgAFAATABcAGAATABgAAAAUABoAFgAVABkAGgAVABsAFwAWABoAGwAWABwA
+							GAAXABsAHAAXABwAAAAYAB4AGgAZAB0AHgAZAB8AGwAaAB4AHwAaACAAHAAbAB8AIAAbACAAAAAcACIA
+							HgAdACEAIgAdACMAHwAeACIAIwAeACQAIAAfACMAJAAfACQAAAAgACYAIgAhACUAJgAhACcAIwAiACYA
+							JwAiACgAJAAjACcAKAAjACgAAAAkACoAJgAlACkAKgAlACsAJwAmACoAKwAmACwAKAAnACsALAAnACwA
+							AAAoAC4AKgApAC0ALgApAC8AKwAqAC4ALwAqADAALAArAC8AMAArADAAAAAsADIALgAtADEAMgAtADMA
+							LwAuADIAMwAuADQAMAAvADMANAAvADQAAAAwADYAMgAxADUANgAxADcAMwAyADYANwAyADgANAAzADcA
+							OAAzADgAAAA0ADoANgA1ADkAOgA1ADsANwA2ADoAOwA2ADwAOAA3ADsAPAA3ADwAAAA4AD4AOgA5AD0A
+							PgA5AD8AOwA6AD4APwA6AEAAPAA7AD8AQAA7AEAAAAA8AEIAPgA9AEEAQgA9AEMAPwA+AEIAQwA+AEQA
+							QAA/AEMARAA/AEQAAABAAEYAQgBBAEUARgBBAEcAQwBCAEYARwBCAEgARABDAEcASABDAEgAAABEAEoA
+							RgBFAEkASgBFAEsARwBGAEoASwBGAEwASABHAEsATABHAEwAAABIAE4ASgBJAE0ATgBJAE8ASwBKAE4A
+							TwBKAFAATABLAE8AUABLAFAAAABMAFIATgBNAFEAUgBNAFMATwBOAFIAUwBOAFQAUABPAFMAVABPAFQA
+							AABQAFYAUgBRAFUAVgBRAFcAUwBSAFYAVwBSAFgAVABTAFcAWABTAFgAAABUAFoAVgBVAFkAWgBVAFsA
+							VwBWAFoAWwBWAFwAWABXAFsAXABXAFwAAABYAF4AWgBZAF0AXgBZAF8AWwBaAF4AXwBaAGAAXABbAF8A
+							YABbAGAAAABcAGIAXgBdAGEAYgBdAGMAXwBeAGIAYwBeAGQAYABfAGMAZABfAGQAAABgAGYAYgBhAGUA
+							ZgBhAGcAYwBiAGYAZwBiAGgAZABjAGcAaABjAGgAAABkAGoAZgBlAGkAagBlAGsAZwBmAGoAawBmAGwA
+							aABnAGsAbABnAGwAAABoAG4AagBpAG0AbgBpAG8AawBqAG4AbwBqAHAAbABrAG8AcABrAHAAAABsAHIA
+							bgBtAHEAcgBtAHMAbwBuAHIAcwBuAHQAcABvAHMAdABvAHQAAABwAHYAcgBxAHUAdgBxAHcAcwByAHYA
+							dwByAHgAdABzAHcAeABzAHgAAAB0AHoAdgB1AHkAegB1AHsAdwB2AHoAewB2AHwAeAB3AHsAfAB3AHwA
+							AAB4AH4AegB5AH0AfgB5AH8AewB6AH4AfwB6AIAAfAB7AH8AgAB7AIAAAAB8AIIAfgB9AIEAggB9AIMA
+							fwB+AIIAgwB+AIQAgAB/AIMAhAB/AIQAAACAAIYAggCBAIUAhgCBAIcAgwCCAIYAhwCCAIgAhACDAIcA
+							iACDAIgAAACEAIoAhgCFAIkAigCFAIsAhwCGAIoAiwCGAIwAiACHAIsAjACHAIwAAACIAI4AigCJAI0A
+							jgCJAI8AiwCKAI4AjwCKAJAAjACLAI8AkACLAJAAAACMAAIAjgCNAAEAAgCNAAMAjwCOAAIAAwCOAAQA
+							kACPAAMABACPAAQAAACQAA==
+						</Faces>
+						<SubSets>
+							<SubSet3d material_index="0" FaceStart="0" FacesCount="252" />
+						</SubSets>
+					</Model>
+				</Model>
+				<ChannelType index="0" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="57" fine="58" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+				<ChannelType index="1" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" coarse="59" default="8.717" highlight_value="3.2">
+					<ChannelFunction index="0" from="0" to="5.69" min_dmx_24="0" max_dmx_24="1048575" physfrom="0" physto="0" subattribute="SHUTTER" subattribute_user_name="Shutter" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Closed" from_dmx="0" to_dmx="7" slot_from="0" slot_to="0" />
+						<ChannelSet index="1" name="Open1" from_dmx="8" to_dmx="15" slot_from="1" slot_to="1" />
+					</ChannelFunction>
+					<ChannelFunction index="1" name="Strobe" from="5.69" to="51.56" min_dmx_24="1048576" max_dmx_24="8650751" physfrom="0.25" physto="20" subattribute="STROBE" subattribute_user_name="Strobe" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="min Strobe" from_dmx="16" to_dmx="16" />
+						<ChannelSet index="1" name="max Strobe" from_dmx="131" to_dmx="131" />
+					</ChannelFunction>
+					<ChannelFunction index="2" from="51.56" to="54.69" min_dmx_24="8650752" max_dmx_24="9175039" physfrom="1" physto="1" subattribute="SHUTTER" subattribute_user_name="Shutter" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Open2" from_dmx="132" to_dmx="139" />
+					</ChannelFunction>
+					<ChannelFunction index="3" name="Pulse 0pen" from="54.69" to="71.09" min_dmx_24="9175040" max_dmx_24="11927551" physfrom="0.09" physto="0.6" subattribute="STROBE_PULSE_OPEN" subattribute_user_name="Pulse Open" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="min Pulse" from_dmx="140" to_dmx="140" />
+						<ChannelSet index="1" name="max Pulse" from_dmx="181" to_dmx="181" />
+					</ChannelFunction>
+					<ChannelFunction index="4" from="71.09" to="74.22" min_dmx_24="11927552" max_dmx_24="12451839" physfrom="1" physto="1" subattribute="SHUTTER" subattribute_user_name="Shutter" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Open3" from_dmx="189" to_dmx="189" />
+					</ChannelFunction>
+					<ChannelFunction index="5" name="Pulse Close" from="74.22" to="90.63" min_dmx_24="12451840" max_dmx_24="15204351" physfrom="0.09" physto="0.6" subattribute="STROBE_PULSE_CLOSE" subattribute_user_name="Pulse Close" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="min Pulse Close" from_dmx="190" to_dmx="190" />
+						<ChannelSet index="1" name="max Pulse Close" from_dmx="231" to_dmx="231" />
+					</ChannelFunction>
+					<ChannelFunction index="6" from="90.63" to="93.75" min_dmx_24="15204352" max_dmx_24="15728639" physfrom="1" physto="1" subattribute="SHUTTER" subattribute_user_name="Shutter" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Open4" from_dmx="232" to_dmx="239" auto_create="false" />
+					</ChannelFunction>
+					<ChannelFunction index="7" name="Rnd" from="93.75" to="96.88" min_dmx_24="15728640" max_dmx_24="16252927" physfrom="15" physto="20" subattribute="STROBERANDOMBURSTPULSE" subattribute_user_name="StrobeRandomBurstPulse" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Rnd Strobe" from_dmx="240" to_dmx="247" />
+					</ChannelFunction>
+					<ChannelFunction index="8" from="96.88" to="100" min_dmx_24="16252928" max_dmx_24="16777215" physfrom="1" physto="1" subattribute="SHUTTER" subattribute_user_name="Shutter" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Open5" from_dmx="248" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="2" attribute="DIM2" feature="DIMMER" preset="DIMMER" coarse="100" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM2" subattribute_user_name="Dim2" attribute="DIM2" attribute_user_name="Dim2" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+				<ChannelType index="3" attribute="SHUTTER2" feature="SHUTTER" preset="BEAM" coarse="101" default="8.717" highlight_value="3.2">
+					<ChannelFunction index="0" from="0" to="5.69" min_dmx_24="0" max_dmx_24="1048575" physfrom="1" physto="1" subattribute="SHUTTER2" subattribute_user_name="Shutter2" attribute="SHUTTER2" attribute_user_name="Shutter2" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Closed" from_dmx="0" to_dmx="7" slot_from="0" slot_to="0" />
+						<ChannelSet index="1" name="Open" from_dmx="8" to_dmx="15" slot_from="1" slot_to="1" />
+					</ChannelFunction>
+					<ChannelFunction index="1" from="5.69" to="51.56" min_dmx_24="1048576" max_dmx_24="8650751" physfrom="0.25" physto="20" subattribute="STROBE2" subattribute_user_name="Strobe2" attribute="SHUTTER2" attribute_user_name="Shutter2" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="min Strobe2" from_dmx="16" to_dmx="16" />
+						<ChannelSet index="1" name="max Strobe2" from_dmx="131" to_dmx="131" />
+					</ChannelFunction>
+					<ChannelFunction index="2" from="51.56" to="54.69" min_dmx_24="8650752" max_dmx_24="9175039" physfrom="1" physto="1" subattribute="SHUTTER2" subattribute_user_name="Shutter2" attribute="SHUTTER2" attribute_user_name="Shutter2" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Open 2" from_dmx="132" to_dmx="139" />
+					</ChannelFunction>
+					<ChannelFunction index="3" from="54.69" to="71.09" min_dmx_24="9175040" max_dmx_24="11927551" physfrom="0.09" physto="0.6" subattribute="STROBE_PULSE_OPEN2" subattribute_user_name="Pulse Open2" attribute="SHUTTER2" attribute_user_name="Shutter2" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="min Pulse Open2" from_dmx="140" to_dmx="140" />
+						<ChannelSet index="1" name="max Pulse Open2" from_dmx="181" to_dmx="181" />
+					</ChannelFunction>
+					<ChannelFunction index="4" from="71.09" to="74.22" min_dmx_24="11927552" max_dmx_24="12451839" physfrom="1" physto="1" subattribute="SHUTTER2" subattribute_user_name="Shutter2" attribute="SHUTTER2" attribute_user_name="Shutter2" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Open 3" from_dmx="182" to_dmx="189" />
+					</ChannelFunction>
+					<ChannelFunction index="5" from="74.22" to="90.63" min_dmx_24="12451840" max_dmx_24="15204351" physfrom="0.09" physto="0.6" subattribute="STROBE_PULSE_CLOSE2" subattribute_user_name="Pulse Close2" attribute="SHUTTER2" attribute_user_name="Shutter2" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="min Pulse Close2" from_dmx="190" to_dmx="190" />
+						<ChannelSet index="1" name="max Pulse Close2" from_dmx="231" to_dmx="231" />
+					</ChannelFunction>
+					<ChannelFunction index="6" from="90.63" to="93.75" min_dmx_24="15204352" max_dmx_24="15728639" physfrom="1" physto="1" subattribute="SHUTTER2" subattribute_user_name="Shutter2" attribute="SHUTTER2" attribute_user_name="Shutter2" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Open 4" from_dmx="232" to_dmx="239" />
+					</ChannelFunction>
+					<ChannelFunction index="7" from="93.75" to="96.88" min_dmx_24="15728640" max_dmx_24="16252927" physfrom="10" physto="20" subattribute="IRIS_STROBE_RANDOM2" subattribute_user_name="Strobe Rnd2" attribute="SHUTTER2" attribute_user_name="Shutter2" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Rnd Strobe2" from_dmx="240" to_dmx="247" />
+					</ChannelFunction>
+					<ChannelFunction index="8" from="96.88" to="100" min_dmx_24="16252928" max_dmx_24="16777215" physfrom="1" physto="1" subattribute="SHUTTER2" subattribute_user_name="Shutter2" attribute="SHUTTER2" attribute_user_name="Shutter2" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Open 5" from_dmx="248" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="4" attribute="BACKLIGHTMACRO" feature="COLORMACRO" preset="BEAM" coarse="102">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="BACKLIGHTMACRO" subattribute_user_name="Backlight Macro" attribute="BACKLIGHTMACRO" attribute_user_name="Backlight Macro" feature="COLORMACRO" feature_user_name="COLORMACRO" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Open" from_dmx="0" to_dmx="55" />
+						<ChannelSet index="1" name="Macro 1" from_dmx="56" to_dmx="65" />
+						<ChannelSet index="2" name="Macro 2" from_dmx="66" to_dmx="75" />
+						<ChannelSet index="3" name="Macro 3" from_dmx="76" to_dmx="85" />
+						<ChannelSet index="4" name="Macro 4" from_dmx="86" to_dmx="95" />
+						<ChannelSet index="5" name="Macro 5" from_dmx="96" to_dmx="105" />
+						<ChannelSet index="6" name="Macro 6" from_dmx="106" to_dmx="115" />
+						<ChannelSet index="7" name="Macro 7" from_dmx="116" to_dmx="125" />
+						<ChannelSet index="8" name="Macro 8" from_dmx="126" to_dmx="135" />
+						<ChannelSet index="9" name="Macro 9" from_dmx="136" to_dmx="145" />
+						<ChannelSet index="10" name="Macro 10" from_dmx="146" to_dmx="155" />
+						<ChannelSet index="11" name="Macro 11" from_dmx="156" to_dmx="165" />
+						<ChannelSet index="12" name="Macro 12" from_dmx="166" to_dmx="175" />
+						<ChannelSet index="13" name="Macro 13" from_dmx="176" to_dmx="185" />
+						<ChannelSet index="14" name="Macro 14" from_dmx="186" to_dmx="195" />
+						<ChannelSet index="15" name="Macro 15" from_dmx="196" to_dmx="205" />
+						<ChannelSet index="16" name="Macro 16" from_dmx="206" to_dmx="215" />
+						<ChannelSet index="17" name="Macro 17" from_dmx="216" to_dmx="225" />
+						<ChannelSet index="18" name="Macro 18" from_dmx="226" to_dmx="235" />
+						<ChannelSet index="19" name="Macro 19" from_dmx="236" to_dmx="245" />
+						<ChannelSet index="20" name="Macro 20" from_dmx="246" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="5" attribute="BACKLIGHTMACROSPEED" feature="COLORMACRO" preset="BEAM" coarse="103" default="254.999">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="BACKLIGHTMACROSPEED" subattribute_user_name="Backlight Macro Sp" attribute="BACKLIGHTMACROSPEED" attribute_user_name="Backlight Macro Sp" feature="COLORMACRO" feature_user_name="COLORMACRO" preset="BEAM" preset_user_name="Beam" />
+				</ChannelType>
+			</Module>
+			<Module index="1" name="RGBW" class="LED" beamtype="Wash" beam_angle="1" beam_intensity="2500">
+				<Model index="202" name="RGBW" model_key="bde263df-c5e1-4b6b-9643-c59615c184d8" available_for_user="true" sunshadeType="Regular">
+					<Model index="0" name="L_GFG" sunshadeType="Regular" vertices_have_pos="true" vertices_have_tex0="true" model_type="Model">
+						<Materials>
+							<Material3d specularPower="0.69" name="__1">
+								<DiffuseColor r="0.26" g="0.26" b="0.26" a="1" />
+								<SpecularColor r="1" g="1" b="1" a="1" />
+								<EmissiveColor r="0" g="0" b="0" a="1" />
+								<DiffuseInking x="0" y="0" z="0" />
+								<EmissiveInking x="0" y="0" z="0" />
+								<SurfaceTexture />
+								<AlphaTexture />
+							</Material3d>
+						</Materials>
+						<Vertices>
+							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
+							30CdPgb1Srs60Va2sP9/P4yDHz+GjgU/
+						</Vertices>
+						<Faces>
+							9AIAAAEAAgAGAAEABgAFAAIAAwAHAAIABwAGAAMABAAIAAMACAAHAAQAAAAIAAUABgAKAAUACgAJAAYA
+							BwALAAYACwAKAAcACAAMAAcADAALAAgAAAAMAAkACgAOAAkADgANAAoACwAPAAoADwAOAAsADAAQAAsA
+							EAAPAAwAAAAQAA0ADgASAA0AEgARAA4ADwATAA4AEwASAA8AEAAUAA8AFAATABAAAAAUABEAEgAWABEA
+							FgAVABIAEwAXABIAFwAWABMAFAAYABMAGAAXABQAAAAYABUAFgAaABUAGgAZABYAFwAbABYAGwAaABcA
+							GAAcABcAHAAbABgAAAAcABkAGgAeABkAHgAdABoAGwAfABoAHwAeABsAHAAgABsAIAAfABwAAAAgAB0A
+							HgAiAB0AIgAhAB4AHwAjAB4AIwAiAB8AIAAkAB8AJAAjACAAAAAkACEAIgAmACEAJgAlACIAIwAnACIA
+							JwAmACMAJAAoACMAKAAnACQAAAAoACUAJgAqACUAKgApACYAJwArACYAKwAqACcAKAAsACcALAArACgA
+							AAAsACkAKgAuACkALgAtACoAKwAvACoALwAuACsALAAwACsAMAAvACwAAAAwAC0ALgAyAC0AMgAxAC4A
+							LwAzAC4AMwAyAC8AMAA0AC8ANAAzADAAAAA0ADEAMgA2ADEANgA1ADIAMwA3ADIANwA2ADMANAA4ADMA
+							OAA3ADQAAAA4ADUANgA6ADUAOgA5ADYANwA7ADYAOwA6ADcAOAA8ADcAPAA7ADgAAAA8ADkAOgA+ADkA
+							PgA9ADoAOwA/ADoAPwA+ADsAPABAADsAQAA/ADwAAABAAD0APgBCAD0AQgBBAD4APwBDAD4AQwBCAD8A
+							QABEAD8ARABDAEAAAABEAEEAQgBGAEEARgBFAEIAQwBHAEIARwBGAEMARABIAEMASABHAEQAAABIAEUA
+							RgBKAEUASgBJAEYARwBLAEYASwBKAEcASABMAEcATABLAEgAAABMAEkASgBOAEkATgBNAEoASwBPAEoA
+							TwBOAEsATABQAEsAUABPAEwAAABQAE0ATgBSAE0AUgBRAE4ATwBTAE4AUwBSAE8AUABUAE8AVABTAFAA
+							AABUAFEAUgBWAFEAVgBVAFIAUwBXAFIAVwBWAFMAVABYAFMAWABXAFQAAABYAFUAVgBaAFUAWgBZAFYA
+							VwBbAFYAWwBaAFcAWABcAFcAXABbAFgAAABcAFkAWgBeAFkAXgBdAFoAWwBfAFoAXwBeAFsAXABgAFsA
+							YABfAFwAAABgAF0AXgBiAF0AYgBhAF4AXwBjAF4AYwBiAF8AYABkAF8AZABjAGAAAABkAGEAYgBmAGEA
+							ZgBlAGIAYwBnAGIAZwBmAGMAZABoAGMAaABnAGQAAABoAGUAZgBqAGUAagBpAGYAZwBrAGYAawBqAGcA
+							aABsAGcAbABrAGgAAABsAGkAagBuAGkAbgBtAGoAawBvAGoAbwBuAGsAbABwAGsAcABvAGwAAABwAG0A
+							bgByAG0AcgBxAG4AbwBzAG4AcwByAG8AcAB0AG8AdABzAHAAAAB0AHEAcgB2AHEAdgB1AHIAcwB3AHIA
+							dwB2AHMAdAB4AHMAeAB3AHQAAAB4AHUAdgB6AHUAegB5AHYAdwB7AHYAewB6AHcAeAB8AHcAfAB7AHgA
+							AAB8AHkAegB+AHkAfgB9AHoAewB/AHoAfwB+AHsAfACAAHsAgAB/AHwAAACAAH0AfgCCAH0AggCBAH4A
+							fwCDAH4AgwCCAH8AgACEAH8AhACDAIAAAACEAIEAggCGAIEAhgCFAIIAgwCHAIIAhwCGAIMAhACIAIMA
+							iACHAIQAAACIAIUAhgCKAIUAigCJAIYAhwCLAIYAiwCKAIcAiACMAIcAjACLAIgAAACMAIkAigCOAIkA
+							jgCNAIoAiwCPAIoAjwCOAIsAjACQAIsAkACPAIwAAACQAI0AjgACAI0AAgABAI4AjwADAI4AAwACAI8A
+							kAAEAI8ABAADAJAAAAAEAA==
+						</Faces>
+						<SubSets>
+							<SubSet3d material_index="0" FaceStart="0" FacesCount="252" />
+						</SubSets>
+					</Model>
+					<Model index="1" name="L" vertices_have_pos="true" vertices_have_tex0="true" model_type="Model">
+						<Materials>
+							<Material3d specularPower="0.69" name="L">
+								<DiffuseColor r="0.8" g="0.8" b="0.8" a="1" />
+								<SpecularColor r="1" g="1" b="1" a="1" />
+								<EmissiveColor r="0" g="0" b="0" a="1" />
+								<DiffuseInking x="0" y="0" z="0" />
+								<EmissiveInking x="0.8" y="0.8" z="0.8" />
+								<SurfaceTexture />
+								<AlphaTexture />
+							</Material3d>
+						</Materials>
+						<Vertices>
+							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
+							IQKsPgAAAAAAAAAAAACAP4yDHz+GjgU/
+						</Vertices>
+						<Faces>
+							9AIAAAEAAgAGAAEABgAFAAIAAwAHAAIABwAGAAMABAAIAAMACAAHAAQAAAAIAAUABgAKAAUACgAJAAYA
+							BwALAAYACwAKAAcACAAMAAcADAALAAgAAAAMAAkACgAOAAkADgANAAoACwAPAAoADwAOAAsADAAQAAsA
+							EAAPAAwAAAAQAA0ADgASAA0AEgARAA4ADwATAA4AEwASAA8AEAAUAA8AFAATABAAAAAUABEAEgAWABEA
+							FgAVABIAEwAXABIAFwAWABMAFAAYABMAGAAXABQAAAAYABUAFgAaABUAGgAZABYAFwAbABYAGwAaABcA
+							GAAcABcAHAAbABgAAAAcABkAGgAeABkAHgAdABoAGwAfABoAHwAeABsAHAAgABsAIAAfABwAAAAgAB0A
+							HgAiAB0AIgAhAB4AHwAjAB4AIwAiAB8AIAAkAB8AJAAjACAAAAAkACEAIgAmACEAJgAlACIAIwAnACIA
+							JwAmACMAJAAoACMAKAAnACQAAAAoACUAJgAqACUAKgApACYAJwArACYAKwAqACcAKAAsACcALAArACgA
+							AAAsACkAKgAuACkALgAtACoAKwAvACoALwAuACsALAAwACsAMAAvACwAAAAwAC0ALgAyAC0AMgAxAC4A
+							LwAzAC4AMwAyAC8AMAA0AC8ANAAzADAAAAA0ADEAMgA2ADEANgA1ADIAMwA3ADIANwA2ADMANAA4ADMA
+							OAA3ADQAAAA4ADUANgA6ADUAOgA5ADYANwA7ADYAOwA6ADcAOAA8ADcAPAA7ADgAAAA8ADkAOgA+ADkA
+							PgA9ADoAOwA/ADoAPwA+ADsAPABAADsAQAA/ADwAAABAAD0APgBCAD0AQgBBAD4APwBDAD4AQwBCAD8A
+							QABEAD8ARABDAEAAAABEAEEAQgBGAEEARgBFAEIAQwBHAEIARwBGAEMARABIAEMASABHAEQAAABIAEUA
+							RgBKAEUASgBJAEYARwBLAEYASwBKAEcASABMAEcATABLAEgAAABMAEkASgBOAEkATgBNAEoASwBPAEoA
+							TwBOAEsATABQAEsAUABPAEwAAABQAE0ATgBSAE0AUgBRAE4ATwBTAE4AUwBSAE8AUABUAE8AVABTAFAA
+							AABUAFEAUgBWAFEAVgBVAFIAUwBXAFIAVwBWAFMAVABYAFMAWABXAFQAAABYAFUAVgBaAFUAWgBZAFYA
+							VwBbAFYAWwBaAFcAWABcAFcAXABbAFgAAABcAFkAWgBeAFkAXgBdAFoAWwBfAFoAXwBeAFsAXABgAFsA
+							YABfAFwAAABgAF0AXgBiAF0AYgBhAF4AXwBjAF4AYwBiAF8AYABkAF8AZABjAGAAAABkAGEAYgBmAGEA
+							ZgBlAGIAYwBnAGIAZwBmAGMAZABoAGMAaABnAGQAAABoAGUAZgBqAGUAagBpAGYAZwBrAGYAawBqAGcA
+							aABsAGcAbABrAGgAAABsAGkAagBuAGkAbgBtAGoAawBvAGoAbwBuAGsAbABwAGsAcABvAGwAAABwAG0A
+							bgByAG0AcgBxAG4AbwBzAG4AcwByAG8AcAB0AG8AdABzAHAAAAB0AHEAcgB2AHEAdgB1AHIAcwB3AHIA
+							dwB2AHMAdAB4AHMAeAB3AHQAAAB4AHUAdgB6AHUAegB5AHYAdwB7AHYAewB6AHcAeAB8AHcAfAB7AHgA
+							AAB8AHkAegB+AHkAfgB9AHoAewB/AHoAfwB+AHsAfACAAHsAgAB/AHwAAACAAH0AfgCCAH0AggCBAH4A
+							fwCDAH4AgwCCAH8AgACEAH8AhACDAIAAAACEAIEAggCGAIEAhgCFAIIAgwCHAIIAhwCGAIMAhACIAIMA
+							iACHAIQAAACIAIUAhgCKAIUAigCJAIYAhwCLAIYAiwCKAIcAiACMAIcAjACLAIgAAACMAIkAigCOAIkA
+							jgCNAIoAiwCPAIoAjwCOAIsAjACQAIsAkACPAIwAAACQAI0AjgACAI0AAgABAI4AjwADAI4AAwACAI8A
+							kAAEAI8ABAADAJAAAAAEAA==
+						</Faces>
+						<SubSets>
+							<SubSet3d material_index="0" FaceStart="0" FacesCount="252" />
+						</SubSets>
+						<Model index="0" name="L" model_type="Beam">
+							<Offset>
+								<Location x="0" y="0" z="0.333" />
+								<Rotation x="0" y="-0" z="0" />
+								<Scaling x="1" y="1" z="1" />
+							</Offset>
+							<BeamNearClippingDistance>-0.004</BeamNearClippingDistance>
+							<BeamDiameterAtOffset>0.085</BeamDiameterAtOffset>
+						</Model>
+					</Model>
+				</Model>
+				<ChannelType index="0" attribute="DIM" feature="DIMMER" preset="DIMMER" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+				<ChannelType index="1" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" coarse="1" default="254.999" highlight_value="100" color="ff0000">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB1" subattribute_user_name="R" attribute="COLORRGB1" attribute_user_name="R" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="2" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" coarse="2" default="254.999" highlight_value="100" color="00ff00">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB2" subattribute_user_name="G" attribute="COLORRGB2" attribute_user_name="G" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="3" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" coarse="3" default="254.999" highlight_value="100" color="0000ff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB3" subattribute_user_name="B" attribute="COLORRGB3" attribute_user_name="B" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="4" attribute="COLORRGB19" feature="COLORRGB" preset="COLOR" coarse="4" color="bae33d">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB19" subattribute_user_name="Mint Green" attribute="COLORRGB19" attribute_user_name="Lime" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="5" attribute="COLOR1" feature="COLOR1" preset="COLOR" coarse="5">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="COLOR1" subattribute_user_name="Select" attribute="COLOR1" attribute_user_name="C1" feature="COLOR1" feature_user_name="Color1" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="Open" from_dmx="0" to_dmx="9" />
+						<ChannelSet index="1" name="Color 1" from_dmx="10" to_dmx="17" />
+						<ChannelSet index="2" name="Color 2" from_dmx="18" to_dmx="24" />
+						<ChannelSet index="3" name="Color 3" from_dmx="25" to_dmx="32" />
+						<ChannelSet index="4" name="Color 4" from_dmx="33" to_dmx="39" />
+						<ChannelSet index="5" name="Color 5" from_dmx="40" to_dmx="47" />
+						<ChannelSet index="6" name="Color 6" from_dmx="48" to_dmx="54" />
+						<ChannelSet index="7" name="Color 7" from_dmx="55" to_dmx="61" />
+						<ChannelSet index="8" name="Color 8" from_dmx="62" to_dmx="69" />
+						<ChannelSet index="9" name="Color 9" from_dmx="70" to_dmx="76" />
+						<ChannelSet index="10" name="Color 10" from_dmx="77" to_dmx="84" />
+						<ChannelSet index="11" name="Color 11" from_dmx="85" to_dmx="91" />
+						<ChannelSet index="12" name="Color 12" from_dmx="92" to_dmx="99" />
+						<ChannelSet index="13" name="Color 13" from_dmx="100" to_dmx="106" />
+						<ChannelSet index="14" name="Color 14" from_dmx="107" to_dmx="113" />
+						<ChannelSet index="15" name="Color 15" from_dmx="114" to_dmx="121" />
+						<ChannelSet index="16" name="Color 16" from_dmx="122" to_dmx="128" />
+						<ChannelSet index="17" name="Color 17" from_dmx="129" to_dmx="136" />
+						<ChannelSet index="18" name="Color 18" from_dmx="137" to_dmx="143" />
+						<ChannelSet index="19" name="Color 19" from_dmx="144" to_dmx="151" />
+						<ChannelSet index="20" name="Color 20" from_dmx="152" to_dmx="158" />
+						<ChannelSet index="21" name="Color 21" from_dmx="159" to_dmx="165" />
+						<ChannelSet index="22" name="Color 22" from_dmx="166" to_dmx="173" />
+						<ChannelSet index="23" name="Color 23" from_dmx="174" to_dmx="180" />
+						<ChannelSet index="24" name="Color 24" from_dmx="181" to_dmx="188" />
+						<ChannelSet index="25" name="Color 25" from_dmx="189" to_dmx="195" />
+						<ChannelSet index="26" name="Color 26" from_dmx="196" to_dmx="203" />
+						<ChannelSet index="27" name="Color 27" from_dmx="204" to_dmx="210" />
+						<ChannelSet index="28" name="Color 28" from_dmx="211" to_dmx="217" />
+						<ChannelSet index="29" name="Color 29" from_dmx="218" to_dmx="225" />
+						<ChannelSet index="30" name="Color 30" from_dmx="226" to_dmx="232" />
+						<ChannelSet index="31" name="Color 31" from_dmx="233" to_dmx="240" />
+						<ChannelSet index="32" name="Color 32" from_dmx="241" to_dmx="247" />
+						<ChannelSet index="33" name="Color 33" from_dmx="248" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="6" attribute="CTO" feature="COLORRGB" preset="COLOR" coarse="6">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="CTO" subattribute_user_name="Cto" attribute="CTO" attribute_user_name="Cto" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="7" attribute="ZOOM" feature="FOCUS" preset="FOCUS" coarse="7" default="127.5">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="2.7" physto="21" subattribute="ZOOM" subattribute_user_name="Zoom" attribute="ZOOM" attribute_user_name="Zoom" feature="FOCUS" feature_user_name="Focus" preset="FOCUS" preset_user_name="Focus" />
+				</ChannelType>
+			</Module>
+			<Module index="2" name="Backlight RGBW" class="LED" beamtype="Wash" beam_angle="120" beam_intensity="5000">
+				<Model index="203" name="LED" model_key="0d756a14-5f12-46e2-ad1a-9150da76d032" available_for_user="true" sunshadeType="Regular">
+					<Model index="0" name="R" sunshadeType="Regular" vertices_have_pos="true" vertices_have_tex0="true" model_type="Model">
+						<Materials>
+							<Material3d specularPower="0.1" name="R">
+								<DiffuseColor r="0.8" g="0.8" b="0.8" a="1" />
+								<SpecularColor r="0.898" g="0.898" b="0.898" a="0" />
+								<EmissiveColor r="0" g="0" b="0" a="1" />
+								<DiffuseInking x="0" y="0" z="0" />
+								<EmissiveInking x="0.8" y="0.8" z="0.8" />
+								<SurfaceTexture />
+								<AlphaTexture />
+							</Material3d>
+						</Materials>
+						<Vertices>
+							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
+							AAAAAG8Soz4AAAAAAAAAAAAAgD8AAIA/AAAAPw==
+						</Vertices>
+						<Faces>
+							YAMAAAAASABJAAIAAABJAAMAAQDYANkAAwDaAEwASwDbANwATADdAAQAAgBJAE8ABABJAAUAAwDeAN8A
+							BQDgAOEAUgBMAOIA4wBMAAYABABPAFUABgBPAAcABQDkAOUABwDmAFIA5wDoAFcAUgDpAFkACAAGAFUA
+							WQAGAAkABwDqAOsACQDsAO0A7gBaAFcA7wBaAAoACABZAFwACgBZAAsACQDwAPEACwDyAFoA8wD0AF4A
+							WgD1AAwACgBcAFAADABcAA0ACwD2APcADQD4APkA+gBTAF4A+wBTAFQADgAMAFAAVAAMAA8ADQD8AP0A
+							DwD+AP8AAAFWAFMAAQFWAA4AVABYABAADgBYABEADwACAQMBEQAEAVYABQEGAWkAVgAHAVgAagASABAA
+							WAASABMAEQAIAQkBEwAKAQsBTgBpAAwBDQFpABIAagBNABQAEgBNABUAEwAOAQ8BFQAQAWQATgARARIB
+							ZAATARYAFABNAFEAFgBNABcAFQAUARUBFwAWARcBZQBkABgBGQFkABgAFgBRAGcAGABRABkAFwAaARsB
+							GQAcAWUAHQEeAWgAZQAfARoAGABnAG4AGgBnABsAGQAgASEBGwAiAWwAaAAjASQBbAAlAWEAHAAaAG4A
+							YQAaAB0AGwAmAScBHQAoASkBKgFgAGwAKwFgAB4AHABhAHAAHgBhAB8AHQAsAS0BHwAuAS8BYwBgADAB
+							MQFgACAAHgBwAGYAIABwACEAHwAyATMBIQA0ATUBNgF2AGMANwF2ACAAZgBbACIAIABbACMAIQA4ATkB
+							IwA6AXYAOwE8AXoAdgA9AVsAhQAkACIAWwAkACUAIwA+AT8BJQBAAUEBQgFKAHoAQwFKACQAhQBfACYA
+							JABfACcAJQBEAUUBJwBGAUoARwFIAXMASgBJAXIAKAAmAF8AcgAmACkAJwBKAUsBKQBMAU0BTgF0AHMA
+							TwF0ACoAKAByAIIAKgByACsAKQBQAVEBKwBSAXQAUwFUAXcAdABVASwAKgCCAGsALACCAC0AKwBWAVcB
+							LQBYAVkBWgFdAHcAWwFdAG8ALgAsAGsAbwAsAC8ALQBcAV0BLwBeAV0AXwFgAWIAXQBhAS4AbwB+ADAA
+							LgB+ADEALwBiAWMBMQBkAWUBZgGAAGIAZwGAADIAMAB+AHUAMgB+ADMAMQBoAWkBMwBqAWsBbAF5AIAA
+							bQF5ADQAMgB1AHgANAB1ADUAMwBuAW8BNQBwAXEBcgFtAHkAcwFtAHgAfAA2ADQAeAA2ADcANQB0AXUB
+							NwB2AXcBfQBtAHgBeQFtADYAfABxADgANgBxADkANwB6AXsBOQB8AX8AfQB9AX4BfwB/AYEAOgA4AHEA
+							gQA4ADsAOQCAAYEBOwCCAYMBiQB/AIQBhQF/ADwAOgCBAIMAPACBAD0AOwCGAYcBPQCIAYkBigGGAIkA
+							iwGGAIgAPgA8AIMAiAA8AD8APQCMAY0BPwCOAYcAhgCPAZABhwCRAY4AQAA+AIgAjgA+AEEAPwCSAZMB
+							QQCUAYcAlQGWAYoAhwCXAUIAQACOAIsAQgCOAEMAQQCYAZkBQwCaAYoAmwGcAYwAigCdAUIAiwCPAEQA
+							QgCPAEUAQwCeAZ8BRQCgAYQAjAChAaIBhACjAUQAjwB7AEYARAB7AEcARQCkAaUBRwCmAYQApwGoAY0A
+							hACpAXsASAAAAEYAewAAAAEARwCqAasBAQCsAa0BSwCNAK4BrwGNAJEAkACTAJQAkQCTAJcAkQCUAJoA
+							lwCUAJwAlwCaAJ0AnACaAJ8AnACdAKEAnwCdAKMAnwChAKYAowChAKYAmwCYAKMApgCYAJsArgCeAJgA
+							mwCeAK4ApACgAJ4ArgCgAKQAlgCVAKAApACVAJYAqwCZAJUAlgCZAKsArwCtAJkAqwCtAK8AsgCwAK0A
+							rwCwALIAqAC/ALAAsgC/ALQAvwCoALYAtACoAKkAtAC2AKwAqQC2AL0AqQCsAMcAvQCsAKIAvQDHAJIA
+							ogDHAKcAogCSAMMApwCSALkApwDDALcAuQDDALoAuQC3ALwAugC3AMkAugC8AM0AyQC8ALEAyQDNAKUA
+							sQDNALUAsQClAKoAtQClALsAtQCqAMgAuwCqAL4AuwDIAMEAvgDIAMAAvgDBALMAwADBALgAwACzAMQA
+							uACzAMUAuADEANAAxQDEAMYAxQDQANIAxgDQAMoAxgDSANQAygDSAMwAygDUAM4AzADUAM8AzADOANEA
+							zwDOANUAzwDRAMsA1QDRAMIA1QDLANMAwgDLANYAwgDTANcA1gDTAJAA1gDXAJMAkADXAA==
+						</Faces>
+						<SubSets>
+							<SubSet3d material_index="0" FaceStart="0" FacesCount="288" />
+						</SubSets>
+					</Model>
+				</Model>
+				<ChannelType index="0" attribute="DIM" feature="DIMMER" preset="DIMMER" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+				<ChannelType index="1" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" coarse="1" default="254.999" highlight_value="100" color="ff0000">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB1" subattribute_user_name="R" attribute="COLORRGB1" attribute_user_name="R" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="2" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" coarse="2" default="254.999" highlight_value="100" color="00ff00">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB2" subattribute_user_name="G" attribute="COLORRGB2" attribute_user_name="G" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="3" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" coarse="3" default="254.999" highlight_value="100" color="0000ff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB3" subattribute_user_name="B" attribute="COLORRGB3" attribute_user_name="B" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="4" attribute="COLORRGB5" feature="COLORRGB" preset="COLOR" coarse="4" color="ffffff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB5" subattribute_user_name="White" attribute="COLORRGB5" attribute_user_name="White" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="5" attribute="BACKLIGHTCOLOR" feature="COLORMACRO" preset="BEAM" coarse="5">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="BACKLIGHTCOLOR" subattribute_user_name="Backlight Color" attribute="BACKLIGHTCOLOR" attribute_user_name="Backlight Color" feature="COLORMACRO" feature_user_name="COLORMACRO" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Open" from_dmx="0" to_dmx="9" />
+						<ChannelSet index="1" name="Color 1" from_dmx="10" to_dmx="17" />
+						<ChannelSet index="2" name="Color 2" from_dmx="18" to_dmx="24" />
+						<ChannelSet index="3" name="Color 3" from_dmx="25" to_dmx="32" />
+						<ChannelSet index="4" name="Color 4" from_dmx="33" to_dmx="39" />
+						<ChannelSet index="5" name="Color 5" from_dmx="40" to_dmx="47" />
+						<ChannelSet index="6" name="Color 6" from_dmx="48" to_dmx="54" />
+						<ChannelSet index="7" name="Color 7" from_dmx="55" to_dmx="61" />
+						<ChannelSet index="8" name="Color 8" from_dmx="62" to_dmx="69" />
+						<ChannelSet index="9" name="Color 9" from_dmx="40" to_dmx="76" />
+						<ChannelSet index="10" name="Color 10" from_dmx="77" to_dmx="84" />
+						<ChannelSet index="11" name="Color 11" from_dmx="85" to_dmx="91" />
+						<ChannelSet index="12" name="Color 12" from_dmx="92" to_dmx="99" />
+						<ChannelSet index="13" name="Color 13" from_dmx="100" to_dmx="106" />
+						<ChannelSet index="14" name="Color 14" from_dmx="107" to_dmx="113" />
+						<ChannelSet index="15" name="Color 15" from_dmx="114" to_dmx="121" />
+						<ChannelSet index="16" name="Color 16" from_dmx="122" to_dmx="128" />
+						<ChannelSet index="17" name="Color 17" from_dmx="129" to_dmx="136" />
+						<ChannelSet index="18" name="Color 18" from_dmx="137" to_dmx="143" />
+						<ChannelSet index="19" name="Color 19" from_dmx="144" to_dmx="151" />
+						<ChannelSet index="20" name="Color 20" from_dmx="152" to_dmx="158" />
+						<ChannelSet index="21" name="Color 21" from_dmx="159" to_dmx="165" />
+						<ChannelSet index="22" name="Color 22" from_dmx="166" to_dmx="173" />
+						<ChannelSet index="23" name="Color 23" from_dmx="174" to_dmx="180" />
+						<ChannelSet index="24" name="Color 24" from_dmx="181" to_dmx="188" />
+						<ChannelSet index="25" name="Color 25" from_dmx="189" to_dmx="195" />
+						<ChannelSet index="26" name="Color 26" from_dmx="196" to_dmx="203" />
+						<ChannelSet index="27" name="Color 27" from_dmx="204" to_dmx="210" />
+						<ChannelSet index="28" name="Color 28" from_dmx="211" to_dmx="217" />
+						<ChannelSet index="29" name="Color 29" from_dmx="218" to_dmx="225" />
+						<ChannelSet index="30" name="Color 30" from_dmx="226" to_dmx="232" />
+						<ChannelSet index="31" name="Color 31" from_dmx="233" to_dmx="240" />
+						<ChannelSet index="32" name="Color 32" from_dmx="241" to_dmx="247" />
+						<ChannelSet index="33" name="Color 33" from_dmx="248" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" />
+			<Instance index="1" module_index="1" Z="0.226" parent_instance="0" />
+			<Instance index="2" module_index="1" patch="8" Z="0.226" parent_instance="0" />
+			<Instance index="3" module_index="1" patch="15" Z="0.226" parent_instance="0" />
+			<Instance index="4" module_index="1" patch="22" Z="0.226" parent_instance="0" />
+			<Instance index="5" module_index="1" patch="29" Z="0.226" parent_instance="0" />
+			<Instance index="6" module_index="1" patch="36" Z="0.226" parent_instance="0" />
+			<Instance index="7" module_index="1" patch="43" Z="0.226" parent_instance="0" />
+			<Instance index="8" module_index="1" patch="50" Z="0.226" parent_instance="0" />
+			<Instance index="9" module_index="2" patch="60" Z="0.226" parent_instance="0" />
+			<Instance index="10" module_index="2" patch="65" Z="0.226" parent_instance="0" />
+			<Instance index="11" module_index="2" patch="70" Z="0.226" parent_instance="0" />
+			<Instance index="12" module_index="2" patch="75" Z="0.226" parent_instance="0" />
+			<Instance index="13" module_index="2" patch="80" Z="0.226" parent_instance="0" />
+			<Instance index="14" module_index="2" patch="85" Z="0.226" parent_instance="0" />
+			<Instance index="15" module_index="2" patch="90" Z="0.226" parent_instance="0" />
+			<Instance index="16" module_index="2" patch="95" Z="0.226" parent_instance="0" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<FixtureMacroCollect index="5">
+			<FixtureMacro index="0">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="RESET" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" attribute="RESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="RESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="1">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="RESET" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="75" attribute="RESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="RESET" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="2">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="RESET" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="255" attribute="RESET" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="RESET" instance_index="0" />
+			</FixtureMacro>
+		</FixtureMacroCollect>
+		<Body />
+		<AutoPresets index="4" />
+		<RdmNotifications index="6">
+			<RdmNotification index="0" Type="Absent" Subcategory="RDM Warning" />
+		</RdmNotifications>
+	</FixtureType>
+</MA>

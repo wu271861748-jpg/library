@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.2.2/MA.xsd" major_vers="3" minor_vers="2" stream_vers="2">
+	<Info datetime="2016-08-02T14:27:00" showfile="jay 0719  gz" />
+	<FixtureType index="28" name="XP-1000FS" mode="5channel">
+		<InfoItems>
+			<Info>Automated import from MA Lighting (C-RevNum: 6; Date: 2012-12-04)</Info>
+			<Info>generator_software_name=&quot;MA Importer&quot;,generator_software_version&quot;364858491bfd8f37be7e6481d440fdec51149904&quot;</Info>
+		</InfoItems>
+		<short_name>XP1000FS</short_name>
+		<manufacturer>ACME</manufacturer>
+		<short_manufacturer>ACME</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" name="XP-1000SZ" class="Headmover" beamtype="Spot" beam_angle="1" beam_intensity="10000">
+				<Body>
+					<Size x="0.65" y="0.65" z="0.748" />
+				</Body>
+				<ChannelType index="0" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" coarse="1" default="8.171" highlight_value="3.2">
+					<ChannelFunction index="0" from="0" to="6.07" min_dmx_24="0" max_dmx_24="1048575" physfrom="0" physto="0" subattribute="SHUTTER" subattribute_user_name="Shutter" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="closed" from_dmx="0" to_dmx="7" />
+						<ChannelSet index="1" name="Open" from_dmx="8" to_dmx="15" />
+					</ChannelFunction>
+					<ChannelFunction index="1" name="Strobe 1..100%" from="6.07" to="65.68" min_dmx_24="1048576" max_dmx_24="11010047" physfrom="0.1" physto="10" subattribute="STROBE" subattribute_user_name="Strobe" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="min Strobe" from_dmx="16" to_dmx="16" />
+						<ChannelSet index="1" name="max Strobe" from_dmx="167" to_dmx="167" />
+					</ChannelFunction>
+					<ChannelFunction index="2" name="Pulse" from="65.68" to="93.92" min_dmx_24="11010048" max_dmx_24="15728639" physfrom="1" physto="10" subattribute="STROBE_PULSE" subattribute_user_name="Pulse" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="min Pulse" from_dmx="168" to_dmx="168" />
+						<ChannelSet index="1" name="max Pulse" from_dmx="239" to_dmx="239" />
+					</ChannelFunction>
+					<ChannelFunction index="3" from="93.92" to="97.06" min_dmx_24="15728640" max_dmx_24="16252927" physfrom="10" physto="10" subattribute="STROBE_RANDOM" subattribute_user_name="Rnd" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Rnd Strobe" from_dmx="240" to_dmx="247" />
+					</ChannelFunction>
+					<ChannelFunction index="4" from="97.06" to="100" min_dmx_24="16252928" max_dmx_24="16777215" physfrom="1" physto="1" subattribute="SHUTTER" subattribute_user_name="Shutter" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="open" from_dmx="248" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="1" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="2" highlight_value="100">
+					<ChannelFunction index="0" name="Dim 0..100%" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer">
+						<ChannelSet index="0" name="closed" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="open" from_dmx="65535" to_dmx="65535" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="2" attribute="COLOR1" feature="COLOR1" preset="COLOR" coarse="3">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="COLOR1" subattribute_user_name="Select" attribute="COLOR1" attribute_user_name="C1" feature="COLOR1" feature_user_name="Color1" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="open" from_dmx="0" to_dmx="31" slot_from="0" slot_to="0" />
+						<ChannelSet index="1" name="Color 1" from_dmx="32" to_dmx="63" slot_from="0" slot_to="0" />
+						<ChannelSet index="2" name="Color 2" from_dmx="64" to_dmx="95" slot_from="0" slot_to="0" />
+						<ChannelSet index="3" name="Color 3" from_dmx="96" to_dmx="127" slot_from="0" slot_to="0" />
+						<ChannelSet index="4" name="Color 4" from_dmx="128" to_dmx="159" slot_from="0" slot_to="0" />
+						<ChannelSet index="5" name="Color 5" from_dmx="160" to_dmx="191" slot_from="0" slot_to="0" />
+						<ChannelSet index="6" name="Color 6" from_dmx="192" to_dmx="223" slot_from="0" slot_to="0" />
+						<ChannelSet index="7" name="Color 7" from_dmx="224" to_dmx="255" slot_from="0" slot_to="0" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="3" attribute="COLOR2" feature="COLOR2" preset="COLOR" coarse="4">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="COLOR2" subattribute_user_name="Select2" attribute="COLOR2" attribute_user_name="C2" feature="COLOR2" feature_user_name="Color2" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="White" from_dmx="0" to_dmx="31" />
+						<ChannelSet index="1" name="Color 1" from_dmx="32" to_dmx="63" />
+						<ChannelSet index="2" name="Color 2" from_dmx="64" to_dmx="95" />
+						<ChannelSet index="3" name="Color 3" from_dmx="96" to_dmx="127" />
+						<ChannelSet index="4" name="Color 4" from_dmx="128" to_dmx="159" />
+						<ChannelSet index="5" name="Color 5" from_dmx="160" to_dmx="191" />
+						<ChannelSet index="6" name="Color 6" from_dmx="192" to_dmx="223" />
+						<ChannelSet index="7" name="Color 7" from_dmx="224" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="4" attribute="LAMPCONTROL" feature="LAMP" preset="CONTROL" coarse="5">
+					<ChannelFunction index="0" from="0" to="15.63" min_dmx_24="0" max_dmx_24="8519679" subattribute="NOFEATURE" subattribute_user_name="No Feature" attribute="DUMMY" attribute_user_name="Dummy" feature="CONTROL" feature_user_name="Control" preset="CONTROL" preset_user_name="Control">
+						<ChannelSet index="0" name="Safe" from_dmx="0" to_dmx="69" />
+						<ChannelSet index="1" name="En Color" from_dmx="70" to_dmx="99" />
+						<ChannelSet index="2" name="Di Color" from_dmx="100" to_dmx="129" />
+					</ChannelFunction>
+					<ChannelFunction index="1" from="15.625" to="17.578" min_dmx_24="8519680" max_dmx_24="9175039" subattribute="LAMPON" subattribute_user_name="Lamp On" attribute="LAMPCONTROL" attribute_user_name="LampControl" feature="LAMP" feature_user_name="Lamp" preset="CONTROL" preset_user_name="Control">
+						<ChannelSet index="0" name="Lamp On" from_dmx="130" to_dmx="139" />
+					</ChannelFunction>
+					<ChannelFunction index="2" from="17.58" to="90" min_dmx_24="9175040" max_dmx_24="14417919" subattribute="FIXTUREGLOBALRESET" subattribute_user_name="Reset" attribute="FIXTUREGLOBALRESET" attribute_user_name="FixtureGlobal" feature="RESET" feature_user_name="Reset" preset="CONTROL" preset_user_name="Control">
+						<ChannelSet index="0" name="Reset Color" from_dmx="140" to_dmx="159" />
+						<ChannelSet index="1" name="Safe" from_dmx="160" to_dmx="179" />
+						<ChannelSet index="2" name="Reset Shtter" from_dmx="180" to_dmx="199" />
+						<ChannelSet index="3" name="Safe" from_dmx="200" to_dmx="219" />
+						<ChannelSet index="4" name="Reset All" from_dmx="219" to_dmx="219" />
+					</ChannelFunction>
+					<ChannelFunction index="3" from="90" to="93.92" min_dmx_24="15073280" max_dmx_24="15728639" subattribute="LAMPOFF" subattribute_user_name="Lamp Off" attribute="LAMPCONTROL" attribute_user_name="LampControl" feature="LAMP" feature_user_name="Lamp" preset="CONTROL" preset_user_name="Control">
+						<ChannelSet index="0" name="Lamp Off" from_dmx="230" to_dmx="239" />
+					</ChannelFunction>
+					<ChannelFunction index="4" from="93.92" to="100" min_dmx_24="15728640" max_dmx_24="16777215" subattribute="NOFEATURE" subattribute_user_name="No Feature" attribute="DUMMY" attribute_user_name="Dummy" feature="CONTROL" feature_user_name="Control" preset="CONTROL" preset_user_name="Control" />
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<FixtureMacroCollect index="5">
+			<FixtureMacro index="0" name="Reset All">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="FIXTUREGLOBALRESET" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="12" attribute="LAMPCONTROL" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="LAMPCONTROL" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="1" name="Reset Eff">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="FIXTUREGLOBALRESET" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="22" attribute="LAMPCONTROL" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="LAMPCONTROL" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="2" name="Reset PT">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="FIXTUREGLOBALRESET" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="32" attribute="LAMPCONTROL" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="LAMPCONTROL" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="3" name="Lamp On">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="LAMPON" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="42" attribute="LAMPCONTROL" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="LAMPCONTROL" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="4" name="Lamp Off">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="LAMPOFF" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="47" attribute="LAMPCONTROL" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="LAMPCONTROL" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="5" name="Lamp 100%">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="LAMPPOWER" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="126" attribute="LAMPCONTROL" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="LAMPCONTROL" instance_index="0" />
+			</FixtureMacro>
+			<FixtureMacro index="6" name="Lamp 50%">
+				<PhysicalFeatures>
+					<PhysicalFeature subattribute="LAMPPOWER" />
+				</PhysicalFeatures>
+				<FixtureMacroStep index="0" duration="5" dmx_value="131" attribute="LAMPCONTROL" instance_index="0" />
+				<FixtureMacroStep index="1" duration="1" attribute="LAMPCONTROL" instance_index="0" />
+			</FixtureMacro>
+		</FixtureMacroCollect>
+		<Body />
+		<AutoPresets index="4" />
+		<RdmNotifications index="6">
+			<RdmNotification index="0" Type="Absent" Subcategory="RDM Warning" />
+		</RdmNotifications>
+	</FixtureType>
+</MA>

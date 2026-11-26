@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/2.8.3/MA.xsd" major_vers="2" minor_vers="8" stream_vers="3">
+	<Info datetime="2015-04-23T08:51:09" showfile="newshow" />
+	<FixtureType index="8" name="AE-275R 8DMX" mode="8 bit">
+		<short_name>AE-275R 8DMX</short_name>
+		<manufacturer>ACME</manufacturer>
+		<short_manufacturer>ACME</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="None" beamtype="Wash" beam_angle="35.000" beam_intensity="10000.000">
+				<ChannelType index="0" attribute="ZOOM" feature="FOCUS" preset="FOCUS" coarse="1" default="127.500">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.700" physto="1.000" subattribute="ZOOM" attribute="ZOOM" feature="FOCUS" preset="FOCUS" />
+				</ChannelType>
+				<ChannelType index="1" attribute="PRISMA1_POS" feature="BEAM1" preset="BEAM" coarse="2">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="360.000" subattribute="PRISMA1_POS" attribute="PRISMA1_POS" feature="BEAM1" preset="BEAM">
+						<ChannelSet index="0" name="Stop" from_dmx="0" to_dmx="9" />
+						<ChannelSet index="1" name="SC CW" from_dmx="10" to_dmx="120" />
+						<ChannelSet index="2" name="Stop" from_dmx="121" to_dmx="134" />
+						<ChannelSet index="3" name="SC CCW" from_dmx="135" to_dmx="245" />
+						<ChannelSet index="4" name="Stop" from_dmx="246" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="2" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="3" highlight_value="100.000" grandmaster="true" is_dimmer="true">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="DIM" attribute="DIM" feature="DIMMER" preset="DIMMER" />
+				</ChannelType>
+				<ChannelType index="3" attribute="COLOR1" feature="COLOR1" preset="COLOR" coarse="4">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" subattribute="COLOR1WHEELRANDOM" attribute="COLOR1" feature="COLOR1" preset="COLOR">
+						<ChannelSet index="0" name="Open" from_dmx="0" to_dmx="14" />
+						<ChannelSet index="1" name="Color 1" from_dmx="15" to_dmx="28" />
+						<ChannelSet index="2" name="Color 2" from_dmx="29" to_dmx="42" />
+						<ChannelSet index="3" name="Color 3" from_dmx="43" to_dmx="56" />
+						<ChannelSet index="4" name="Color 4" from_dmx="57" to_dmx="70" />
+						<ChannelSet index="5" name="Color 5" from_dmx="71" to_dmx="84" />
+						<ChannelSet index="6" name="Color 6" from_dmx="85" to_dmx="98" />
+						<ChannelSet index="7" name="Color 7" from_dmx="99" to_dmx="112" />
+						<ChannelSet index="8" name="Color 8" from_dmx="113" to_dmx="127" />
+						<ChannelSet index="9" name="Right Sc cw" from_dmx="128" to_dmx="191" />
+						<ChannelSet index="10" name="Scroll" from_dmx="192" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="4" attribute="GOBO1" feature="GOBO1" preset="GOBO" coarse="5">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" subattribute="GOBO1" attribute="GOBO1" feature="GOBO1" preset="GOBO">
+						<ChannelSet index="0" name="Open" from_dmx="0" to_dmx="4" />
+						<ChannelSet index="1" name="Gobo 1" from_dmx="5" to_dmx="7" />
+						<ChannelSet index="2" name="Gobo 2" from_dmx="8" to_dmx="11" />
+						<ChannelSet index="3" name="Gobo 3" from_dmx="12" to_dmx="14" />
+						<ChannelSet index="4" name="Gobo 4" from_dmx="15" to_dmx="18" />
+						<ChannelSet index="5" name="Gobo 5" from_dmx="19" to_dmx="22" />
+						<ChannelSet index="6" name="Gobo 6" from_dmx="23" to_dmx="25" />
+						<ChannelSet index="7" name="Gobo 7" from_dmx="26" to_dmx="29" />
+						<ChannelSet index="8" name="Gobo 8" from_dmx="30" to_dmx="33" />
+						<ChannelSet index="9" name="Gobo 9" from_dmx="34" to_dmx="37" />
+						<ChannelSet index="10" name="Gobo 10" from_dmx="38" to_dmx="40" />
+						<ChannelSet index="11" name="Gobo 11" from_dmx="41" to_dmx="44" />
+						<ChannelSet index="12" name="Gobo 12" from_dmx="45" to_dmx="48" />
+						<ChannelSet index="13" name="Gobo 13" from_dmx="49" to_dmx="51" />
+						<ChannelSet index="14" name="Gobo 14" from_dmx="52" to_dmx="55" />
+						<ChannelSet index="15" name="Gobo 15" from_dmx="56" to_dmx="59" />
+						<ChannelSet index="16" name="Gobo 16" from_dmx="60" to_dmx="63" />
+						<ChannelSet index="17" name="Gobo shak" from_dmx="64" to_dmx="127" />
+						<ChannelSet index="18" name="Scroll" from_dmx="128" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="5" attribute="EFFECTINDEXROTATE" feature="EFFECT" preset="BEAM" coarse="6">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" subattribute="EFFECTINDEX" attribute="EFFECTINDEXROTATE" feature="EFFECT" preset="BEAM">
+						<ChannelSet index="0" name="Open" from_dmx="0" to_dmx="7" />
+						<ChannelSet index="1" name="Effect" from_dmx="8" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="6" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" coarse="7" default="8.925">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="1.000" subattribute="SHUTTER" attribute="SHUTTER" feature="SHUTTER" preset="BEAM">
+						<ChannelSet index="0" name="Closed" from_dmx="0" to_dmx="7" />
+						<ChannelSet index="1" name="Open" from_dmx="8" to_dmx="15" />
+						<ChannelSet index="2" name="Strobe" from_dmx="16" to_dmx="131" />
+						<ChannelSet index="3" name="Op pls" from_dmx="132" to_dmx="167" />
+						<ChannelSet index="4" name="Cl Pls" from_dmx="168" to_dmx="203" />
+						<ChannelSet index="5" name="Pulsat" from_dmx="204" to_dmx="239" />
+						<ChannelSet index="6" name="Ran Strobe" from_dmx="240" to_dmx="247" />
+						<ChannelSet index="7" name="Open" from_dmx="248" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="7" attribute="RESET" feature="RESET" preset="CONTROL" coarse="8">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" subattribute="RESET" attribute="RESET" feature="RESET" preset="CONTROL">
+						<ChannelSet index="0" name="Safe" from_dmx="0" to_dmx="89" />
+						<ChannelSet index="1" name="BO Color" from_dmx="90" to_dmx="109" />
+						<ChannelSet index="2" name="NO BO Color" from_dmx="100" to_dmx="109" />
+						<ChannelSet index="3" name="BO Gobo" from_dmx="110" to_dmx="119" />
+						<ChannelSet index="4" name="NO BO Gobo" from_dmx="120" to_dmx="129" />
+						<ChannelSet index="5" name="Lamp On" from_dmx="130" to_dmx="139" />
+						<ChannelSet index="6" name="NO Function" from_dmx="140" to_dmx="199" />
+						<ChannelSet index="7" name="Reset" from_dmx="200" to_dmx="209" />
+						<ChannelSet index="8" name="NO Function" from_dmx="210" to_dmx="229" />
+						<ChannelSet index="9" name="Lamp Off" from_dmx="230" to_dmx="239" />
+						<ChannelSet index="10" name="Sound" from_dmx="240" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" RW="0.000" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<Body />
+	</FixtureType>
+</MA>

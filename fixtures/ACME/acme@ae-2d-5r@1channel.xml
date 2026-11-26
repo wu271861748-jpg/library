@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.2.2/MA.xsd" major_vers="3" minor_vers="2" stream_vers="2">
+	<Info datetime="2016-07-05T14:22:51" showfile="newshow" />
+	<FixtureType index="4" name="AE-2D-5R" mode="1channel">
+		<short_name>AE-2D-5R</short_name>
+		<manufacturer>ACME</manufacturer>
+		<short_manufacturer>ACME</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="None" beamtype="Wash" beam_angle="35" beam_intensity="10000">
+				<ChannelType index="0" attribute="EFFECT" feature="EFFECT" preset="BEAM" coarse="1">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="-90" physto="90" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer">
+						<ChannelSet index="0" name="Closed" from_dmx="0" to_dmx="9" />
+						<ChannelSet index="1" name="Macro 1" from_dmx="10" to_dmx="19" />
+						<ChannelSet index="2" name="Macro 2" from_dmx="20" to_dmx="29" />
+						<ChannelSet index="3" name="Macro 3" from_dmx="30" to_dmx="39" />
+						<ChannelSet index="4" name="Macro 4" from_dmx="40" to_dmx="49" />
+						<ChannelSet index="5" name="Macro 5" from_dmx="50" to_dmx="59" />
+						<ChannelSet index="6" name="Macro 6" from_dmx="60" to_dmx="69" />
+						<ChannelSet index="7" name="Macro 7" from_dmx="70" to_dmx="79" />
+						<ChannelSet index="8" name="Macro 8" from_dmx="80" to_dmx="89" />
+						<ChannelSet index="9" name="Macro 9" from_dmx="90" to_dmx="99" />
+						<ChannelSet index="10" name="Macro 10" from_dmx="100" to_dmx="109" />
+						<ChannelSet index="11" name="Macro 11" from_dmx="110" to_dmx="119" />
+						<ChannelSet index="12" name="Macro 12" from_dmx="120" to_dmx="129" />
+						<ChannelSet index="13" name="Macro 13" from_dmx="130" to_dmx="139" />
+						<ChannelSet index="14" name="Macro 14" from_dmx="140" to_dmx="149" />
+						<ChannelSet index="15" name="Macro 15" from_dmx="150" to_dmx="159" />
+						<ChannelSet index="16" name="Macro 16" from_dmx="160" to_dmx="169" />
+						<ChannelSet index="17" name="Macro 17" from_dmx="170" to_dmx="179" />
+						<ChannelSet index="18" name="Macro 18" from_dmx="180" to_dmx="189" />
+						<ChannelSet index="19" name="Macro 19" from_dmx="190" to_dmx="199" />
+						<ChannelSet index="20" name="Macro 20" from_dmx="200" to_dmx="209" />
+						<ChannelSet index="21" name="Rnd Macro" from_dmx="210" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" RW="0" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<FixtureMacroCollect index="5" />
+		<Body />
+		<AutoPresets index="4" />
+		<RdmNotifications index="6">
+			<RdmNotification index="0" Type="Absent" Subcategory="RDM Warning" />
+		</RdmNotifications>
+	</FixtureType>
+</MA>

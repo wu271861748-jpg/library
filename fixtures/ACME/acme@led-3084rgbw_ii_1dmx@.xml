@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/2.8.3/MA.xsd" major_vers="2" minor_vers="8" stream_vers="3">
+	<Info datetime="2015-05-09T15:39:02" showfile="newshow" />
+	<FixtureType index="1" name="LED-3084RGBW II 1DMX">
+		<short_name>LED-3084RGBW II 1DMX</short_name>
+		<manufacturer>ACME</manufacturer>
+		<short_manufacturer>ACME</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="None" beamtype="Wash" beam_angle="35.000" beam_intensity="10000.000">
+				<ChannelType index="0" attribute="EFFECTINDEXROTATE" feature="EFFECT" preset="BEAM" coarse="1" highlight_value="100.000">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" subattribute="EFFECTINDEX" attribute="EFFECTINDEXROTATE" feature="EFFECT" preset="BEAM">
+						<ChannelSet index="0" name="OFF" from_dmx="0" to_dmx="29" />
+						<ChannelSet index="1" name="Chase 1" from_dmx="30" to_dmx="49" />
+						<ChannelSet index="2" name="Chase 2" from_dmx="50" to_dmx="69" />
+						<ChannelSet index="3" name="Chase 3" from_dmx="70" to_dmx="89" />
+						<ChannelSet index="4" name="Chase 4" from_dmx="90" to_dmx="109" />
+						<ChannelSet index="5" name="Chase 5" from_dmx="110" to_dmx="129" />
+						<ChannelSet index="6" name="Chase 6" from_dmx="130" to_dmx="149" />
+						<ChannelSet index="7" name="Chase 7" from_dmx="150" to_dmx="169" />
+						<ChannelSet index="8" name="Chase 8" from_dmx="170" to_dmx="189" />
+						<ChannelSet index="9" name="Chase 9" from_dmx="190" to_dmx="209" />
+						<ChannelSet index="10" name="Chase 10" from_dmx="210" to_dmx="229" />
+						<ChannelSet index="11" name="Chase 11" from_dmx="230" to_dmx="249" />
+						<ChannelSet index="12" name="R Chase" from_dmx="250" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" RW="0.000" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<Body />
+	</FixtureType>
+</MA>

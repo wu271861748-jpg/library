@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.0.0/MA.xsd" major_vers="3" minor_vers="0" stream_vers="0">
+	<Info datetime="2016-06-16T15:58:23" showfile="bb2" />
+	<FixtureType index="6" name="LED-ST50 10DMX">
+		<short_name>LED-ST50 10DMX</short_name>
+		<manufacturer>ACME</manufacturer>
+		<short_manufacturer>ACME</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="None" beamtype="Wash" beam_angle="35" beam_intensity="10000">
+				<ChannelType index="0" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="1" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" attribute="DIM" feature="DIMMER" preset="DIMMER" />
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" RW="0" />
+			<Instance index="1" module_index="0" patch="2" RW="0" />
+			<Instance index="2" module_index="0" patch="3" RW="0" />
+			<Instance index="3" module_index="0" patch="4" RW="0" />
+			<Instance index="4" module_index="0" patch="5" RW="0" />
+			<Instance index="5" module_index="0" patch="6" RW="0" />
+			<Instance index="6" module_index="0" patch="7" RW="0" />
+			<Instance index="7" module_index="0" patch="8" RW="0" />
+			<Instance index="8" module_index="0" patch="9" RW="0" />
+			<Instance index="9" module_index="0" patch="10" RW="0" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<Body />
+		<AutoPresets index="4" />
+	</FixtureType>
+</MA>

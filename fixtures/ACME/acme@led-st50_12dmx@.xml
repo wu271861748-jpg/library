@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.0.0/MA.xsd" major_vers="3" minor_vers="0" stream_vers="0">
+	<Info datetime="2016-06-17T15:38:11" showfile="bb2" />
+	<FixtureType index="11" name="LED-ST50 12DMX">
+		<short_name>LED-ST50 12DMX</short_name>
+		<manufacturer>ACME</manufacturer>
+		<short_manufacturer>ACME</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="None" beamtype="Wash" beam_angle="35" beam_intensity="10000">
+				<ChannelType index="0" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" coarse="1" default="255" color="ff0000">
+					<ChannelFunction index="0" name="LED 1" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB1" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="LED 1" from_dmx="0" to_dmx="255" slot_index="0" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="1" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" coarse="2" default="255" color="00ff00">
+					<ChannelFunction index="0" name="LED 2" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB2" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="LED 2" from_dmx="0" to_dmx="255" slot_index="0" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="2" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" coarse="3" default="255" color="0000ff">
+					<ChannelFunction index="0" name="LED 3" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB3" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="LED 3" from_dmx="0" to_dmx="255" slot_index="0" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="3" attribute="COLORRGB4" feature="COLORRGB" preset="COLOR" coarse="4" default="255" color="ffbf00">
+					<ChannelFunction index="0" name="LED 4" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB4" attribute="COLORRGB4" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="LED 4" from_dmx="0" to_dmx="255" slot_index="0" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="4" attribute="COLORRGB5" feature="COLORRGB" preset="COLOR" coarse="5" default="255" color="ffffff">
+					<ChannelFunction index="0" name="LED 5" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB5" attribute="COLORRGB5" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="LED 5" from_dmx="0" to_dmx="255" slot_index="0" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="5" attribute="COLORRGB6" feature="COLORRGB" preset="COLOR" coarse="6" default="255" color="ffffcc">
+					<ChannelFunction index="0" name="LED 6" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB6" attribute="COLORRGB6" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="LED 6" from_dmx="0" to_dmx="255" slot_index="0" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="6" attribute="COLORRGB7" feature="COLORRGB" preset="COLOR" coarse="7" default="255" color="ccffff">
+					<ChannelFunction index="0" name="LED 7" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB7" attribute="COLORRGB7" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="LED 7" from_dmx="0" to_dmx="255" slot_index="0" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="7" attribute="COLORRGB8" feature="COLORRGB" preset="COLOR" coarse="8" default="255" color="ff8000">
+					<ChannelFunction index="0" name="LED 8" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB8" attribute="COLORRGB8" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="LED 8" from_dmx="0" to_dmx="255" slot_index="0" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="8" attribute="COLORRGB9" feature="COLORRGB" preset="COLOR" coarse="9" default="255" color="ff4000">
+					<ChannelFunction index="0" name="LED 9" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB9" attribute="COLORRGB9" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="LED 9" from_dmx="0" to_dmx="255" slot_index="0" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="9" attribute="COLORRGB10" feature="COLORRGB" preset="COLOR" coarse="10" default="255" color="8000ff">
+					<ChannelFunction index="0" name="LED 10" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB10" attribute="COLORRGB10" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="LED 10" from_dmx="0" to_dmx="255" slot_index="0" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="10" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="11" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" attribute="DIM" feature="DIMMER" preset="DIMMER" />
+				</ChannelType>
+				<ChannelType index="11" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" coarse="12">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="1" subattribute="SHUTTER" attribute="SHUTTER" feature="SHUTTER" preset="BEAM">
+						<ChannelSet index="0" name="NO Function" from_dmx="0" to_dmx="8" slot_index="0" />
+						<ChannelSet index="1" name="Strobe" from_dmx="9" to_dmx="131" slot_index="1" />
+						<ChannelSet index="2" name="Open" from_dmx="132" to_dmx="139" slot_index="2" />
+						<ChannelSet index="3" name="Op Pls" from_dmx="140" to_dmx="181" slot_index="3" />
+						<ChannelSet index="4" name="Open" from_dmx="182" to_dmx="189" slot_index="4" />
+						<ChannelSet index="5" name="Cl Pls" from_dmx="190" to_dmx="231" slot_index="5" />
+						<ChannelSet index="6" name="Open" from_dmx="232" to_dmx="239" slot_index="6" />
+						<ChannelSet index="7" name="Rnd Strobe" from_dmx="240" to_dmx="247" slot_index="7" />
+						<ChannelSet index="8" name="Open" from_dmx="248" to_dmx="255" slot_index="8" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" RW="0" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<Body />
+		<AutoPresets index="4" />
+	</FixtureType>
+</MA>

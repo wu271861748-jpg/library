@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.2.2/MA.xsd" major_vers="3" minor_vers="2" stream_vers="2">
+	<Info datetime="2019-11-15T15:30:45" showfile="800rgby" />
+	<FixtureType index="10" name="The Fan" mode="1channel">
+		<short_name>The Fan</short_name>
+		<manufacturer>MDG</manufacturer>
+		<short_manufacturer>MDG</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="None" beamtype="Wash" beam_angle="35" beam_intensity="10000">
+				<ChannelType index="0" attribute="FANSPEED" feature="FAN" preset="CONTROL" coarse="1" default="127.5">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="FANSPEED" subattribute_user_name="Fan Speed" attribute="FANSPEED" attribute_user_name="Fan Speed" feature="FAN" feature_user_name="Fan" preset="CONTROL" preset_user_name="Control" />
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<FixtureMacroCollect index="5" />
+		<Body />
+		<AutoPresets index="4" />
+		<RdmNotifications index="6">
+			<RdmNotification index="0" Type="Absent" Subcategory="RDM Warning" />
+		</RdmNotifications>
+	</FixtureType>
+</MA>

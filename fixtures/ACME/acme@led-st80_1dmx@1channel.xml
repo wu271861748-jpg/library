@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/2.4.3/MA.xsd" major_vers="2" minor_vers="4" stream_vers="3">
+	<Info datetime="2015-09-06T15:34:10" showfile="theatredemo" />
+	<FixtureType index="3" name="LED-ST80 1DMX" mode="1channel">
+		<short_name>LED-ST80</short_name>
+		<manufacturer>ACME</manufacturer>
+		<short_manufacturer>ACME</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="LED" beamtype="Wash" beam_angle="35.000" beam_intensity="10000.000">
+				<Body>
+					<Size x="0.000" y="0.000" z="0.000" />
+					<Center x="0.000" y="0.000" z="0.000" />
+					<Light x="0.000" y="0.000" z="0.000" />
+				</Body>
+				<ChannelType index="0" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="1" highlight_value="100.000">
+					<ChannelFunction index="0" name="Show" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="DIM" attribute="DIM" feature="DIMMER" preset="DIMMER">
+						<ChannelSet index="0" name="NO Function" from_dmx="0" to_dmx="7" slot_index="0" />
+						<ChannelSet index="1" name="Show 1" from_dmx="8" to_dmx="27" slot_index="1" />
+						<ChannelSet index="2" name="Show 2" from_dmx="28" to_dmx="47" slot_index="2" />
+						<ChannelSet index="3" name="Show 3" from_dmx="48" to_dmx="67" slot_index="3" />
+						<ChannelSet index="4" name="Show 4" from_dmx="68" to_dmx="87" slot_index="4" />
+						<ChannelSet index="5" name="Show 5" from_dmx="88" to_dmx="107" slot_index="5" />
+						<ChannelSet index="6" name="Show 6" from_dmx="108" to_dmx="127" slot_index="6" />
+						<ChannelSet index="7" name="Show 7" from_dmx="128" to_dmx="147" slot_index="7" />
+						<ChannelSet index="8" name="Show 8" from_dmx="148" to_dmx="167" slot_index="8" />
+						<ChannelSet index="9" name="Show 9" from_dmx="168" to_dmx="187" slot_index="9" />
+						<ChannelSet index="10" name="Show 10" from_dmx="188" to_dmx="207" slot_index="10" />
+						<ChannelSet index="11" name="Show 11" from_dmx="208" to_dmx="227" slot_index="11" />
+						<ChannelSet index="12" name="Show 12" from_dmx="228" to_dmx="247" slot_index="12" />
+						<ChannelSet index="13" name="Sound Show" from_dmx="248" to_dmx="255" slot_index="13" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" patch="1" X="1.000" Y="1.000" Z="1.000" RW="0.000" />
+		</Instances>
+		<Wheels index="2" />
+	</FixtureType>
+</MA>

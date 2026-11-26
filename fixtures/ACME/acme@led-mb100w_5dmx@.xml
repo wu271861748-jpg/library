@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/2.8.3/MA.xsd" major_vers="2" minor_vers="8" stream_vers="3">
+	<Info datetime="2015-04-12T16:08:20" showfile="newshow" />
+	<FixtureType index="4" name="LED-MB100W 5DMX">
+		<short_name>MB100W 5DMX</short_name>
+		<manufacturer>ACME</manufacturer>
+		<short_manufacturer>ACME</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="None" beamtype="Wash" beam_angle="35.000" beam_intensity="10000.000">
+				<ChannelType index="0" attribute="PAN" feature="POSITION" preset="POSITION" coarse="1" default="127.500">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="-180.000" physto="180.000" subattribute="PAN" attribute="PAN" feature="POSITION" preset="POSITION" />
+				</ChannelType>
+				<ChannelType index="1" attribute="TILT" feature="POSITION" preset="POSITION" coarse="2" default="127.500">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="-90.000" physto="90.000" subattribute="TILT" attribute="TILT" feature="POSITION" preset="POSITION" />
+				</ChannelType>
+				<ChannelType index="2" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="3" highlight_value="100.000" grandmaster="true" is_dimmer="true">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="DIM" attribute="DIM" feature="DIMMER" preset="DIMMER" />
+				</ChannelType>
+				<ChannelType index="3" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" coarse="4" default="8.160">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="1.000" subattribute="SHUTTER" attribute="SHUTTER" feature="SHUTTER" preset="BEAM">
+						<ChannelSet index="0" name="Closed" from_dmx="0" to_dmx="7" />
+						<ChannelSet index="1" name="Open" from_dmx="8" to_dmx="15" />
+						<ChannelSet index="2" name="Strobe" from_dmx="16" to_dmx="131" />
+						<ChannelSet index="3" name="Open" from_dmx="132" to_dmx="139" />
+						<ChannelSet index="4" name="Op pls" from_dmx="140" to_dmx="181" />
+						<ChannelSet index="5" name="Open" from_dmx="182" to_dmx="189" />
+						<ChannelSet index="6" name="Cl pls" from_dmx="190" to_dmx="231" />
+						<ChannelSet index="7" name="Open" from_dmx="232" to_dmx="239" />
+						<ChannelSet index="8" name="Rnd Strobe" from_dmx="240" to_dmx="247" />
+						<ChannelSet index="9" name="Open" from_dmx="248" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="4" attribute="RESET" feature="RESET" preset="CONTROL" coarse="5">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" subattribute="RESET" attribute="RESET" feature="RESET" preset="CONTROL">
+						<ChannelSet index="0" name="Safe" from_dmx="0" to_dmx="69" />
+						<ChannelSet index="1" name="PT Fast" from_dmx="70" to_dmx="79" />
+						<ChannelSet index="2" name="PT Normal" from_dmx="80" to_dmx="89" />
+						<ChannelSet index="3" name="Safe" from_dmx="90" to_dmx="199" />
+						<ChannelSet index="4" name="Reset" from_dmx="200" to_dmx="209" />
+						<ChannelSet index="5" name="Safe" from_dmx="210" to_dmx="249" />
+						<ChannelSet index="6" name="Stand" from_dmx="250" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" RW="0.000" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<Body />
+	</FixtureType>
+</MA>

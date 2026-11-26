@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/2.4.3/MA.xsd" major_vers="2" minor_vers="4" stream_vers="3">
+	<Info datetime="2015-10-26T23:47:03" showfile="event_demo" />
+	<FixtureType index="14" name="LED-MTX6S 4DMX" mode="4channel">
+		<short_name>LED-MTX6S</short_name>
+		<manufacturer>ACME</manufacturer>
+		<short_manufacturer>ACME</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="Mirror" beamtype="Wash" beam_angle="10.000" beam_intensity="10000.000">
+				<Body>
+					<Size x="0.000" y="0.000" z="0.000" />
+					<Center x="0.000" y="0.000" z="0.000" />
+					<Light x="0.000" y="0.000" z="0.000" />
+				</Body>
+				<ChannelType index="0" attribute="TILT" feature="POSITION" preset="POSITION" coarse="1" default="127.500">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="-90.000" physto="90.000" subattribute="TILT" attribute="TILT" feature="POSITION" preset="POSITION" />
+				</ChannelType>
+				<ChannelType index="1" attribute="ROLL" feature="POSITION" preset="POSITION" coarse="2">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="-90.000" physto="90.000" subattribute="ROLL" attribute="ROLL" feature="POSITION" preset="POSITION">
+						<ChannelSet index="0" name="Open" from_dmx="0" to_dmx="7" slot_index="0" />
+						<ChannelSet index="1" name="Macro 1" from_dmx="8" to_dmx="43" slot_index="1" />
+						<ChannelSet index="2" name="Macro 2" from_dmx="44" to_dmx="79" slot_index="2" />
+						<ChannelSet index="3" name="Macro 3" from_dmx="80" to_dmx="115" slot_index="3" />
+						<ChannelSet index="4" name="Macro 4" from_dmx="116" to_dmx="151" slot_index="4" />
+						<ChannelSet index="5" name="Macro 5" from_dmx="152" to_dmx="187" slot_index="5" />
+						<ChannelSet index="6" name="Macro 6" from_dmx="188" to_dmx="223" slot_index="6" />
+						<ChannelSet index="7" name="Macro 7" from_dmx="224" to_dmx="255" slot_index="7" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="2" attribute="V_VSPEED" feature="V_VIDEO" preset="VIDEO" coarse="3" default="255.000">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" subattribute="V_VSPEED" attribute="V_VSPEED" feature="V_VIDEO" preset="VIDEO">
+						<ChannelSet index="0" name="Open" from_dmx="0" to_dmx="7" slot_index="0" />
+						<ChannelSet index="1" name="Slow to Fast" from_dmx="8" to_dmx="255" slot_index="1" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="3" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="4" highlight_value="100.000" grandmaster="true">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="DIM" attribute="DIM" feature="DIMMER" preset="DIMMER" />
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" patch="1" RW="0.000" />
+		</Instances>
+		<Wheels index="2" />
+	</FixtureType>
+</MA>

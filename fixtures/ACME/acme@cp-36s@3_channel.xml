@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.2.2/MA.xsd" major_vers="3" minor_vers="2" stream_vers="2">
+	<Info datetime="2017-08-28T17:01:31" showfile="xp show 2017-08-23" />
+	<FixtureType index="58" name="CP-36S" mode="3 channel">
+		<InfoItems>
+			<Info>Press the Mode button until 2000 is displayed for this personality</Info>
+			<Info>Automated import from MA Lighting (C-RevNum: 6; Date: 2012-02-29)</Info>
+			<Info>generator_software_name=&quot;MA Importer&quot;,generator_software_version=&quot;5f6b42bb2658c4832ffd420fab04b1e552d5dd51&quot;</Info>
+		</InfoItems>
+		<short_name>CP36S</short_name>
+		<manufacturer>ACME</manufacturer>
+		<short_manufacturer>ACME</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" name="CP-54S" class="Conventional" beamtype="Wash" beam_angle="25" beam_intensity="10000">
+				<Body>
+					<Size x="0.425" y="0.24" z="0.052" />
+				</Body>
+				<ChannelType index="0" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" coarse="1" default="255" color="ff0000">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB1" subattribute_user_name="R" attribute="COLORRGB1" attribute_user_name="R" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="1" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" coarse="2" default="255" color="00ff00">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB2" subattribute_user_name="G" attribute="COLORRGB2" attribute_user_name="G" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="2" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" coarse="3" default="255" color="0000ff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB3" subattribute_user_name="B" attribute="COLORRGB3" attribute_user_name="B" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="min" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="max" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="3" attribute="DIM" feature="DIMMER" preset="DIMMER">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" />
+		</Instances>
+		<Wheels index="2">
+			<Wheel index="0" subattribute="COLOR1" attribute="COLOR1" feature="COLOR1" preset="COLOR">
+				<Slot index="0" media_name="Open" />
+				<Slot index="1" media_name="C1" g="0" b="0" />
+				<Slot index="2" media_name="C2" g="32" b="7" />
+				<Slot index="3" media_name="C3" g="33" b="21" />
+				<Slot index="4" media_name="C4" g="102" b="9" />
+				<Slot index="5" media_name="C5" g="130" b="4" />
+				<Slot index="6" media_name="C6" g="82" b="14" />
+				<Slot index="7" media_name="C7" r="176" b="10" />
+				<Slot index="8" media_name="C8" r="130" b="9" />
+				<Slot index="9" media_name="C9" r="55" b="1" />
+				<Slot index="10" media_name="C10" r="26" b="0" />
+				<Slot index="11" media_name="C11" r="19" b="0" />
+				<Slot index="12" media_name="C12" r="0" b="8" />
+				<Slot index="13" media_name="C13" r="0" b="67" />
+				<Slot index="14" media_name="C14" r="0" b="142" />
+				<Slot index="15" media_name="C15" r="0" b="186" />
+				<Slot index="16" media_name="C16" r="0" g="230" />
+				<Slot index="17" media_name="C17" r="0" g="111" />
+				<Slot index="18" media_name="C18" r="0" g="61" />
+				<Slot index="19" media_name="C19" r="0" g="67" />
+				<Slot index="20" media_name="C20" r="0" g="48" />
+				<Slot index="21" media_name="C21" r="0" g="20" />
+				<Slot index="22" media_name="C22" r="32" g="0" />
+				<Slot index="23" media_name="C23" r="54" g="0" />
+				<Slot index="24" media_name="C24" r="104" g="0" />
+				<Slot index="25" media_name="C25" r="197" g="0" />
+				<Slot index="26" media_name="C26" r="232" g="0" />
+				<Slot index="27" media_name="C27" g="0" b="177" />
+				<Slot index="28" media_name="c28" g="0" b="171" />
+				<Slot index="29" media_name="c29" g="0" b="93" />
+				<Slot index="30" media_name="c30" g="0" b="3" />
+			</Wheel>
+		</Wheels>
+		<VirtualFunctionBlocks index="3" />
+		<FixtureMacroCollect index="5" />
+		<Body />
+		<AutoPresets index="4" />
+		<RdmNotifications index="6">
+			<RdmNotification index="0" Type="Absent" Subcategory="RDM Warning" />
+		</RdmNotifications>
+	</FixtureType>
+</MA>

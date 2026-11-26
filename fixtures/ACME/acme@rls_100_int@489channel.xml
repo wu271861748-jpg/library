@@ -1,0 +1,419 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.2.2/MA.xsd" major_vers="3" minor_vers="2" stream_vers="2">
+	<Info datetime="2022-10-13T16:17:20" showfile="new show 2022-10-13" />
+	<FixtureType index="3" name="RLS 100 INT" mode="489channel">
+		<InfoItems>
+			<Info>Fixture has on/off switch
+Set menu option Channel Mode to Extended RGBW for this personality</Info>
+			<Info type="Revision" date="2016-05-13T00:00:00">Automated import from MA Lighting (C-RevNum: 6; Date: 2016-05-11)</Info>
+			<Info type="Invisible" date="2016-05-13T00:00:00">generator_software_name=&quot;MA Importer&quot;,generator_software_version=&quot;00d7136ab774ccc2a27cadac97ac748b188e0aa5&quot;</Info>
+			<Info type="Revision" date="2016-05-13T00:00:00">Positions for Single LEDs are automatically aligned by MA Lighting Technology</Info>
+			<Info type="Revision" date="2015-03-11T00:00:00">Positions for Single LEDs set manually by MA Tech Support</Info>
+		</InfoItems>
+		<short_name>RLS100INT</short_name>
+		<manufacturer>ACME</manufacturer>
+		<short_manufacturer>ACME</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" name="PLS 100" class="Headmover" beamtype="Wash" beam_angle="0" beam_intensity="0">
+				<Model index="2" name="RGB 7" model_key="766fe746-41ba-4aad-974b-1af2db3959a0" available_for_user="true" sunshadeType="Regular">
+					<Model index="0" name="LED" sunshadeType="Regular" vertices_have_pos="true" vertices_have_tex0="true" model_type="Model">
+						<Materials>
+							<Material3d specularPower="0.69" name="LED">
+								<DiffuseColor r="0.8" g="0.8" b="0.8" a="1" />
+								<SpecularColor r="1" g="1" b="1" a="1" />
+								<EmissiveColor r="0" g="0" b="0" a="1" />
+								<DiffuseInking x="0" y="0" z="0" />
+								<EmissiveInking x="0.8" y="0.8" z="0.8" />
+								<SurfaceTexture />
+								<AlphaTexture />
+							</Material3d>
+						</Materials>
+						<Vertices>
+							IAAAAEw3ibxMN4m8IumDPgAAAAAAAIC/AAAAAAAAAAAAAAAATDeJvEw3ibzQMIU+AAAAAAAAgL8AAAAA
+							AAAAAAAAgD9MN4k8TDeJvCLpgz4AAAAAAACAvwAAAAAAAIA/AAAAAEw3iTxMN4m80DCFPgAAAAAAAIC/
+							AAAAAAAAgD8AAIA/TDeJPEw3iTwi6YM+AACAPwAAAAAAAAAAAACAPwAAgD9MN4k8TDeJPNAwhT4AAIA/
+							AAAAAAAAAAAAAIA/AAAAAEw3ibxMN4k8IumDPgAAAAAAAIA/AAAAAAAAAAAAAIA/TDeJvEw3iTzQMIU+
+							AAAAAAAAgD8AAAAAAAAAAAAAAABMN4k8TDeJvNAwhT4AAIA/AAAAAAAAAAAAAIA/AACAP0w3iTxMN4m8
+							IumDPgAAgD8AAAAAAAAAAAAAgD8AAAAATDeJPEw3ibwi6YM+AACAPwAAAAAAAAAAAACAPwAAAABMN4k8
+							TDeJPNAwhT4AAAAAAACAPwAAAAAAAIA/AAAAAEw3iTxMN4k8IumDPgAAAAAAAIA/AAAAAAAAgD8AAIA/
+							TDeJPEw3iTwi6YM+AAAAAAAAgD8AAAAAAACAPwAAgD9MN4m8TDeJvNAwhT4AAIC/AAAAAAAAAAAAAAAA
+							AACAP0w3ibxMN4k80DCFPgAAgL8AAAAAAAAAAAAAAAAAAAAATDeJvEw3iTwi6YM+AACAvwAAAAAAAAAA
+							AAAAAAAAgD9MN4m8TDeJvCLpgz4AAIC/AAAAAAAAAAAAAAAAAAAAAEw3ibxMN4m80DCFPgAAgL8AAAAA
+							AAAAAAAAAAAAAIA/TDeJvEw3iTwi6YM+AACAvwAAAAAAAAAAAAAAAAAAgD9MN4k8TDeJPNAwhT4AAAAA
+							AAAAAAAAgD8AAIA/AAAAAEw3ibxMN4k80DCFPgAAAAAAAAAAAACAPwAAAAAAAAAATDeJvEw3ibzQMIU+
+							AAAAAAAAAAAAAIA/AAAAAAAAgD9MN4k8TDeJvNAwhT4AAAAAAAAAAAAAgD8AAIA/AACAP0w3iTxMN4k8
+							0DCFPgAAAAAAAAAAAACAPwAAgD8AAAAATDeJvEw3ibzQMIU+AAAAAAAAAAAAAIA/AAAAAAAAgD9MN4k8
+							TDeJvCLpgz4AAAAAAAAAAAAAgL8AAIA/AAAAAEw3ibxMN4m8IumDPgAAAAAAAAAAAACAvwAAAAAAAAAA
+							TDeJvEw3iTwi6YM+AAAAAAAAAAAAAIC/AAAAAAAAgD9MN4k8TDeJPCLpgz4AAAAAAAAAAAAAgL8AAIA/
+							AACAP0w3iTxMN4m8IumDPgAAAAAAAAAAAACAvwAAgD8AAAAATDeJvEw3iTwi6YM+AAAAAAAAAAAAAIC/
+							AAAAAAAAgD8=
+						</Vertices>
+						<Faces>
+							JAAAAAMAAQAAAAIAAwAAAAUACAAJAAQABQAKAAcACwAMAAYABwANAA4ADwAQABEAEgATABQAFQAWABcA
+							GAAZABoAGwAcAB0AHgAfAA==
+						</Faces>
+						<SubSets>
+							<SubSet3d material_index="0" FaceStart="0" FacesCount="12" />
+						</SubSets>
+					</Model>
+				</Model>
+				<ChannelType index="0" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="1" fine="2" default="65535" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+				<ChannelType index="1" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" coarse="3" default="8.717" highlight_value="3.2">
+					<ChannelFunction index="0" from="0" to="6.08" min_dmx_24="0" max_dmx_24="1048575" physfrom="0" physto="0" subattribute="SHUTTER" subattribute_user_name="Shutter" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Closed" from_dmx="0" to_dmx="7" slot_from="0" slot_to="0" />
+						<ChannelSet index="1" name="Open1" from_dmx="8" to_dmx="15" slot_from="1" slot_to="1" />
+					</ChannelFunction>
+					<ChannelFunction index="1" name="Strobe" from="6.08" to="51.57" min_dmx_24="1048576" max_dmx_24="8650751" physfrom="0.25" physto="20" subattribute="STROBE" subattribute_user_name="Strobe" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="min Strobe" from_dmx="16" to_dmx="16" />
+						<ChannelSet index="1" name="max Strobe" from_dmx="131" to_dmx="131" />
+					</ChannelFunction>
+					<ChannelFunction index="2" from="51.57" to="54.71" min_dmx_24="8650752" max_dmx_24="9175039" physfrom="1" physto="1" subattribute="SHUTTER" subattribute_user_name="Shutter" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Open2" from_dmx="132" to_dmx="139" />
+					</ChannelFunction>
+					<ChannelFunction index="3" name="Pulse 0pen" from="54.71" to="71.18" min_dmx_24="9175040" max_dmx_24="11927551" physfrom="0.09" physto="0.6" subattribute="STROBE_PULSE_OPEN" subattribute_user_name="Pulse Open" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="min Pulse" from_dmx="140" to_dmx="140" />
+						<ChannelSet index="1" name="max Pulse" from_dmx="181" to_dmx="181" />
+					</ChannelFunction>
+					<ChannelFunction index="4" from="71.18" to="74.31" min_dmx_24="11927552" max_dmx_24="12451839" physfrom="1" physto="1" subattribute="SHUTTER" subattribute_user_name="Shutter" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Open3" from_dmx="189" to_dmx="189" />
+					</ChannelFunction>
+					<ChannelFunction index="5" name="Pulse Close" from="74.31" to="90.78" min_dmx_24="12451840" max_dmx_24="15204351" physfrom="0.09" physto="0.6" subattribute="STROBE_PULSE_CLOSE" subattribute_user_name="Pulse Close" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="min Pulse Close" from_dmx="190" to_dmx="190" />
+						<ChannelSet index="1" name="max Pulse Close" from_dmx="231" to_dmx="231" />
+					</ChannelFunction>
+					<ChannelFunction index="6" from="90.78" to="93.92" min_dmx_24="15204352" max_dmx_24="15728639" physfrom="1" physto="1" subattribute="SHUTTER" subattribute_user_name="Shutter" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Open4" from_dmx="232" to_dmx="239" auto_create="false" />
+					</ChannelFunction>
+					<ChannelFunction index="7" name="Rnd" from="93.92" to="97.06" min_dmx_24="15728640" max_dmx_24="16252927" physfrom="15" physto="20" subattribute="STROBERANDOMBURSTPULSE" subattribute_user_name="StrobeRandomBurstPulse" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Rnd Strobe" from_dmx="240" to_dmx="247" />
+					</ChannelFunction>
+					<ChannelFunction index="8" from="97.06" to="100" min_dmx_24="16252928" max_dmx_24="16777215" physfrom="1" physto="1" subattribute="SHUTTER" subattribute_user_name="Shutter" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Open5" from_dmx="248" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+			<Module index="1" name="RGB 1" class="LED" beamtype="Wash" beam_angle="20" beam_intensity="5000">
+				<Model index="3" name="L" model_key="221bf8a1-2f71-48ea-8690-4da1d4b23ce3" available_for_user="true" vertices_have_pos="true" vertices_have_tex0="true" model_type="Model">
+					<Materials>
+						<Material3d specularPower="0.69" name="L">
+							<DiffuseColor r="0.8" g="0.8" b="0.8" a="1" />
+							<SpecularColor r="1" g="1" b="1" a="1" />
+							<EmissiveColor r="0" g="0" b="0" a="1" />
+							<DiffuseInking x="0" y="0" z="0" />
+							<EmissiveInking x="0.8" y="0.8" z="0.8" />
+							<SurfaceTexture />
+							<AlphaTexture />
+						</Material3d>
+					</Materials>
+					<Vertices>
+						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
+						7et7PgAAAAATWua3AACAP4yDHz+GjgU/
+					</Vertices>
+					<Faces>
+						9AIAAAEAAgAGAAEABgAFAAIAAwAHAAIABwAGAAMABAAIAAMACAAHAAQAAAAIAAUABgAKAAUACgAJAAYA
+						BwALAAYACwAKAAcACAAMAAcADAALAAgAAAAMAAkACgAOAAkADgANAAoACwAPAAoADwAOAAsADAAQAAsA
+						EAAPAAwAAAAQAA0ADgASAA0AEgARAA4ADwATAA4AEwASAA8AEAAUAA8AFAATABAAAAAUABEAEgAWABEA
+						FgAVABIAEwAXABIAFwAWABMAFAAYABMAGAAXABQAAAAYABUAFgAaABUAGgAZABYAFwAbABYAGwAaABcA
+						GAAcABcAHAAbABgAAAAcABkAGgAeABkAHgAdABoAGwAfABoAHwAeABsAHAAgABsAIAAfABwAAAAgAB0A
+						HgAiAB0AIgAhAB4AHwAjAB4AIwAiAB8AIAAkAB8AJAAjACAAAAAkACEAIgAmACEAJgAlACIAIwAnACIA
+						JwAmACMAJAAoACMAKAAnACQAAAAoACUAJgAqACUAKgApACYAJwArACYAKwAqACcAKAAsACcALAArACgA
+						AAAsACkAKgAuACkALgAtACoAKwAvACoALwAuACsALAAwACsAMAAvACwAAAAwAC0ALgAyAC0AMgAxAC4A
+						LwAzAC4AMwAyAC8AMAA0AC8ANAAzADAAAAA0ADEAMgA2ADEANgA1ADIAMwA3ADIANwA2ADMANAA4ADMA
+						OAA3ADQAAAA4ADUANgA6ADUAOgA5ADYANwA7ADYAOwA6ADcAOAA8ADcAPAA7ADgAAAA8ADkAOgA+ADkA
+						PgA9ADoAOwA/ADoAPwA+ADsAPABAADsAQAA/ADwAAABAAD0APgBCAD0AQgBBAD4APwBDAD4AQwBCAD8A
+						QABEAD8ARABDAEAAAABEAEEAQgBGAEEARgBFAEIAQwBHAEIARwBGAEMARABIAEMASABHAEQAAABIAEUA
+						RgBKAEUASgBJAEYARwBLAEYASwBKAEcASABMAEcATABLAEgAAABMAEkASgBOAEkATgBNAEoASwBPAEoA
+						TwBOAEsATABQAEsAUABPAEwAAABQAE0ATgBSAE0AUgBRAE4ATwBTAE4AUwBSAE8AUABUAE8AVABTAFAA
+						AABUAFEAUgBWAFEAVgBVAFIAUwBXAFIAVwBWAFMAVABYAFMAWABXAFQAAABYAFUAVgBaAFUAWgBZAFYA
+						VwBbAFYAWwBaAFcAWABcAFcAXABbAFgAAABcAFkAWgBeAFkAXgBdAFoAWwBfAFoAXwBeAFsAXABgAFsA
+						YABfAFwAAABgAF0AXgBiAF0AYgBhAF4AXwBjAF4AYwBiAF8AYABkAF8AZABjAGAAAABkAGEAYgBmAGEA
+						ZgBlAGIAYwBnAGIAZwBmAGMAZABoAGMAaABnAGQAAABoAGUAZgBqAGUAagBpAGYAZwBrAGYAawBqAGcA
+						aABsAGcAbABrAGgAAABsAGkAagBuAGkAbgBtAGoAawBvAGoAbwBuAGsAbABwAGsAcABvAGwAAABwAG0A
+						bgByAG0AcgBxAG4AbwBzAG4AcwByAG8AcAB0AG8AdABzAHAAAAB0AHEAcgB2AHEAdgB1AHIAcwB3AHIA
+						dwB2AHMAdAB4AHMAeAB3AHQAAAB4AHUAdgB6AHUAegB5AHYAdwB7AHYAewB6AHcAeAB8AHcAfAB7AHgA
+						AAB8AHkAegB+AHkAfgB9AHoAewB/AHoAfwB+AHsAfACAAHsAgAB/AHwAAACAAH0AfgCCAH0AggCBAH4A
+						fwCDAH4AgwCCAH8AgACEAH8AhACDAIAAAACEAIEAggCGAIEAhgCFAIIAgwCHAIIAhwCGAIMAhACIAIMA
+						iACHAIQAAACIAIUAhgCKAIUAigCJAIYAhwCLAIYAiwCKAIcAiACMAIcAjACLAIgAAACMAIkAigCOAIkA
+						jgCNAIoAiwCPAIoAjwCOAIsAjACQAIsAkACPAIwAAACQAI0AjgACAI0AAgABAI4AjwADAI4AAwACAI8A
+						kAAEAI8ABAADAJAAAAAEAA==
+					</Faces>
+					<SubSets>
+						<SubSet3d material_index="0" FaceStart="0" FacesCount="252" />
+					</SubSets>
+					<Model index="0" name="L" model_type="Beam">
+						<Offset>
+							<Location x="0" y="0" z="0.244" />
+							<Rotation x="0" y="-0" z="0" />
+							<Scaling x="1" y="1" z="1" />
+						</Offset>
+						<BeamNearClippingDistance>-0.002</BeamNearClippingDistance>
+						<BeamDiameterAtOffset>0.048</BeamDiameterAtOffset>
+					</Model>
+				</Model>
+				<ChannelType index="0" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" coarse="1" default="254.999" highlight_value="100" color="ff0000">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB1" subattribute_user_name="R" attribute="COLORRGB1" attribute_user_name="R" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="1" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" coarse="2" default="254.999" highlight_value="100" color="00ff00">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB2" subattribute_user_name="G" attribute="COLORRGB2" attribute_user_name="G" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="2" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" coarse="3" default="254.999" highlight_value="100" color="0000ff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB3" subattribute_user_name="B" attribute="COLORRGB3" attribute_user_name="B" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="3" attribute="DIM" feature="DIMMER" preset="DIMMER" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" />
+			<Instance index="1" module_index="1" patch="4" X="-0.458" Z="0.226" parent_instance="0" />
+			<Instance index="2" module_index="1" patch="7" X="-0.375" Z="0.226" parent_instance="0" />
+			<Instance index="3" module_index="1" patch="10" X="-0.292" Z="0.226" parent_instance="0" />
+			<Instance index="4" module_index="1" patch="13" X="-0.208" Z="0.226" parent_instance="0" />
+			<Instance index="5" module_index="1" patch="16" X="-0.125" Z="0.226" parent_instance="0" />
+			<Instance index="6" module_index="1" patch="19" X="-0.042" Z="0.226" parent_instance="0" />
+			<Instance index="7" module_index="1" patch="22" X="0.042" Z="0.226" parent_instance="0" />
+			<Instance index="8" module_index="1" patch="25" X="0.125" Z="0.226" parent_instance="0" />
+			<Instance index="9" module_index="1" patch="28" X="0.208" Z="0.226" parent_instance="0" />
+			<Instance index="10" module_index="1" patch="31" X="0.292" Z="0.226" parent_instance="0" />
+			<Instance index="11" module_index="1" patch="34" X="0.375" Z="0.226" parent_instance="0" />
+			<Instance index="12" module_index="1" patch="37" X="0.458" Z="0.226" parent_instance="0" />
+			<Instance index="13" module_index="1" patch="40" />
+			<Instance index="14" module_index="1" patch="43" />
+			<Instance index="15" module_index="1" patch="46" />
+			<Instance index="16" module_index="1" patch="49" />
+			<Instance index="17" module_index="1" patch="52" />
+			<Instance index="18" module_index="1" patch="55" />
+			<Instance index="19" module_index="1" patch="58" />
+			<Instance index="20" module_index="1" patch="61" />
+			<Instance index="21" module_index="1" patch="64" />
+			<Instance index="22" module_index="1" patch="67" />
+			<Instance index="23" module_index="1" patch="70" />
+			<Instance index="24" module_index="1" patch="73" />
+			<Instance index="25" module_index="1" patch="76" />
+			<Instance index="26" module_index="1" patch="79" />
+			<Instance index="27" module_index="1" patch="82" />
+			<Instance index="28" module_index="1" patch="85" />
+			<Instance index="29" module_index="1" patch="88" />
+			<Instance index="30" module_index="1" patch="91" />
+			<Instance index="31" module_index="1" patch="94" />
+			<Instance index="32" module_index="1" patch="97" />
+			<Instance index="33" module_index="1" patch="100" />
+			<Instance index="34" module_index="1" patch="103" />
+			<Instance index="35" module_index="1" patch="106" />
+			<Instance index="36" module_index="1" patch="109" />
+			<Instance index="37" module_index="1" patch="112" />
+			<Instance index="38" module_index="1" patch="115" />
+			<Instance index="39" module_index="1" patch="118" />
+			<Instance index="40" module_index="1" patch="121" />
+			<Instance index="41" module_index="1" patch="124" />
+			<Instance index="42" module_index="1" patch="127" />
+			<Instance index="43" module_index="1" patch="130" />
+			<Instance index="44" module_index="1" patch="133" />
+			<Instance index="45" module_index="1" patch="136" />
+			<Instance index="46" module_index="1" patch="139" />
+			<Instance index="47" module_index="1" patch="142" />
+			<Instance index="48" module_index="1" patch="145" />
+			<Instance index="49" module_index="1" patch="148" />
+			<Instance index="50" module_index="1" patch="151" />
+			<Instance index="51" module_index="1" patch="154" />
+			<Instance index="52" module_index="1" patch="157" />
+			<Instance index="53" module_index="1" patch="160" />
+			<Instance index="54" module_index="1" patch="163" />
+			<Instance index="55" module_index="1" patch="166" />
+			<Instance index="56" module_index="1" patch="169" />
+			<Instance index="57" module_index="1" patch="172" />
+			<Instance index="58" module_index="1" patch="175" />
+			<Instance index="59" module_index="1" patch="178" />
+			<Instance index="60" module_index="1" patch="181" />
+			<Instance index="61" module_index="1" patch="184" />
+			<Instance index="62" module_index="1" patch="187" />
+			<Instance index="63" module_index="1" patch="190" />
+			<Instance index="64" module_index="1" patch="193" />
+			<Instance index="65" module_index="1" patch="196" />
+			<Instance index="66" module_index="1" patch="199" />
+			<Instance index="67" module_index="1" patch="202" />
+			<Instance index="68" module_index="1" patch="205" />
+			<Instance index="69" module_index="1" patch="208" />
+			<Instance index="70" module_index="1" patch="211" />
+			<Instance index="71" module_index="1" patch="214" />
+			<Instance index="72" module_index="1" patch="217" />
+			<Instance index="73" module_index="1" patch="220" />
+			<Instance index="74" module_index="1" patch="223" />
+			<Instance index="75" module_index="1" patch="226" />
+			<Instance index="76" module_index="1" patch="229" />
+			<Instance index="77" module_index="1" patch="232" />
+			<Instance index="78" module_index="1" patch="235" />
+			<Instance index="79" module_index="1" patch="238" />
+			<Instance index="80" module_index="1" patch="241" />
+			<Instance index="81" module_index="1" patch="244" />
+			<Instance index="82" module_index="1" patch="247" />
+			<Instance index="83" module_index="1" patch="250" />
+			<Instance index="84" module_index="1" patch="253" />
+			<Instance index="85" module_index="1" patch="256" />
+			<Instance index="86" module_index="1" patch="259" />
+			<Instance index="87" module_index="1" patch="262" />
+			<Instance index="88" module_index="1" patch="265" />
+			<Instance index="89" module_index="1" patch="268" />
+			<Instance index="90" module_index="1" patch="271" />
+			<Instance index="91" module_index="1" patch="274" />
+			<Instance index="92" module_index="1" patch="277" />
+			<Instance index="93" module_index="1" patch="280" />
+			<Instance index="94" module_index="1" patch="283" />
+			<Instance index="95" module_index="1" patch="286" />
+			<Instance index="96" module_index="1" patch="289" />
+			<Instance index="97" module_index="1" patch="292" />
+			<Instance index="98" module_index="1" patch="295" />
+			<Instance index="99" module_index="1" patch="298" />
+			<Instance index="100" module_index="1" patch="301" />
+			<Instance index="101" module_index="1" patch="304" />
+			<Instance index="102" module_index="1" patch="307" />
+			<Instance index="103" module_index="1" patch="310" />
+			<Instance index="104" module_index="1" patch="313" />
+			<Instance index="105" module_index="1" patch="316" />
+			<Instance index="106" module_index="1" patch="319" />
+			<Instance index="107" module_index="1" patch="322" />
+			<Instance index="108" module_index="1" patch="325" />
+			<Instance index="109" module_index="1" patch="328" />
+			<Instance index="110" module_index="1" patch="331" />
+			<Instance index="111" module_index="1" patch="334" />
+			<Instance index="112" module_index="1" patch="337" />
+			<Instance index="113" module_index="1" patch="340" />
+			<Instance index="114" module_index="1" patch="343" />
+			<Instance index="115" module_index="1" patch="346" />
+			<Instance index="116" module_index="1" patch="349" />
+			<Instance index="117" module_index="1" patch="352" />
+			<Instance index="118" module_index="1" patch="355" />
+			<Instance index="119" module_index="1" patch="358" />
+			<Instance index="120" module_index="1" patch="361" />
+			<Instance index="121" module_index="1" patch="364" />
+			<Instance index="122" module_index="1" patch="367" />
+			<Instance index="123" module_index="1" patch="370" />
+			<Instance index="124" module_index="1" patch="373" />
+			<Instance index="125" module_index="1" patch="376" />
+			<Instance index="126" module_index="1" patch="379" />
+			<Instance index="127" module_index="1" patch="382" />
+			<Instance index="128" module_index="1" patch="385" />
+			<Instance index="129" module_index="1" patch="388" />
+			<Instance index="130" module_index="1" patch="391" />
+			<Instance index="131" module_index="1" patch="394" />
+			<Instance index="132" module_index="1" patch="397" />
+			<Instance index="133" module_index="1" patch="400" />
+			<Instance index="134" module_index="1" patch="403" />
+			<Instance index="135" module_index="1" patch="406" />
+			<Instance index="136" module_index="1" patch="409" />
+			<Instance index="137" module_index="1" patch="412" />
+			<Instance index="138" module_index="1" patch="415" />
+			<Instance index="139" module_index="1" patch="418" />
+			<Instance index="140" module_index="1" patch="421" />
+			<Instance index="141" module_index="1" patch="424" />
+			<Instance index="142" module_index="1" patch="427" />
+			<Instance index="143" module_index="1" patch="430" />
+			<Instance index="144" module_index="1" patch="433" />
+			<Instance index="145" module_index="1" patch="436" />
+			<Instance index="146" module_index="1" patch="439" />
+			<Instance index="147" module_index="1" patch="442" />
+			<Instance index="148" module_index="1" patch="445" />
+			<Instance index="149" module_index="1" patch="448" />
+			<Instance index="150" module_index="1" patch="451" />
+			<Instance index="151" module_index="1" patch="454" />
+			<Instance index="152" module_index="1" patch="457" />
+			<Instance index="153" module_index="1" patch="460" />
+			<Instance index="154" module_index="1" patch="463" />
+			<Instance index="155" module_index="1" patch="466" />
+			<Instance index="156" module_index="1" patch="469" />
+			<Instance index="157" module_index="1" patch="472" />
+			<Instance index="158" module_index="1" patch="475" />
+			<Instance index="159" module_index="1" patch="478" />
+			<Instance index="160" module_index="1" patch="481" />
+			<Instance index="161" module_index="1" patch="484" />
+			<Instance index="162" module_index="1" patch="487" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<FixtureMacroCollect index="5" />
+		<Body />
+		<AutoPresets index="4" />
+		<RdmNotifications index="6">
+			<RdmNotification index="0" Type="Absent" Subcategory="RDM Warning" />
+		</RdmNotifications>
+	</FixtureType>
+</MA>

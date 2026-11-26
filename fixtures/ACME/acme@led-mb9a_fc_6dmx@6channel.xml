@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/2.4.3/MA.xsd" major_vers="2" minor_vers="4" stream_vers="3">
+	<Info datetime="2015-11-08T03:21:40" showfile="111" />
+	<FixtureType index="6" name="LED-MB9A FC 6DMX" mode="6channel">
+		<short_name>MB9AFC</short_name>
+		<manufacturer>ACME</manufacturer>
+		<short_manufacturer>ACME</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="Headmover" beamtype="Effect" beam_angle="10.000" beam_intensity="10000.000">
+				<Body>
+					<Size x="0.000" y="0.000" z="0.000" />
+					<Center x="0.000" y="0.000" z="0.000" />
+					<Light x="0.000" y="0.000" z="0.000" />
+				</Body>
+				<ChannelType index="0" attribute="MODE" feature="FIXTURE" preset="CONTROL" coarse="1" highlight_value="10.000">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" subattribute="MODE" attribute="MODE" feature="FIXTURE" preset="CONTROL">
+						<ChannelSet index="0" name="off" from_dmx="0" to_dmx="7" />
+						<ChannelSet index="1" name="show 1" from_dmx="8" to_dmx="23" />
+						<ChannelSet index="2" name="show 2" from_dmx="24" to_dmx="39" />
+						<ChannelSet index="3" name="show 3" from_dmx="40" to_dmx="55" />
+						<ChannelSet index="4" name="show 4" from_dmx="56" to_dmx="71" />
+						<ChannelSet index="5" name="show 5" from_dmx="72" to_dmx="87" />
+						<ChannelSet index="6" name="show 6" from_dmx="88" to_dmx="103" />
+						<ChannelSet index="7" name="show 7" from_dmx="104" to_dmx="119" />
+						<ChannelSet index="8" name="show 8" from_dmx="120" to_dmx="135" />
+						<ChannelSet index="9" name="show 9" from_dmx="136" to_dmx="151" />
+						<ChannelSet index="10" name="show 10" from_dmx="152" to_dmx="167" />
+						<ChannelSet index="11" name="show 11" from_dmx="168" to_dmx="183" />
+						<ChannelSet index="12" name="show 12" from_dmx="184" to_dmx="199" />
+						<ChannelSet index="13" name="show 13" from_dmx="200" to_dmx="215" />
+						<ChannelSet index="14" name="show 14" from_dmx="216" to_dmx="231" />
+						<ChannelSet index="15" name="show 15" from_dmx="232" to_dmx="247" />
+						<ChannelSet index="16" name="sound" from_dmx="248" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="1" attribute="POSITIONMSPEED" feature="MSPEED" preset="CONTROL" coarse="2">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" subattribute="POSITIONMSPEEDTRACK" attribute="POSITIONMSPEED" feature="MSPEED" preset="CONTROL" />
+				</ChannelType>
+				<ChannelType index="2" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" coarse="3" default="7.905">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="1.000" subattribute="SHUTTER" attribute="SHUTTER" feature="SHUTTER" preset="BEAM">
+						<ChannelSet index="0" name="off" from_dmx="0" to_dmx="7" />
+						<ChannelSet index="1" name="open" from_dmx="8" to_dmx="15" />
+						<ChannelSet index="2" name="strobe" from_dmx="16" to_dmx="131" />
+						<ChannelSet index="3" name="open" from_dmx="132" to_dmx="139" />
+						<ChannelSet index="4" name="op pls" from_dmx="140" to_dmx="181" />
+						<ChannelSet index="5" name="open" from_dmx="182" to_dmx="189" />
+						<ChannelSet index="6" name="cl pls" from_dmx="190" to_dmx="231" />
+						<ChannelSet index="7" name="open" from_dmx="232" to_dmx="239" />
+						<ChannelSet index="8" name="ran strobe" from_dmx="240" to_dmx="247" />
+						<ChannelSet index="9" name="open" from_dmx="248" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="3" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="4" highlight_value="100.000">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="DIM" attribute="DIM" feature="DIMMER" preset="DIMMER" />
+				</ChannelType>
+				<ChannelType index="4" attribute="FIXTUREDISPLAY" feature="FIXTURE" preset="CONTROL" coarse="5">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" subattribute="FIXTUREDISPLAY" attribute="FIXTUREDISPLAY" feature="FIXTURE" preset="CONTROL">
+						<ChannelSet index="0" name="standard" from_dmx="0" to_dmx="20" />
+						<ChannelSet index="1" name="atage" from_dmx="21" to_dmx="40" />
+						<ChannelSet index="2" name="tv" from_dmx="41" to_dmx="60" />
+						<ChannelSet index="3" name="archtectural" from_dmx="61" to_dmx="80" />
+						<ChannelSet index="4" name="theatre" from_dmx="81" to_dmx="100" />
+						<ChannelSet index="5" name="default to unit" from_dmx="101" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="5" attribute="RESET" feature="RESET" preset="CONTROL" coarse="6">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" subattribute="RESET" attribute="RESET" feature="RESET" preset="CONTROL">
+						<ChannelSet index="0" name="null" from_dmx="0" to_dmx="69" />
+						<ChannelSet index="1" name="PT move" from_dmx="70" to_dmx="79" />
+						<ChannelSet index="2" name="reset all" from_dmx="80" to_dmx="89" />
+						<ChannelSet index="3" name="null" from_dmx="90" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" patch="1" RW="0.000" />
+		</Instances>
+		<Wheels index="2" />
+	</FixtureType>
+</MA>

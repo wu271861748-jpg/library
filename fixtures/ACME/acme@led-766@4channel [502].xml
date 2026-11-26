@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.2.2/MA.xsd" major_vers="3" minor_vers="2" stream_vers="2">
+	<Info datetime="2016-07-05T11:22:23" showfile="newshow" />
+	<FixtureType index="22" name="LED-766" mode="4channel">
+		<short_name>LED-766</short_name>
+		<manufacturer>ACME</manufacturer>
+		<short_manufacturer>ACME</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="Conventional" beamtype="Effect" beam_angle="35" beam_intensity="10000">
+				<Body>
+					<Size x="0.25" y="0.25" z="0.3" />
+				</Body>
+				<ChannelType index="0" attribute="COLOR1" feature="COLOR1" preset="COLOR" coarse="1" default="255">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="COLOR1WHEELRANDOM" subattribute_user_name="Rnd" attribute="COLOR1" attribute_user_name="C1" feature="COLOR1" feature_user_name="Color1" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="Color 1" from_dmx="0" to_dmx="16" />
+						<ChannelSet index="1" name="Color 2" from_dmx="17" to_dmx="33" />
+						<ChannelSet index="2" name="Color 3" from_dmx="34" to_dmx="50" />
+						<ChannelSet index="3" name="Color 4" from_dmx="51" to_dmx="67" />
+						<ChannelSet index="4" name="Color 5" from_dmx="68" to_dmx="84" />
+						<ChannelSet index="5" name="Color 6" from_dmx="85" to_dmx="101" />
+						<ChannelSet index="6" name="Color 7" from_dmx="102" to_dmx="118" />
+						<ChannelSet index="7" name="Color 8" from_dmx="119" to_dmx="135" />
+						<ChannelSet index="8" name="Color 9" from_dmx="136" to_dmx="152" />
+						<ChannelSet index="9" name="Color 10" from_dmx="153" to_dmx="169" />
+						<ChannelSet index="10" name="Color 11" from_dmx="170" to_dmx="186" />
+						<ChannelSet index="11" name="Color 12" from_dmx="187" to_dmx="203" />
+						<ChannelSet index="12" name="Color 13" from_dmx="204" to_dmx="220" />
+						<ChannelSet index="13" name="Color 14" from_dmx="221" to_dmx="237" />
+						<ChannelSet index="14" name="Color 15" from_dmx="238" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="1" attribute="EFFECTINDEXROTATE" feature="EFFECT" preset="BEAM" coarse="2">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="EFFECTINDEX" subattribute_user_name="Index" attribute="EFFECTINDEXROTATE" attribute_user_name="Effect&lt;&gt;" feature="EFFECT" feature_user_name="Effect" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Stop" from_dmx="0" to_dmx="9" />
+						<ChannelSet index="1" name="SC CW" from_dmx="10" to_dmx="120" />
+						<ChannelSet index="2" name="Stop" from_dmx="121" to_dmx="134" />
+						<ChannelSet index="3" name="SC CCW" from_dmx="135" to_dmx="245" />
+						<ChannelSet index="4" name="Stop" from_dmx="246" to_dmx="249" />
+						<ChannelSet index="5" name="Sound" from_dmx="250" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="2" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" coarse="3">
+					<ChannelFunction index="0" from="0" to="0.2" min_dmx_24="0" max_dmx_24="65535" physfrom="1" physto="1" subattribute="SHUTTER" subattribute_user_name="Shutter" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Off" from_dmx="0" to_dmx="0" />
+					</ChannelFunction>
+					<ChannelFunction index="1" from="0.2" to="100" min_dmx_24="65536" max_dmx_24="16777215" physfrom="1" physto="20" subattribute="STROBE" subattribute_user_name="Strobe" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam" />
+				</ChannelType>
+				<ChannelType index="3" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="4" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" RW="0" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<FixtureMacroCollect index="5" />
+		<Body />
+		<AutoPresets index="4" />
+		<RdmNotifications index="6">
+			<RdmNotification index="0" Type="Absent" Subcategory="RDM Warning" />
+		</RdmNotifications>
+	</FixtureType>
+</MA>

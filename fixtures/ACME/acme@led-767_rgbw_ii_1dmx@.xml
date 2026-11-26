@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/2.8.3/MA.xsd" major_vers="2" minor_vers="8" stream_vers="3">
+	<Info datetime="2015-05-09T15:41:31" showfile="newshow" />
+	<FixtureType index="1" name="LED-767 RGBW II 1DMX">
+		<short_name>767RGBW II 1DMX</short_name>
+		<manufacturer>ACME</manufacturer>
+		<short_manufacturer>ACME</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="None" beamtype="Wash" beam_angle="35.000" beam_intensity="10000.000">
+				<ChannelType index="0" attribute="EFFECTINDEXROTATE" feature="EFFECT" preset="BEAM" coarse="1" highlight_value="100.000">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" subattribute="EFFECTINDEX" attribute="EFFECTINDEXROTATE" feature="EFFECT" preset="BEAM">
+						<ChannelSet index="0" name="Open" from_dmx="0" to_dmx="14" />
+						<ChannelSet index="1" name="SC CW" from_dmx="15" to_dmx="124" />
+						<ChannelSet index="2" name="Open" from_dmx="125" to_dmx="139" />
+						<ChannelSet index="3" name="SC CCW" from_dmx="140" to_dmx="249" />
+						<ChannelSet index="4" name="Sound" from_dmx="250" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" RW="0.000" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<Body />
+	</FixtureType>
+</MA>

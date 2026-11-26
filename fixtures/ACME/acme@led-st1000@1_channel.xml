@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.2.2/MA.xsd" major_vers="3" minor_vers="2" stream_vers="2">
+	<Info datetime="2016-08-02T09:18:00" showfile="jay 0719  gz" />
+	<FixtureType index="32" name="LED-ST1000" mode="1 channel">
+		<InfoItems>
+			<Info>Set DIP switches 1-4 to OFF and switch 5 to ON for this personality
+Set DIP switch 6 to OFF for high power mode, set switch to ON for low power mode</Info>
+			<Info type="Revision" date="2013-09-23T00:00:00">Automated import from MA Lighting (C-RevNum: 0; Date: 2013-08-12)</Info>
+			<Info type="Invisible" date="2013-09-23T00:00:00">generator_software_name=&quot;MA Importer&quot;,generator_software_version=&quot;483580bf786f51d8f1e57b239253fa25dd604001&quot;</Info>
+		</InfoItems>
+		<short_name>LEDST1000 1</short_name>
+		<manufacturer>Acme</manufacturer>
+		<short_manufacturer>Acme</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" name="Main Module" class="Conventional" beamtype="Wash" beam_angle="25" beam_intensity="10000">
+				<Body>
+					<Size x="0.472" y="0.255" z="0.255" />
+				</Body>
+				<ChannelType index="0" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" coarse="1" highlight_value="0">
+					<ChannelFunction index="0" from="0" to="2.344" min_dmx_24="0" max_dmx_24="393215" physfrom="0" physto="0" subattribute="SHUTTER" subattribute_user_name="Shutter" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="closed" from_dmx="0" to_dmx="5" />
+					</ChannelFunction>
+					<ChannelFunction index="1" name="Strobe 1..100%" from="2.344" to="97.656" min_dmx_24="393216" max_dmx_24="16383999" physfrom="0.1" physto="10" subattribute="STROBE" subattribute_user_name="Strobe" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="min Strobe" from_dmx="6" to_dmx="6" />
+						<ChannelSet index="1" name="max Strobe" from_dmx="249" to_dmx="249" />
+					</ChannelFunction>
+					<ChannelFunction index="2" from="97.656" to="100" min_dmx_24="16384000" max_dmx_24="16777215" physfrom="1" physto="1" subattribute="STROBE_LIGHTNING" subattribute_user_name="Lightning" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Boost Mode" from_dmx="250" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<FixtureMacroCollect index="5" />
+		<Body />
+		<AutoPresets index="4" />
+		<RdmNotifications index="6">
+			<RdmNotification index="0" Type="Absent" Subcategory="RDM Warning" />
+		</RdmNotifications>
+	</FixtureType>
+</MA>

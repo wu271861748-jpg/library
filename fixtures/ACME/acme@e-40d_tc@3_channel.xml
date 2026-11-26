@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.2.2/MA.xsd" major_vers="3" minor_vers="2" stream_vers="2">
+	<Info datetime="2017-08-21T10:52:25" showfile="xp show 2017-08-20" />
+	<FixtureType index="110" name="E-40D TC" mode="3 channel">
+		<short_name>40D TC</short_name>
+		<manufacturer>ACME</manufacturer>
+		<short_manufacturer>ACME</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="Conventional" beamtype="Spot" beam_angle="26" beam_intensity="4000">
+				<Body>
+					<Size x="0.158" y="0.1" z="0.273" />
+				</Body>
+				<ChannelType index="0" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" coarse="1" default="254.999" color="ff0000">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB1" subattribute_user_name="R" attribute="COLORRGB1" attribute_user_name="R" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="1" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" coarse="2" default="254.999" color="00ff00">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB2" subattribute_user_name="G" attribute="COLORRGB2" attribute_user_name="G" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="2" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" coarse="3" default="254.999" color="0000ff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB3" subattribute_user_name="B" attribute="COLORRGB3" attribute_user_name="B" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="3" attribute="DIM" feature="DIMMER" preset="DIMMER" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" />
+		</Instances>
+		<Wheels index="2">
+			<Wheel index="0" subattribute="COLOR1" attribute="COLOR1" feature="COLOR1" preset="COLOR">
+				<Slot index="0" media_name="Open" r="229" g="136" />
+				<Slot index="1" media_name="Moroccan Pink" g="165" b="249" />
+				<Slot index="2" media_name="Pink" g="118" b="240" />
+				<Slot index="3" media_name="Special rose Pink" r="189" g="36" />
+				<Slot index="4" media_name="Follies Pink" r="191" g="34" />
+				<Slot index="5" media_name="Fuchsia Pink" r="223" g="112" />
+				<Slot index="6" media_name="Surprise Pink" r="234" g="145" />
+				<Slot index="7" media_name="Congo Blue" r="100" g="30" />
+				<Slot index="8" media_name="Tokyo Blue" r="26" g="42" />
+				<Slot index="9" media_name="Deep Blue" r="36" g="73" />
+				<Slot index="10" media_name="Just Blue" r="43" g="104" />
+				<Slot index="11" media_name="Medium Blue" r="6" g="142" />
+				<Slot index="12" media_name="Doubie Blue" r="135" g="91" />
+				<Slot index="13" media_name="Slate Blue" r="116" g="130" b="207" />
+				<Slot index="14" media_name="Full Blue" r="144" g="92" />
+				<Slot index="15" media_name="Half Blue" r="174" g="128" />
+				<Slot index="16" media_name="Steel Blue" r="236" g="155" />
+				<Slot index="17" media_name="Lighter Blue" r="92" g="121" />
+				<Slot index="18" media_name="Light Blue" r="35" g="136" />
+				<Slot index="19" media_name="Medium Blue Green" r="26" g="184" />
+				<Slot index="20" media_name="Dark Gree" r="52" b="73" />
+				<Slot index="21" media_name="Primary Green" r="114" b="58" />
+				<Slot index="22" media_name="Moss Green" r="173" b="101" />
+				<Slot index="23" media_name="Fern Green" r="160" b="88" />
+				<Slot index="24" media_name="JAS Green" r="203" b="88" />
+				<Slot index="25" media_name="Lime Green" g="206" b="54" />
+				<Slot index="26" media_name="Spring Yellow" g="180" b="43" />
+				<Slot index="27" media_name="Deep Amber" g="183" b="59" />
+				<Slot index="28" media_name="Chrome Orange" r="95" b="48" />
+				<Slot index="29" media_name="Orange" g="153" b="29" />
+				<Slot index="30" media_name="Gold Amber" g="146" b="19" />
+				<Slot index="31" media_name="Millennium Gold" g="128" b="23" />
+				<Slot index="32" media_name="Deep Gold Amber" g="111" b="28" />
+				<Slot index="33" media_name="Flame Red" g="87" b="21" />
+			</Wheel>
+			<Wheel index="1" subattribute="CTO" attribute="CTO" feature="CTC" preset="COLOR">
+				<Slot index="0" media_name="Open" />
+				<Slot index="1" media_name="2800K" r="223" g="212" b="155" />
+				<Slot index="2" media_name="3200K" r="237" g="236" b="193" />
+				<Slot index="3" media_name="3600K" r="218" g="179" b="214" />
+				<Slot index="4" media_name="4000K" g="198" b="253" />
+				<Slot index="5" media_name="4400K" r="225" g="167" b="218" />
+				<Slot index="6" media_name="4800K" g="181" b="248" />
+				<Slot index="7" media_name="5200K" r="253" g="196" />
+				<Slot index="8" media_name="5600K" r="254" g="203" />
+				<Slot index="9" media_name="6000K" g="214" b="251" />
+			</Wheel>
+		</Wheels>
+		<VirtualFunctionBlocks index="3" />
+		<FixtureMacroCollect index="5" />
+		<Body />
+		<AutoPresets index="4" />
+		<RdmNotifications index="6">
+			<RdmNotification index="0" Type="Absent" Subcategory="RDM Warning" />
+		</RdmNotifications>
+	</FixtureType>
+</MA>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.2.2/MA.xsd" major_vers="3" minor_vers="2" stream_vers="2">
+	<Info datetime="2016-07-30T08:25:02" showfile="jay 0719  gz" />
+	<FixtureType index="13" name="LED-FB8FC" mode="6channel">
+		<short_name>LED-FB8FC</short_name>
+		<manufacturer>ACME</manufacturer>
+		<short_manufacturer>ACME</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="Conventional" beamtype="Effect" beam_angle="35" beam_intensity="10000">
+				<Body>
+					<Size x="0.4" y="0.24" z="0.24" />
+				</Body>
+				<ChannelType index="0" attribute="TILT" feature="POSITION" preset="POSITION" coarse="1" default="127.5">
+					<ChannelFunction index="0" from="-80" to="80" min_dmx_24="0" max_dmx_24="16777215" physfrom="-80" physto="80" subattribute="TILT" subattribute_user_name="Tilt" attribute="TILT" attribute_user_name="Tilt" feature="POSITION" feature_user_name="Position" preset="POSITION" preset_user_name="Position" />
+				</ChannelType>
+				<ChannelType index="1" attribute="TILT2" feature="POSITION" preset="POSITION" coarse="2" default="127.5">
+					<ChannelFunction index="0" from="-80" to="80" min_dmx_24="0" max_dmx_24="16777215" physfrom="-80" physto="80" subattribute="TILT2" subattribute_user_name="Tilt2" attribute="TILT2" attribute_user_name="Tilt2" feature="POSITION" feature_user_name="Position" preset="POSITION" preset_user_name="Position" />
+				</ChannelType>
+				<ChannelType index="2" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="3" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+				<ChannelType index="3" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" coarse="4">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="1" subattribute="SHUTTER" subattribute_user_name="Shutter" attribute="SHUTTER" attribute_user_name="Shutter" feature="SHUTTER" feature_user_name="Shutter" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Open" from_dmx="0" to_dmx="7" slot_index="0" />
+						<ChannelSet index="1" name="Shutter" from_dmx="8" to_dmx="131" slot_index="1" />
+						<ChannelSet index="2" name="Open" from_dmx="132" to_dmx="139" slot_index="2" />
+						<ChannelSet index="3" name="Op Pls" from_dmx="140" to_dmx="181" slot_index="3" />
+						<ChannelSet index="4" name="Open" from_dmx="182" to_dmx="189" slot_index="4" />
+						<ChannelSet index="5" name="Cl Pls" from_dmx="190" to_dmx="231" slot_index="5" />
+						<ChannelSet index="6" name="Open" from_dmx="232" to_dmx="239" slot_index="6" />
+						<ChannelSet index="7" name="Sound Shutter" from_dmx="240" to_dmx="247" slot_index="7" />
+						<ChannelSet index="8" name="Open" from_dmx="248" to_dmx="255" slot_index="8" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="4" attribute="VIRTUAL_COLOR_MODE" feature="COLORHSB" preset="COLOR" coarse="5" default="10.2">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="VIRTUAL_COLOR_MODE" subattribute_user_name="Mode" attribute="VIRTUAL_COLOR_MODE" attribute_user_name="Mode" feature="COLORHSB" feature_user_name="HSB" preset="COLOR" preset_user_name="Color">
+						<ChannelSet index="0" name="Off" from_dmx="0" to_dmx="7" slot_index="0" />
+						<ChannelSet index="1" name="Chase 1" from_dmx="8" to_dmx="22" slot_index="1" />
+						<ChannelSet index="2" name="Chase 2" from_dmx="23" to_dmx="37" slot_index="2" />
+						<ChannelSet index="3" name="Chase 3" from_dmx="38" to_dmx="52" slot_index="3" />
+						<ChannelSet index="4" name="Chase 4" from_dmx="53" to_dmx="67" slot_index="4" />
+						<ChannelSet index="5" name="Chase 5" from_dmx="68" to_dmx="82" slot_index="5" />
+						<ChannelSet index="6" name="Chase 6" from_dmx="83" to_dmx="97" slot_index="6" />
+						<ChannelSet index="7" name="Chase 7" from_dmx="98" to_dmx="112" slot_index="7" />
+						<ChannelSet index="8" name="Chase 8" from_dmx="113" to_dmx="127" slot_index="8" />
+						<ChannelSet index="9" name="Chase 9" from_dmx="128" to_dmx="142" slot_index="9" />
+						<ChannelSet index="10" name="Chase 10" from_dmx="143" to_dmx="157" slot_index="10" />
+						<ChannelSet index="11" name="Chase 11" from_dmx="158" to_dmx="172" slot_index="11" />
+						<ChannelSet index="12" name="Chase 12" from_dmx="173" to_dmx="187" slot_index="12" />
+						<ChannelSet index="13" name="Chase 13" from_dmx="188" to_dmx="202" slot_index="13" />
+						<ChannelSet index="14" name="Chase 14" from_dmx="203" to_dmx="217" slot_index="14" />
+						<ChannelSet index="15" name="Chase 15" from_dmx="218" to_dmx="232" slot_index="15" />
+						<ChannelSet index="16" name="Chase 16" from_dmx="233" to_dmx="247" slot_index="16" />
+						<ChannelSet index="17" name="Full on" from_dmx="248" to_dmx="255" slot_index="17" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="5" attribute="V_VSPEED" feature="V_VIDEO" preset="VIDEO" coarse="6">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="V_VSPEED" subattribute_user_name="Speed" attribute="V_VSPEED" attribute_user_name="Speed" feature="V_VIDEO" feature_user_name="VPlayer" preset="VIDEO" preset_user_name="Video" />
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" RW="0" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<FixtureMacroCollect index="5" />
+		<Body />
+		<AutoPresets index="4" />
+		<RdmNotifications index="6">
+			<RdmNotification index="0" Type="Absent" Subcategory="RDM Warning" />
+		</RdmNotifications>
+	</FixtureType>
+</MA>

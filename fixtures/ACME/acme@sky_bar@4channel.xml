@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.2.2/MA.xsd" major_vers="3" minor_vers="2" stream_vers="2">
+	<Info datetime="2014-01-29T00:50:48" showfile="new show 2014-01-23" />
+	<FixtureType index="6" name="Sky bar" mode="4channel">
+		<short_name>Sky bar</short_name>
+		<manufacturer>ACME</manufacturer>
+		<short_manufacturer>ACME</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" name="Trans1" class="Moving Path" beamtype="None" beam_angle="0" beam_intensity="0">
+				<ChannelType index="0" attribute="MP_TR_Z" feature="MP_TR" preset="POSITION" coarse="1" fine="2" default="32767.5">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="-1" physto="1" phystime="1" subattribute="MP_TR_Z" subattribute_user_name="Z" attribute="MP_TR_Z" attribute_user_name="Z" feature="MP_TR" feature_user_name="MP Trans" preset="POSITION" preset_user_name="Position" />
+				</ChannelType>
+				<ChannelType index="1" attribute="MOVEMENTSPEED" feature="MOVEMENTSDPEED" preset="POSITION" coarse="3">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="MOVEMENTSPEED" subattribute_user_name="Movement Speed" attribute="MOVEMENTSPEED" attribute_user_name="Movement Speed" feature="MOVEMENTSDPEED" feature_user_name="Movement Speed" preset="POSITION" preset_user_name="Position" />
+				</ChannelType>
+				<ChannelType index="2" attribute="FUNCTION" feature="LAMP CONTROL" preset="CONTROL" coarse="4">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="Function" subattribute_user_name="Function" attribute="FUNCTION" attribute_user_name="Function" feature="LAMP CONTROL" feature_user_name="Lamp Control" preset="CONTROL" preset_user_name="Control">
+						<ChannelSet index="0" name="No Function" from_dmx="0" to_dmx="179" />
+						<ChannelSet index="1" name="Cooling Auto" from_dmx="180" to_dmx="189" />
+						<ChannelSet index="2" name="Cooling Slow" from_dmx="190" to_dmx="199" />
+						<ChannelSet index="3" name="Cooling Fast" from_dmx="200" to_dmx="209" />
+						<ChannelSet index="4" name="TFT On" from_dmx="210" to_dmx="219" />
+						<ChannelSet index="5" name="TFT Off" from_dmx="220" to_dmx="229" />
+						<ChannelSet index="6" name="Reset All" from_dmx="230" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" locked="false" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<FixtureMacroCollect index="5" />
+		<Body />
+		<AutoPresets index="4" />
+		<RdmNotifications index="6">
+			<RdmNotification index="0" Type="Absent" Subcategory="RDM Warning" />
+		</RdmNotifications>
+	</FixtureType>
+</MA>

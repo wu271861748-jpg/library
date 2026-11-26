@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/2.8.3/MA.xsd" major_vers="2" minor_vers="8" stream_vers="3">
+	<Info datetime="2013-09-13T08:26:45" showfile="new show 2012-04-24" />
+	<FixtureType index="19" name="TB-8-10FC 32CH">
+		<short_name>TB8-10FC 32CH</short_name>
+		<manufacturer>ACME</manufacturer>
+		<short_manufacturer>ACME</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="None" beamtype="Wash" beam_angle="35.000" beam_intensity="10000.000">
+				<ChannelType index="0" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" coarse="1" highlight_value="100.000" invert="true" grandmaster="true" is_dimmer="true">
+					<ChannelFunction index="0" name="Red1" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="COLORRGB1" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="Red1" from_dmx="0" to_dmx="255" slot_index="0" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="1" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" coarse="2" highlight_value="100.000" invert="true" grandmaster="true" is_dimmer="true">
+					<ChannelFunction index="0" name="Green1" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="COLORRGB2" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="Green1" from_dmx="0" to_dmx="255" slot_index="0" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="2" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" coarse="3" highlight_value="100.000" invert="true" grandmaster="true" is_dimmer="true">
+					<ChannelFunction index="0" name="Blue1" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="COLORRGB3" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="Blue1" from_dmx="0" to_dmx="255" slot_index="0" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="3" attribute="COLORRGB4" feature="COLORRGB" preset="COLOR" coarse="4" highlight_value="100.000" grandmaster="true" is_dimmer="true">
+					<ChannelFunction index="0" name="White1" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="COLORRGB4" attribute="COLORRGB4" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="White1" from_dmx="0" to_dmx="255" slot_index="0" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="4" attribute="COLORRGB5" feature="COLORRGB" preset="COLOR" coarse="5" highlight_value="100.000" grandmaster="true" is_dimmer="true">
+					<ChannelFunction index="0" name="Red 2" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="COLORRGB5" attribute="COLORRGB5" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="Red 2" from_dmx="0" to_dmx="255" slot_index="0" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="5" attribute="COLORRGB6" feature="COLORRGB" preset="COLOR" coarse="6" highlight_value="100.000" grandmaster="true" is_dimmer="true">
+					<ChannelFunction index="0" name="Green2" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="COLORRGB6" attribute="COLORRGB6" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="Green2" from_dmx="0" to_dmx="255" slot_index="0" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="6" attribute="COLORRGB7" feature="COLORRGB" preset="COLOR" coarse="7" highlight_value="100.000" grandmaster="true" is_dimmer="true">
+					<ChannelFunction index="0" name="Blue2" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="COLORRGB7" attribute="COLORRGB7" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="Blue2" from_dmx="0" to_dmx="255" slot_index="0" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="7" attribute="COLORRGB8" feature="COLORRGB" preset="COLOR" coarse="8" highlight_value="100.000" grandmaster="true" is_dimmer="true">
+					<ChannelFunction index="0" name="White2" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="COLORRGB8" attribute="COLORRGB8" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="White2" from_dmx="0" to_dmx="255" slot_index="0" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="8" attribute="COLORRGB9" feature="COLORRGB" preset="COLOR" coarse="9" highlight_value="100.000" grandmaster="true" is_dimmer="true">
+					<ChannelFunction index="0" name="Red3" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="COLORRGB9" attribute="COLORRGB9" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="Red3" from_dmx="0" to_dmx="255" slot_index="0" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="9" attribute="COLORRGB10" feature="COLORRGB" preset="COLOR" coarse="10" highlight_value="100.000" grandmaster="true" is_dimmer="true">
+					<ChannelFunction index="0" name="Green3" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="COLORRGB10" attribute="COLORRGB10" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="Green3" from_dmx="0" to_dmx="255" slot_index="0" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="10" attribute="COLORRGB11" feature="COLORRGB" preset="COLOR" coarse="11" highlight_value="100.000" grandmaster="true" is_dimmer="true">
+					<ChannelFunction index="0" name="Blue3" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="COLORRGB11" attribute="COLORRGB11" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="Blue3" from_dmx="0" to_dmx="255" slot_index="0" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="11" attribute="COLORRGB12" feature="COLORRGB" preset="COLOR" coarse="12" highlight_value="100.000" grandmaster="true" is_dimmer="true">
+					<ChannelFunction index="0" name="White3" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="COLORRGB12" attribute="COLORRGB12" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="White3" from_dmx="0" to_dmx="255" slot_index="0" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="12" attribute="COLORRGB13" feature="COLORRGB" preset="COLOR" coarse="13" highlight_value="100.000" grandmaster="true" is_dimmer="true">
+					<ChannelFunction index="0" name="Red4" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="COLORRGB13" attribute="COLORRGB13" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="Red4" from_dmx="0" to_dmx="255" slot_index="0" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="13" attribute="COLORRGB14" feature="COLORRGB" preset="COLOR" coarse="14" highlight_value="100.000" grandmaster="true" is_dimmer="true">
+					<ChannelFunction index="0" name="Green4" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="COLORRGB14" attribute="COLORRGB14" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="Green4" from_dmx="0" to_dmx="255" slot_index="0" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="14" attribute="COLORRGB15" feature="COLORRGB" preset="COLOR" coarse="15" highlight_value="100.000" grandmaster="true" is_dimmer="true">
+					<ChannelFunction index="0" name="Blue4" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="COLORRGB15" attribute="COLORRGB15" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="Blue4" from_dmx="0" to_dmx="255" slot_index="0" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="15" attribute="COLORRGB16" feature="COLORRGB" preset="COLOR" coarse="16" highlight_value="100.000" grandmaster="true" is_dimmer="true">
+					<ChannelFunction index="0" name="White 4" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="COLORRGB16" attribute="COLORRGB16" feature="COLORRGB" preset="COLOR">
+						<ChannelSet index="0" name="White 4" from_dmx="0" to_dmx="255" slot_index="0" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="16" attribute="BLADE1A" feature="SHAPER" preset="SHAPERS" coarse="17" highlight_value="100.000" grandmaster="true">
+					<ChannelFunction index="0" name="Red5" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="BLADE1A" attribute="BLADE1A" feature="SHAPER" preset="SHAPERS">
+						<ChannelSet index="0" name="Red5" from_dmx="0" to_dmx="255" slot_index="0" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="17" attribute="BLADE1B" feature="SHAPER" preset="SHAPERS" coarse="18" highlight_value="100.000" grandmaster="true">
+					<ChannelFunction index="0" name="Green5" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="BLADE1B" attribute="BLADE1B" feature="SHAPER" preset="SHAPERS">
+						<ChannelSet index="0" name="Green5" from_dmx="0" to_dmx="255" slot_index="0" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="18" attribute="BLADE2A" feature="SHAPER" preset="SHAPERS" coarse="19" highlight_value="100.000" grandmaster="true">
+					<ChannelFunction index="0" name="Blue 5" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="BLADE2A" attribute="BLADE2A" feature="SHAPER" preset="SHAPERS">
+						<ChannelSet index="0" name="Blue 5" from_dmx="0" to_dmx="255" slot_index="0" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="19" attribute="BLADE2B" feature="SHAPER" preset="SHAPERS" coarse="20" highlight_value="100.000" grandmaster="true">
+					<ChannelFunction index="0" name="White 5" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="BLADE2B" attribute="BLADE2B" feature="SHAPER" preset="SHAPERS">
+						<ChannelSet index="0" name="White 5" from_dmx="0" to_dmx="255" slot_index="0" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="20" attribute="BLADE3A" feature="SHAPER" preset="SHAPERS" coarse="21" highlight_value="100.000" grandmaster="true">
+					<ChannelFunction index="0" name="Red6" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="BLADE3A" attribute="BLADE3A" feature="SHAPER" preset="SHAPERS">
+						<ChannelSet index="0" name="Red6" from_dmx="0" to_dmx="255" slot_index="0" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="21" attribute="BLADE3B" feature="SHAPER" preset="SHAPERS" coarse="22" highlight_value="100.000">
+					<ChannelFunction index="0" name="Green6" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="0.450" subattribute="BLADE3B" attribute="BLADE3B" feature="SHAPER" preset="SHAPERS">
+						<ChannelSet index="0" name="Green6" from_dmx="0" to_dmx="255" slot_index="0" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="22" attribute="BLADE4A" feature="SHAPER" preset="SHAPERS" coarse="23" highlight_value="100.000">
+					<ChannelFunction index="0" name="Blue6" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="0.450" subattribute="BLADE4A" attribute="BLADE4A" feature="SHAPER" preset="SHAPERS">
+						<ChannelSet index="0" name="Blue6" from_dmx="0" to_dmx="255" slot_index="0" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="23" attribute="BLADE4B" feature="SHAPER" preset="SHAPERS" coarse="24" highlight_value="100.000">
+					<ChannelFunction index="0" name="White6" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="0.450" subattribute="BLADE4B" attribute="BLADE4B" feature="SHAPER" preset="SHAPERS">
+						<ChannelSet index="0" name="White6" from_dmx="0" to_dmx="255" slot_index="0" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="24" attribute="BLADE1ROT" feature="SHAPER" preset="SHAPERS" coarse="25" highlight_value="100.000">
+					<ChannelFunction index="0" name="Red7" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="0.450" subattribute="BLADE1ROT" attribute="BLADE1ROT" feature="SHAPER" preset="SHAPERS">
+						<ChannelSet index="0" name="Red7" from_dmx="0" to_dmx="255" slot_index="0" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="25" attribute="BLADE2ROT" feature="SHAPER" preset="SHAPERS" coarse="26" highlight_value="100.000">
+					<ChannelFunction index="0" name="Green7" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="360.000" subattribute="BLADE2ROT" attribute="BLADE2ROT" feature="SHAPER" preset="SHAPERS">
+						<ChannelSet index="0" name="Green7" from_dmx="0" to_dmx="255" slot_index="0" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="26" attribute="BLADE3ROT" feature="SHAPER" preset="SHAPERS" coarse="27" highlight_value="100.000">
+					<ChannelFunction index="0" name="Blue7" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="360.000" subattribute="BLADE3ROT" attribute="BLADE3ROT" feature="SHAPER" preset="SHAPERS">
+						<ChannelSet index="0" name="Blue7" from_dmx="0" to_dmx="255" slot_index="0" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="27" attribute="BLADE4ROT" feature="SHAPER" preset="SHAPERS" coarse="28" highlight_value="100.000">
+					<ChannelFunction index="0" name="White7" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="360.000" subattribute="BLADE4ROT" attribute="BLADE4ROT" feature="SHAPER" preset="SHAPERS">
+						<ChannelSet index="0" name="White7" from_dmx="0" to_dmx="255" slot_index="0" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="28" attribute="BARNDOOR1" feature="BARNDOORS" preset="SHAPERS" coarse="29" highlight_value="100.000">
+					<ChannelFunction index="0" name="Red 8" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="-60.000" physto="60.000" subattribute="BARNDOOR1" attribute="BARNDOOR1" feature="BARNDOORS" preset="SHAPERS">
+						<ChannelSet index="0" name="Red 8" from_dmx="0" to_dmx="255" slot_index="0" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="29" attribute="BARNDOOR2" feature="BARNDOORS" preset="SHAPERS" coarse="30" highlight_value="100.000">
+					<ChannelFunction index="0" name="Green 8" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="-60.000" physto="60.000" subattribute="BARNDOOR2" attribute="BARNDOOR2" feature="BARNDOORS" preset="SHAPERS">
+						<ChannelSet index="0" name="Green 8" from_dmx="0" to_dmx="255" slot_index="0" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="30" attribute="BARNDOOR3" feature="BARNDOORS" preset="SHAPERS" coarse="31" highlight_value="100.000">
+					<ChannelFunction index="0" name="Blue 8" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="-60.000" physto="60.000" subattribute="BARNDOOR3" attribute="BARNDOOR3" feature="BARNDOORS" preset="SHAPERS">
+						<ChannelSet index="0" name="Blue 8" from_dmx="0" to_dmx="255" slot_index="0" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="31" attribute="BARNDOOR4" feature="BARNDOORS" preset="SHAPERS" coarse="32" highlight_value="100.000">
+					<ChannelFunction index="0" name="White 8" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="-60.000" physto="60.000" subattribute="BARNDOOR4" attribute="BARNDOOR4" feature="BARNDOORS" preset="SHAPERS">
+						<ChannelSet index="0" name="White 8" from_dmx="0" to_dmx="255" slot_index="0" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" RW="0.000" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<Body />
+	</FixtureType>
+</MA>

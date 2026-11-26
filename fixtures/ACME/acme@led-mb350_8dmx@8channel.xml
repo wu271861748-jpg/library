@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/2.4.3/MA.xsd" major_vers="2" minor_vers="4" stream_vers="3">
+	<Info datetime="2015-09-08T16:03:12" showfile="new show 2015-09-08" />
+	<FixtureType index="2" name="LED-MB350 8DMX" mode="8channel">
+		<short_name>LED-MB350</short_name>
+		<manufacturer>ACME</manufacturer>
+		<short_manufacturer>ACME</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="Headmover" beamtype="Spot" beam_angle="35.000" beam_intensity="10000.000">
+				<Body>
+					<Size x="0.500" y="0.420" z="0.660" />
+					<Center x="0.000" y="0.000" z="0.000" />
+					<Light x="0.000" y="0.000" z="0.000" />
+				</Body>
+				<ChannelType index="0" attribute="PAN" feature="POSITION" preset="POSITION" coarse="1" default="127.500">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="-180.000" physto="180.000" subattribute="PAN" attribute="PAN" feature="POSITION" preset="POSITION" />
+				</ChannelType>
+				<ChannelType index="1" attribute="TILT" feature="POSITION" preset="POSITION" coarse="2" default="127.500">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="-90.000" physto="90.000" subattribute="TILT" attribute="TILT" feature="POSITION" preset="POSITION" />
+				</ChannelType>
+				<ChannelType index="2" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" coarse="3" default="7.905">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="1.000" subattribute="SHUTTER" attribute="SHUTTER" feature="SHUTTER" preset="BEAM">
+						<ChannelSet index="0" name="Closed" from_dmx="0" to_dmx="7" slot_index="0" />
+						<ChannelSet index="1" name="Open" from_dmx="8" to_dmx="15" slot_index="1" />
+						<ChannelSet index="2" name="Strobe" from_dmx="16" to_dmx="131" slot_index="2" />
+						<ChannelSet index="3" name="Open" from_dmx="132" to_dmx="139" slot_index="3" />
+						<ChannelSet index="4" name="Op Pls" from_dmx="140" to_dmx="181" slot_index="4" />
+						<ChannelSet index="5" name="Open" from_dmx="182" to_dmx="189" slot_index="5" />
+						<ChannelSet index="6" name="Cl Pls" from_dmx="190" to_dmx="231" slot_index="6" />
+						<ChannelSet index="7" name="Open" from_dmx="232" to_dmx="239" slot_index="7" />
+						<ChannelSet index="8" name="Ran Strobe" from_dmx="240" to_dmx="247" slot_index="8" />
+						<ChannelSet index="9" name="Open" from_dmx="248" to_dmx="255" slot_index="9" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="3" attribute="GOBO1" feature="GOBO1" preset="GOBO" coarse="4">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" wheel="2" subattribute="GOBO1" attribute="GOBO1" feature="GOBO1" preset="GOBO">
+						<ChannelSet index="0" name="Open" from_dmx="0" to_dmx="7" slot_index="0" />
+						<ChannelSet index="1" name="Gobo 1" from_dmx="8" to_dmx="15" slot_index="1" />
+						<ChannelSet index="2" name="Gobo 2" from_dmx="16" to_dmx="23" slot_index="2" />
+						<ChannelSet index="3" name="Gobo 3" from_dmx="24" to_dmx="31" slot_index="3" />
+						<ChannelSet index="4" name="Gobo 4" from_dmx="32" to_dmx="39" slot_index="4" />
+						<ChannelSet index="5" name="Gobo 5" from_dmx="40" to_dmx="47" slot_index="5" />
+						<ChannelSet index="6" name="Gobo 6" from_dmx="48" to_dmx="55" slot_index="6" />
+						<ChannelSet index="7" name="Gobo 7" from_dmx="56" to_dmx="63" slot_index="7" />
+						<ChannelSet index="8" name="G1 Shaking" from_dmx="64" to_dmx="73" slot_index="1" />
+						<ChannelSet index="9" name="G2 Shaking" from_dmx="74" to_dmx="82" slot_index="2" />
+						<ChannelSet index="10" name="G3 Shaking" from_dmx="83" to_dmx="91" slot_index="3" />
+						<ChannelSet index="11" name="G4 Shaking" from_dmx="92" to_dmx="100" slot_index="4" />
+						<ChannelSet index="12" name="G5 Shaking" from_dmx="101" to_dmx="109" slot_index="5" />
+						<ChannelSet index="13" name="G6 Shaking" from_dmx="110" to_dmx="118" slot_index="6" />
+						<ChannelSet index="14" name="G7 Shaking" from_dmx="119" to_dmx="127" slot_index="7" />
+						<ChannelSet index="15" name="SC CW" from_dmx="128" to_dmx="189" />
+						<ChannelSet index="16" name="Stop" from_dmx="190" to_dmx="193" />
+						<ChannelSet index="17" name="SC CCW" from_dmx="194" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="4" attribute="COLOR1" feature="COLOR1" preset="COLOR" coarse="5">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" wheel="1" subattribute="COLOR1" attribute="COLOR1" feature="COLOR1" preset="COLOR">
+						<ChannelSet index="0" name="Open" from_dmx="0" to_dmx="14" slot_index="0" />
+						<ChannelSet index="1" name="Color 1" from_dmx="15" to_dmx="28" slot_index="1" />
+						<ChannelSet index="2" name="Color 2" from_dmx="29" to_dmx="42" slot_index="2" />
+						<ChannelSet index="3" name="Color 3" from_dmx="43" to_dmx="56" slot_index="3" />
+						<ChannelSet index="4" name="Color 4" from_dmx="57" to_dmx="70" slot_index="4" />
+						<ChannelSet index="5" name="Color 5" from_dmx="71" to_dmx="84" slot_index="5" />
+						<ChannelSet index="6" name="Color 6" from_dmx="85" to_dmx="98" slot_index="6" />
+						<ChannelSet index="7" name="Color 7" from_dmx="99" to_dmx="112" slot_index="7" />
+						<ChannelSet index="8" name="Color 8" from_dmx="113" to_dmx="127" slot_index="8" />
+						<ChannelSet index="9" name="SC CW" from_dmx="128" to_dmx="189" slot_index="9" />
+						<ChannelSet index="10" name="Stop" from_dmx="190" to_dmx="193" slot_index="10" />
+						<ChannelSet index="11" name="SC CCW" from_dmx="194" to_dmx="255" slot_index="11" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="5" attribute="GOBO1_POS" feature="GOBO1" preset="GOBO" coarse="6">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="360.000" subattribute="GOBO1_POS" attribute="GOBO1_POS" feature="GOBO1" preset="GOBO">
+						<ChannelSet index="0" name="Index" from_dmx="0" to_dmx="127" slot_index="0" />
+						<ChannelSet index="1" name="SC CW" from_dmx="128" to_dmx="189" slot_index="1" />
+						<ChannelSet index="2" name="Stop" from_dmx="190" to_dmx="193" slot_index="2" />
+						<ChannelSet index="3" name="SC CW" from_dmx="194" to_dmx="255" slot_index="3" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="6" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="7" highlight_value="100.000" grandmaster="true">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="DIM" attribute="DIM" feature="DIMMER" preset="DIMMER" />
+				</ChannelType>
+				<ChannelType index="7" attribute="FUNCTION" feature="SHUTTER" preset="BEAM" coarse="8">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" subattribute="FIXTUREGLOBALRESET" attribute="FIXTUREGLOBALRESET" feature="RESET" preset="CONTROL">
+						<ChannelSet index="0" name="Safe" from_dmx="0" to_dmx="69" slot_index="0" />
+						<ChannelSet index="1" name="BO PT" from_dmx="70" to_dmx="79" slot_index="1" />
+						<ChannelSet index="2" name="NO BO PT" from_dmx="80" to_dmx="89" slot_index="2" />
+						<ChannelSet index="3" name="BO Color" from_dmx="90" to_dmx="99" slot_index="3" />
+						<ChannelSet index="4" name="NO BO Color" from_dmx="100" to_dmx="109" slot_index="4" />
+						<ChannelSet index="5" name="BO Gobo" from_dmx="110" to_dmx="119" slot_index="5" />
+						<ChannelSet index="6" name="NO BO Gobo" from_dmx="120" to_dmx="129" slot_index="6" />
+						<ChannelSet index="7" name="Safe" from_dmx="130" to_dmx="199" slot_index="7" />
+						<ChannelSet index="8" name="Reset" from_dmx="200" to_dmx="209" slot_index="8" />
+						<ChannelSet index="9" name="Safe" from_dmx="210" to_dmx="249" slot_index="9" />
+						<ChannelSet index="10" name="Sound" from_dmx="250" to_dmx="255" slot_index="10" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" patch="1" X="1.000" Y="1.000" Z="1.000" RW="0.000" />
+		</Instances>
+		<Wheels index="2">
+			<Wheel index="0" subattribute="COLOR1" attribute="COLOR1" feature="COLOR1" preset="COLOR">
+				<Slot index="0" media_name="open" />
+				<Slot index="1" media_name="color1" g="0" b="0" />
+				<Slot index="2" media_name="color2" g="115" b="0" />
+				<Slot index="3" media_name="color3" b="0" />
+				<Slot index="4" media_name="color4" r="0" b="0" />
+				<Slot index="5" media_name="color5" r="0" g="0" />
+				<Slot index="6" media_name="color6" r="139" g="0" b="139" />
+				<Slot index="7" media_name="color7" r="101" g="101" />
+				<Slot index="8" media_name="color8" g="63" />
+			</Wheel>
+			<Wheel index="1" subattribute="GOBO1" attribute="GOBO1" feature="GOBO1" preset="GOBO">
+				<Slot index="0" media_name="Open" media_filename="carallon/LED-MB350/001.bmp" />
+				<Slot index="1" media_name="gobo 1" media_filename="carallon/LED-MB350/002.bmp" />
+				<Slot index="2" media_name="gobo 2" media_filename="carallon/LED-MB350/003.bmp" />
+				<Slot index="3" media_name="gobo 3" media_filename="carallon/LED-MB350/004.bmp" />
+				<Slot index="4" media_name="gobo 4" media_filename="carallon/LED-MB350/005.bmp" />
+				<Slot index="5" media_name="gobo 5" media_filename="carallon/LED-MB350/006.bmp" />
+				<Slot index="6" media_name="gobo 6" media_filename="carallon/LED-MB350/007.bmp" />
+				<Slot index="7" media_name="gobo 7" media_filename="carallon/LED-MB350/008.bmp" />
+			</Wheel>
+		</Wheels>
+	</FixtureType>
+</MA>

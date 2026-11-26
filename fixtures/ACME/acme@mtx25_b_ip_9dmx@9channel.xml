@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/2.4.3/MA.xsd" major_vers="2" minor_vers="4" stream_vers="3">
+	<Info datetime="2015-08-31T14:44:30" showfile="newshow" />
+	<FixtureType index="19" name="MTX25 B IP 9DMX" mode="9channel">
+		<short_name>MTX25B IP</short_name>
+		<manufacturer>ACME</manufacturer>
+		<short_manufacturer>ACME</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="LED" beamtype="Wash" beam_angle="35.000" beam_intensity="10000.000">
+				<Body>
+					<Size x="0.000" y="0.000" z="0.000" />
+					<Center x="0.000" y="0.000" z="0.000" />
+					<Light x="0.000" y="0.000" z="0.000" />
+				</Body>
+				<ChannelType index="0" attribute="COLORDIM1" feature="COLORDIM" preset="COLOR" coarse="1" default="255.000" grandmaster="true">
+					<ChannelFunction index="0" name="LED1-5" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="COLORDIM1" attribute="COLORDIM1" feature="COLORDIM" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="1" attribute="COLORDIM2" feature="COLORDIM" preset="COLOR" coarse="2" default="255.000" grandmaster="true">
+					<ChannelFunction index="0" name="LED6-10" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="COLORDIM2" attribute="COLORDIM2" feature="COLORDIM" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="2" attribute="COLORDIM3" feature="COLORDIM" preset="COLOR" coarse="3" default="255.000" grandmaster="true">
+					<ChannelFunction index="0" name="LED11-15" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="COLORDIM3" attribute="COLORDIM3" feature="COLORDIM" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="3" attribute="COLORDIM4" feature="COLORDIM" preset="COLOR" coarse="4" default="255.000" grandmaster="true">
+					<ChannelFunction index="0" name="LED16-20" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="COLORDIM4" attribute="COLORDIM4" feature="COLORDIM" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="4" attribute="COLORDIM5" feature="COLORDIM" preset="COLOR" coarse="5" default="255.000" grandmaster="true">
+					<ChannelFunction index="0" name="LED21-25" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="COLORDIM5" attribute="COLORDIM5" feature="COLORDIM" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="5" attribute="MODE" feature="FIXTURE" preset="CONTROL" coarse="6">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" subattribute="MODE" attribute="MODE" feature="FIXTURE" preset="CONTROL">
+						<ChannelSet index="0" name="Dimmer1" from_dmx="0" to_dmx="21" slot_index="0" />
+						<ChannelSet index="1" name="Dimmer2" from_dmx="22" to_dmx="44" slot_index="1" />
+						<ChannelSet index="2" name="Dimmer All" from_dmx="45" to_dmx="67" slot_index="2" />
+						<ChannelSet index="3" name="Effect" from_dmx="68" to_dmx="127" slot_index="3" />
+						<ChannelSet index="4" name="Number" from_dmx="128" to_dmx="187" slot_index="4" />
+						<ChannelSet index="5" name="Letter" from_dmx="188" to_dmx="248" slot_index="5" />
+						<ChannelSet index="6" name="Sland" from_dmx="248" to_dmx="255" slot_index="6" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="6" attribute="FIXTUREGLOBALRESET" feature="RESET" preset="CONTROL" coarse="7">
+					<ChannelFunction index="0" name="Line/Number/Letter" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" subattribute="FIXTUREGLOBALRESET" attribute="FIXTUREGLOBALRESET" feature="RESET" preset="CONTROL" />
+				</ChannelType>
+				<ChannelType index="7" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="8" highlight_value="100.000" grandmaster="true">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="DIM" attribute="DIM" feature="DIMMER" preset="DIMMER" />
+				</ChannelType>
+				<ChannelType index="8" attribute="SHUTTER" feature="SHUTTER" preset="BEAM" coarse="9">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="1.000" subattribute="SHUTTER" attribute="SHUTTER" feature="SHUTTER" preset="BEAM">
+						<ChannelSet index="0" name="Closed" from_dmx="0" to_dmx="7" slot_index="0" />
+						<ChannelSet index="1" name="Strobe" from_dmx="8" to_dmx="131" slot_index="1" />
+						<ChannelSet index="2" name="Open" from_dmx="132" to_dmx="139" slot_index="2" />
+						<ChannelSet index="3" name="Op pls" from_dmx="140" to_dmx="181" slot_index="3" />
+						<ChannelSet index="4" name="Open" from_dmx="182" to_dmx="189" slot_index="4" />
+						<ChannelSet index="5" name="Cl Pls" from_dmx="190" to_dmx="231" slot_index="5" />
+						<ChannelSet index="6" name="Open" from_dmx="232" to_dmx="239" slot_index="6" />
+						<ChannelSet index="7" name="Ran Strobe" from_dmx="240" to_dmx="247" slot_index="7" />
+						<ChannelSet index="8" name="Open" from_dmx="248" to_dmx="255" slot_index="8" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" patch="1" RW="0.000" />
+		</Instances>
+		<Wheels index="2" />
+	</FixtureType>
+</MA>

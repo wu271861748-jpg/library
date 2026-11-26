@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.2.2/MA.xsd" major_vers="3" minor_vers="2" stream_vers="2">
+	<Info datetime="2017-04-11T09:36:53" showfile="new show 2017-03-31" />
+	<FixtureType index="104" name="LED-MTX36" mode="3 channel">
+		<InfoItems>
+			<Info>Set menu option Channel Mode to 3CH for this personality</Info>
+			<Info type="Revision" date="2015-12-07T00:00:00">Automated import from MA Lighting (C-RevNum: 0; Date: 2015-09-25)</Info>
+			<Info type="Invisible" date="2015-12-07T00:00:00">generator_software_name=&quot;MA Importer&quot;,generator_software_version=&quot;9f54f4b62519d7c623c7e8e9b20a0a67177041b6&quot;</Info>
+		</InfoItems>
+		<short_name>MTX36</short_name>
+		<manufacturer>ACME</manufacturer>
+		<short_manufacturer>ACME</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" name="Main Module" class="Conventional" beamtype="Wash" beam_angle="6" beam_intensity="10000">
+				<Body>
+					<Size x="0.084" y="0.084" z="0.105" />
+				</Body>
+				<ChannelType index="0" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="1" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer">
+						<ChannelSet index="0" name="closed" from_dmx="0" to_dmx="0" />
+						<ChannelSet index="1" name="open" from_dmx="255" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="1" attribute="EFFECTMACROS" feature="EFFECTMACROS" preset="BEAM" coarse="2">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="EFFECTMACROSELECT" subattribute_user_name="Select" attribute="EFFECTMACROS" attribute_user_name="EffectMacros" feature="EFFECTMACROS" feature_user_name="Macros" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="Jump" from_dmx="0" to_dmx="50" slot_from="1" slot_to="1" />
+						<ChannelSet index="1" name="Fade 1" from_dmx="51" to_dmx="101" slot_from="2" slot_to="2" />
+						<ChannelSet index="2" name="Fade 2" from_dmx="102" to_dmx="152" slot_from="3" slot_to="3" />
+						<ChannelSet index="3" name="Fade 3" from_dmx="153" to_dmx="203" slot_from="4" slot_to="4" />
+						<ChannelSet index="4" name="Fade 4" from_dmx="204" to_dmx="255" slot_from="5" slot_to="5" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="2" attribute="EFFECTMACROS2" feature="EFFECTMACROS" preset="BEAM" coarse="3" default="31.62">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" subattribute="EFFECTMACROSELECT2" subattribute_user_name="Select2" attribute="EFFECTMACROS2" attribute_user_name="EffectMacros2" feature="EFFECTMACROS" feature_user_name="Macros" preset="BEAM" preset_user_name="Beam">
+						<ChannelSet index="0" name="entry 0" from_dmx="0" to_dmx="7" slot_from="0" slot_to="0" />
+						<ChannelSet index="1" name="Show 1" from_dmx="8" to_dmx="55" slot_from="1" slot_to="1" />
+						<ChannelSet index="2" name="Show 2" from_dmx="56" to_dmx="103" slot_from="2" slot_to="2" />
+						<ChannelSet index="3" name="Show 3" from_dmx="104" to_dmx="151" slot_from="3" slot_to="3" />
+						<ChannelSet index="4" name="Show 4" from_dmx="152" to_dmx="199" slot_from="4" slot_to="4" />
+						<ChannelSet index="5" name="Show 5" from_dmx="200" to_dmx="247" slot_from="5" slot_to="5" />
+						<ChannelSet index="6" name="Stand alone" from_dmx="248" to_dmx="255" slot_from="6" slot_to="6" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<FixtureMacroCollect index="5" />
+		<Body />
+		<AutoPresets index="4" />
+		<RdmNotifications index="6">
+			<RdmNotification index="0" Type="Absent" Subcategory="RDM Warning" />
+		</RdmNotifications>
+	</FixtureType>
+</MA>

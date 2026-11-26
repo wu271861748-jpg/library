@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/2.8.3/MA.xsd" major_vers="2" minor_vers="8" stream_vers="3">
+	<Info datetime="2014-12-08T14:18:43" showfile="xp show  2014-12-04" />
+	<FixtureType index="1" name="LS-403 RGB 16DMX">
+		<short_name>LS403 16DMX</short_name>
+		<manufacturer>ACME</manufacturer>
+		<short_manufacturer>ACME</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" class="None" beamtype="Wash" beam_angle="35.000" beam_intensity="10000.000">
+				<ChannelType index="0" attribute="SCROLLER" feature="COLORALL" preset="COLOR" default="255.000">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" subattribute="SCROLLERSELECT" attribute="SCROLLER" feature="COLORALL" preset="COLOR">
+						<ChannelSet index="0" name="ControlMode" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="1" attribute="COLOR1" feature="COLOR1" preset="COLOR" highlight_value="50.000">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" subattribute="COLOR1" attribute="COLOR1" feature="COLOR1" preset="COLOR" />
+				</ChannelType>
+				<ChannelType index="2" attribute="IRIS" feature="BEAM1" preset="BEAM">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.100" physto="1.000" subattribute="IRIS" attribute="IRIS" feature="BEAM1" preset="BEAM">
+						<ChannelSet index="0" name="Pattern" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="3" attribute="FROST" feature="BEAM1" preset="BEAM">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="1.000" subattribute="FROST" attribute="FROST" feature="BEAM1" preset="BEAM">
+						<ChannelSet index="0" name="Pattern Gro" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="4" attribute="PRISMA1" feature="BEAM1" preset="BEAM">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="7.000" physadditional="3.000" subattribute="PRISMA1" attribute="PRISMA1" feature="BEAM1" preset="BEAM">
+						<ChannelSet index="0" name="Horiz Rot" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="5" attribute="PRISMA1_POS" feature="BEAM1" preset="BEAM">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="360.000" subattribute="PRISMA1_POS" attribute="PRISMA1_POS" feature="BEAM1" preset="BEAM">
+						<ChannelSet index="0" name="Vertical Rot" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="6" attribute="FOCUS" feature="FOCUS" preset="FOCUS">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" subattribute="FOCUS" attribute="FOCUS" feature="FOCUS" preset="FOCUS">
+						<ChannelSet index="0" name="Centre Rot" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="7" attribute="ZOOM" feature="FOCUS" preset="FOCUS">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.700" physto="1.000" subattribute="ZOOM" attribute="ZOOM" feature="FOCUS" preset="FOCUS">
+						<ChannelSet index="0" name="Horiz Mov" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="8" attribute="GOBO1" feature="GOBO1" preset="GOBO">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" subattribute="GOBO1" attribute="GOBO1" feature="GOBO1" preset="GOBO">
+						<ChannelSet index="0" name="Vertical Mov" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="9" attribute="GOBO1_POS" feature="GOBO1" preset="GOBO">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="360.000" subattribute="GOBO1_POS" attribute="GOBO1_POS" feature="GOBO1" preset="GOBO">
+						<ChannelSet index="0" name="Horiz Stret" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="10" attribute="GOBO2" feature="GOBO2" preset="GOBO">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" subattribute="GOBO2" attribute="GOBO2" feature="GOBO2" preset="GOBO">
+						<ChannelSet index="0" name="Vertical Str" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="11" attribute="GOBO2_POS" feature="GOBO2" preset="GOBO">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="360.000" subattribute="GOBO2_POS" attribute="GOBO2_POS" feature="GOBO2" preset="GOBO">
+						<ChannelSet index="0" name="Pattern Size" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="12" attribute="GOBO3" feature="GOBO3" preset="GOBO">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" subattribute="GOBO3" attribute="GOBO3" feature="GOBO3" preset="GOBO">
+						<ChannelSet index="0" name="Slow Drawing" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="13" attribute="V_VSPEED" feature="V_VIDEO" preset="VIDEO">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" physfrom="0.000" physto="360.000" subattribute="V_VSPEED" attribute="V_VSPEED" feature="V_VIDEO" preset="VIDEO">
+						<ChannelSet index="0" name="Scanning SP" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="14" attribute="V_VBEGIN" feature="V_VIDEO" preset="VIDEO">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" subattribute="V_VBEGIN" attribute="V_VBEGIN" feature="V_VIDEO" preset="VIDEO">
+						<ChannelSet index="0" name="Color SP" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+				<ChannelType index="15" attribute="V_VEND" feature="V_VIDEO" preset="VIDEO">
+					<ChannelFunction index="0" from="0.000" to="100.000" min_dmx_24="0" max_dmx_24="16777215" subattribute="V_VEND" attribute="V_VEND" feature="V_VIDEO" preset="VIDEO">
+						<ChannelSet index="0" name="Strobe SP" from_dmx="0" to_dmx="255" />
+					</ChannelFunction>
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" RW="0.000" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<Body />
+	</FixtureType>
+</MA>
